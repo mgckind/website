@@ -1,0 +1,28 @@
+{
+  "name": "Website_matias",
+  "version": "0.0.0",
+  "authors": [
+    "Matias Carrasco Kind <mgckind@gmail.com>"
+  ],
+  "description": "Basic website",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#~1.0.7",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "neon-animation": "PolymerElements/neon-animation#~1.0.8",
+    "polymer-color-picker": "~1.0.1",
+    "paper-date-picker": "polymer-paper-date-picker#~1.1.2",
+    "github-fork-ribbon": "~0.2.2",
+    "polymer-themes": "~1.0.1",
+    "paper-chip": "~1.0.0",
+    "grid-element": "~0.4.1",
+    "page": "visionmedia/page.js#~1.6.4"
+  }
+}

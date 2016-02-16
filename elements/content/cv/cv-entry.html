@@ -1,0 +1,87 @@
+<dom-module id="cv-entry">
+
+<style is="custom-style">
+#title {
+    color: var(--cv-entry-title-color, red);
+} 
+#year {
+    color: var(--cv-entry-year-color, cyan);
+} 
+
+:host([line]) #hrline {
+visibility: visible;
+}
+:host(:not([line])) #hrline {
+visibility: hidden;
+}
+
+::content tag1 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--cv-entry-tag1-color, blue);
+}
+
+::content tag2 {
+  margin: 0;
+  font-size: 14px;
+  color: var(--cv-entry-tag2-color, gold);
+}
+
+::content tag3 {
+  margin: 0;
+  font-size: 14px;
+  color: var(--cv-entry-tag3-color, gold);
+}
+
+</style>
+
+
+<template>
+
+<hr id="hrline">
+<grid-element ghi="0px" gvi="2px" gvo="2px">
+    <grid-col>
+    <span id="title" style="font-size: 16px;">{{title}}</span>
+    </grid-col>
+    <grid-col>
+    </grid-col>
+    <grid-col s="3">
+    <content select="tag1"></content><br>
+    <content select="tag2"></content>
+    </grid-col>
+    <grid-col stretch>
+      <div id="year" style="text-align:right;">
+      {{year}}
+      </div>
+    </grid-col>
+  </grid-element>
+
+</template>
+
+<script>
+      Polymer({
+      is: "cv-entry",
+      properties: {
+        year: {
+            type:String,
+            value: '',
+        },
+        title : {
+            type: String,
+            value: '',
+        },
+        line: {
+            type: Boolean,
+            value: false,
+            reflectToAttribute: true,
+            },
+
+      },
+
+
+    });
+
+
+</script>
+
+</dom>

@@ -1,0 +1,40 @@
+<dom-module id="easy-entry">
+
+<style is="custom-style">
+paper-card {
+max-width:300px;
+min-width:200px;
+background:black;
+}
+</style>
+
+
+<template>
+
+<paper-card  image="/images/ea_logo.png" elevation="5" >
+<github-fork-ribbon
+  username="mgckind"
+  repository="easyaccess"
+  position="right"
+  label="Fork me"
+  background-color="none">
+</github-fork-ribbon>
+<div class="card-content">
+<h2>Easyaccess</h2>
+Easyaccess is a Python Command Line Interpreter to access the Oracle DES database using cx_Oracle
+</div>
+<div class="card-actions">
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "easy-entry",
+    });
+
+
+</script>
+
+</dom>

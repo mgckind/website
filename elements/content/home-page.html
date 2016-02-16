@@ -1,0 +1,54 @@
+<dom-module id="home-page">
+
+<style is="custom-style">
+.welcome{
+    color:var(--text-color-error);
+    font-size: 28px;
+    margin-left:10px;
+}
+paper-card{
+    max-width:1200px;
+    width:1000px;
+font-size:15px;
+    margin-top:10px;
+}
+</style>
+
+
+<template>
+
+<div class="layout horizontal center-justified">
+<paper-card  elevation="5" >
+<div class="card-content">
+<div class="layout horizontal center ">
+<iron-image src='/images/matias2.jpg' style="width:120px; height:120px;" sizing="contain"></iron-image>
+<div class="welcome">Welcome!</div>
+</div>
+</div>
+<div class="card-content">
+Currently I am a Research Scientist at the  National Center for Supercomputing Applications (<a href="http://www.ncsa.illinois.edu/" target="_blank">NCSA</a>) and at the <a href="http://www.astro.illinois.edu/" target="_blank">Astronomy Department</a> both at the University of Illinois at Urbana-Champaign (<a href="http://illinois.edu/" targer="_blank">UIUC</a>). I work for both, the Dark Energy Survey (<a href="http://www.darkenergysurvey.org/" target="_blank">DES</a>) Data Managment and the Large Synoptic Survey Telescope (<a href="http://lsst.org/" target="_blank">LSST </a>) Data Managment at NCSA.
+
+</div>
+
+<div class="card-content">
+
+I obtained my PhD at the Astronomy Department with a Computational Science and Engineering  <a href="http://www.cse.illinois.edu/" target="_blank">CSE</a> graduate option at UIUC. Before that, I received my degree in Astronomy at Universidad Catolica de Chile (<a href="" target="_blank">PUC</a>) with highest honors, I did my undergraduate thesis at the Max-Planck Institute for Astrophysics (<a href="http://www.mpa-garching.mpg.de/" target="_blank" >MPA</a>) in Germany where I also spent some time doing PhD studies before working as an Adjunct professor for two years at the Universidad Andres Bello (<a href="http://www.unab.cl/" target="_blank">UNAB</a>) in Chile where I taught over 13 physics courses for Physics and Engineering careers.
+</div>
+<div class="card-content">
+My main research interests are in cosmology and extragalactic astronomy, especially in large scale structure, galaxy formation and evolution, computational and theoretical cosmology, environmental dependence of galaxy properties, photometric redshift estimation, machine learning techniques and data mining applied to astronomy, data intensive science,  among others.
+</div>
+</paper-card>
+</div>
+<credit-line></credit-line>
+</template>
+
+<script>
+      Polymer({
+      is: "home-page",
+
+    });
+
+
+</script>
+
+</dom>

@@ -1,0 +1,1901 @@
+@ARTICLE{2016MNRAS.457..786S,
+   author = {{Suchyta}, E. and {Huff}, E.~M. and {Aleksi{\'c}}, J. and {Melchior}, P. and 
+	{Jouvel}, S. and {MacCrann}, N. and {Ross}, A.~J. and {Crocce}, M. and 
+	{Gaztanaga}, E. and {Honscheid}, K. and {Leistedt}, B. and {Peiris}, H.~V. and 
+	{Rykoff}, E.~S. and {Sheldon}, E. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Banerji}, M. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Rosell}, A.~C. and 
+	{Kind}, M.~C. and {Carretero}, J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Dietrich}, J.~P. and {Doel}, P. and {Eifler}, T.~F. and {Estrada}, J. and 
+	{Evrard}, A.~E. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
+	{Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and {James}, D.~J. and 
+	{Jarvis}, M. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Percival}, W.~J. and {Reil}, K. and 
+	{Roodman}, A. and {Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Vikram}, V. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
+	{Zhang}, Y. and {DES Collaboration}},
+    title = "{No galaxy left behind: accurate measurements with the faintest objects in the Dark Energy Survey}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1507.08336},
+ keywords = {methods: data analysis, methods: miscellaneous, techniques: image processing, galaxies: statistics},
+     year = 2016,
+    month = mar,
+   volume = 457,
+    pages = {786-808},
+      doi = {10.1093/mnras/stv2953},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.457..786S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016MNRAS.456.3213G,
+   author = {{Giannantonio}, T. and {Fosalba}, P. and {Cawthon}, R. and {Omori}, Y. and 
+	{Crocce}, M. and {Elsner}, F. and {Leistedt}, B. and {Dodelson}, S. and 
+	{Benoit-L{\'e}vy}, A. and {Gazta{\~n}aga}, E. and {Holder}, G. and 
+	{Peiris}, H.~V. and {Percival}, W.~J. and {Kirk}, D. and {Bauer}, A.~H. and 
+	{Benson}, B.~A. and {Bernstein}, G.~M. and {Carretero}, J. and 
+	{Crawford}, T.~M. and {Crittenden}, R. and {Huterer}, D. and 
+	{Jain}, B. and {Krause}, E. and {Reichardt}, C.~L. and {Ross}, A.~J. and 
+	{Simard}, G. and {Soergel}, B. and {Stark}, A. and {Story}, K.~T. and 
+	{Vieira}, J.~D. and {Weller}, J. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Armstrong}, R. and {Banerji}, M. and {Bernstein}, R.~A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Capozzi}, D. and {Carlstrom}, J.~E. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Castander}, F.~J. and {Chang}, C.~L. and 
+	{Cunha}, C.~E. and {da Costa}, L.~N. and {D'Andrea}, C.~B. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
+	{Doel}, P. and {Eifler}, T.~F. and {Evrard}, A.~E. and {Neto}, A.~F. and 
+	{Fernandez}, E. and {Finley}, D.~A. and {Flaugher}, B. and {Frieman}, J. and 
+	{Gerdes}, D. and {Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and 
+	{Holzapfel}, W.~L. and {Honscheid}, K. and {James}, D.~J. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and 
+	{Lima}, M. and {March}, M. and {Marshall}, J.~L. and {Martini}, P. and 
+	{Melchior}, P. and {Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Rykoff}, E.~S. and {Sako}, M. and {Saliwanchik}, B.~R. and 
+	{Sanchez}, E. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Vikram}, V. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
+	{Zuntz}, J.},
+    title = "{CMB lensing tomography with the DES Science Verification galaxies}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1507.05551},
+ keywords = {cosmic background radiation, gravitational lensing: weak, large-scale structure of Universe},
+     year = 2016,
+    month = mar,
+   volume = 456,
+    pages = {3213-3244},
+      doi = {10.1093/mnras/stv2678},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.456.3213G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016MNRAS.455.4301C,
+   author = {{Crocce}, M. and {Carretero}, J. and {Bauer}, A.~H. and {Ross}, A.~J. and 
+	{Sevilla-Noarbe}, I. and {Giannantonio}, T. and {Sobreira}, F. and 
+	{Sanchez}, J. and {Gaztanaga}, E. and {Kind}, M.~C. and {S{\'a}nchez}, C. and 
+	{Bonnett}, C. and {Benoit-L{\'e}vy}, A. and {Brunner}, R.~J. and 
+	{Rosell}, A.~C. and {Cawthon}, R. and {Fosalba}, P. and {Hartley}, W. and 
+	{Kim}, E.~J. and {Leistedt}, B. and {Miquel}, R. and {Peiris}, H.~V. and 
+	{Percival}, W.~J. and {Rosenfeld}, R. and {Rykoff}, E.~S. and 
+	{S{\'a}nchez}, E. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Banerji}, M. and {Bernstein}, G.~M. and {Bertin}, E. and 
+	{Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Castander}, F.~J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Diehl}, H.~T. and {Eifler}, T.~F. and 
+	{Evrard}, A.~E. and {Neto}, A.~F. and {Fernandez}, E. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Neilsen}, E. and {Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Romer}, A.~K. and {Sako}, M. and {Santiago}, B. and 
+	{Schubnell}, M. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Vikram}, V. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
+	{Weller}, J. and {Zuntz}, J. and {DES Collaboration}},
+    title = "{Galaxy clustering, photometric redshifts and diagnosis of systematics in the DES Science Verification data}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1507.05360},
+ keywords = {surveys, cosmology: observations, large-scale structure of Universe},
+     year = 2016,
+    month = feb,
+   volume = 455,
+    pages = {4301-4324},
+      doi = {10.1093/mnras/stv2590},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.4301C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160204199A,
+   author = {{Annis}, J. and {Soares-Santos}, M. and {Berger}, E. and {Brout}, D. and 
+	{Chen}, H. and {Chornock}, R. and {Cowperthwaite}, P.~S. and 
+	{Diehl}, H.~T. and {Doctor}, Z. and {Drlica-Wagner}, A. and 
+	{Drout}, M.~R. and {Farr}, B. and {Finley}, D.~A. and {Flaugher}, B. and 
+	{Foley}, R.~J. and {Frieman}, J. and {Gruendl}, R.~A. and {Herner}, K. and 
+	{Holz}, D. and {Kessler}, R. and {Lin}, H. and {Marriner}, J. and 
+	{Neilsen}, E. and {Rest}, A. and {Sako}, M. and {Smith}, M. and 
+	{Smith}, N. and {Sobreira}, F. and {Walker}, A.~R. and {Yanny}, B. and 
+	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Benoit-Levy}, A. and {Bernstein}, R.~A. and {Bertin}, E. and 
+	{Bertin}, E. and {Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Castander}, F.~J. and {Cenko}, S.~B. and {Crocce}, M. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Dietrich}, J.~P. and 
+	{Eifler}, T.~F. and {Evrard}, A.~E. and {Fernandez}, E. and 
+	{Fischer}, J. and {Fong}, W. and {Fosalba}, P. and {Fox}, D.~B. and 
+	{Fryer}, C.~L. and {Garcia-Bellido}, J. and {Gaztanaga}, E. and 
+	{Gerdes}, D.~W. and {Goldstein}, D.~A. and {Gruen}, D. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D.~J. and {Karliner}, I. and {Kasen}, D. and 
+	{Kent}, S. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {Martini}, P. and 
+	{Metzger}, B.~D. and {Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and 
+	{Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and {Ogando}, R. and 
+	{Peoples}, J. and {Plazas}, A.~A. and {Quataert}, E. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Rykoff}, E.~S. and {Sanchez}, E. and {Santiago}, B. and 
+	{Scarpine}, V. and {Schindler}, R. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Sheldon}, E. and {Smith}, R.~C. and {Stebbins}, A. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, R.~C. and {Tucker}, D.~L. and 
+	{Vikram}, V. and {Wechsler}, R.~H. and {Weller}, J. and {Wester}, W.
+	},
+    title = "{A Dark Energy Camera Search for Missing Supergiants in the LMC After the Advanced LIGO Gravitational Wave Event GW150914}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1602.04199},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = feb,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160204199A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160204198S,
+   author = {{Soares-Santos}, M. and {Kessler}, R. and {Berger}, E. and {Annis}, J. and 
+	{Brout}, D. and {Buckley-Geer}, E. and {Chen}, H. and {Cowperthwaite}, P.~S. and 
+	{Diehl}, H.~T. and {Doctor}, Z. and {Drlica-Wagner}, A. and 
+	{Farr}, B. and {Finley}, D.~A. and {Flaugher}, B. and {Foley}, R. and 
+	{Frieman}, J. and {Gruendl}, R.~A. and {Herner}, K. and {Holz}, D. and 
+	{Lin}, H. and {Marriner}, J. and {Neilsen}, E. and {Rest}, A. and 
+	{Sako}, M. and {Scolnic}, D. and {Sobreira}, F. and {Walker}, A.~R. and 
+	{Wester}, W. and {Yanny}, B. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Armstrong}, R. and {Banerji}, M. and 
+	{Benoit-L{\'e}vy}, A. and {Bernstein}, R.~A. and {Bertin}, E. and 
+	{Brown}, D.~A. and {Burke}, D.~L. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
+	{Cenko}, S.~B. and {Chornock}, R. and {Crocce}, M. and {D'Andrea}, C.~B. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Desai}, S. and 
+	{Dietrich}, J.~P. and {Drout}, M.~R. and {Eifler}, T.~F. and 
+	{Estrada}, J. and {Evrard}, A.~E. and {Fairhurst}, S. and {Fernandez}, E. and 
+	{Fischer}, J. and {Fong}, W. and {Fosalba}, P. and {Fox}, D.~B. and 
+	{Fryer}, C.~L. and {Garcia-Bellido}, J. and {Gaztanaga}, E. and 
+	{Gerdes}, D.~W. and {Goldstein}, D.~A. and {Gruen}, D. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D.~J. and {Karliner}, I. and {Kasen}, D. and 
+	{Kent}, S. and {Kuropatkin}, N. and {Kuehn}, K. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {Margutti}, R. and 
+	{Martini}, P. and {Matheson}, T. and {McMahon}, R.~G. and {Metzger}, B.~D. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Ogando}, R. and {Peoples}, J. and 
+	{Plazas}, A.~A. and {Quataert}, E. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Roodman}, A. and {Rykoff}, E.~S. and {Rykoff}, E.~S. and {Sanchez}, E. and 
+	{Scarpine}, V. and {Schindler}, R. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Sheldon}, E. and {Smith}, M. and {Smith}, N. and {Smith}, R.~C. and 
+	{Stebbins}, A. and {Sutton}, P.~J. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, R.~C. and {Tucker}, D.~L. and 
+	{Vikram}, V. and {Wechsler}, R.~H. and {Weller}, J.},
+    title = "{A Dark Energy Camera Search for an Optical Counterpart to the First Advanced LIGO Gravitational Wave Event GW150914}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1602.04198},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2016,
+    month = feb,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160204198S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016ApJ...818L...8S,
+   author = {{Smith}, M. and {Sullivan}, M. and {D{\rsquo}Andrea}, C.~B. and 
+	{Castander}, F.~J. and {Casas}, R. and {Prajs}, S. and {Papadopoulos}, A. and 
+	{Nichol}, R.~C. and {Karpenka}, N.~V. and {Bernard}, S.~R. and 
+	{Brown}, P. and {Cartier}, R. and {Cooke}, J. and {Curtin}, C. and 
+	{Davis}, T.~M. and {Finley}, D.~A. and {Foley}, R.~J. and {Gal-Yam}, A. and 
+	{Goldstein}, D.~A. and {Gonz{\'a}lez-Gait{\'a}n}, S. and {Gupta}, R.~R. and 
+	{Howell}, D.~A. and {Inserra}, C. and {Kessler}, R. and {Lidman}, C. and 
+	{Marriner}, J. and {Nugent}, P. and {Pritchard}, T.~A. and {Sako}, M. and 
+	{Smartt}, S. and {Smith}, R.~C. and {Spinka}, H. and {Thomas}, R.~C. and 
+	{Wolf}, R.~C. and {Zenteno}, A. and {Abbott}, T.~M.~C. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Crocce}, M. and 
+	{Cunha}, C.~E. and {da Costa}, L.~N. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Doel}, P. and {Estrada}, J. and {Evrard}, A.~E. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Lahav}, O. and {Li}, T.~S. and {Marshall}, J.~L. and {Martini}, P. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Rykoff}, E.~S. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Walker}, A.~R. and 
+	{Wester}, W. and {The DES Collaboration}},
+    title = "{DES14X3taz: A Type I Superluminous Supernova Showing a Luminous, Rapidly Cooling Initial Pre-peak Bump}",
+  journal = {\apjl},
+archivePrefix = "arXiv",
+   eprint = {1512.06043},
+ primaryClass = "astro-ph.SR",
+ keywords = {supernovae: general},
+     year = 2016,
+    month = feb,
+   volume = 818,
+      eid = {L8},
+    pages = {L8},
+      doi = {10.3847/2041-8205/818/1/L8},
+   adsurl = {http://adsabs.harvard.edu/abs/2016ApJ...818L...8S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016ApJ...817..135L,
+   author = {{Li}, T.~S. and {Balbinot}, E. and {Mondrik}, N. and {Marshall}, J.~L. and 
+	{Yanny}, B. and {Bechtol}, K. and {Drlica-Wagner}, A. and {Oscar}, D. and 
+	{Santiago}, B. and {Simon}, J.~D. and {Vivas}, A.~K. and {Walker}, A.~R. and 
+	{Wang}, M.~Y. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and {Bertin}, E. and 
+	{Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and 
+	{Estrada}, J. and {Finley}, D.~A. and {Flaugher}, B. and {Frieman}, J. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Martini}, P. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Tucker}, D. and 
+	{Zhang}, Y. and {The DES Collaboration}},
+    title = "{Discovery of a Stellar Overdensity in Eridanus{\ndash}Phoenix in the Dark Energy Survey}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1509.04296},
+ keywords = {galaxy: formation, galaxy: halo, galaxy: structure, local group},
+     year = 2016,
+    month = feb,
+   volume = 817,
+      eid = {135},
+    pages = {135},
+      doi = {10.3847/0004-637X/817/2/135},
+   adsurl = {http://adsabs.harvard.edu/abs/2016ApJ...817..135L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016AJ....151...39G,
+   author = {{Gerdes}, D.~W. and {Jennings}, R.~J. and {Bernstein}, G.~M. and 
+	{Sako}, M. and {Adams}, F. and {Goldstein}, D. and {Kessler}, R. and 
+	{Hamilton}, S. and {Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Cunha}, C.~E. and {D{\rsquo}Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Eifler}, T.~F. and {Fausti Neto}, A. and {Flaugher}, B. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and {Maia}, M.~A.~G. and 
+	{March}, M. and {Martini}, P. and {Miller}, C.~J. and {Miquel}, R. and 
+	{Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sanchez}, E. and {Santiago}, B. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarl{\'e}}, G. and {Thaler}, J. and 
+	{Walker}, A.~R. and {Wester}, W. and {Zhang}, Y. and {The DES Collaboration}
+	},
+    title = "{Observation of Two New L4 Neptune Trojans in the Dark Energy Survey Supernova Fields}",
+  journal = {\aj},
+archivePrefix = "arXiv",
+   eprint = {1507.05177},
+ primaryClass = "astro-ph.EP",
+ keywords = {minor planets, asteroids: general},
+     year = 2016,
+    month = feb,
+   volume = 151,
+      eid = {39},
+    pages = {39},
+      doi = {10.3847/0004-6256/151/2/39},
+   adsurl = {http://adsabs.harvard.edu/abs/2016AJ....151...39G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016MNRAS.455.3367G,
+   author = {{Gruen}, D. and {Friedrich}, O. and {Amara}, A. and {Bacon}, D. and 
+	{Bonnett}, C. and {Hartley}, W. and {Jain}, B. and {Jarvis}, M. and 
+	{Kacprzak}, T. and {Krause}, E. and {Mana}, A. and {Rozo}, E. and 
+	{Rykoff}, E.~S. and {Seitz}, S. and {Sheldon}, E. and {Troxel}, M.~A. and 
+	{Vikram}, V. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Armstrong}, R. and {Banerji}, M. and {Bauer}, A.~H. and 
+	{Becker}, M.~R. and {Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and 
+	{Bernstein}, R.~A. and {Bertin}, E. and {Bridle}, S.~L. and 
+	{Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
+	{Doel}, P. and {Eifler}, T.~F. and {Neto}, A.~F. and {Fernandez}, E. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and {Gerdes}, D.~W. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and {Miquel}, R. and 
+	{Mohr}, J.~J. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Reil}, K. and {Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Walker}, A.~R. and {Wechsler}, R.~H. and {Weller}, J. and 
+	{Zhang}, Y. and {Zuntz}, J.},
+    title = "{Weak lensing by galaxy troughs in DES Science Verification data}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1507.05090},
+ keywords = {gravitational lensing: weak, cosmology: observations},
+     year = 2016,
+    month = jan,
+   volume = 455,
+    pages = {3367-3380},
+      doi = {10.1093/mnras/stv2506},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.3367G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100621R,
+   author = {{Rykoff}, E.~S. and {Rozo}, E. and {Hollowood}, D. and {Bermeo-Hernandez}, A. and 
+	{Jeltema}, T. and {Mayers}, J. and {Romer}, A.~K. and {Rooney}, P. and 
+	{Saro}, A. and {Vergara Cervantes}, C. and {Wilcox}, H. and 
+	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Annis}, J. and {Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Castander}, F.~J. and 
+	{Childress}, M. and {Collins}, C.~A. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Davis}, T.~M. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Evrard}, A.~E. and {Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Glazebrook}, K. and {Goldstein}, D.~A. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {Hilton}, M. and 
+	{Honscheid}, K. and {Hoyle}, B. and {James}, D.~J. and {Kay}, S.~T. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Lewis}, G.~F. and 
+	{Lidman}, C. and {Lima}, M. and {Maia}, M.~A.~G. and {Mann}, R.~G. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Reil}, K. and {Sahl{\'e}n}, M. and 
+	{Sanchez}, E. and {Santiago}, B. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Stott}, J.~P. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Tucker}, D. and {Viana}, P.~T.~P. and 
+	{Vikram}, V. and {Walker}, A.~R. and {Zhang}, Y.},
+    title = "{The redMaPPer Galaxy Cluster Catalog From DES Science Verification Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00621},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100621R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100589P,
+   author = {{Palmese}, A. and {Lahav}, O. and {Banerji}, M. and {Gruen}, D. and 
+	{Jouvel}, S. and {Melchior}, P. and {Aleksi{\'c}}, J. and {Annis}, J. and 
+	{Diehl}, H.~T. and {Jeltema}, T. and {Romer}, K. and {Rozo}, E. and 
+	{Rykoff}, E.~S. and {Seitz}, S. and {Suchyta}, E. and {Zhang}, Y. and 
+	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Dietrich}, J.~P. and {Doel}, P. and {Estrada}, J. and 
+	{Evrard}, A.~E. and {Flaugher}, B. and {Frieman}, J. and {Gerdes}, D.~W. and 
+	{Goldstein}, D.~A. and {Gruendl}, R.~A. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {Marshall}, J.~L. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Roodman}, A. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and 
+	{Tucker}, D. and {Vikram}, V.},
+    title = "{Comparing Dark Energy Survey and HST-CLASH observations of the galaxy cluster RXC J2248.7-4431: implications for stellar mass versus dark matter}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00589},
+ keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100589P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100405C,
+   author = {{Chang}, C. and {Pujol}, A. and {Gaztanaga}, E. and {Amara}, A. and 
+	{Refregier}, A. and {Bacon}, D. and {Becker}, M.~R. and {Bonnett}, C. and 
+	{Carretero}, J. and {Castander}, F.~J. and {Crocce}, M. and 
+	{Fosalba}, P. and {Giannantonio}, T. and {Hartley}, W. and {Jain}, B. and 
+	{Jarvis}, M. and {Kacprzak}, T. and {Ross}, A.~J. and {Sheldon}, E. and 
+	{Troxel}, M.~A. and {Vikram}, V. and {Zuntz}, J. and {Abbott}, T.~M.~C. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and {Benoit-Levy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Capozzi}, D. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Eifler}, T.~F. and {Estrada}, J. and {Evrard}, A.~E. and {Flaugher}, B. and 
+	{Frieman}, J. and {Goldstein}, D.~A. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and {Lima}, M. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Rykoff}, E.~S. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and {Walker}, A.~R.
+	},
+    title = "{Galaxy bias from the DES Science Verification Data: combining galaxy density maps and weak lensing maps}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00405},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100405C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100357A,
+   author = {{Asorey}, J. and {Carrasco Kind}, M. and {Sevilla-Noarbe}, I. and 
+	{Brunner}, R.~J. and {Thaler}, J.},
+    title = "{Galaxy clustering with photometric surveys using PDF redshift information}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00357},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100357A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100329D,
+   author = {{Dark Energy Survey Collaboration} and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Aleksic}, J. and {Amara}, A. and {Bacon}, D. and 
+	{Balbinot}, E. and {Banerji}, M. and {Bechtol}, K. and {Benoit-Levy}, A. and 
+	{Bernstein}, G.~M. and {Bertin}, E. and {Blazek}, J. and {Dodelson}, S. and 
+	{Bonnett}, C. and {Brooks}, D. and {Bridle}, S. and {Brunner}, R.~J. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Caminha}, G.~B. and {Carlsen}, J. and {Carnero-Rosell}, A. and 
+	{Carollo}, M. and {Carrasco-Kind}, M. and {Carretero}, J. and 
+	{Castander}, F.~J. and {Clerkin}, L. and {Collett}, T. and {Conselice}, C. and 
+	{Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Davis}, T.~M. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
+	{Doel}, P. and {Drlica-Wagner}, A. and {Etherington}, J. and 
+	{Estrada}, J. and {Evrard}, A.~E. and {Fabbri}, J. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Foley}, R.~J. and {Frieman}, J. and 
+	{Garcia-Bellido}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and 
+	{Giannantonio}, T. and {Goldstein}, D.~A. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Guarnieri}, P. and {Gutierrez}, G. and 
+	{Hartley}, W. and {Honscheid}, K. and {Jain}, B. and {James}, D.~J. and 
+	{Jeltema}, T. and {Jouvel}, S. and {Kessler}, R. and {King}, A. and 
+	{Kirk}, D. and {Kron}, R. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Lahav}, O. and {Li}, T.~S. and {Lima}, M. and {Lin}, H. and 
+	{Maia}, M.~A.~G. and {Makler}, M. and {Manera}, M. and {Maraston}, C. and 
+	{Marshall}, J.~L. and {Martini}, P. and {McMahon}, R.~G. and 
+	{Melchior}, P. and {Merson}, A. and {Miller}, C.~J. and {Miquel}, R. and 
+	{Mohr}, J.~J. and {Morice-Atkinson}, X. and {Naidoo}, K. and 
+	{Neilsen}, E. and {Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and 
+	{Ostrovski}, F. and {Palmese}, A. and {Papadopoulos}, A. and 
+	{Peiris}, H. and {Peoples}, J. and {Plazas}, A.~A. and {Percival}, W.~J. and 
+	{Reed}, S.~L. and {Romer}, A.~K. and {Roodman}, A. and {Ross}, A. and 
+	{Rozo}, E. and {Rykoff}, E.~S. and {Sadeh}, I. and {Sako}, M. and 
+	{Sanchez}, C. and {Sanchez}, E. and {Santiago}, B. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Sheldon}, E. and 
+	{Smith}, M. and {Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Soumagnac}, M. and {Suchyta}, E. and {Sullivan}, M. and {Swanson}, M. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Thomas}, R.~C. and 
+	{Tucker}, D. and {Vieira}, J.~D. and {Vikram}, V. and {Walker}, A.~R. and 
+	{Wechsler}, R.~H. and {Wester}, W. and {Weller}, J. and {Whiteway}, L. and 
+	{Wilcox}, H. and {Yanny}, B. and {Zhang}, Y. and {Zuntz}, J.
+	},
+    title = "{The Dark Energy Survey: more than dark energy - an overview}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00329},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100329D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160100117L,
+   author = {{Li}, T.~S. and {DePoy}, D.~L. and {Marshall}, J.~L. and {Tucker}, D. and 
+	{Kessler}, R. and {Annis}, J. and {Bernstein}, G.~M. and {Boada}, S. and 
+	{Burke}, D.~L. and {Finley}, D.~A. and {James}, D.~J. and {Kent}, S. and 
+	{Lin}, H. and {Marriner}, J. and {Mondrik}, N. and {Nagasawa}, D. and 
+	{Rykoff}, E.~S. and {Scolnic}, D. and {Walker}, A.~R. and {Wester}, W. and 
+	{Abbott}, T.~M.~C. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Crocce}, M. and 
+	{Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Frieman}, J. and {Gaztanaga}, E. and {Goldstein}, D.~A. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Maia}, M.~A.~G. and {Melchior28}, P. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and {Neilsen}, E. and 
+	{Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Tarle}, G. and {Thomas}, D. and {Vikram}, V. and 
+	{The DES Collaboration}},
+    title = "{Assessment of Systematic Chromatic Errors that Impact Sub-1\% Photometric Precision in Large-Area Sky Surveys}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1601.00117},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2016,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160100117L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015MNRAS.454.2305S,
+   author = {{Saro}, A. and {Bocquet}, S. and {Rozo}, E. and {Benson}, B.~A. and 
+	{Mohr}, J. and {Rykoff}, E.~S. and {Soares-Santos}, M. and {Bleem}, L. and 
+	{Dodelson}, S. and {Melchior}, P. and {Sobreira}, F. and {Upadhyay}, V. and 
+	{Weller}, J. and {Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Armstrong}, R. and {Banerji}, M. and {Bauer}, A.~H. and {Bayliss}, M. and 
+	{Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and {Bertin}, E. and 
+	{Brodwin}, M. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Carlstrom}, J.~E. and {Capasso}, R. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Chiu}, I. and {Covarrubias}, R. and 
+	{Crawford}, T.~M. and {Crocce}, M. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {DePoy}, D.~L. and {Desai}, S. and {de Haan}, T. and 
+	{Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and {Cunha}, C.~E. and 
+	{Eifler}, T.~F. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
+	{Fernandez}, E. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
+	{Gangkofner}, C. and {Gaztanaga}, E. and {Gerdes}, D. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gupta}, N. and {Hennig}, C. and {Holzapfel}, W.~L. and 
+	{Honscheid}, K. and {Jain}, B. and {James}, D. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and {Lin}, H. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and {Martini}, P. and 
+	{McDonald}, M. and {Miller}, C.~J. and {Miquel}, R. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Reichardt}, C.~L. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Schubnell}, M. and {Sevilla}, I. and {Smith}, R.~C. and {Stalder}, B. and 
+	{Stark}, A.~A. and {Strazzullo}, V. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Tucker}, D. and 
+	{Vikram}, V. and {von der Linden}, A. and {Walker}, A.~R. and 
+	{Wechsler}, R.~H. and {Wester}, W. and {Zenteno}, A. and {Ziegler}, K.~E.
+	},
+    title = "{Constraints on the richness-mass relation and the optical-SZE positional offset distribution for SZE-selected clusters}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1506.07814},
+ keywords = {catalogues, methods: data analysis, galaxies: abundances, galaxies: clusters: general, galaxies: haloes, galaxies: statistics, cosmology: miscellaneous, large-scale structure of Universe},
+     year = 2015,
+    month = dec,
+   volume = 454,
+    pages = {2305-2319},
+      doi = {10.1093/mnras/stv2141},
+   adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.454.2305S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015MNRAS.454.1260A,
+   author = {{Agnello}, A. and {Treu}, T. and {Ostrovski}, F. and {Schechter}, P.~L. and 
+	{Buckley-Geer}, E.~J. and {Lin}, H. and {Auger}, M.~W. and {Courbin}, F. and 
+	{Fassnacht}, C.~D. and {Frieman}, J. and {Kuropatkin}, N. and 
+	{Marshall}, P.~J. and {McMahon}, R.~G. and {Meylan}, G. and 
+	{More}, A. and {Suyu}, S.~H. and {Rusu}, C.~E. and {Finley}, D. and 
+	{Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and 
+	{Banerji}, M. and {Benoit-L{\'e}vy}, A. and {Bertin}, E. and 
+	{Brooks}, D. and {Burke}, D.~L. and {Rosell}, A.~C. and {Kind}, M.~C. and 
+	{Carretero}, J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
+	{Doel}, P. and {Eifler}, T.~F. and {Estrada}, J. and {Neto}, A.~F. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and 
+	{Lahav}, O. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Nichol}, R.~C. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Reil}, K. and {Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and 
+	{Sanchez}, E. and {Santiago}, B. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Tucker}, D. and {Walker}, A.~R. and 
+	{Wechsler}, R.~H. and {Zhang}, Y.},
+    title = "{Discovery of two gravitationally lensed quasars in the Dark Energy Survey}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1508.01203},
+ keywords = {gravitational lensing: strong, methods: observational, methods: statistical, quasars: emission lines},
+     year = 2015,
+    month = dec,
+   volume = 454,
+    pages = {1260-1265},
+      doi = {10.1093/mnras/stv2171},
+   adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.454.1260A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv151207914J,
+   author = {{Juri{\'c}}, M. and {Kantor}, J. and {Lim}, K. and {Lupton}, R.~H. and 
+	{Dubois-Felsmann}, G. and {Jenness}, T. and {Axelrod}, T.~S. and 
+	{Aleksi{\'c}}, J. and {Allsman}, R.~A. and {AlSayyad}, Y. and 
+	{Alt}, J. and {Armstrong}, R. and {Basney}, J. and {Becker}, A.~C. and 
+	{Becla}, J. and {Bickerton}, S.~J. and {Biswas}, R. and {Bosch}, J. and 
+	{Boutigny}, D. and {Carrasco Kind}, M. and {Ciardi}, D.~R. and 
+	{Connolly}, A.~J. and {Daniel}, S.~F. and {Daues}, G.~E. and 
+	{Economou}, F. and {Chiang}, H.-F. and {Fausti}, A. and {Fisher-Levine}, M. and 
+	{Freemon}, D.~M. and {Gee}, P. and {Gris}, P. and {Hernandez}, F. and 
+	{Hoblitt}, J. and {Ivezi{\'c}}, {\v Z}. and {Jammes}, F. and 
+	{Jevremovi{\'c}}, D. and {Jones}, R.~L. and {Bryce Kalmbach}, J. and 
+	{Kasliwal}, V.~P. and {Krughoff}, K.~S. and {Lang}, D. and {Lurie}, J. and 
+	{Lust}, N.~B. and {Mullally}, F. and {MacArthur}, L.~A. and 
+	{Melchior}, P. and {Moeyens}, J. and {Nidever}, D.~L. and {Owen}, R. and 
+	{Parejko}, J.~K and {Peterson}, J.~M. and {Petravick}, D. and 
+	{Pietrowicz}, S.~R. and {Price}, P.~A. and {Reiss}, D.~J. and 
+	{Shaw}, R.~A. and {Sick}, J. and {Slater}, C.~T. and {Strauss}, M.~A. and 
+	{Sullivan}, I.~S. and {Swinbank}, J.~D. and {Van Dyk}, S. and 
+	{Vuj{\v c}i{\'c}}, V. and {Withers}, A. and {Yoachim}, P. and 
+	{LSST Project}, f.~t.},
+    title = "{The LSST Data Management System}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1512.07914},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2015,
+    month = dec,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151207914J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv151204535K,
+   author = {{Kirk}, D. and {Omori}, Y. and {Benoit-L{\'e}vy}, A. and {Cawthon}, R. and 
+	{Chang}, C. and {Larsen}, P. and {Amara}, A. and {Bacon}, D. and 
+	{Crawford}, T.~M. and {Dodelson}, S. and {Fosalba}, P. and {Giannantonio}, T. and 
+	{Holder}, G. and {Jain}, B. and {Kacprzak}, T. and {Lahav}, O. and 
+	{MacCrann}, N. and {Nicola}, A. and {Refregier}, A. and {Sheldon}, E. and 
+	{Story}, K.~T. and {Troxel}, M.~A. and {Vieira}, J.~D. and {Vikram}, V. and 
+	{Zuntz}, J. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Becker}, M.~R. and {Benson}, B.~A. and {Bernstein}, G.~M. and 
+	{Bernstein}, R.~A. and {Bleem}, L.~E. and {Bonnett}, C. and 
+	{Bridle}, S.~L. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Burke}, D.~L. and {Capozzi}, D. and {Carlstrom}, J.~E. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Eifler}, T.~F. and {Evrard}, A.~E. and {Flaugher}, B. and {Frieman}, J. and 
+	{Gerdes}, D.~W. and {Goldstein}, D.~A. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Honscheid}, K. and {James}, D.~J. and {Jarvis}, M. and {Kent}, S. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lima}, M. and {March}, M. and 
+	{Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and {Miquel}, R. and 
+	{Nichol}, R.~C. and {Ogando}, R. and {Plazas}, A.~A. and {Reichardt}, C.~L. and 
+	{Roodman}, A. and {Rozo}, E. and {Rykoff}, E.~S. and {Sako}, M. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Simard}, G. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Wechsler}, R.~H. and {Weller}, J.
+	},
+    title = "{Cross-correlation of gravitational lensing from DES Science Verification data with SPT and Planck lensing}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1512.04535},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = dec,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151204535K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv151203062N,
+   author = {{Nord}, B. and {Buckley-Geer}, E. and {Lin}, H. and {Diehl}, H.~T. and 
+	{Helsby}, J. and {Kuropatkin}, N. and {Amara}, A. and {Collett}, T. and 
+	{Allam}, S. and {Caminha}, G. and {De Bom}, C. and {Desai}, S. and 
+	{D{\'u}met-Montoya}, H. and {Pereira}, M.~E.~d.~S. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Furlanetto}, C. and {Gaitsch}, H. and {Gill}, M. and 
+	{Merritt}, K.~W. and {More}, A. and {Tucker}, D. and {Rykoff}, E.~S. and 
+	{Rozo}, E. and {Abdalla}, F.~B. and {Agnello}, A. and {Auger}, M. and 
+	{Brunner}, R.~J. and {Carrasco Kind}, M. and {Castander}, F.~J. and 
+	{Cunha}, C.~E. and {da Costa}, L.~N. and {Foley}, R. and {Gerdes}, D.~W. and 
+	{Glazebrook}, K. and {Gschwend}, J. and {Hartley}, W. and {Kessler}, R. and 
+	{Lagattuta}, D. and {Lewis}, G. and {Maia}, M.~A.~G. and {Makler}, M. and 
+	{Menanteau}, F. and {Niernberg}, A. and {Scolnic}, D. and {Vieira}, J.~D. and 
+	{Gramillano}, R. and {Abbott}, T.~M.~C. and {Banerji}, M. and 
+	{Benoit-L{\'e}vy}, A. and {Brooks}, D. and {Burke}, D.~L. and 
+	{Capozzi}, D. and {Carnero Rosell}, A. and {Carretero}, J. and 
+	{D'Andrea}, C.~B. and {Dietrich}, J.~P. and {Doel}, P. and {Evrard}, A.~E. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Gruen}, D. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Li}, T.~S. and {Lima}, M. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Miquel}, R. and 
+	{Neilsen}, E. and {Nichol}, R.~C. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Walker}, A.~R. and 
+	{Wester}, W. and {Zhang}, Y. and {the DES Collaboration}},
+    title = "{Observation and Confirmation of Six Strong Lensing Systems in The Dark Energy Survey Science Verification Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1512.03062},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+     year = 2015,
+    month = dec,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151203062N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv151201032P,
+   author = {{Pieres}, A. and {Santiago}, B. and {Balbinot}, E. and {Luque}, E. and 
+	{Queiroz}, A.~B.~A. and {da Costa}, L.~N. and {Maia}, M.~A.~G. and 
+	{Drlica-Wagner}, A. and {Roodman}, A. and {Abbott}, C. and {Allam}, S. and 
+	{Benoit-Levy}, A. and {Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Burke}, D.~L. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Carretero}, J. and {Cunha}, C.~E. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Eifler}, T.~F. and {Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and {Marshall}, J.~L. and 
+	{Martini}, P. and {Miller}, C.~J. and {Miquel}, R. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Tucker}, D. and {Walker}, A.~R.},
+    title = "{Physical properties of star clusters in the outer LMC as observed by the Dark Energy Survey}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1512.01032},
+ keywords = {Astrophysics - Astrophysics of Galaxies},
+     year = 2015,
+    month = dec,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151201032P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015AJ....150..172K,
+   author = {{Kessler}, R. and {Marriner}, J. and {Childress}, M. and {Covarrubias}, R. and 
+	{D'Andrea}, C.~B. and {Finley}, D.~A. and {Fischer}, J. and 
+	{Foley}, R.~J. and {Goldstein}, D. and {Gupta}, R.~R. and {Kuehn}, K. and 
+	{Marcha}, M. and {Nichol}, R.~C. and {Papadopoulos}, A. and 
+	{Sako}, M. and {Scolnic}, D. and {Smith}, M. and {Sullivan}, M. and 
+	{Wester}, W. and {Yuan}, F. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and 
+	{Bertin}, E. and {Brooks}, D. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Castander}, F.~J. and {Crocce}, M. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Eifler}, T.~F. and {Fausti Neto}, A. and 
+	{Flaugher}, B. and {Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Honscheid}, K. and {James}, D.~J. and 
+	{Kuropatkin}, N. and {Li}, T.~S. and {Maia}, M.~A.~G. and {Marshall}, J.~L. and 
+	{Martini}, P. and {Miller}, C.~J. and {Miquel}, R. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Sanchez}, E. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, R.~C. and {Tucker}, D. and 
+	{Walker}, A.~R. and {DES Collaboration}},
+    title = "{The Difference Imaging Pipeline for the Transient Search in the Dark Energy Survey}",
+  journal = {\aj},
+archivePrefix = "arXiv",
+   eprint = {1507.05137},
+ primaryClass = "astro-ph.IM",
+ keywords = {supernovae: general, techniques: image processing},
+     year = 2015,
+    month = dec,
+   volume = 150,
+      eid = {172},
+    pages = {172},
+      doi = {10.1088/0004-6256/150/6/172},
+   adsurl = {http://adsabs.harvard.edu/abs/2015AJ....150..172K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@MISC{2015ascl.soft11011C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{SparsePZ: Sparse Representation of Photometric Redshift PDFs}",
+howpublished = {Astrophysics Source Code Library},
+     year = 2015,
+    month = nov,
+archivePrefix = "ascl",
+   eprint = {1511.011},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ascl.soft11011C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv151103391M,
+   author = {{Melchior}, P. and {Sheldon}, E. and {Drlica-Wagner}, A. and 
+	{Rykoff}, E.~S. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Benoit-Levy}, A. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Crocce}, M. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Doel}, P. and {Evrard}, A.~E. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Frieman}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Honscheid}, K. and {James}, D.~J. and 
+	{Jarvis}, M. and {Kuehn}, K. and {Li}, T.~S. and {Maia}, M.~A.~G. and 
+	{March}, M. and {Marshall}, J.~L. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Romer}, A.~K. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Vikram}, V. and 
+	{Walker}, A.~R. and {Wester}, W. and {Zhang}, Y.},
+    title = "{Crowdsourcing quality control for Dark Energy Survey images}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1511.03391},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2015,
+    month = nov,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151103391M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015ApJ...813..109D,
+   author = {{Drlica-Wagner}, A. and {Bechtol}, K. and {Rykoff}, E.~S. and 
+	{Luque}, E. and {Queiroz}, A. and {Mao}, Y.-Y. and {Wechsler}, R.~H. and 
+	{Simon}, J.~D. and {Santiago}, B. and {Yanny}, B. and {Balbinot}, E. and 
+	{Dodelson}, S. and {Fausti Neto}, A. and {James}, D.~J. and 
+	{Li}, T.~S. and {Maia}, M.~A.~G. and {Marshall}, J.~L. and {Pieres}, A. and 
+	{Stringer}, K. and {Walker}, A.~R. and {Abbott}, T.~M.~C. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bernstein}, G.~M. and {Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Burke}, D.~L. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Carretero}, J. and {Crocce}, M. and {da Costa}, L.~N. and {Desai}, S. and 
+	{Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Evrard}, A.~E. and {Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Martini}, P. and 
+	{Miquel}, R. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Reil}, K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Tucker}, D. and 
+	{Vikram}, V. and {Wester}, W. and {Zhang}, Y. and {Zuntz}, J. and 
+	{DES Collaboration}},
+    title = "{Eight Ultra-faint Galaxy Candidates Discovered in Year Two of the Dark Energy Survey}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1508.03622},
+ keywords = {galaxies: dwarf, Local Group},
+     year = 2015,
+    month = nov,
+   volume = 813,
+      eid = {109},
+    pages = {109},
+      doi = {10.1088/0004-637X/813/2/109},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ApJ...813..109D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015MNRAS.453..507K,
+   author = {{Kim}, E.~J. and {Brunner}, R.~J. and {Carrasco Kind}, M.},
+    title = "{A hybrid ensemble learning approach to star-galaxy classification}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1505.02200},
+ primaryClass = "astro-ph.IM",
+ keywords = {methods: data analysis, methods: statistical, surveys, stars: statistics, galaxies: statistics},
+     year = 2015,
+    month = oct,
+   volume = 453,
+    pages = {507-521},
+      doi = {10.1093/mnras/stv1608},
+   adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.453..507K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015MNRAS.452.3047Y,
+   author = {{Yuan}, F. and {Lidman}, C. and {Davis}, T.~M. and {Childress}, M. and 
+	{Abdalla}, F.~B. and {Banerji}, M. and {Buckley-Geer}, E. and 
+	{Carnero Rosell}, A. and {Carollo}, D. and {Castander}, F.~J. and 
+	{D'Andrea}, C.~B. and {Diehl}, H.~T. and {Cunha}, C.~E. and 
+	{Foley}, R.~J. and {Frieman}, J. and {Glazebrook}, K. and {Gschwend}, J. and 
+	{Hinton}, S. and {Jouvel}, S. and {Kessler}, R. and {Kim}, A.~G. and 
+	{King}, A.~L. and {Kuehn}, K. and {Kuhlmann}, S. and {Lewis}, G.~F. and 
+	{Lin}, H. and {Martini}, P. and {McMahon}, R.~G. and {Mould}, J. and 
+	{Nichol}, R.~C. and {Norris}, R.~P. and {O'Neill}, C.~R. and 
+	{Ostrovski}, F. and {Papadopoulos}, A. and {Parkinson}, D. and 
+	{Reed}, S. and {Romer}, A.~K. and {Rooney}, P.~J. and {Rozo}, E. and 
+	{Rykoff}, E.~S. and {Sako}, M. and {Scalzo}, R. and {Schmidt}, B.~P. and 
+	{Scolnic}, D. and {Seymour}, N. and {Sharp}, R. and {Sobreira}, F. and 
+	{Sullivan}, M. and {Thomas}, R.~C. and {Tucker}, D. and {Uddin}, S.~A. and 
+	{Wechsler}, R.~H. and {Wester}, W. and {Wilcox}, H. and {Zhang}, B. and 
+	{Abbott}, T. and {Allam}, S. and {Bauer}, A.~H. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carrasco Kind}, M. and 
+	{Covarrubias}, R. and {Crocce}, M. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Evrard}, A.~E. and {Fausti Neto}, A. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Gaztanaga}, E. and {Gerdes}, D. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Honscheid}, K. and {James}, D. and {Kuropatkin}, N. and 
+	{Lahav}, O. and {Li}, T.~S. and {Maia}, M.~A.~G. and {Makler}, M. and 
+	{Marshall}, J. and {Miller}, C.~J. and {Miquel}, R. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Roodman}, A. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Walker}, A.~R.},
+    title = "{OzDES multifibre spectroscopy for the Dark Energy Survey: first-year operation and results}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1504.03039},
+ keywords = {techniques: spectroscopic, surveys, supernovae: general, galaxies: active, cosmology: observations},
+     year = 2015,
+    month = sep,
+   volume = 452,
+    pages = {3047-3063},
+      doi = {10.1093/mnras/stv1507},
+   adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.452.3047Y},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150907121J,
+   author = {{Jouvel}, S. and {Delubac}, T. and {Comparat}, J. and {Carnero}, A. and 
+	{Camacho}, H. and {Abdalla}, F.~B. and {Kneib}, J. and {Merson}, A. and 
+	{Lima}, M. and {Sobreira}, F. and {da Costa}, L. and {Prada}, F. and 
+	{Zhu}, G.~B. and {Benoit-Levy}, A. and {De La Macora}, A. and 
+	{Kuropatkin}, N. and {Lin}, H. and {Abbott}, T.~M.~C. and {Allam}, S. and 
+	{Banerji}, M. and {Bertin}, E. and {Brooks}, D. and {Capozzi}, D. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
+	{Cunha}, C.~E. and {Desai}, S. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Estrada}, J. and {Fausti Neto}, A. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Lahav}, O. and {Li}, T.~S. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and {Miquel}, R. and 
+	{Percival}, W.~J. and {Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Rykoff}, E.~S. and {Sako}, M. and {Sanchez}, E. and 
+	{Santiago}, B. and {Scarpine}, V. and {Sevilla-Noarbe}, I. and 
+	{Soares Santos}, M. and {Suchyta}, E. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Walker}, A. and {Zhang}, Y. and {Brownstein}, J.
+	},
+    title = "{Photometric redshifts and clustering of emission line galaxies selected jointly by DES and eBOSS}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1509.07121},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150907121J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150905045C,
+   author = {{Comparat}, J. and {Delubac}, T. and {Jouvel}, S. and {Raichoor}, A. and 
+	{Kneib}, J. and {Yeche}, C. and {Abdalla}, F.~B. and {Le Cras}, C. and 
+	{Maraston}, C. and {Wilkinson}, D.~M. and {Zhu}, G. and {Jullo}, E. and 
+	{Prada}, F. and {Schlegel}, D. and {Xu}, Z. and {Zou}, H. and 
+	{Bautista}, J. and {Bizyaev}, D. and {Bolton}, A. and {Brownstein}, J.~R. and 
+	{Dawson}, K.~S. and {Gaulme}, S.~E.~P. and {Kinemuchi}, K. and 
+	{Malanushenko}, E. and {Malanushenko}, V. and {Mariappan}, V. and 
+	{Newman}, J.~A. and {Oravetz}, D. and {Pan}, K. and {Percival}, W.~J. and 
+	{Prakash}, A. and {Schneider}, D.~P. and {Simmons}, A. and {Allam}, T.~M.~C.~A.~S. and 
+	{Banerji}, M. and {Benoit-L{\'e}vy}, A. and {Bertin}, E. and 
+	{Brooks}, D. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
+	{Cunha}, C.~E. and {da Costa}, L.~N. and {Desai}, S. and {Doel}, P. and 
+	{Eifler}, T.~F. and {Estrada}, J. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and 
+	{Miquel}, R. and {Plazas}, A.~A. and {Reil}, K. and {Roe}, N. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Rykoff}, E.~S. and {Sako}, M. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Sevilla-Noarbe}, I. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Thomas}, D. and 
+	{Walker}, A.~R. and {Zhang}, Y.},
+    title = "{The SDSS-IV eBOSS emission-line galaxy pilot survey}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1509.05045},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+     year = 2015,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150905045C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150904283B,
+   author = {{Balbinot}, E. and {Yanny}, B. and {Li}, T.~S. and {Santiago}, B. and 
+	{Marshall}, J.~L. and {Finley}, D.~A. and {Pieres}, A. and {Abbott}, T.~M.~C. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bernstein}, G.~M. and {Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Cunha}, C.~E. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and {Estrada}, J. and 
+	{Flaugher}, B. and {Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Honscheid}, K. and {James}, D.~J. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {March}, M. and 
+	{Martini}, P. and {Miquel}, R. and {Nichol}, R.~C. and {Ogando}, R. and 
+	{Romer}, A.~K. and {Sanchez}, E. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Tarle}, G. and {Thomas}, D. and {Tucker}, D. and 
+	{Walker}, A.~R.},
+    title = "{The Phoenix stream: a cold stream in the Southern hemisphere}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1509.04283},
+ keywords = {Astrophysics - Astrophysics of Galaxies},
+     year = 2015,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150904283B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150802381L,
+   author = {{Luque}, E. and {Queiroz}, A. and {Santiago}, B. and {Pieres}, A. and 
+	{Balbinot}, E. and {Bechtol}, K. and {Drlica-Wagner}, A. and 
+	{Fausti Neto}, A. and {da Costa}, L.~N. and {Maia}, M.~A.~G. and 
+	{Yanny}, B. and {Abbott}, T. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Cunha}, C.~E. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
+	{Eifler}, T.~F. and {Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Lahav}, O. and {Li}, T.~S. and {March}, M. and {Marshall}, J.~L. and 
+	{Martini}, P. and {Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Tucker}, D. and {Walker}, A.~R. and 
+	{Zhang}, Y.},
+    title = "{Digging deeper into the Southern skies: a compact Milky-Way companion discovered in first-year Dark Energy Survey data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1508.02381},
+ keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar Astrophysics},
+     year = 2015,
+    month = aug,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150802381L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015PhRvL.115e1301C,
+   author = {{Chang}, C. and {Vikram}, V. and {Jain}, B. and {Bacon}, D. and 
+	{Amara}, A. and {Becker}, M.~R. and {Bernstein}, G. and {Bonnett}, C. and 
+	{Bridle}, S. and {Brout}, D. and {Busha}, M. and {Frieman}, J. and 
+	{Gaztanaga}, E. and {Hartley}, W. and {Jarvis}, M. and {Kacprzak}, T. and 
+	{Kov{\'a}cs}, A. and {Lahav}, O. and {Lin}, H. and {Melchior}, P. and 
+	{Peiris}, H. and {Rozo}, E. and {Rykoff}, E. and {S{\'a}nchez}, C. and 
+	{Sheldon}, E. and {Troxel}, M.~A. and {Wechsler}, R. and {Zuntz}, J. and 
+	{Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and 
+	{Bauer}, A.~H. and {Benoit-L{\'e}vy}, A. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Castander}, F.~J. and 
+	{Crocce}, M. and {D'Andrea}, C.~B. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Dietrich}, J.~P. and {Doel}, P. and {Eifler}, T.~F. and {Evrard}, A.~E. and 
+	{Fausti Neto}, A. and {Flaugher}, B. and {Fosalba}, P. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D. and {Kent}, S. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Martini}, P. and {Merritt}, K.~W. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Sako}, M. and {Sanchez}, E. and {Sevilla}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Tucker}, D. and 
+	{Walker}, A.~R.},
+    title = "{Wide-Field Lensing Mass Maps from Dark Energy Survey Science Verification Data}",
+  journal = {Physical Review Letters},
+archivePrefix = "arXiv",
+   eprint = {1505.01871},
+ keywords = {Gravitational lenses and luminous arcs, Astronomical catalogs atlases sky surveys databases retrieval systems archives etc., Visible, Galaxy groups clusters and superclusters, large scale structure of the Universe},
+     year = 2015,
+    month = jul,
+   volume = 115,
+   number = 5,
+      eid = {051301},
+    pages = {051301},
+      doi = {10.1103/PhysRevLett.115.051301},
+   adsurl = {http://adsabs.harvard.edu/abs/2015PhRvL.115e1301C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015PhRvD..92b2006V,
+   author = {{Vikram}, V. and {Chang}, C. and {Jain}, B. and {Bacon}, D. and 
+	{Amara}, A. and {Becker}, M.~R. and {Bernstein}, G. and {Bonnett}, C. and 
+	{Bridle}, S. and {Brout}, D. and {Busha}, M. and {Frieman}, J. and 
+	{Gaztanaga}, E. and {Hartley}, W. and {Jarvis}, M. and {Kacprzak}, T. and 
+	{Kov{\'a}cs}, A. and {Lahav}, O. and {Leistedt}, B. and {Lin}, H. and 
+	{Melchior}, P. and {Peiris}, H. and {Rozo}, E. and {Rykoff}, E. and 
+	{S{\'a}nchez}, C. and {Sheldon}, E. and {Troxel}, M.~A. and 
+	{Wechsler}, R. and {Zuntz}, J. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Armstrong}, R. and {Banerji}, M. and {Bauer}, A.~H. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Capozzi}, D. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Castander}, F.~J. and {Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Dietrich}, J.~P. and {Estrada}, J. and {Evrard}, A.~E. and 
+	{Fausti Neto}, A. and {Fernandez}, E. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Gerdes}, D. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Honscheid}, K. and {James}, D. and {Kent}, S. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Li}, T.~S. and {Maia}, M.~A.~G. and {Makler}, M. and 
+	{March}, M. and {Marshall}, J. and {Martini}, P. and {Merritt}, K.~W. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Sanchez}, E. and {Scarpine}, V. and {Sevilla}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Thomas}, D. and {Walker}, A.~R. and {Weller}, J.},
+    title = "{Wide-field lensing mass maps from Dark Energy Survey science verification data: Methodology and detailed analysis}",
+  journal = {\prd},
+archivePrefix = "arXiv",
+   eprint = {1504.03002},
+ keywords = {Astronomical catalogs atlases sky surveys databases retrieval systems archives etc., Visible, Cosmology},
+     year = 2015,
+    month = jul,
+   volume = 92,
+   number = 2,
+      eid = {022006},
+    pages = {022006},
+      doi = {10.1103/PhysRevD.92.022006},
+   adsurl = {http://adsabs.harvard.edu/abs/2015PhRvD..92b2006V},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705909B,
+   author = {{Bonnett}, C. and {Troxel}, M.~A. and {Hartley}, W. and {Amara}, A. and 
+	{Leistedt}, B. and {Becker}, M.~R. and {Bernstein}, G.~M. and 
+	{Bridle}, S. and {Bruderer}, C. and {Busha}, M.~T. and {Carrasco Kind}, M. and 
+	{Childress}, M.~J. and {Castander}, F.~J. and {Chang}, C. and 
+	{Crocce}, M. and {Davis}, T.~M. and {Eifler}, T.~F. and {Frieman}, J. and 
+	{Gangkofner}, C. and {Gaztanaga}, E. and {Glazebrook}, K. and 
+	{Gruen}, D. and {Kacprzak}, T. and {King}, A. and {Kwan}, J. and 
+	{Lahav}, O. and {Lewis}, G. and {Lidman}, C. and {Lin}, H. and 
+	{MacCrann}, N. and {Miquel}, R. and {O'Neill}, C.~R. and {Palmese}, A. and 
+	{Peiris}, H.~V. and {Refregier}, A. and {Rozo}, E. and {Rykoff}, E.~S. and 
+	{Sadeh}, I. and {S{\'a}nchez}, C. and {Sheldon}, E. and {Uddin}, S. and 
+	{Wechsler}, R.~H. and {Zuntz}, J. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Armstrong}, R. and {Banerji}, M. and {Bauer}, A.~H. and 
+	{Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Fausti Neto}, A. and {Fernandez}, E. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Gerdes}, D.~W. and {Gruendl}, R.~A. and {Honscheid}, K. and 
+	{Jain}, B. and {James}, D.~J. and {Jarvis}, M. and {Kim}, A.~G. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Li}, T.~S. and {Lima}, M. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and {Martini}, P. and 
+	{Melchior}, P. and {Miller}, C.~J. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Reil}, K. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Santiago}, B. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Vikram}, V. and 
+	{Walker}, A.~R.},
+    title = "{Redshift distributions of galaxies in the DES Science Verification shear catalogue and implications for weak lensing}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05909},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705909B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705647L,
+   author = {{Leistedt}, B. and {Peiris}, H.~V. and {Elsner}, F. and {Benoit-L{\'e}vy}, A. and 
+	{Amara}, A. and {Bauer}, A.~H. and {Becker}, M.~R. and {Bonnett}, C. and 
+	{Bruderer}, C. and {Busha}, M.~T. and {Carrasco Kind}, M. and 
+	{Chang}, C. and {Crocce}, M. and {da Costa}, L.~N. and {Gaztanaga}, E. and 
+	{Huff}, E.~M. and {Lahav}, O. and {Palmese}, A. and {Percival}, W.~J. and 
+	{Refregier}, A. and {Ross}, A.~J. and {Rozo}, E. and {Rykoff}, E.~S. and 
+	{S{\'a}nchez}, C. and {Sadeh}, I. and {Sevilla-Noarbe}, I. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Wechsler}, R.~H. and {Abdalla}, F.~B. and {Allam}, S. and {Banerji}, M. and 
+	{Bernstein}, G.~M. and {Bernstein}, R.~A. and {Bertin}, E. and 
+	{Bridle}, S.~L. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Burke}, D.~L. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carretero}, J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and 
+	{Eifler}, T.~F. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and {Gerdes}, D.~W. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Jarvis}, M. and {Kent}, S. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and 
+	{March}, M. and {Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Nichol}, R.~C. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and 
+	{Roodman}, A. and {Sanchez}, E. and {Santiago}, B. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Vikram}, V. and 
+	{Walker}, A.~R. and {Wester}, W. and {Zhang}, Y. and {Zuntz}, J.
+	},
+    title = "{Mapping and simulating systematics due to spatially-varying observing conditions in DES Science Verification data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05647},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705647L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705603J,
+   author = {{Jarvis}, M. and {Sheldon}, E. and {Zuntz}, J. and {Kacprzak}, T. and 
+	{Bridle}, S.~L. and {Amara}, A. and {Armstrong}, R. and {Becker}, M.~R. and 
+	{Bernstein}, G.~M. and {Bonnett}, C. and {Chang}, C. and {Das}, R. and 
+	{Dietrich}, J.~P. and {Drlica-Wagner}, A. and {Eifler}, T.~F. and 
+	{Gangkofner}, C. and {Gruen}, D. and {Hirsch}, M. and {Huff}, E.~M. and 
+	{Jain}, B. and {Kent}, S. and {Kirk}, D. and {MacCrann}, N. and 
+	{Melchior}, P. and {Plazas}, A.~A. and {Refregier}, A. and {Rowe}, B. and 
+	{Rykoff}, E.~S. and {Samuroff}, S. and {S{\'a}nchez}, C. and 
+	{Suchyta}, E. and {Troxel}, M.~A. and {Vikram}, V. and {Abbott}, T. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Capozzi}, D. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Carretero}, J. and {Castander}, F.~J. and {Crocce}, M. and 
+	{Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and 
+	{Fausti Neto}, A. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
+	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruendl}, R.~A. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and {Lima}, M. and 
+	{March}, M. and {Martini}, P. and {Miquel}, R. and {Mohr}, J.~J. and 
+	{Neilsen}, E. and {Nord}, B. and {Ogando}, R. and {Reil}, K. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Thomas}, D. and 
+	{Walker}, A.~R. and {Wechsler}, R.~H.},
+    title = "{The DES Science Verification Weak Lensing Shear Catalogs}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05603},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics, Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705603J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705598B,
+   author = {{Becker}, M.~R. and {Troxel}, M.~A. and {MacCrann}, N. and {Krause}, E. and 
+	{Eifler}, T.~F. and {Friedrich}, O. and {Nicola}, A. and {Refregier}, A. and 
+	{Amara}, A. and {Bacon}, D. and {Bernstein}, G.~M. and {Bonnett}, C. and 
+	{Bridle}, S.~L. and {Busha}, M.~T. and {Chang}, C. and {Dodelson}, S. and 
+	{Erickson}, B. and {Evrard}, A.~E. and {Frieman}, J. and {Gaztanaga}, E. and 
+	{Gruen}, D. and {Hartley}, W. and {Jain}, B. and {Jarvis}, M. and 
+	{Kacprzak}, T. and {Kirk}, D. and {Kravtsov}, A. and {Leistedt}, B. and 
+	{Rykoff}, E.~S. and {Sabiu}, C. and {Sanchez}, C. and {Seo}, H. and 
+	{Sheldon}, E. and {Wechsler}, R.~H. and {Zuntz}, J. and {Abbott}, T. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Armstrong}, R. and {Banerji}, M. and 
+	{Bauer}, A.~H. and {Benoit-Levy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Capozzi}, D. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Castander}, F.~J. and {Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{da Costa}, L.~N. and {DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Dietrich}, J.~P. and {Doel}, P. and {Fausti Neto}, A. and {Fernandez}, E. and 
+	{Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and {Gerdes}, D.~W. and 
+	{Gruendl}, R.~A. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Martini}, P. and {Melchior}, P. and {Miller}, C.~J. and {Miquel}, R. and 
+	{Mohr}, J.~J. and {Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Reil}, K. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thaler}, J. and {Thomas}, D. and {Vikram}, V. and 
+	{Walker}, A.~R. and {The DES Collaboration}},
+    title = "{Cosmic Shear Measurements with DES Science Verification Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05598},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705598B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705552T,
+   author = {{The Dark Energy Survey Collaboration} and {Abbott}, T. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Amara}, A. and {Annis}, J. and 
+	{Armstrong}, R. and {Bacon}, D. and {Banerji}, M. and {Bauer}, A.~H. and 
+	{Baxter}, E. and {Becker}, M.~R. and {Benoit-L{\'e}vy}, A. and 
+	{Bernstein}, R.~A. and {Bernstein}, G.~M. and {Bertin}, E. and 
+	{Blazek}, J. and {Bonnett}, C. and {Bridle}, S.~L. and {Brooks}, D. and 
+	{Bruderer}, C. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Busha}, M.~T. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
+	{Chang}, C. and {Clampitt}, J. and {Crocce}, M. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Das}, R. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Dodelson}, S. and 
+	{Doel}, P. and {Drlica-Wagner}, A. and {Efstathiou}, G. and 
+	{Eifler}, T.~F. and {Erickson}, B. and {Estrada}, J. and {Evrard}, A.~E. and 
+	{Fausti Neto}, A. and {Fernandez}, E. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Friedrich}, O. and {Frieman}, J. and 
+	{Gangkofner}, C. and {Garcia-Bellido}, J. and {Gaztanaga}, E. and 
+	{Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and 
+	{Hartley}, W. and {Hirsch}, M. and {Honscheid}, K. and {Huff}, E.~M. and 
+	{Jain}, B. and {James}, D.~J. and {Jarvis}, M. and {Kacprzak}, T. and 
+	{Kent}, S. and {Kirk}, D. and {Krause}, E. and {Kravtsov}, A. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Kwan}, J. and {Lahav}, O. and 
+	{Leistedt}, B. and {Li}, T.~S. and {Lima}, M. and {Lin}, H. and 
+	{MacCrann}, N. and {March}, M. and {Marshall}, J.~L. and {Martini}, P. and 
+	{McMahon}, R.~G. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Mohr}, J.~J. and {Neilsen}, E. and {Nichol}, R.~C. and 
+	{Nicola}, A. and {Nord}, B. and {Ogando}, R. and {Palmese}, A. and 
+	{Peiris}, H.~V. and {Plazas}, A.~A. and {Refregier}, A. and 
+	{Roe}, N. and {Romer}, A.~K. and {Roodman}, A. and {Rowe}, B. and 
+	{Rykoff}, E.~S. and {Sabiu}, C. and {Sadeh}, I. and {Sako}, M. and 
+	{Samuroff}, S. and {S{\'a}nchez}, C. and {Sanchez}, E. and {Seo}, H. and 
+	{Sevilla-Noarbe}, I. and {Sheldon}, E. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Thomas}, D. and 
+	{Troxel}, M.~A. and {Vikram}, V. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
+	{Weller}, J. and {Zhang}, Y. and {Zuntz}, J.},
+    title = "{Cosmology from Cosmic Shear with DES Science Verification Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05552},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705552T},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705460R,
+   author = {{Rozo}, E. and {Rykoff}, E.~S. and {Abate}, A. and {Bonnett}, C. and 
+	{Crocce}, M. and {Davis}, C. and {Hoyle}, B. and {Leistedt}, B. and 
+	{Peiris}, H.~V. and {Wechsler}, R.~H. and {Abbott}, T. and {Abdalla}, F.~B. and 
+	{Banerji}, M. and {Bauer}, A.~H. and {Benoit-L{\'e}vy}, A. and 
+	{Bernstein}, G.~M. and {Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and 
+	{Burke}, D.~L. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carollo}, D. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Castander}, F.~J. and {Childress}, M.~J. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {Davis}, T. and {DePoy}, D.~L. and {Desai}, S. and 
+	{Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Evrard}, A.~E. and {Fausti Neto}, A. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Frieman}, J. and {Gaztanaga}, E. and {Gerdes}, D.~W. and 
+	{Glazebrook}, K. and {Gruen}, D. and {Gruendl}, R.~A. and {Honscheid}, K. and 
+	{James}, D.~J. and {Jarvis}, M. and {Kim}, A.~G. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Lidman}, C. and {Lima}, M. and 
+	{Maia}, M.~A.~G. and {March}, M. and {Martini}, P. and {Melchior}, P. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and 
+	{Nord}, B. and {O'Neill}, C.~R. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Sako}, M. and {Sanchez}, E. and 
+	{Santiago}, B. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Thaler}, J. and {Thomas}, D. and 
+	{Uddin}, S. and {Vikram}, V. and {Walker}, A.~R. and {Wester}, W. and 
+	{Zhang}, Y. and {da Costa}, L.~N.},
+    title = "{redMaGiC: Selecting Luminous Red Galaxies from the DES Science Verification Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05460},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics, Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705460R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150705353P,
+   author = {{Park}, Y. and {Krause}, E. and {Dodelson}, S. and {Jain}, B. and 
+	{Amara}, A. and {Becker}, M.~R. and {Bridle}, S.~L. and {Clampitt}, J. and 
+	{Crocce}, M. and {Fosalba}, P. and {Gaztanaga}, E. and {Honscheid}, K. and 
+	{Rozo}, E. and {Sobreira}, F. and {S{\'a}nchez}, C. and {Wechsler}, R.~H. and 
+	{Abbott}, T. and {Abdalla}, F.~B and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{Castander}, F.~J. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Dietrich}, J.~P. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Fausti Neto}, A. and {Fernandez}, E. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gutierrez}, G. and {James}, D.~J. and {Kent}, S. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lima}, M. and {Maia}, M.~A.~G. and {Marshall}, J.~L. and 
+	{Melchior}, P. and {Miller}, C.~J. and {Miquel}, R. and {Nichol}, R.~C. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Roe}, N. and {Romer}, A.~K. and 
+	{Rykoff}, E.~S. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Soares-Santos}, M. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Vikram}, V. and 
+	{Walker}, A.~R. and {Weller}, J. and {Zuntz}, J.},
+    title = "{Joint Analysis of Galaxy-Galaxy Lensing and Galaxy Clustering: Methodology and Forecasts for DES}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1507.05353},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2015,
+    month = jul,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150705353P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015ApJ...808...95S,
+   author = {{Simon}, J.~D. and {Drlica-Wagner}, A. and {Li}, T.~S. and {Nord}, B. and 
+	{Geha}, M. and {Bechtol}, K. and {Balbinot}, E. and {Buckley-Geer}, E. and 
+	{Lin}, H. and {Marshall}, J. and {Santiago}, B. and {Strigari}, L. and 
+	{Wang}, M. and {Wechsler}, R.~H. and {Yanny}, B. and {Abbott}, T. and 
+	{Bauer}, A.~H. and {Bernstein}, G.~M. and {Bertin}, E. and {Brooks}, D. and 
+	{Burke}, D.~L. and {Capozzi}, D. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Dodelson}, S. and 
+	{Cunha}, C.~E. and {Estrada}, J. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
+	{Fernandez}, E. and {Finley}, D.~A. and {Flaugher}, B. and {Frieman}, J. and 
+	{Gaztanaga}, E. and {Gerdes}, D. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Honscheid}, K. and {James}, D. and {Kent}, S. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Martini}, P. and {Miller}, C.~J. and {Miquel}, R. and {Ogando}, R. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Rykoff}, E.~S. and {Sako}, M. and 
+	{Sanchez}, E. and {Schubnell}, M. and {Sevilla}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Tucker}, D. and 
+	{Vikram}, V. and {Walker}, A.~R. and {Wester}, W. and {DES Collaboration}
+	},
+    title = "{Stellar Kinematics and Metallicities in the Ultra-faint Dwarf Galaxy Reticulum II}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1504.02889},
+ keywords = {dark matter, galaxies: dwarf, galaxies: individual: Reticulum II, galaxies: stellar content, Local Group, stars: abundances},
+     year = 2015,
+    month = jul,
+   volume = 808,
+      eid = {95},
+    pages = {95},
+      doi = {10.1088/0004-637X/808/1/95},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ApJ...808...95S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015APh....65..112N,
+   author = {{Newman}, J.~A. and {Abate}, A. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Allen}, S.~W. and {Ansari}, R. and {Bailey}, S. and {Barkhouse}, W.~A. and 
+	{Beers}, T.~C. and {Blanton}, M.~R. and {Brodwin}, M. and {Brownstein}, J.~R. and 
+	{Brunner}, R.~J. and {Carrasco Kind}, M. and {Cervantes-Cota}, J.~L. and 
+	{Cheu}, E. and {Chisari}, N.~E. and {Colless}, M. and {Comparat}, J. and 
+	{Coupon}, J. and {Cunha}, C.~E. and {de la Macorra}, A. and 
+	{Dell'Antonio}, I.~P. and {Frye}, B.~L. and {Gawiser}, E.~J. and 
+	{Gehrels}, N. and {Grady}, K. and {Hagen}, A. and {Hall}, P.~B. and 
+	{Hearin}, A.~P. and {Hildebrandt}, H. and {Hirata}, C.~M. and 
+	{Ho}, S. and {Honscheid}, K. and {Huterer}, D. and {Ivezi{\'c}}, {\v Z}. and 
+	{Kneib}, J.-P. and {Kruk}, J.~W. and {Lahav}, O. and {Mandelbaum}, R. and 
+	{Marshall}, J.~L. and {Matthews}, D.~J. and {M{\'e}nard}, B. and 
+	{Miquel}, R. and {Moniez}, M. and {Moos}, H.~W. and {Moustakas}, J. and 
+	{Myers}, A.~D. and {Papovich}, C. and {Peacock}, J.~A. and {Park}, C. and 
+	{Rahman}, M. and {Rhodes}, J. and {Ricol}, J.-S. and {Sadeh}, I. and 
+	{Slozar}, A. and {Schmidt}, S.~J. and {Stern}, D.~K. and {Anthony Tyson}, J. and 
+	{von der Linden}, A. and {Wechsler}, R.~H. and {Wood-Vasey}, W.~M. and 
+	{Zentner}, A.~R.},
+    title = "{Corrigendum to ''Spectroscopic needs for imaging dark energy experiments'' [Astropart. Phys. 63 (2015) 81-100]}",
+  journal = {Astroparticle Physics},
+     year = 2015,
+    month = may,
+   volume = 65,
+    pages = {112-113},
+      doi = {10.1016/j.astropartphys.2014.12.008},
+   adsurl = {http://adsabs.harvard.edu/abs/2015APh....65..112N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015arXiv150402996P,
+   author = {{Poci}, A. and {Kuehn}, K. and {the DES Collaboration} and {:} and 
+	{Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and {Bauer}, A.~H. and 
+	{Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Brown}, P.~J. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Covarrubias}, R. and 
+	{da Costa}, L.~N. and {D'Andrea}, C.~B. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Dietrich}, J.~P. and {Cunha}, C.~E and {Eifler}, T.~F. and 
+	{Estrada}, J. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
+	{Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
+	{Gerdes}, D. and {Gruen}, D. and {Gruendl}, R.~A. and {Honscheid}, K. and 
+	{James}, D. and {Kuropatkin}, N. and {Lahav}, O. and {Li}, T.~S. and 
+	{March}, M. and {Marshall}, J. and {Merritt}, K.~W. and {Miller}, C.~J. and 
+	{Nichol}, R.~C. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Roodman}, A. and {Rykoff}, E.~S. and {Sako}, M. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla}, I. and 
+	{Smith}, C. and {Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Thomas}, R.~C. and 
+	{Tucker}, D. and {Walker}, A.~R. and {Wester}, W.},
+    title = "{DESAlert: Enabling Real-Time Transient Follow-Up with Dark Energy Survey Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1504.02996},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2015,
+    month = apr,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150402996P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015APh....63...81N,
+   author = {{Newman}, J.~A. and {Abate}, A. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Allen}, S.~W. and {Ansari}, R. and {Bailey}, S. and {Barkhouse}, W.~A. and 
+	{Beers}, T.~C. and {Blanton}, M.~R. and {Brodwin}, M. and {Brownstein}, J.~R. and 
+	{Brunner}, R.~J. and {Carrasco Kind}, M. and {Cervantes-Cota}, J.~L. and 
+	{Cheu}, E. and {Chisari}, N.~E. and {Colless}, M. and {Comparat}, J. and 
+	{Coupon}, J. and {Cunha}, C.~E. and {de la Macorra}, A. and 
+	{Dell'Antonio}, I.~P. and {Frye}, B.~L. and {Gawiser}, E.~J. and 
+	{Gehrels}, N. and {Grady}, K. and {Hagen}, A. and {Hall}, P.~B. and 
+	{Hearin}, A.~P. and {Hildebrandt}, H. and {Hirata}, C.~M. and 
+	{Ho}, S. and {Honscheid}, K. and {Huterer}, D. and {Ivezi{\'c}}, {\v Z}. and 
+	{Kneib}, J.-P. and {Kruk}, J.~W. and {Lahav}, O. and {Mandelbaum}, R. and 
+	{Marshall}, J.~L. and {Matthews}, D.~J. and {M{\'e}nard}, B. and 
+	{Miquel}, R. and {Moniez}, M. and {Moos}, H.~W. and {Moustakas}, J. and 
+	{Myers}, A.~D. and {Papovich}, C. and {Peacock}, J.~A. and {Park}, C. and 
+	{Rahman}, M. and {Rhodes}, J. and {Ricol}, J.-S. and {Sadeh}, I. and 
+	{Slozar}, A. and {Schmidt}, S.~J. and {Stern}, D.~K. and {Anthony Tyson}, J. and 
+	{von der Linden}, A. and {Wechsler}, R.~H. and {Wood-Vasey}, W.~M. and 
+	{Zentner}, A.~R.},
+    title = "{Spectroscopic needs for imaging dark energy experiments}",
+  journal = {Astroparticle Physics},
+     year = 2015,
+    month = mar,
+   volume = 63,
+    pages = {81-100},
+      doi = {10.1016/j.astropartphys.2014.06.007},
+   adsurl = {http://adsabs.harvard.edu/abs/2015APh....63...81N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015MNRAS.446.2523B,
+   author = {{Banerji}, M. and {Jouvel}, S. and {Lin}, H. and {McMahon}, R.~G. and 
+	{Lahav}, O. and {Castander}, F.~J. and {Abdalla}, F.~B. and 
+	{Bertin}, E. and {Bosman}, S.~E. and {Carnero}, A. and {Kind}, M.~C. and 
+	{da Costa}, L.~N. and {Gerdes}, D. and {Gschwend}, J. and {Lima}, M. and 
+	{Maia}, M.~A.~G. and {Merson}, A. and {Miller}, C. and {Ogando}, R. and 
+	{Pellegrini}, P. and {Reed}, S. and {Saglia}, R. and {S{\'a}nchez}, C. and 
+	{Allam}, S. and {Annis}, J. and {Bernstein}, G. and {Bernstein}, J. and 
+	{Bernstein}, R. and {Capozzi}, D. and {Childress}, M. and {Cunha}, C.~E. and 
+	{Davis}, T.~M. and {DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and 
+	{Doel}, P. and {Findlay}, J. and {Finley}, D.~A. and {Flaugher}, B. and 
+	{Frieman}, J. and {Gaztanaga}, E. and {Glazebrook}, K. and {Gonz{\'a}lez-Fern{\'a}ndez}, C. and 
+	{Gonzalez-Solares}, E. and {Honscheid}, K. and {Irwin}, M.~J. and 
+	{Jarvis}, M.~J. and {Kim}, A. and {Koposov}, S. and {Kuehn}, K. and 
+	{Kupcu-Yoldas}, A. and {Lagattuta}, D. and {Lewis}, J.~R. and 
+	{Lidman}, C. and {Makler}, M. and {Marriner}, J. and {Marshall}, J.~L. and 
+	{Miquel}, R. and {Mohr}, J.~J. and {Neilsen}, E. and {Peoples}, J. and 
+	{Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and {Schindler}, R. and 
+	{Schubnell}, M. and {Sevilla}, I. and {Sharp}, R. and {Soares-Santos}, M. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and {Tucker}, D. and 
+	{Uddin}, S.~A. and {Wechsler}, R. and {Wester}, W. and {Yuan}, F. and 
+	{Zuntz}, J.},
+    title = "{Combining Dark Energy Survey Science Verification data with near-infrared data from the ESO VISTA Hemisphere Survey}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1407.3801},
+ keywords = {catalogues, surveys, galaxies: distances and redshifts, galaxies: photometry, quasars: general},
+     year = 2015,
+    month = jan,
+   volume = 446,
+    pages = {2523-2539},
+      doi = {10.1093/mnras/stu2261},
+   adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.446.2523B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2015AAS...22525518A,
+   author = {{Awan}, H. and {Gawiser}, E.~J. and {Kurczynski}, P. and {Carroll}, C.~M. and 
+	{LSST Dark Energy Science Collaboration}},
+    title = "{Optimizing the LSST Dither Pattern for Survey Uniformity}",
+booktitle = {American Astronomical Society Meeting Abstracts},
+     year = 2015,
+   series = {American Astronomical Society Meeting Abstracts},
+   volume = 225,
+    month = jan,
+      eid = {255.18},
+    pages = {255.18},
+   adsurl = {http://adsabs.harvard.edu/abs/2015AAS...22525518A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014MNRAS.445.1482S,
+   author = {{S{\'a}nchez}, C. and {Carrasco Kind}, M. and {Lin}, H. and 
+	{Miquel}, R. and {Abdalla}, F.~B. and {Amara}, A. and {Banerji}, M. and 
+	{Bonnett}, C. and {Brunner}, R. and {Capozzi}, D. and {Carnero}, A. and 
+	{Castander}, F.~J. and {da Costa}, L.~A.~N. and {Cunha}, C. and 
+	{Fausti}, A. and {Gerdes}, D. and {Greisel}, N. and {Gschwend}, J. and 
+	{Hartley}, W. and {Jouvel}, S. and {Lahav}, O. and {Lima}, M. and 
+	{Maia}, M.~A.~G. and {Mart{\'{\i}}}, P. and {Ogando}, R.~L.~C. and 
+	{Ostrovski}, F. and {Pellegrini}, P. and {Rau}, M.~M. and {Sadeh}, I. and 
+	{Seitz}, S. and {Sevilla-Noarbe}, I. and {Sypniewski}, A. and 
+	{de Vicente}, J. and {Abbot}, T. and {Allam}, S.~S. and {Atlee}, D. and 
+	{Bernstein}, G. and {Bernstein}, J.~P. and {Buckley-Geer}, E. and 
+	{Burke}, D. and {Childress}, M.~J. and {Davis}, T. and {DePoy}, D.~L. and 
+	{Dey}, A. and {Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and 
+	{Estrada}, J. and {Evrard}, A. and {Fern{\'a}ndez}, E. and {Finley}, D. and 
+	{Flaugher}, B. and {Frieman}, J. and {Gaztanaga}, E. and {Glazebrook}, K. and 
+	{Honscheid}, K. and {Kim}, A. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Lidman}, C. and {Makler}, M. and {Marshall}, J.~L. and {Nichol}, R.~C. and 
+	{Roodman}, A. and {S{\'a}nchez}, E. and {Santiago}, B.~X. and 
+	{Sako}, M. and {Scalzo}, R. and {Smith}, R.~C. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Tucker}, D.~L. and {Uddin}, S.~A. and 
+	{Vald{\'e}s}, F. and {Walker}, A. and {Yuan}, F. and {Zuntz}, J.
+	},
+    title = "{Photometric redshift analysis in the Dark Energy Survey Science Verification data}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1406.4407},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astronomical data bases: surveys, galaxies: distances and redshifts, galaxies: statistics, large-scale structure of Universe},
+     year = 2014,
+    month = dec,
+   volume = 445,
+    pages = {1482-1506},
+      doi = {10.1093/mnras/stu1836},
+   adsurl = {http://adsabs.harvard.edu/abs/2014MNRAS.445.1482S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014arXiv1410.4506S,
+   author = {{Schmidt}, S.~J. and {Newman}, J.~A. and {Abate}, A. and {the Spectroscopic Needs White Paper Team}
+	},
+    title = "{Spectroscopic Needs for Calibration of LSST Photometric Redshifts}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1410.4506},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics, Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2014,
+    month = oct,
+   adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1410.4506S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014arXiv1410.4498A,
+   author = {{Abate}, A. and {Newman}, J.~A. and {Schmidt}, S.~J. and {the Spectroscopic Needs White Paper team}
+	},
+    title = "{Spectroscopic Needs for Training of LSST Photometric Redshifts}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1410.4498},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics, Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2014,
+    month = oct,
+   adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1410.4498A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014MNRAS.442.3380C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{Exhausting the information: novel Bayesian combination of photometric redshift PDFs}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1403.0044},
+ keywords = {methods: data analysis, methods: statistical, surveys, galaxies: distances and redshifts, galaxies: statistics},
+     year = 2014,
+    month = aug,
+   volume = 442,
+    pages = {3380-3399},
+      doi = {10.1093/mnras/stu1098},
+   adsurl = {http://adsabs.harvard.edu/abs/2014MNRAS.442.3380C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014MNRAS.441.3550C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{Sparse representation of photometric redshift probability density functions: preparing for petascale astronomy}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1404.6442},
+ primaryClass = "astro-ph.IM",
+ keywords = {methods: data analysis, methods: statistical, astronomical data bases: miscellaneous, galaxies: distances and redshifts, galaxies: statistics},
+     year = 2014,
+    month = jul,
+   volume = 441,
+    pages = {3550-3561},
+      doi = {10.1093/mnras/stu827},
+   adsurl = {http://adsabs.harvard.edu/abs/2014MNRAS.441.3550C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014MNRAS.438.3409C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{SOMz: photometric redshift PDFs with self-organizing maps and random atlas}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1312.5753},
+ primaryClass = "astro-ph.IM",
+ keywords = {methods: data analysis, methods: statistical, surveys, galaxies: distances and redshifts, galaxies: statistics},
+     year = 2014,
+    month = mar,
+   volume = 438,
+    pages = {3409-3421},
+      doi = {10.1093/mnras/stt2456},
+   adsurl = {http://adsabs.harvard.edu/abs/2014MNRAS.438.3409C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@MISC{2014ascl.soft03003C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.},
+    title = "{MLZ: Machine Learning for photo-Z}",
+howpublished = {Astrophysics Source Code Library},
+     year = 2014,
+    month = mar,
+archivePrefix = "ascl",
+   eprint = {1403.003},
+   adsurl = {http://adsabs.harvard.edu/abs/2014ascl.soft03003C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2014AAS...22334308G,
+   author = {{Gawiser}, E.~J. and {Carroll}, C.~M. and {Kurczynski}, P. and 
+	{Jones}, R.~L. and {Sonawalla}, A. and {Bailey}, R. and {Krughoff}, K.~S. and 
+	{LSST Dark Energy Science Collaboration}},
+    title = "{Optimizing the LSST Dither Pattern for Dark Energy Studies}",
+booktitle = {American Astronomical Society Meeting Abstracts \#223},
+     year = 2014,
+   series = {American Astronomical Society Meeting Abstracts},
+   volume = 223,
+    month = jan,
+      eid = {343.08},
+    pages = {343.08},
+   adsurl = {http://adsabs.harvard.edu/abs/2014AAS...22334308G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2013ASPC..475...69C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{Implementing Probabilistic Photometric Redshifts}",
+booktitle = {Astronomical Data Analysis Software and Systems XXII},
+     year = 2013,
+   series = {Astronomical Society of the Pacific Conference Series},
+   volume = 475,
+   editor = {{Friedel}, D.~N.},
+    month = oct,
+    pages = {69},
+   adsurl = {http://adsabs.harvard.edu/abs/2013ASPC..475...69C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013arXiv1309.5384N,
+   author = {{Newman}, J. and {Abate}, A. and {Abdalla}, F. and {Allam}, S. and 
+	{Allen}, S. and {Ansari}, R. and {Bailey}, S. and {Barkhouse}, W. and 
+	{Beers}, T. and {Blanton}, M. and {Brodwin}, M. and {Brownstein}, J. and 
+	{Brunner}, R. and {Carrasco-Kind}, M. and {Cervantes-Cota}, J. and 
+	{Chisari}, E. and {Colless}, M. and {Comparat}, J. and {Coupon}, J. and 
+	{Cheu}, E. and {Cunha}, C. and {de la Macorra}, A. and {Dell'Antonio}, I. and 
+	{Frye}, B. and {Gawiser}, E. and {Gehrels}, N. and {Grady}, K. and 
+	{Hagen}, A. and {Hall}, P. and {Hearin}, A. and {Hildebrandt}, H. and 
+	{Hirata}, C. and {Ho}, S. and {Honscheid}, K. and {Huterer}, D. and 
+	{Ivezic}, Z. and {Kneib}, J.-P. and {Kruk}, J. and {Lahav}, O. and 
+	{Mandelbaum}, R. and {Marshall}, J. and {Matthews}, D. and {M{\'e}nard}, B. and 
+	{Miquel}, R. and {Moniez}, M. and {Moos}, W. and {Moustakas}, J. and 
+	{Papovich}, C. and {Peacock}, J. and {Park}, C. and {Rhodes}, J. and 
+	{Ricol}, J. and {Sadeh}, I. and {Slozar}, A. and {Schmidt}, S. and 
+	{Stern}, D. and {Tyson}, T. and {von der Linden}, A. and {Wechsler}, R. and 
+	{Wood-Vasey}, W. and {Zentner}, A.},
+    title = "{Spectroscopic Needs for Imaging Dark Energy Experiments: Photometric Redshift Training and Calibration}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1309.5384},
+ primaryClass = "astro-ph.CO",
+ keywords = {Astrophysics - Cosmology and Extragalactic Astrophysics},
+     year = 2013,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1309.5384N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013MNRAS.432.1483C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{TPZ: photometric redshift PDFs and ancillary information by using prediction trees and random forests}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1303.7269},
+ keywords = {methods: data analysis, methods: statistical, surveys, galaxies: distances and redshift, galaxies: statistics},
+     year = 2013,
+    month = jun,
+   volume = 432,
+    pages = {1483-1501},
+      doi = {10.1093/mnras/stt574},
+   adsurl = {http://adsabs.harvard.edu/abs/2013MNRAS.432.1483C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2013AAS...22211901C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{Precision Cosmology with a New Probabilistic Photometric Redshifts Approach}",
+booktitle = {American Astronomical Society Meeting Abstracts},
+     year = 2013,
+   series = {American Astronomical Society Meeting Abstracts},
+   volume = 222,
+    month = jun,
+      eid = {119.01},
+    pages = {119.01},
+   adsurl = {http://adsabs.harvard.edu/abs/2013AAS...22211901C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@MISC{2013ascl.soft04011C,
+   author = {{Carrasco Kind}, M. and {Brunner}, R.},
+    title = "{TPZ: Trees for Photo-Z}",
+howpublished = {Astrophysics Source Code Library},
+     year = 2013,
+    month = apr,
+archivePrefix = "ascl",
+   eprint = {1304.011},
+   adsurl = {http://adsabs.harvard.edu/abs/2013ascl.soft04011C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ATel.4668....1A,
+   author = {{Abbott}, T. and {Abdalla}, F. and {Achitouv}, I. and {Ahn}, E. and 
+	{Aldering}, G. and {Allam}, S. and {Alonso}, D. and {Amara}, A. and 
+	{Annis}, J. and {Antonik}, M. and et al.},
+    title = "{First SN Discoveries from the Dark Energy Survey}",
+  journal = {The Astronomer's Telegram},
+ keywords = {Optical, Supernovae},
+     year = 2012,
+    month = dec,
+   volume = 4668,
+   adsurl = {http://adsabs.harvard.edu/abs/2012ATel.4668....1A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+@ARTICLE{2012arXiv1211.0310L,
+   author = {{LSST Dark Energy Science Collaboration} and {Abate}, A. and {Aldering}, G. and {Allen}, S. and {Ansari}, R. and {Antilogus}, P. and {Applegate}, D. and {Astier}, P. and {Aubourg}, E. and {Bahcall}, N. and {Bard}, D. and {Barkhouse}, W. and {Bartlett}, J. and {Bean}, R. and {Becker}, A. and {Beckmann}, V. and {Bernstein}, G. and {Biswas}, R. and {Blanc}, G. and {Bongard}, S. and {Bosch}, J. and {Boutigny}, D. and {Bradac}, M. and {Bradshaw}, A. and {Brunner}, R. and {Burchat}, P. and {Burke}, D. and {Cahn}, R. and {Campagne}, J. and {Carrasco Kind}, M. and {Chang}, C. and {Cheu}, E. and {Chiang}, J. and {Cinabro}, D. and {Claver}, C. and {Clowe}, D. and {Cohn}, J. and {Connolly}, A. and {Cooray}, A. and {Croft}, R. and {Cui}, W. and {Cunha}, C. and {Dell'Antonio}, I. and {Digel}, S. and {Di Matteo}, T. and {Dodelson}, S. and {Dore}, O. and {Dubois}, R. and {Dubois-Felsmann}, G. and {Ealet}, A. and {Escoffier}, S. and {Fassnacht}, C. and {Finley}, D. and {Fouchez}, D. and {Frieman}, J. and {Ganga}, K. and {Gangler}, E. and {Garzoglio}, G. and {Gawiser}, E. and {Gilman}, F. and {Gilmore}, K. and {Gladney}, L. and {Glanzman}, T. and {Gottschalk}, E. and {Gnedin}, N. and {Gris}, P. and {Guy}, J. and {Habib}, S. and {Heitmann}, K. and {Hilbert}, S. and {Ho}, S. and {Hogan}, C. and {Honscheid}, K. and {Huard}, Z. and {Huff}, E. and {Ivezic}, Z. and {Jain}, B. and {Jarvis}, M. and {Jee}, M. and {Jeltema}, T. and {Jha}, S. and {Johns}, K. and {Johnson}, A. and {Johnson}, R. and {Kahn}, S. and {Kent}, S. and {Kessler}, R. and {Kiessling}, A. and {Kim}, A. and {Kirkby}, D. and {Kirshner}, R. and {Kovacs}, E. and {Knox}, L. and {Kratochvil}, J. and {Kuhlmann}, S. and {Levi}, M. and {Li}, G. and {Lin}, H. and {Linder}, E. and {Lupton}, R. and {Ma}, Z. and {Macintosh}, B. and {Mandelbaum}, R. and {Mantz}, A. and {Marshall}, P. and {Marshall}, S. and {May}, M. and {McDonald}, P. and {Meadows}, B. and {Melchior}, P. and {Menard}, B. and {Moniez}, M. and {Morandi}, A. and {Morris}, R. and {Newman}, J. and {Neyrinck}, M. and {Nugent}, P. and {O'Connor}, P. and {Olivier}, S. and {Padmanabhan}, N. and {Pain}, R. and {Peng}, E. and {Perdereau}, O. and {Perlmutter}, S. and {Peterson}, J. and {Petrosian}, V. and {Plaszczynski}, S. and {Pope}, A. and {Raccanelli}, A. and {Rasmussen}, A. and {Reil}, K. and {Rhodes}, J. and {Ricker}, P. and {Ricol}, J. and {Roe}, N. and {Roodman}, A. and {Rosenberg}, L. and {Roucelle}, C. and {Russo}, S. and {Sako}, M. and {Schindler}, R. and {Schmidt}, S. and {Schneider}, M. and {Sehgal}, N. and {Seljak}, U. and {Sembroski}, G. and {Seo}, H. and {Shipsey}, I. and {Singal}, J. and {Spergel}, D. and {Soares-Santos}, M. and {Spinka}, H. and {Stebbins}, A. and {Strauss}, M. and {Stubbs}, C. and {Tao}, C. and {Thaler}, J. and {Thomas}, R. and {Thorman}, P. and {Tilquin}, A. and {Trac}, H. and {Treu}, T. and {Tristram}, M. and {Tyson}, J. and {Wandelt}, B. and {Wang}, Y. and {Wechsler}, R. and {Wenaus}, T. and {White}, M. and {Wittman}, D. and {Wood-Vasey}, W. and {Xin}, B. and {Yoachim}, P. and {Zentner}, A. and {Zhan}, H.},
+    title = "{Large Synoptic Survey Telescope: Dark Energy Science Collaboration}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1211.0310},
+ primaryClass = "astro-ph.CO",
+ keywords = {Astrophysics - Cosmology and Extragalactic Astrophysics, High Energy Physics - Experiment},
+     year = 2012,
+    month = nov,
+   adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1211.0310L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{2012arXiv1211.0310L,
+   author = {{LSST Dark Energy Science Collaboration}},
+    title = "{Large Synoptic Survey Telescope: Dark Energy Science Collaboration}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1211.0310},
+ primaryClass = "astro-ph.CO",
+ keywords = {Astrophysics - Cosmology and Extragalactic Astrophysics, High Energy Physics - Experiment},
+     year = 2012,
+    month = nov,
+   adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1211.0310L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Biscarri2016,
+   author = {{Biscarri}, W. and {Carrasco Kind}, M. and {Asorey}, J. and
+        {Brunner}, R.~J.},
+    title = "{Reconstructing the Galaxy Redshift Distribution by using Deconvolution}",
+  journal = {in prep.},
+archivePrefix = "prep",
+   eprint = {0000.0000},
+     year = 0000,
+    month = feb,
+}
+
+@ARTICLE{Balakrishna2016,
+   author = {{Balakrishna}, D. and {Carrasco Kind}, M. and {Brunner}, R.~J.},
+    title = "{Source Detection with SOM and nested sampling}",
+  journal = {in prep.},
+archivePrefix = "prep",
+   eprint = {0000.0000},
+     year = 0000,
+    month = feb,
+}

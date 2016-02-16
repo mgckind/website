@@ -1,0 +1,141 @@
+<dom-module id="pub-page">
+
+<style is="custom-style">
+paper-ads {
+    cursor:pointer;
+    width:90%;
+}
+.title_pub{
+    color:red;
+}
+
+.journal{
+    color:orange;
+}
+
+paper-card{
+    margin-top:10px;
+    max-width:1200px;
+}
+
+</style>
+
+  <template>
+<div class="layout horizontal center-justified">
+  <paper-card elevation="5">
+  <div class="card-content">
+  <h4> See and click on the publications list below, for an updated ADS list of my research activity/publications check
+
+    <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_logic=OR&obj_logic=OR&author=carrasco+kind%2C+matias%0D%0ALSST+Dark+Energy+Science+Collaboration%0D%0Athe+Spectroscopic+Needs+White+Paper+Team&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=ALL&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1" target="_blank"> Here </a>     </h4>
+    <hr>
+    <template is="dom-repeat" items="{{papers}}" as="element">
+    <h2 id="yearTitle">{{element.byear}}</h2>
+    <template is="dom-repeat" items="{{element.papers}}" as="item" filter="isarXiv">
+        <paper-ads animated>
+        <div class="icon">{{item.kind}}</div>  
+        <h1 class="title_pub">{{item.title}}</h1>
+        <h3>
+        {{item.authors}}, <span class="journal">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
+         </h3>
+        <h2 > 
+        <div>
+        {{item.authors_long}}, <span class="journal">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
+        </div>
+        </h2>
+        <h2>
+        
+        <template is="dom-if" if="{{item.ads_link}}">
+        <a href="{{item.url}}" target='_blank'><img src='/images/ads.gif'  class="img-circle"  width="28px" height="28px"></img></a>&nbsp;
+        </template>
+        <template is="dom-if" if="{{item.arxiv_link}}">
+        <a href="{{item.arxiv_url}}"  target='_blank'><img src='/images/arxiv.ico' class="img-circle"  width="28px" height="28px"></img></a>&nbsp;
+        </template>
+        <template is="dom-if" if="{{item.doi_link}}">
+        <a href="{{item.doi}}"  target='_blank'><img src='/images/doi.png' class="img-circle"  width="28px" height="28px"></img></a>
+        </template>
+        <template is="dom-if" if="{{item.soft_link}}">
+        <a href="{{item.arxiv_url}}"  target='_blank'><img src='/images/ascl.png' class="img-circle"  width="28px" height="28px"></img></a>&nbsp;
+        </template>
+        <template is="dom-if" if="{{item.pdf_link}}">
+        <a href="{{item.pdf_url}}"  target='_blank'><img src='/images/pdf.png' class="img-circle"  width="28px" height="28px"></img></a>&nbsp;
+        </template>
+
+        </h2>
+        </paper-ads><br>  
+        {{_changeh3()}} 
+        {{_changeh2()}} 
+    </template>
+    </template>
+    </div>
+    <paper-card>
+    </div>
+<credit-line></credit-line>
+  </template>
+
+  <script>
+
+ function loadJSON(callback) {   
+
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'publications.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+ }
+
+
+    Polymer({
+      is: 'pub-page',
+      isarXiv: function(item){
+        return (item.arxiv_link || item.soft_link || item.prep_link);
+        },
+      ready: function() {
+        var _self = this;
+        loadJSON(function(response) {
+           _self.papers = JSON.parse(response);
+            });
+        this.allyears = [
+        {year:'In preparation'},
+        {year:'2016'},
+        {year:'2015'},
+        {year:'2014'},
+        {year:'2013'},
+        {year:'2012'},
+        ];
+      },
+      _getmain: function(status) {
+        this.customStyle['--color'] = "black";
+          Polymer.updateStyles();
+          if (status){
+            return 'hola';}
+        else{
+            return 'chao';
+        }
+      },
+      _changeh3: function() {
+        var searchedText = "M. Carrasco Kind";
+          $("h3:contains('"+searchedText+"')").each( function( i, element ) {
+         var content = $(element).text();
+           content = content.replace( searchedText, '<span style="color: #ff7043;  font-weight: bold; ">' + searchedText + '</span>' );
+        $(element).html( content );
+     });
+      },
+    _changeh2: function() {
+        var searchedText = "M. Carrasco Kind";
+          $("h2:contains('"+searchedText+"')").each( function( i, element ) {
+         var content = $(element).text();
+           content = content.replace( searchedText, '<span style="color:black;  font-weight: bold; ">' + searchedText + '</span>' );
+        $(element).html( content );
+     });
+      },
+
+
+    });
+  </script>
+
+</dom-module>

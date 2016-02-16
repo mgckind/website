@@ -1,0 +1,45 @@
+<dom-module id="soft-page">
+
+<style is="custom-style">
+      neon-animated-pages {
+        height: 100%;
+      }
+</style>
+
+
+<template>
+<div class="horizontal layout  wrap around-justified">
+<mlz-entry>  </mlz-entry>
+</div>
+<div class="horizontal layout  wrap center-justified">
+<easy-entry></easy-entry>
+<sparse-entry></sparse-entry>
+</div>
+<credit-line></credit-line>
+</template>
+
+<script>
+      Polymer({
+      is: "soft-page",
+      _onTileClick : function(event) {
+        //this.$['fullsize-card'].color = event.detail.data.color;
+        this.$.pages2.selected = event.detail.data.value;
+        console.log('click!');
+      },
+
+     _onFullsizeClick: function(event) {
+        this.$.pages.selected = 0;
+        },
+     _onClose: function(event) {
+        this.$.pages.selected = 0;
+        },
+
+
+
+
+    });
+
+
+</script>
+
+</dom>

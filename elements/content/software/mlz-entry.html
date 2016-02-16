@@ -1,0 +1,44 @@
+<dom-module id="mlz-entry">
+
+<style is="custom-style">
+paper-card {
+max-width:1100px;
+}
+
+</style>
+
+
+<template>
+
+<paper-card image="/images/mlz_logo.png" elevation="5">
+<github-fork-ribbon
+  username="mgckind"
+  repository="MLZ"
+  position="right"
+  label="Fork me"
+  background-color="none">
+</github-fork-ribbon>
+<div class="card-content">
+MLZ, “Machine Learning and photo-Z” is a parallel python framework that computes fast and robust photometric redshift PDFs using Machine Learning algorithms. In particular, it uses a supervised technique with prediction trees and random forest through TPZ or a unsupervised methods with self organizing maps and random atlas through SOMz. It can be easily extended to other regression or classification problems. We recently have added an additional feature that allows high compressed representation of the photo-z PDFs using sparse representation. This allow to efficiently store and handle a large number of PDF from different techniques
+</div>
+<div class="card-actions">
+<paper-button on-click="_mlz" >See more</paper-button>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "mlz-entry",
+
+      _mlz: function(event){
+        console.log('hola');
+        page("/mlz");
+      },
+    });
+
+
+</script>
+
+</dom>

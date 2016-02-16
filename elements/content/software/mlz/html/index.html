@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome &mdash; MLZ 1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/graphite.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="/Users/Matias/Library/Enthought/Canopy_64bit/User/lib/python2.7/share/copybutton.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="MLZ 1.2 documentation" href="#" />
+    <link rel="next" title="Requirements" href="req.html" /> 
+  </head>
+  <body>
+      <div class="header">
+        <a href="#">
+          <img class="logo" src="_static/logo.png" alt="Logo"/>
+        </a>
+      </div>
+      <div class="topnav">
+      
+        <p>
+        <a class="uplink" href="#">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="req.html">Requirements</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="welcome">
+<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">¶</a></h1>
+<style> .red {color:#FF6F60} </style>
+<style> .green {color:#60CC93} </style>
+<style> .blue {color:#6396FC} </style>
+<style> .blueit {color:#6396FC; font-style:italic} </style>
+<style> .under {text-decoration:underline} </style>
+<style> .mono {font-family : "Courier new"} </style><div class="topic">
+<p class="topic-title first">About</p>
+<p><strong>MLZ</strong>, &#8220;<strong>M</strong>achine <strong>L</strong>earning and photo-<strong>Z</strong>&#8221;  is a parallel python framework that
+computes fast and robust photometric redshift PDFs using Machine Learning algorithms. In particular,
+it uses a supervised technique with prediction trees and random forest through <a class="reference internal" href="tpz.html#tpz2"><em>TPZ</em></a> or
+a unsupervised methods with self organizing maps and random atlas
+through <a class="reference internal" href="somz.html#somz2"><em>SOMz</em></a>. It can be easily extended to other regression or classification problems.
+We recently have added an additional feature that allows high compressed representation of the photo-z
+PDFs using <a class="reference internal" href="sparse.html#sparse2"><em>sparse representation</em></a>. This allow to efficiently store and handle a large number
+of PDF from different techniques</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>These are the references related to this framework where detailed information about these methods can be found.</p>
+<ul class="simple">
+<li>Carrasco Kind, M., &amp; Brunner, R. J., 2013  <span class="blueit">&#8220;TPZ : Photometric redshift PDFs and ancillary information by using prediction trees and random forests&#8221;</span>, MNRAS, 432, 1483 (<a class="reference external" href="http://adsabs.harvard.edu/abs/2013MNRAS.432.1483C">Link</a>)</li>
+<li>Carrasco Kind, M., &amp; Brunner, R. J., 2014, <span class="blueit">&#8220;SOMz : photometric redshift PDFs with self organizing maps and random atlas&#8221;</span> , MNRAS, 438, 3409 (<a class="reference external" href="http://adsabs.harvard.edu/abs/2014MNRAS.438.3409C">Link</a>)</li>
+<li>Carrasco Kind, M., &amp; Brunner, R. J., 2014, <span class="blueit">&#8220;Exhausting the Information: Novel Bayesian Combination of Photometric Redshift PDFs&#8221;</span>, MNRAS, 442, 3380 (<a class="reference external" href="http://adsabs.harvard.edu/abs/2014MNRAS.442.3380C">Link</a>)</li>
+<li>Carrasco Kind, M., &amp; Brunner, R. J., 2014, <span class="blueit">&#8220;Sparse Representation of Photometric Redshift PDFs: Preparing for Petascale Astronomy&#8221;</span>, MNRAS, 441, 3550 (<a class="reference external" href="http://adsabs.harvard.edu/abs/2014MNRAS.441.3550C">Link</a>)</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="contact">
+<h2>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://sites.google.com/site/mgckind/">Here</a> you can find my contact information for questions or comments.</p>
+</div>
+<div class="section" id="current-version">
+<h2>Current Version<a class="headerlink" href="#current-version" title="Permalink to this headline">¶</a></h2>
+<p><span class="green">Current version 1.2</span>  (Check <a class="reference external" href="https://github.com/mgckind/MLZ">github</a>  page for update and changes)</p>
+</div>
+<div class="section" id="now-on-github">
+<h2>Now on GitHub<a class="headerlink" href="#now-on-github" title="Permalink to this headline">¶</a></h2>
+<p>We have uploaded MLZ to <a class="reference external" href="https://github.com/mgckind/MLZ">GitHub</a>
+Here you can get the latest MLZ version</p>
+</div>
+<div class="section" id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>This is a brief documentation of MLZ and the routines included</div></blockquote>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="req.html">Requirements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="req.html#parallel-mlz">Parallel MLZ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#download">Download</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#fortran-routines">Fortran routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#release-note">Release Note</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#acknowledgement">Acknowledgement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#uninstall">Uninstall</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ml_codes.html">Machine Learning routines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tpz.html">TPZ: Trees for Photo-Z</a></li>
+<li class="toctree-l2"><a class="reference internal" href="somz.html">SOMz: Self Organizing Maps and random atlas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="others.html">Other routines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data.html">Data module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotting.html">Plotting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="run_mlz.html">Run MLZ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#input-file">Input file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#prepare-data">Prepare data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#some-hidden-parameters">Some hidden parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#run-the-code">Run the code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#optional-arguments">Optional arguments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#machine-learning-approach">Machine learning approach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_mlz.html#preview-of-results">Preview of results</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="run.html">Running a test</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="run.html#run-on-sdss-data">Run on SDSS data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run.html#preview-of-results">Preview of results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run.html#some-pdf-examples">Some PDF examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run.html#plotting-a-tree-or-a-map">Plotting a tree or a map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run.html#ancillary-information">Ancillary information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run.html#extra-notes">Extra notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sparse.html">Sparse Representation (new!)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sparse_mod.html">PDF storage module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sparse.html#github-repo">Github Repo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sparse.html#example-case">Example Case</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
+<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
+<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav">
+      
+        <p>
+        <a class="uplink" href="#">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="req.html">Requirements</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer">
+        &copy; Copyright 2015, Matias Carrasco Kind.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<dom-module id="single-pub">
+
+<style is="custom-style">
+:host {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  outline: none;
+  font-size: 14px;
+  cursor: default;
+  margin: 8px 0;
+  height: 32px;
+  overflow: visible;
+}
+
+#main, #chip {
+  border-radius: 16px;
+}
+#main {
+  background-color: var(--paper-chip-background-color, --paper-grey-200);
+  position: relative;
+  color: var(--paper-chip-secondary-text-color, --secondary-text-color);
+  @apply(--layout-vertical);
+}
+#chip {
+  box-sizing: border-box;
+  height: 32px;
+  @apply(--layout-horizontal);
+  @apply(--layout-center);
+}
+paper-material {
+  border-radius: 16px;
+}
+#icon {
+  @apply(--layout-horizontal);
+  @apply(--layout-center);
+  @apply(--layout-center-justified);
+}
+#icon ::content .icon {
+  margin-right: -4px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--paper-chip-icon-background-color, --paper-grey-500);
+  color: var(--paper-chip-icon-text-color, --text-primary-color);
+  @apply(--layout-flex);
+}
+#icon ::content iron-icon.icon,
+#icon ::content iron-icon.icon svg {
+  width: 32px;
+  height: 32px;
+}
+#icon ::content iron-icon.icon {
+  vertical-align: bottom;
+}
+#label {
+  padding: 0 12px;
+  @apply(--layout-flex-auto);
+  @apply(--layout-self-center);
+}
+#label ::content h1,
+#label ::content h2 {
+  white-space: nowrap;
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+.icon-btn-wrapper {
+  @apply(--layout-self-center);
+}
+    
+</style>
+
+
+<template>
+<paper-material>
+  <div id="main">
+          <div id="icon">
+            <content select=".icon"></content>
+          </div>
+          <div id="label">
+            <content select="h1"></content>
+          </div>
+        <div id="content">
+          <content></content>
+        </div>
+      </div>
+
+</paper-material>
+</template>
+
+<script>
+      Polymer({
+      is: "single-pub",
+
+    });
+
+
+</script>
+
+</dom>
