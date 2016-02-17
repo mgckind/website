@@ -2,17 +2,6 @@
 
 <style is="custom-style">
 
- paper-card.rate { @apply(--layout-horizontal); }
-  .rate-image {
-    width: 265px;
-    height: 396px;
-    background: url('/images/IGP4909.jpg');
-    background-size: cover;
-  }
-  .rate-content {
-    @apply(--layout-flex);
-    float: left;
-  }
   .rate-header { 
     @apply(--paper-font-headline); 
     font-size:24px;
@@ -24,13 +13,14 @@ paper-card{
 font-size:18px;
     margin-top:10px;
 }
+
 </style>
 
 
 <template>
 
 <div class="layout horizontal center-justified">
-<paper-card class="rate" elevation="5">
+<paper-card class="layout horizontal" elevation="5">
   <iron-image src="/images/IGP4909.jpg" style="width:265px; height:396px;" sizing="contain" ></iron-image>
     <div class="card-content">
       <div class="rate-header">Matias Carrasco Kind</div>

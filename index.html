@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+<meta name="viewport" content="width=device-width">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="author" content="Matias Carrasco Kind">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -43,7 +44,7 @@
 --paper-card: {
     background-color: var(--dark-primary-color);
     color:var(--primary-text-color);
-    margin:40px;};
+    margin:5px;};
 }
  neon-animatable {
         @apply(--layout-center-center);
@@ -62,9 +63,12 @@ paper-drawer-panel[narrow] #navbarsmenu1 {
 
 paper-drawer-panel{
   --paper-drawer-panel-left-drawer-container: {
-    background-color: green;
-  };
-
+    color: red;
+  }
+}
+.drawer1c {
+background-color:var(--body-color-background);
+}
 
 </style>
 </head>
@@ -73,10 +77,11 @@ paper-drawer-panel{
   <body class="fullbleed layout vertical" unresolved>
 <template is="dom-bind" id="app">
   <paper-drawer-panel drawer-width="170px" force-narrow=true>
-      <paper-scroll-header-panel drawer fixed id="drawer1">
+      <paper-scroll-header-panel drawer fixed id="drawer1" class="drawer1c">
      <paper-toolbar>
+    <div class="title">MCK</div> 
      </paper-toolbar>
-      <paper-menu selected="{{route}}">
+      <paper-menu selected="{{route}}" class="drawer1c">
         <paper-item><i class="fa fa-home"> Home</i> </paper-item>
         <paper-item><i class="fa fa-user"> CV</i></paper-item>
         <paper-item><i class="fa fa-book"> Publications</i></paper-item>

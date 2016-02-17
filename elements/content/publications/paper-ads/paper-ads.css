@@ -75,43 +75,41 @@ paper-material {
 }
 #label ::content h1 {
   margin: 0;
-  font-size: 1.7vw;
+  font-size: 16px;
 
 }
+
 #label ::content h2 {
   margin: 0;
   font-size: 12px;
 }
+
+@media all and (max-width: 700px) {
+#label ::content h1 {
+  font-size: 12px;
+
+}
+  
+}
+
+
 #label ::content h3 {
   margin: 0;
   color: var(--paper-ads-h3-text-color, gold);
-  font-size: 1.1vw;
+  font-size: 12px;
 }
+
+@media all and (max-width: 700px) {
+#label ::content h3 {
+  font-size: 9px;
+
+}
+  
+}
+
 .icon-btn-wrapper {
   @apply(--layout-self-center);
 }
-#removeBtn {
-  padding: 0;
-}
-#removeBtn {
-  background-color: var(--paper-ads-removebtn-background-color, --paper-grey-400);
-  color: var(--paper-ads-removebtn-icon-color, --text-primary-color);
-  padding: 0;
-  margin: 0;
-  width: 20px;
-  height: 20px;
-  margin-left: 20px;
-  border-radius: 100%;
-}
-#removeBtn /deep/ iron-icon {
-  width: 16px;
-  height: 16px;
-  margin: 2px;
-}
-:host(:not([removable])) #removeBtn {
-  display: none;
-}
-
 
 
 /* pressed state */
@@ -131,13 +129,6 @@ paper-material {
   font-size: 0;
   height: 0;
   width: 0;
-}
-
-:host(:not([opened])) #removeBtn,
-:host(:not([opened])) #removeBtn /deep/ iron-icon {
-  width: 0;
-  height: 0;
-  margin: 0;
 }
 
 
@@ -198,10 +189,6 @@ paper-material {
 :host([opened][active]) ::content {
   background-color: var(--paper-ads-active-color, --accent-color);
   color: var(--paper-ads-active-text-color, --text-primary-color);
-}
-:host([opened][active]) #removeBtn {
-  color: var(--paper-ads-active-color, --accent-color);
-  background-color: var(--paper-ads-active-text-color, --text-primary-color);
 }
 :host([opened][active]) #chip #label ::content h1 {
   color: var(--paper-ads-active-text-color, --text-primary-color);

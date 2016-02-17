@@ -17,7 +17,7 @@ visibility: hidden;
 
 ::content tag1 {
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   color: var(--cv-entry-tag1-color, blue);
 }
 
@@ -29,8 +29,8 @@ visibility: hidden;
 
 ::content tag3 {
   margin: 0;
-  font-size: 14px;
-  color: var(--cv-entry-tag3-color, gold);
+  font-size: 11px;
+  color: var(--cv-entry-tag3-color, white);
 }
 
 </style>
@@ -41,13 +41,14 @@ visibility: hidden;
 <hr id="hrline">
 <grid-element ghi="0px" gvi="2px" gvo="2px">
     <grid-col>
-    <span id="title" style="font-size: 16px;">{{title}}</span>
+    <span id="title" style="font-size: 18px;">{{title}}</span>
     </grid-col>
     <grid-col>
     </grid-col>
     <grid-col s="3">
     <content select="tag1"></content><br>
-    <content select="tag2"></content>
+    <content select="tag2"></content><br>
+    <content select="tag3"></content>
     </grid-col>
     <grid-col stretch>
       <div id="year" style="text-align:right;">
