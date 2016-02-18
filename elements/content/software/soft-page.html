@@ -4,12 +4,29 @@
       neon-animated-pages {
         height: 100%;
       }
+paper-card {
+width:100%;
+}
 </style>
 
 
 <template>
 <div class="horizontal layout  around-justified">
-<div style="max-width:1000px">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<grid-element ghi="10px" gho="0px">
+<grid-col >
+<paper-card>
+<div class="card-content">
+Below are some of the software I have written. Check my <a href="https://github.com/mgckind" target="_blank">Github</a> repository for more <i class="fa fa-github-alt"></i> 
+</div>
+</paper-card>
+</grid-col>
+</grid-element>
+</div>
+</div>
+
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
 <grid-element ghi="10px" gho="0px" mq="(min-width: 736px)">
 <grid-col s="3" stretch >
 <mlz-entry>  </mlz-entry>
@@ -22,7 +39,7 @@
 </div>
 
 <div class="horizontal layout  around-justified">
-<div style="max-width:1000px">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
 <grid-element ghi="10px" gho="0px" mq="(min-width: 670px)" >
 <grid-col stretch>
 <graph-entry></graph-entry>
