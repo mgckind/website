@@ -1,17 +1,35 @@
 <dom-module id="easy-entry">
 
 <style is="custom-style">
+
+paper-button.easy {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-secondary);
+        color:white;
+  }
+  paper-button.easy:hover {
+    opacity: 0.7;
+  }
+
+.local-header { 
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
 paper-card {
-max-width:300px;
-min-width:200px;
+width:100%;
 background:black;
+height:280px;
+max-height:1500px;
+color:gold;
 }
 </style>
 
 
 <template>
 
-<paper-card  image="/images/ea_logo.png" elevation="5" >
+<paper-card  elevation="5" >
 <github-fork-ribbon
   username="mgckind"
   repository="easyaccess"
@@ -19,11 +37,17 @@ background:black;
   label="Fork me"
   background-color="none">
 </github-fork-ribbon>
-<div class="card-content">
+
+<div class="layout horizontal wrap around-justified">
 <h2>Easyaccess</h2>
-Easyaccess is a Python Command Line Interpreter to access the Oracle DES database using cx_Oracle
+<iron-image src="/images/ea_logo.png" style="width:212px; height:122px;" sizing="contain" ></iron-image>
 </div>
-<div class="card-actions">
+<div class="card-content">
+Easyaccess is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format.
+</div>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button on-click="_demo" disabled class="easy"> <i class="fa fa-eye"></i> Demo</paper-button>
+<paper-button raised  class="easy" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
 </paper-card>
 
@@ -32,6 +56,11 @@ Easyaccess is a Python Command Line Interpreter to access the Oracle DES databas
 <script>
       Polymer({
       is: "easy-entry",
+
+       _git: function(event){
+        window.open('https://github.com/mgckind/easyaccess', '_blank');
+      },
+
     });
 
 

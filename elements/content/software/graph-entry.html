@@ -1,8 +1,30 @@
-<dom-module id="sparse-entry">
+<dom-module id="graph-entry">
 
 <style is="custom-style">
+
+paper-button.graph {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-success);
+        color:white;
+  }
+  paper-button.graph:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
 paper-card {
-max-width:400px;
+width:100%;
+height:280px;
+max-height:1500px;
+background:var(--text-color-error);
+color:black;
 }
 
 </style>
@@ -10,18 +32,25 @@ max-width:400px;
 
 <template>
 
-<paper-card heading="SparsePZ" elevation="5" >
+<paper-card  elevation="5">
 <github-fork-ribbon
-  username="GitHub username"
-  repository="GitHub repository name"
+  username="mgckind"
+  repository="GraphMaker"
   position="right"
   label="Fork me"
-  background-color="Background color of ribbon">
+  background-color="none">
 </github-fork-ribbon>
 <div class="card-content">
-orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar ultricies felis sit amet iaculis. Aenean tincidunt commodo nisi, a cursus nulla fringilla nec. Praesent et congue ex. Sed non vehicula justo. Morbi rhoncus tempor laoreet. Sed sollicitudin venenatis tristique. Nulla auctor, metus ut mattis laoreet, ante ante condimentum tellus, eu vulputate odio libero quis magna. Mauris vestibulum neque ante, id dapibus erat aliquet eget.
-
-
+<div class="local-header">
+GraphMaker
+</div>
+</div>
+<div class="card-content">
+A little graph manipulation tool written in javascript, based heavily in joint.js. Still under development. It uses web-sockets for multiple sessions and can save graph in svg, png or json format. 
+</div>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button on-click="_demo" raised  class="graph"> <i class="fa fa-eye"></i> Demo</paper-button>
+<paper-button raised  class="graph" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
 </paper-card>
 
@@ -29,7 +58,15 @@ orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar ultricie
 
 <script>
       Polymer({
-      is: "sparse-entry",
+      is: "graph-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/GraphMaker', '_blank');
+      },
+      _demo: function(event){
+        window.open('http://mgckind.pythonanywhere.com/', '_blank');
+      },
+
     });
 
 

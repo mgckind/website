@@ -1,8 +1,30 @@
 <dom-module id="sparse-entry">
 
 <style is="custom-style">
+
+paper-button.sparse {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-info);
+        color:white;
+  }
+  paper-button.sparse:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:green;
+font-weight: bold;
+font-size:24px;
+}
+
 paper-card {
-max-width:400px;
+width:100%;
+height:280px;
+max-height:1500px;
+background:var(--text-color-warning);
+color:black;
 }
 
 </style>
@@ -10,7 +32,7 @@ max-width:400px;
 
 <template>
 
-<paper-card heading="SparsePZ" elevation="5" >
+<paper-card  elevation="5">
 <github-fork-ribbon
   username="mgckind"
   repository="SparsePz"
@@ -19,7 +41,14 @@ max-width:400px;
   background-color="none">
 </github-fork-ribbon>
 <div class="card-content">
-Sparse Representation of photometric redshift PDFs [1] is a novel technique to represent and store these PDFs in an efficient way without losing resolution or information. It works by creating a over determined dictionary of basis with Gaussian and Voigt profiles which cover the redshift space for several values for the center and width for these distributions. Usually we create less than 2^16 bases so we can represent them using 16 bits integers. By using an Orthogonal Matching Pursuit algorithm we look to minimize the number of bases used, without repetition, and the coefficients for each base can be also represented using another 16 bits integer. In this way, we can represent a PDF using only 32-bits integers per base when only 10-20 bases is necessary.
+<div class="local-header">
+SparsePz
+</div>
+</div>
+<div class="card-content">
+Sparse Representation of photometric redshift PDFs is a novel technique to compress, represent and store any PDFs in an efficient way without losing resolution or information.</div>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
 </paper-card>
 
@@ -28,6 +57,11 @@ Sparse Representation of photometric redshift PDFs [1] is a novel technique to r
 <script>
       Polymer({
       is: "sparse-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/SparsePz', '_blank');
+      },
+
     });
 
 

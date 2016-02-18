@@ -8,12 +8,30 @@
 
 
 <template>
-<div class="horizontal layout  wrap around-justified">
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px">
+<grid-element ghi="10px" gho="0px" >
+<grid-col s="3" stretch >
 <mlz-entry>  </mlz-entry>
-</div>
-<div class="horizontal layout  wrap center-justified">
-<easy-entry></easy-entry>
+</grid-col>
+<grid-col stretch>
 <sparse-entry></sparse-entry>
+</grid-col>
+</grid-element>
+</div>
+</div>
+
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px">
+<grid-element ghi="10px" gho="0px" >
+<grid-col stretch>
+<graph-entry></graph-entry>
+</grid-col >
+<grid-col s="2" stretch>
+<easy-entry></easy-entry>
+</grid-col>
+</grid-element>
+</div>
 </div>
 <credit-line></credit-line>
 </template>

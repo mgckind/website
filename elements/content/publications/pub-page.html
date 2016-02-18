@@ -9,13 +9,10 @@ paper-ads {
     color:red;
 }
 
-.journal{
-    color:orange;
-}
 
 paper-card{
     margin-top:10px;
-    max-width:1200px;
+    max-width:1000px;
 }
 
 </style>
@@ -35,11 +32,11 @@ paper-card{
         <div class="icon">{{item.kind}}</div>  
         <h1 class="title_pub">{{item.title}}</h1>
         <h3>
-        {{item.authors}}, <span class="journal">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
+        {{item.authors}}, <span style="color:orange;">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
          </h3>
         <h2 > 
         <div>
-        {{item.authors_long}}, <span class="journal">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
+        {{item.authors_long}}, <span style="color:orange;">{{item.journal}}</span>, {{item.pages}} ({{item.year}})
         </div>
         </h2>
         <h2>
@@ -99,14 +96,6 @@ paper-card{
         loadJSON(function(response) {
            _self.papers = JSON.parse(response);
             });
-        this.allyears = [
-        {year:'In preparation'},
-        {year:'2016'},
-        {year:'2015'},
-        {year:'2014'},
-        {year:'2013'},
-        {year:'2012'},
-        ];
       },
       _getmain: function(status) {
         this.customStyle['--color'] = "black";
