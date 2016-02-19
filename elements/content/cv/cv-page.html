@@ -12,16 +12,44 @@ paper-card{
     top:10px;
     right:10px;
 }
+
+.local-header { 
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-button.mlz {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-primary);
+        color:white;
+  }
+  paper-button.mlz:hover {
+    opacity: 0.7;
+  }
+
+
 </style>
 
 
 <template>
 <div class="layout horizontal center-justified">
-<paper-card heading="Matias Carrasco Kind">
+<paper-card elevation="5">
+<div class="card-content">
+<div class="layout horizontal wrap justified">
+<div class="local-header">
+Matias Carrasco Kind
+</div>
+<div class="layout horizontal">
+<paper-button raised class="mlz" on-click='_pdf'>Full cv</paper-button>
+<paper-button raised class="mlz">Resume</paper-button>
+</div>
+</div>
+</div>
 
 <cv-entry title="Current position" year="2014-present" line=true>
 <tag1>Research Scientist (DES/LSST)</tag1>
-<tag2>@ National Center for Supercumpting Applications (NCSA)<br>
+<tag2>@ National Center for Supercomputing Applications (NCSA)<br>
 @ Department of Astronomy<br>
 University of Illinois at Urbana-Champaign</tag2>
 </cv-entry>
@@ -90,7 +118,16 @@ Max Planck Institue for Astrophysics
 </tag2>
 </cv-entry>
 
-<cv-entry title="Selected Awards" year="2011-2013" line=true>
+<cv-entry title="Selected Awards" year="2015" line=true>
+<tag1>
+Outstanding Contribution Award
+</tag1>
+<tag2>
+National Center for Supercomputing Applications 
+</tag2>
+</cv-entry>
+
+<cv-entry year="2011-2013">
 <tag1>
 Computational Science and Engineering Fellowship
 </tag1>
@@ -148,7 +185,8 @@ PL/SQL<br>
 LaTeX<br>
 MATLAB<br>
 Redis<br>
-Go
+Go<br>
+Docker
 </grid-col>
 <grid-col>
 HPC/OPENMP/MPI/Condor
@@ -172,6 +210,9 @@ MongoDB/MemSQL
 <script>
       Polymer({
       is: "cv-page",
+       _pdf: function(event){
+        window.open('https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtZ2NraW5kfGd4Ojc2ZmJhZjE1MWY5NWEyZjQ', '_blank');
+      },
 
     });
 
