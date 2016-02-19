@@ -1,0 +1,26 @@
+.tablec{
+    font-size: 16px;
+}
+paper-card{
+    max-width:1200px;
+    width:1000px;
+font-size:15px;
+    margin-top:10px;
+}
+
+@media all and (max-width: 700px) {
+.tablec {
+  font-size: 12px;
+
+}
+  
+}
+
+@media all and (max-width: 475px) {
+.tablec {
+  font-size: 9px;
+
+}
+  
+}
+
