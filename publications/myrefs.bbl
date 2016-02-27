@@ -77,6 +77,36 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+@ARTICLE{2016MNRAS.tmp...92L,
+   author = {{Luque}, E. and {Queiroz}, A. and {Santiago}, B. and {Pieres}, A. and 
+	{Balbinot}, E. and {Bechtol}, K. and {Drlica-Wagner}, A. and 
+	{Neto}, A.~F. and {da Costa}, L.~N. and {Maia}, M.~A.~G. and 
+	{Yanny}, B. and {Abbott}, T. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
+	{Rosell}, A.~C. and {Kind}, M.~C. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Eifler}, T.~F. and 
+	{Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
+	{Gerdes}, D.~W. and {Gruen}, D. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {March}, M. and {Marshall}, J.~L. and {Martini}, P. and 
+	{Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and {Nord}, B. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and {Roodman}, A. and 
+	{Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thaler}, J. and 
+	{Tucker}, D. and {Walker}, A.~R. and {Zhang}, Y.},
+    title = "{Digging deeper into the Southern skies: a compact Milky-Way companion discovered in first-year Dark Energy Survey data}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1508.02381},
+ keywords = {Stellar populations, Galaxy evolution, stellar statistics},
+     year = 2016,
+    month = feb,
+      doi = {10.1093/mnras/stw302},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.tmp...92L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @ARTICLE{2016MNRAS.455.4301C,
    author = {{Crocce}, M. and {Carretero}, J. and {Bauer}, A.~H. and {Ross}, A.~J. and 
 	{Sevilla-Noarbe}, I. and {Giannantonio}, T. and {Sobreira}, F. and 
@@ -113,6 +143,41 @@ archivePrefix = "arXiv",
     pages = {4301-4324},
       doi = {10.1093/mnras/stv2590},
    adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.4301C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016arXiv160207384B,
+   author = {{Baxter}, E.~J. and {Clampitt}, J. and {Giannantonio}, T. and 
+	{Dodelson}, S. and {Jain}, B. and {Huterer}, D. and {Bleem}, L.~E. and 
+	{Crawford}, T.~M. and {Efstathiou}, G. and {Fosalba}, P. and 
+	{Kirk}, D. and {Kwan}, J. and {S{\'a}nchez}, C. and {Story}, K.~T. and 
+	{Troxel}, M.~A. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and 
+	{Armstrong}, R. and {Benoit-L{\'e}vy}, A. and {Benson}, B.~A. and 
+	{Bernstein}, G.~M. and {Bernstein}, R.~A. and {Bertin}, E. and 
+	{Brooks}, D. and {Carlstrom}, J.~E. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Chown}, R. and 
+	{Crocce}, M. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
+	{Evrard}, A.~E. and {Fausti Neto}, A. and {Flaugher}, B. and 
+	{Frieman}, J. and {Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and 
+	{de Haan}, T. and {Holder}, G.~P. and {Honscheid}, K. and {Hou}, Z. and 
+	{James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and {Lima}, M. and 
+	{March}, M. and {Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and 
+	{Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and {Nord}, B. and 
+	{Omori}, Y. and {Plazas}, A.~A. and {Reichardt}, C.~L. and {Romer}, A.~K. and 
+	{Rykoff}, E.~S. and {Sanchez}, E. and {Sevilla-Noarbe}, I. and 
+	{Sheldon}, E. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Stark}, A.~A. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Walker}, A.~R. and {Wechsler}, R.~H.
+	},
+    title = "{Joint Measurement of Lensing-Galaxy Correlations Using SPT and DES SV Data}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1602.07384},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
+     year = 2016,
+    month = feb,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160207384B},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -164,7 +229,7 @@ archivePrefix = "arXiv",
    author = {{Soares-Santos}, M. and {Kessler}, R. and {Berger}, E. and {Annis}, J. and 
 	{Brout}, D. and {Buckley-Geer}, E. and {Chen}, H. and {Cowperthwaite}, P.~S. and 
 	{Diehl}, H.~T. and {Doctor}, Z. and {Drlica-Wagner}, A. and 
-	{Farr}, B. and {Finley}, D.~A. and {Flaugher}, B. and {Foley}, R. and 
+	{Farr}, B. and {Finley}, D.~A. and {Flaugher}, B. and {Foley}, R.~J. and 
 	{Frieman}, J. and {Gruendl}, R.~A. and {Herner}, K. and {Holz}, D. and 
 	{Lin}, H. and {Marriner}, J. and {Neilsen}, E. and {Rest}, A. and 
 	{Sako}, M. and {Scolnic}, D. and {Sobreira}, F. and {Walker}, A.~R. and 
@@ -185,10 +250,10 @@ archivePrefix = "arXiv",
 	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {Margutti}, R. and 
 	{Martini}, P. and {Matheson}, T. and {McMahon}, R.~G. and {Metzger}, B.~D. and 
 	{Miller}, C.~J. and {Miquel}, R. and {Mohr}, J.~J. and {Nichol}, R.~C. and 
-	{Nord}, B. and {Ogando}, R. and {Ogando}, R. and {Peoples}, J. and 
-	{Plazas}, A.~A. and {Quataert}, E. and {Romer}, A.~K. and {Roodman}, A. and 
-	{Roodman}, A. and {Rykoff}, E.~S. and {Rykoff}, E.~S. and {Sanchez}, E. and 
-	{Scarpine}, V. and {Schindler}, R. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Nord}, B. and {Ogando}, R. and {Peoples}, J. and {Plazas}, A.~A. and 
+	{Quataert}, E. and {Romer}, A.~K. and {Roodman}, A. and {Roodman}, A. and 
+	{Rykoff}, E.~S. and {Rykoff}, E.~S. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Schindler}, R. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
 	{Sheldon}, E. and {Smith}, M. and {Smith}, N. and {Smith}, R.~C. and 
 	{Stebbins}, A. and {Sutton}, P.~J. and {Swanson}, M.~E.~C. and 
 	{Tarle}, G. and {Thaler}, J. and {Thomas}, R.~C. and {Tucker}, D.~L. and 
@@ -1037,36 +1102,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2015arXiv150802381L,
-   author = {{Luque}, E. and {Queiroz}, A. and {Santiago}, B. and {Pieres}, A. and 
-	{Balbinot}, E. and {Bechtol}, K. and {Drlica-Wagner}, A. and 
-	{Fausti Neto}, A. and {da Costa}, L.~N. and {Maia}, M.~A.~G. and 
-	{Yanny}, B. and {Abbott}, T. and {Allam}, S. and {Benoit-L{\'e}vy}, A. and 
-	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
-	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
-	{Cunha}, C.~E. and {Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and 
-	{Eifler}, T.~F. and {Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and 
-	{Frieman}, J. and {Gerdes}, D.~W. and {Gruen}, D. and {Gutierrez}, G. and 
-	{Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and {Kuropatkin}, N. and 
-	{Lahav}, O. and {Li}, T.~S. and {March}, M. and {Marshall}, J.~L. and 
-	{Martini}, P. and {Miquel}, R. and {Neilsen}, E. and {Nichol}, R.~C. and 
-	{Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
-	{Roodman}, A. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
-	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
-	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Thaler}, J. and {Tucker}, D. and {Walker}, A.~R. and 
-	{Zhang}, Y.},
-    title = "{Digging deeper into the Southern skies: a compact Milky-Way companion discovered in first-year Dark Energy Survey data}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1508.02381},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar Astrophysics},
-     year = 2015,
-    month = aug,
-   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150802381L},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @ARTICLE{2015PhRvL.115e1301C,
    author = {{Chang}, C. and {Vikram}, V. and {Jain}, B. and {Bacon}, D. and 
 	{Amara}, A. and {Becker}, M.~R. and {Bernstein}, G. and {Bonnett}, C. and 
@@ -1864,7 +1899,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-
 @ARTICLE{2012arXiv1211.0310L,
    author = {{LSST Dark Energy Science Collaboration}},
     title = "{Large Synoptic Survey Telescope: Dark Energy Science Collaboration}",
@@ -1878,6 +1912,7 @@ archivePrefix = "arXiv",
    adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1211.0310L},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
 
 @ARTICLE{Biscarri2016,
    author = {{Biscarri}, W. and {Carrasco Kind}, M. and {Asorey}, J. and
