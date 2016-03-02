@@ -8,9 +8,9 @@
         app.$.drawer1.scrollToTop(true);
         }; 
 
-    if (window.location.port === '') {  // if production
-      page.base(app.baseUrl.replace(/\/$/, ''));
-    }
+    //if (window.location.port === '') {  // if production
+    //  page.base(app.baseUrl.replace(/\/$/, ''));
+   // }
 
 
     function scrollToTop(ctx, next) {
@@ -43,11 +43,6 @@
       }
     });
     
-    page('/mlz', scrollToTop, function() {
-      console.log('mlz');
-        tabs.selected="7";
-    
-    });
 
     page(app.baseUrl, function() {
       app.route = 'home';
@@ -56,7 +51,6 @@
 
     // 404
     page('*', function() {
-      console.log('wtf?');
       //app.$.toast.text = 'Can\'t find: ' + window.location.href  + '. Redirected you to Home Page';
       //app.$.toast.show();
       page.redirect(app.baseUrl);

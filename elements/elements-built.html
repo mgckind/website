@@ -1,12 +1,8 @@
-<html><head><meta charset="UTF-8"><!-- Theme -->
-
-
-<!-- Iron elements -->
-<!-- Paper elements -->
-<!-- Neon elements -->
-<!-- External elements -->
-<!-- Configure your routes here 
--->
+<html><head><meta charset="UTF-8"><!-- Iron -->
+<!-- Paper -->
+<!-- Neon  -->
+<!-- External -->
+<!-- routes-->
 <!-- My styles -->
 <!-- My elements -->
 </head><body><div hidden="" by-vulcanize=""><script>(function () {
@@ -25420,9 +25416,9 @@ Example:
         app.$.drawer1.scrollToTop(true);
         }; 
 
-    if (window.location.port === '') {  // if production
-      page.base(app.baseUrl.replace(/\/$/, ''));
-    }
+    //if (window.location.port === '') {  // if production
+    //  page.base(app.baseUrl.replace(/\/$/, ''));
+   // }
 
 
     function scrollToTop(ctx, next) {
@@ -25455,11 +25451,6 @@ Example:
       }
     });
     
-    page('/mlz', scrollToTop, function() {
-      console.log('mlz');
-        tabs.selected="7";
-    
-    });
 
     page(app.baseUrl, function() {
       app.route = 'home';
@@ -25468,7 +25459,6 @@ Example:
 
     // 404
     page('*', function() {
-      console.log('wtf?');
       //app.$.toast.text = 'Can\'t find: ' + window.location.href  + '. Redirected you to Home Page';
       //app.$.toast.show();
       page.redirect(app.baseUrl);
@@ -27179,7 +27169,8 @@ MLZ, “Machine Learning and photo-Z” is a parallel python framework that comp
 
       _mlz: function(event){
         console.log('hola');
-        page("/mlz");
+        //page("/mlz");
+        window.open("/mlz", "_blank");
       },
       _git: function(event){
         window.open('https://github.com/mgckind/MLZ', '_blank');
