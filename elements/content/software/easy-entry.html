@@ -46,7 +46,7 @@ color:gold;
 Easyaccess is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format.
 </div>
 <div class="card-content" style="bottom:0px; position:absolute">
-<paper-button on-click="_demo" disabled class="easy"> <i class="fa fa-eye"></i> Demo</paper-button>
+<paper-button on-click="_tutorial" class="easy"> <i class="fa fa-eye"></i> Tutorial</paper-button>
 <paper-button raised  class="easy" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
 </paper-card>
@@ -59,6 +59,9 @@ Easyaccess is a Python Command Line Interpreter to access the Oracle DES databas
 
        _git: function(event){
         window.open('https://github.com/mgckind/easyaccess', '_blank');
+      },
+      _tutorial: function(event){
+        window.open('/easyaccess', '_blank');
       },
 
     });
