@@ -25901,7 +25901,7 @@ font-size: 9px;
 </script>
 
 
-</dom-module><dom-module id="home-page" assetpath="content/">
+</dom-module><dom-module id="home-page" assetpath="content/home/">
 
 <style is="custom-style">
 .welcome{
@@ -25963,8 +25963,8 @@ My main research interests are in cosmology and extragalactic astronomy, especia
 </script>
 
 
-</dom-module><dom-module id="teaching-page" assetpath="content/">
-<link rel="import" type="css" href="content/teaching-page.css">
+</dom-module><dom-module id="teaching-page" assetpath="content/teaching/">
+<link rel="import" type="css" href="content/teaching/teaching-page.css">
 
 <template>
 
@@ -26185,8 +26185,8 @@ My main research interests are in cosmology and extragalactic astronomy, especia
 </script>
 
 
-</dom-module><dom-module id="contact-page" assetpath="content/">
-<link rel="import" type="css" href="content/contact-page.css">
+</dom-module><dom-module id="contact-page" assetpath="content/contact/">
+<link rel="import" type="css" href="content/contact/contact-page.css">
 <template>
 
 <div class="layout horizontal center-justified">
@@ -26950,101 +26950,6 @@ paper-card{
     }
   });
 </script>
-<dom-module id="fullsize-page-with-card" assetpath="content/">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-      .fixed {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-      }
-      .card {
-        position: relative;
-        margin: 200px 100px 0;
-        height: 700px;
-      }
-    </style>
-
-    <div id="fixed" class$="[[_computeFixedBackgroundClass(color)]]"></div>
-    <paper-button on-click="_closeFull"> Close</paper-button>
-    <div id="card" class$="[[_computeCardClass(color)]]" style="background:{{color}};"></div>
-
-  </template>
-
-</dom-module>
-
-<script>
-  Polymer({
-    is: 'fullsize-page-with-card',
-    behaviors: [
-      Polymer.NeonSharedElementAnimatableBehavior
-    ],
-    properties: {
-      color: {
-        type: String
-      },
-      sharedElements: {
-        type: Object,
-        value: function() {
-          return {
-            'hero': this.$.card,
-            'ripple': this.$.fixed
-          }
-        }
-      },
-      animationConfig: {
-        type: Object,
-        value: function() {
-          return {
-            'entry': [{
-              name: 'ripple-animation',
-              id: 'ripple',
-              toPage: this,
-            }, {
-              name: 'hero-animation',
-              id: 'hero',
-              toPage: this,
-              timing: {
-                delay: 50
-              }
-            }],
-            'exit': [{
-              name: 'fade-out-animation',
-              node: this.$.fixed
-            }, {
-              name: 'transform-animation',
-              transformFrom: 'none',
-              transformTo: 'translate(0px,-200vh) scale(0.9,1)',
-              node: this.$.card
-            }]
-          }
-        }
-      }
-    },
-    _closeFull: function(){
-        this.fire('close');
-    },
-    _computeCardClass: function(color) {
-      var cls = 'card';
-      if (color) {
-        cls += ' ' + color ;
-      }
-      return cls;
-    },
-    _computeFixedBackgroundClass: function(color) {
-      var cls = 'fixed';
-      if (color) {
-        cls += ' ' + color + '-100';
-      }
-      return cls;
-    }
-  });
-</script>
 <dom-module id="soft-page" assetpath="content/software/">
 
 <style is="custom-style">
@@ -27097,6 +27002,24 @@ Below are some of the software I have written. Check my <a href="https://github.
 </grid-element>
 </div>
 </div>
+
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<grid-element ghi="10px" gho="0px" mq="(min-width: 736px)">
+<grid-col stretch="">
+<cutouts-entry></cutouts-entry>
+</grid-col>
+<grid-col stretch="">
+<deslabs-entry></deslabs-entry>
+</grid-col>
+<grid-col stretch="">
+<despublic-entry></despublic-entry>
+</grid-col>
+</grid-element>
+</div>
+</div>
+
+
 <credit-line></credit-line>
 </template>
 
@@ -27374,6 +27297,240 @@ A little graph manipulation tool written in javascript, based heavily in joint.j
       _demo: function(event){
         window.open("/graph", "_blank");
       },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="cutouts-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+paper-button.sparse {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-info);
+        color:white;
+  }
+  paper-button.sparse:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:green;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+height:320px;
+max-height:1500px;
+background:#F5F5F5;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card elevation="5" image="images/desthumb.png">
+<github-fork-ribbon username="mgckind" repository="desthumbs_web" position="right" label="Fork me" background-color="none">
+</github-fork-ribbon>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised="" class="sparse" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "cutouts-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/desthumbs_web', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="deslabs-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+paper-button.sparse {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--paper-blue-500);
+        color:white;
+  }
+  paper-button.sparse:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:black;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+height:320px;
+max-height:1500px;
+background:white;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card elevation="5" image="images/deslabs.png">
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised="" class="sparse" on-click="_git"> <i class="fa fa-eye"></i> View</paper-button>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "deslabs-entry",
+
+      _git: function(event){
+        window.open('http://deslabs.ncsa.illinois.edu/', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="despublic-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+paper-button.sparse {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-error);
+        color:white;
+  }
+  paper-button.sparse:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+height:320px;
+max-height:1500px;
+background:var(--text-color-success);
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card elevation="5">
+<github-fork-ribbon username="mgckind" repository="des_public" position="right" label="Fork me (soon)" background-color="none">
+</github-fork-ribbon>
+
+<div class="card-content">
+<div class="local-header">
+DESDM Public site
+</div>
+</div>
+<div class="card-content">
+This is the DESDM public site at NCSA. This site hosts  public data releases for DES, a DESDM service monitor page as well as basic information regarding the Data Management group. It was built with tornado and polymer.
+</div>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised="" class="sparse" on-click="_git"> <i class="fa fa-eye"></i> View</paper-button>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "despublic-entry",
+
+      _git: function(event){
+        window.open('https://des.ncsa.illinois.edu/', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="research-page" assetpath="content/research/">
+
+<style is="custom-style">
+.welcome{
+    color:var(--text-color-error);
+    font-size: 28px;
+    margin-left:10px;
+}
+paper-card{
+    max-width:1200px;
+    width:1000px;
+font-size:15px;
+    margin-top:10px;
+}
+</style>
+
+
+<template>
+
+<div class="layout horizontal center-justified">
+<paper-card elevation="5" heading="Research and projects">
+
+<div class="card-content">
+My main research interests are, among others:
+
+<ul>
+  <li>Data mining and machine learning in astronomy</li>
+  <li>Scientific computing and data intensive science</li>
+  <li>Data access and visualization</li>
+  <li>Data and image processing</li>
+  <li>Photometric redshifts estimation and applications</li>
+  <li>Star/Galaxy classification</li>
+  <li>Clustering of Large Scale Structure</li>
+  <li>Formation and evolution of dark matter halos</li>
+  <li>Galaxy properties in low density environments</li>
+</ul>
+
+</div>
+</paper-card>
+</div>
+<credit-line></credit-line>
+</template>
+
+<script>
+      Polymer({
+      is: "research-page",
 
     });
 

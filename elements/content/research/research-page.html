@@ -1,0 +1,53 @@
+<dom-module id="research-page">
+
+<style is="custom-style">
+.welcome{
+    color:var(--text-color-error);
+    font-size: 28px;
+    margin-left:10px;
+}
+paper-card{
+    max-width:1200px;
+    width:1000px;
+font-size:15px;
+    margin-top:10px;
+}
+</style>
+
+
+<template>
+
+<div class="layout horizontal center-justified">
+<paper-card  elevation="5" heading="Research and projects">
+
+<div class="card-content">
+My main research interests are, among others:
+
+<ul>
+  <li>Data mining and machine learning in astronomy</li>
+  <li>Scientific computing and data intensive science</li>
+  <li>Data access and visualization</li>
+  <li>Data and image processing</li>
+  <li>Photometric redshifts estimation and applications</li>
+  <li>Star/Galaxy classification</li>
+  <li>Clustering of Large Scale Structure</li>
+  <li>Formation and evolution of dark matter halos</li>
+  <li>Galaxy properties in low density environments</li>
+</ul>
+
+</div>
+</paper-card>
+</div>
+<credit-line></credit-line>
+</template>
+
+<script>
+      Polymer({
+      is: "research-page",
+
+    });
+
+
+</script>
+
+</dom>

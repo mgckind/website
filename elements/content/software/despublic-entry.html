@@ -1,0 +1,72 @@
+<dom-module id="despublic-entry">
+
+<style is="custom-style">
+
+paper-button.sparse {
+    --paper-button-ink-color: var(--paper-pink-a200);
+        background-color: var(--text-color-error);
+        color:white;
+  }
+  paper-button.sparse:hover {
+    opacity: 0.7;
+  }
+
+
+
+.local-header { 
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+height:320px;
+max-height:1500px;
+background:var(--text-color-success);
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card  elevation="5" >
+<github-fork-ribbon
+  username="mgckind"
+  repository="des_public"
+  position="right"
+  label="Fork me (soon)"
+  background-color="none">
+</github-fork-ribbon>
+
+<div class="card-content">
+<div class="local-header">
+DESDM Public site
+</div>
+</div>
+<div class="card-content">
+This is the DESDM public site at NCSA. This site hosts  public data releases for DES, a DESDM service monitor page as well as basic information regarding the Data Management group. It was built with tornado and polymer.
+</div>
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-eye"></i> View</paper-button>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "despublic-entry",
+
+      _git: function(event){
+        window.open('https://des.ncsa.illinois.edu/', '_blank');
+      },
+
+    });
+
+
+</script>
+
+</dom>
