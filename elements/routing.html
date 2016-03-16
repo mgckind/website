@@ -3,41 +3,29 @@
   window.addEventListener('WebComponentsReady', function() {
     var tabs = document.querySelector('paper-tabs');
     var app = document.querySelector('#app');
- 
+
     app.scrollPageToTop = function() {
         app.$.drawer1.scrollToTop(true);
         }; 
 
-    //if (window.location.port === '') {  // if production
-    //  page.base(app.baseUrl.replace(/\/$/, ''));
-   // }
-
-
     function scrollToTop(ctx, next) {
       app.scrollPageToTop();
-      //window.scrollTo(0,0);
-    //$('body').scrollTop(0);
-    //document.$.drawer1.scrollToTop(true);
-      console.log('scroll?');
       next();
     }
 
-    page('*', scrollToTop, function(ctx, next) {
+    page('*', function(ctx, next) {
       next();
     });
 
     page('/', function() {
-      console.log('home');
-      console.log(app.baseUrl);
         if (tabs.selected != "0"){
         tabs.selected="0";
       }
-
-      //tabs.selected="0";
+      //page('/cv');
     });
     
     page('/cv', function() {
-      console.log('cv');
+      console.log('talks');
       if (tabs.selected != "1"){
         tabs.selected="1";
       }
@@ -48,15 +36,6 @@
       app.route = 'home';
     });
 
-
-    // 404
-    page('*', function() {
-      //app.$.toast.text = 'Can\'t find: ' + window.location.href  + '. Redirected you to Home Page';
-      //app.$.toast.show();
-      page.redirect(app.baseUrl);
-    });
-
-    // add #! before urls
     page({
       hashbang: false
     });

@@ -1,0 +1,28 @@
+.reveal .footerL {
+  position: fixed;
+  bottom: 1.1em;
+  left: 1%;
+  font-size: 0.5em;
+  z-index: 100;
+}
+.reveal .footerR {
+  position: fixed;
+  bottom: 1.1em;
+  left: 41%;
+  font-size: 0.5em;
+  z-index: 100;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.reveal h1 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h2 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h3 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h4 { font-family: 'Roboto', 'noto', sans-serif; }

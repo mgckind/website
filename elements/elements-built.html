@@ -25411,41 +25411,29 @@ Example:
   window.addEventListener('WebComponentsReady', function() {
     var tabs = document.querySelector('paper-tabs');
     var app = document.querySelector('#app');
- 
+
     app.scrollPageToTop = function() {
         app.$.drawer1.scrollToTop(true);
         }; 
 
-    //if (window.location.port === '') {  // if production
-    //  page.base(app.baseUrl.replace(/\/$/, ''));
-   // }
-
-
     function scrollToTop(ctx, next) {
       app.scrollPageToTop();
-      //window.scrollTo(0,0);
-    //$('body').scrollTop(0);
-    //document.$.drawer1.scrollToTop(true);
-      console.log('scroll?');
       next();
     }
 
-    page('*', scrollToTop, function(ctx, next) {
+    page('*', function(ctx, next) {
       next();
     });
 
     page('/', function() {
-      console.log('home');
-      console.log(app.baseUrl);
         if (tabs.selected != "0"){
         tabs.selected="0";
       }
-
-      //tabs.selected="0";
+      //page('/cv');
     });
     
     page('/cv', function() {
-      console.log('cv');
+      console.log('talks');
       if (tabs.selected != "1"){
         tabs.selected="1";
       }
@@ -25456,15 +25444,6 @@ Example:
       app.route = 'home';
     });
 
-
-    // 404
-    page('*', function() {
-      //app.$.toast.text = 'Can\'t find: ' + window.location.href  + '. Redirected you to Home Page';
-      //app.$.toast.show();
-      page.redirect(app.baseUrl);
-    });
-
-    // add #! before urls
     page({
       hashbang: false
     });
@@ -27006,14 +26985,14 @@ Below are some of the software I have written. Check my <a href="https://github.
 <div class="horizontal layout  around-justified">
 <div style="max-width:1000px; width:1000px; padding-right:10px;">
 <grid-element ghi="10px" gho="0px" mq="(min-width: 736px)">
-<grid-col stretch="">
+<grid-col s="3" stretch="">
 <cutouts-entry></cutouts-entry>
 </grid-col>
-<grid-col stretch="">
-<deslabs-entry></deslabs-entry>
-</grid-col>
-<grid-col stretch="">
+<grid-col s="2" stretch="">
 <despublic-entry></despublic-entry>
+</grid-col>
+<grid-col s="3" stretch="">
+<deslabs-entry></deslabs-entry>
 </grid-col>
 </grid-element>
 </div>
@@ -27458,11 +27437,11 @@ color:black;
 
 <div class="card-content">
 <div class="local-header">
-DESDM Public site
+DESDM website
 </div>
 </div>
 <div class="card-content">
-This is the DESDM public site at NCSA. This site hosts  public data releases for DES, a DESDM service monitor page as well as basic information regarding the Data Management group. It was built with tornado and polymer.
+DESDM website at NCSA hosts public data releases for DES, a DESDM service monitor and basic information regarding the Data Management group. Built with tornado and polymer.
 </div>
 <div class="card-content" style="bottom:0px; position:absolute">
 <paper-button raised="" class="sparse" on-click="_git"> <i class="fa fa-eye"></i> View</paper-button>

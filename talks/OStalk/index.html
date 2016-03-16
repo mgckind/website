@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">    
+<head>
+    <meta charset="utf-8">
+    <title>NCSA Openstack meeting</title>
+    <link rel="stylesheet" href="../libs/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../libs/reveal.js/css/theme/night.css" id="theme">  
+    <link rel="stylesheet" href="../libs/highlight.js/src/styles/railscasts.css">
+    <script src="../libs/highlight.js/src/highlight.js"></script>
+    <link rel="stylesheet" href="my_reveal.css">
+   <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'> 
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!--Add support for earlier versions of Internet Explorer -->
+</head>
+ 
+<body>
+    <div class="reveal">
+        <div class="footerL"> <p> Matias Carrasco Kind, NCSA </div>
+        <div class="footerR"> <p>  NCSA OpenStack Meeting, November 11, 2015 </div>
+
+        <div class="slides">
+ 
+            <section data-background='images/DES2246-4457_section.png'>
+                <h2 style="color:#FFA000;"> Data exploration and visualization for astronomical surveys</h2>
+
+                <h3 >A brief description and demo</h3>
+            </section>
+
+            <section data-background='images/DES2246-4457_section.png'>
+            <h2> Photometric surveys</h2>
+            <div>
+             <img src="images/des_logo.png" border="1px" style="width: 40%; height: 40%">
+             <img src="images/lsst_logo.jpg" border="1px" style="width: 35%; height: 35%">
+             <img src="images/sdss_logo.jpg" border="1px" style="width: 40%; height: 40%">
+            </div>
+            </section >
+
+            <section data-background='images/DES2246-4457_section.png'>
+            </section>
+
+            <section data-background='images/DES2246-4457_section.png'>
+            <div>
+            <p style="float: left; "><img src="images/OpenStack-logo.png" border="1px" style="width: 70%; height: 70%"></p>
+            <ul style="float: left; background-color=black">
+            <li>  <h3><a href="http://deslabs.ncsa.illinois.edu/" target="_blank">DES Labs</a></h3></li>
+            <li>  <h3><a href="http://141.142.208.101/" target="_blank">Graph tool</a></h3></li>
+            <li>  <h3><a href="http://141.142.236.178:9000/cluster" target="_blank">MemSql Server for DES</a></h3></li>
+            <li>  <h3>Jupyter Notebook server</h3></li>
+            <li>  <h3>Apache Spark Cluster</h3></li>
+            <li>  <h3>and more (most of it on Dockers)</h3></li>
+            </ul>
+            </div>
+            </section>
+
+            <section data-background='images/DES2246-4457_section.png'>
+            <h1>Thanks!</h1>
+            <h4>Special thanks to ISL and nebula teams!</h4>
+            </section>
+
+
+
+            <!--
+            <section>
+            <video controls autoplay muted>
+            <source data-src="test.mov" type="video/mp4" />
+            </video>
+            </section>-->
+ 
+            </div>
+    </div>
+    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/head.min.js"></script>
+    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/js/reveal.js"></script>
+ 
+    <script>
+        // Required, even if empty.
+        Reveal.initialize({
+		controls:true,
+		slideNumber: true,
+        progress: true,
+        history : true,
+        touch : true,
+        //parallaxBackgroundImage: 'images/DES2119-0124_RGB.png',
+        //parallaxBackgroundSize: "1581px 1068px",
+        width: '100%',
+        center: true,
+
+	    dependencies: [
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+    </script>
+
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+   <script>
+     if( window.location.search.match( /print-pdf/gi ) ) {
+       var link = document.createElement( 'link' );
+       link.rel = 'stylesheet';
+       link.type = 'text/css';
+       link.href = 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/css/print/pdf.css';
+       document.getElementsByTagName( 'head' )[0].appendChild( link );
+     }
+   </script>
+
+</body>
+</html>
