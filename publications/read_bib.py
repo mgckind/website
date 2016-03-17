@@ -188,7 +188,7 @@ with open('/Users/Matias/Web/publications.json','w') as out:
                     slink=False
                     preplink=True
                     year = '2016'
-                    kind = "Submitted"
+                    kind = "Finishing"
                     pdf_link=False
                     pdf_url='#'
                     
