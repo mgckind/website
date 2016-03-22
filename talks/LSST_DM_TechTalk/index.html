@@ -22,89 +22,92 @@
         <div class="slides">
  
             <section data-menu-title="Title ">
-                <h2 style="color:#FFA000;"> Data Access for Astronomical Surveys</h2>
+                <h1 style="color:#FFA000;"> Data Access for Astronomical Surveys</h1>
 
-                <h3 >A brief description and demo of tools used by DES</h3>
+                <h2 >A brief description and demo of tools used by DES</h2>
                 <p> Matias Carrasco Kind @ NCSA/UIUC</p>
             </section>
 
             <section data-menu-title="Outline">
-            <h2> Outline</h2>
-            <div>
-            <ul style="float: left;">
+            <h1> Outline</h1>
+            <ul >
             <li>  <h3><a href="#/ea">easyaccess</a></h3></li>
             <li>  <h3><a href="#/deslabs">DES Labs</a></h3></li>
             <li>  <h3><a href="#/jupyter">JupyterHub + DESDM</a></h3></li>
             <li>  <h3><a href="#/cutouts">DES image cutouts</a></h3></li>
             <li>  <h3><a href="#/conclusions">Conclusions</a></h3></li>
             </ul>
-            </div>
             </section >
 
 
             <section data-menu-title="Easyaccess" data-background="#000000" id="ea">
-            <h2>easyaccess &nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h2>
-            <p style="float: center;"><img src="images/front.png"  width="65%" style="border-color: black" alt="easyaccess.png"></p>
+            <h1>easyaccess &nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h1>
+            <p style="float: center;"><img src="images/front.png"  width="700px" style="border-color: black" alt="easyaccess.png"></p>
             </section>
+ 
 
-            <section data-menu-title="What is it?">
-            <h2> What and why?</h2>
+            <section data-menu-title="Motivations">
+            <h1> Motivations</h1>
             <div>
-            <ul style="float: left;">
+            <ul style="float: left; list-style-type:circle">
             <li>  <h3>DES DB in Oracle</h3></li>
-            <li>  <h3>Needed upgrade from older versions</h3></li>
+            <li>  <h3>Needed upgrade from older versions (trivialaccess)</h3></li>
             <li>  <h3>Enhanced SQL command line interpreter </h3></li>
             <li>  <h3>Astronomically friendly</h3></li>
             <li>  <h3>Python API, web interface</h3></li>
+            <li>  <h3>There are many other clients but needed one standard for beginners </h3></li>
             </ul>
             </div>
-            </section >
+            </section>
+
 
 
             <section data-menu-title="Features" >
-            <h2>Some "neat" features</h2>
+            <h1>Some cool features <i class="fa fa-smile-o"></i></h1>
             <ul>
             <li style="font-size:40px">History of commands</li>
             <li style="font-size:40px">Smart TAB auto-completion of commands, columns, users, tables and path</li>
+            <li style="font-size:40px">Very flexible configuration</li>
             <li style="font-size:40px">Completely open source and written in python</li>
             <li style="font-size:40px">Write tables in csv, tab, fits and hdf5 formats</li>
             <li style="font-size:40px">Load sql queries directly from a file </li>
             <li style="font-size:40px">Load table directly in to DB in one step</li>
             <li style="font-size:40px">Can be imported as python module</li>
+            <li style="font-size:40px">Tables are handled and displayed using pandas</li>
             <li style="font-size:40px">Can run python functions inside query (beta)</li>
             <li style="font-size:40px">Many more...</li>
             </ul>
             </section>
 
             <section data-menu-title="Installation" >
-            <h2>Installation</h2>
-            <h4> Making things easier</h4>
+            <h1>Installation <i class="fa fa-desktop"></i></h1>
+            <h4> Making things even easier</h4>
             <ul>
             <li style="font-size:40px"> Clone it from <a href=https://github.com/mgckind/easyaccess/>github</a></li>
             <li style="font-size:40px"> Using pip or easy_install</li>
             <li style="font-size:40px"> Using EUPS @ DESDM </li>
-            <li style="font-size:40px"> Pre-installed in Docker Image</li>
+            <li style="font-size:40px"> Pre-installed in Docker Image (and run outside the container)</li>
             </ul>
             </section>
 
             <section data-menu-title="Users">
             <section data-menu-title="Users">
-            <h3> Users</h3>
+            <h1> DB Users</h1>
             <div>
              <p style="float: left;"><img src="images/ea_users.png" border="1px"></p>
              <br>
-            <p align="left"> Doubled number of users since easyaccess</p>
-            <p align="left"> More than 150 users with a few dozens of active users</p>
-            <p align="left"> Feedback via github issues, and stack-overflow-like question system</p>
+            <p align="left"> Doubled number of users since easyaccess</p><br>
+            <p align="left"> More than 150 users with easyaccess with different activity levels</p><br>
+            <p align="left"> Feedback via github issues, stack-overflow-like questions, email list and personal inquiries</p>
             </div>
             </section>
             <section>
-            <h2> Quotas </h2>
+            <h1> DB Quotas </h1>
             <div>
              <p style="float: left;"><img src="images/quota.png" border="1px"></p>
              <br>
-            <p align="left"> Personal space actively used and constantly increasing</p>
-            <p align="left"> People create and share tables with one command </p>
+            <p align="left"> Personal space actively used and constantly increasing</p><br>
+            <p align="left"> People create and share tables with one command </p><br>
             <p align="left"> ~ 4TB in personal space, tables and index tables included </p>
             </div>
 
@@ -112,51 +115,78 @@
             </section>
             
             <section data-menu-title="Demo">
-            <h2> Future and Demo </h2>
+            <section data-menu-title="Demo">
+            <h1> Future and Demo </h1>
             <ul>
             <li><h4> Generalization (SQLAlchemy), in-query python functions, batch jobs,  checkpoint, web, better Jupyter integration, more... </h4></li>
             <li><h4>easyacess: Enhanced SQL interpreter for astronomical surveys (Carrasco Kind+, 2016?)</h4></li>
 
             <li><h4>For a more detailed tutorial check <a href="http://matias-ck.com/easyaccess/" target="_blank">Here</a></h4></li>
-            <li><h4><a href="http://141.142.236.168:8080/" target="_blank">Live Demo!</a></h4></li>
             </ul>
+            <div class="flex-container">
+            <div style="border:1px solid tomato; padding: 9px;">
+            <h3><a href="http://141.142.236.168:8080/" target="_blank">Live Demo!</a></h3>
+            </div>
+            </div>
             </section>
 
+            <section>
+            <h6>easyaccess &nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h6>
+            <iframe style="border: 1px solid green" width="100%" height="700px" src="http://141.142.236.168:8080/"></iframe>
+
+            </section>
+
+            </section>
+
+            <!--
             <section data-menu-title="DES Labs" id="deslabs" data-background="#ffffff">
             <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><img src='images/deslabs.png' width="800px"></img></a>
             <h4 style="color: black">Experimental UI projects being developed</h4>
             <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="color: black; font-size:17px">deslabs.ncsa.illinois.edu</p></a>
             </section>
+            -->
+
+             <section data-menu-title="DES Labs" id="deslabs">
+            <h5>Experimental UI projects being developed</h5>
+             <iframe width="100%" height="700px" src="http://deslabs.ncsa.illinois.edu/"></iframe>
+            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="font-size:17px">deslabs.ncsa.illinois.edu</p></a>
+
+            </section>
+
 
             <section data-menu-title="JupyterHub" id="jupyter" >
-            <h3>JupyterHub and easyaccess</h3>
-            <br>
+            <h1>JupyterHub and easyaccess</h1>
+            <div class="flex-container">
             <div>
-            <div style="float: left; width: 500px;">
              <img src="images/logo.png" border="1px"><br>
              <img src="images/login.png" border="1px"><br>
              </div>
-             <div style="float: right; width: calc(100% - 500px);">
+             <div>
             <ul>
+            <li>Multi-user jupyter notebook sessions</li>
             <li>Access with DB credentials</li>
             <li>Running in OpenStack (Same as Nebula) </li>
             <li>Easy setup (Running from Docker container)</li>
             <li>10-15 test users</li>
-            <li>Easyaccess and other tools installed</li>
+            <li>Easyaccess and other tools installed</li>http://141.142.236.167:8000/hub/
             <li>Future : DS9 integration (some experiments with JS9) </li>
             <li>Future : GPFS mounted with access to images</li>
             </ul>
             </div>
             </div>
-            <a style=" border: 1px solid green ; padding: 5px;" href="http://141.142.236.167:8000/hub/" target="_blank">Live demo!</a>
+            <a style=" border: 1px solid tomato ; padding: 5px;" href="http://141.142.236.167:8000/hub/" target="_blank">Live demo!</a>
+
             </section>
 
-            <section data-menu-title="DES Thumbs" id="cutouts">
-            <h2>DES cutouts</h2>
-            </section>
-            
             <section data-menu-title="Conclusions" id="conclusions">
-            <h2>Conclusions</h2>
+            <h1>Conclusions</h1>
+            <ul>
+            <li><h3>Tools being developed to make data access easier </h3></li>
+            <li><h3>Opensource and integrated software </h3></li>
+            <li><h3>Advantages of Docker + OpenStack</h3></li>
+            <li><h3>Bring software to the data!</h3></li>
+            </ul>
+
             </section>
 
 
@@ -193,7 +223,10 @@
         //parallaxBackgroundImage: 'images/DES2119-0124_RGB.png',
         //parallaxBackgroundSize: "1581px 1068px",
         width: '100%',
-        center: true,
+        center: false,
+        margin: 0.1,
+        minScale: 0.1,
+        maxScale: 1.5,
 
 	    dependencies: [
 				{ src: '../libs/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
