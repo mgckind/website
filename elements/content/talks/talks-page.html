@@ -1,0 +1,45 @@
+<dom-module id="talks-page">
+
+<style is="custom-style">
+.welcome{
+    color:var(--text-color-error);
+    font-size: 28px;
+    margin-left:10px;
+}
+paper-card{
+    width:350px;
+    height:400px;
+}
+</style>
+
+
+<template>
+
+<div class="layout horizontal center-justified">
+<paper-card  elevation="5" heading="Talk 1">
+<div class="card-content layout horizontal center-justified ">
+<object data="/talks/test/Talk_Matias.pdf?#toolbar=0&amp;navpanes=0&amp;scrollbar=0&amp;view=Fit" type="application/pdf" width="400px" height="300px">
+<param name="view" value="Fit" />
+<param name="toolbar" value="0" />
+</object>
+</div>
+</paper-card>
+<paper-card  elevation="5" heading="Talk 2">
+<div class="card-content  layout horizontal center-justified ">
+<iframe src="/talks/LSST_DM_TechTalk/index.html" width="1000px" height=300px style="transform: scale(0.5); transform-origin: 0 0;"></iframe>
+</div>
+</paper-card>
+</div>
+<credit-line></credit-line>
+</template>
+
+<script>
+      Polymer({
+      is: "talks-page",
+
+    });
+
+
+</script>
+
+</dom>

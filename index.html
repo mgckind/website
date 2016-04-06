@@ -14,6 +14,7 @@
 <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="import" href="elements/elements-built.html">
+<script src="bower_components/page/page.js"></script>
 
 
 <style is="custom-style">
@@ -75,6 +76,7 @@ background-color:var(--body-color-background);
 <!-- BODY -->
 
   <body class="fullbleed layout vertical" unresolved>
+
 <template is="dom-bind" id="app">
   <paper-drawer-panel drawer-width="170px" force-narrow=true>
       <paper-scroll-header-panel drawer fixed id="drawer1" class="drawer1c">
@@ -135,7 +137,7 @@ background-color:var(--body-color-background);
         <contact-page></contact-page>
         </section>
         <section>
-        
+        <talks-page></talks-page>
         </section>
 
 <paper-scroll-header-panel>
@@ -146,11 +148,9 @@ background-color:var(--body-color-background);
     var app = document.querySelector('#app');
     app.baseUrl = '/';
 
-       // To ensure that elements are ready on polyfilled browsers, 
-      // wait for WebComponentsReady. 
       document.addEventListener('WebComponentsReady', function() {
         var tabs = document.querySelector('paper-tabs');
-         var temp= $(window).width();
+                var temp= $(window).width();
             if (temp < 700){
             tabs.style.visibility='hidden';
             }
@@ -174,8 +174,6 @@ background-color:var(--body-color-background);
             tabs.style.visibility='visible';
             };
             });
-
-
         });
     </script>
 

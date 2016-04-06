@@ -1,0 +1,33 @@
+{
+  "name": "pdf-element",
+  "version": "1.0.1",
+  "authors": [
+    "Pavel Makhov <streetturtle@gmail.com>"
+  ],
+  "description": "PDF viewer element for Polymer 1.0",
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "pdf"
+  ],
+  "private": true,
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-button": "Polymer/paper-item#master",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.6",
+    "paper-item": "PolymerElements/paper-item#^1.1.4"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  },
+  "ignore": [],
+  "resolutions": {
+    "polymer": "^1.2.4",
+    "paper-button": "^1.0.0",
+    "font-roboto": "^1.0.1",
+    "paper-ripple": "^1.0.0"
+  }
+}

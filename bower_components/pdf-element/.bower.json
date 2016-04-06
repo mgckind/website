@@ -1,0 +1,43 @@
+{
+  "name": "pdf-element",
+  "authors": [
+    "Pavel Makhov <streetturtle@gmail.com>"
+  ],
+  "description": "PDF viewer element for Polymer 1.0",
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "pdf"
+  ],
+  "private": true,
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-button": "Polymer/paper-item#master",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.6",
+    "paper-item": "PolymerElements/paper-item#^1.1.4"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  },
+  "ignore": [],
+  "resolutions": {
+    "polymer": "^1.2.4",
+    "paper-button": "^1.0.0",
+    "font-roboto": "^1.0.1",
+    "paper-ripple": "^1.0.0"
+  },
+  "homepage": "https://github.com/streetturtle/pdf-element",
+  "_release": "ec82f8660e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ec82f8660eccd555f693f3379405ac712af80cb1"
+  },
+  "_source": "git://github.com/streetturtle/pdf-element.git",
+  "_target": "*",
+  "_originalSource": "pdf-element",
+  "_direct": true
+}
