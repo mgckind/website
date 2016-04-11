@@ -1,7 +1,68 @@
 [
     {
         "byear": "In preparation", 
-        "papers": []
+        "papers": [
+            {
+                "ads_link": false, 
+                "kind": "Finishing", 
+                "arxiv": "0000.0000", 
+                "arxiv_url": "#", 
+                "title": "Reconstructing the Galaxy Redshift Distribution by using Deconvolution", 
+                "url": "", 
+                "soft_link": false, 
+                "authors": "W. Biscarri, M. Carrasco Kind, J. Asorey, R. J. Brunner", 
+                "prep_link": true, 
+                "pages": "", 
+                "pdf_url": "#", 
+                "doi": "#", 
+                "authors_long": "W. Biscarri, M. Carrasco Kind, J. Asorey, R. J. Brunner", 
+                "year": "2016", 
+                "doi_link": false, 
+                "arxiv_link": false, 
+                "journal": "submitted", 
+                "pdf_link": false
+            }, 
+            {
+                "ads_link": false, 
+                "kind": "Finishing", 
+                "arxiv": "0000.0000", 
+                "arxiv_url": "#", 
+                "title": "Source Detection with SOM and nested sampling", 
+                "url": "", 
+                "soft_link": false, 
+                "authors": "D. Balakrishna, M. Carrasco Kind, R. J. Brunner", 
+                "prep_link": true, 
+                "pages": "", 
+                "pdf_url": "#", 
+                "doi": "#", 
+                "authors_long": "D. Balakrishna, M. Carrasco Kind, R. J. Brunner", 
+                "year": "2016", 
+                "doi_link": false, 
+                "arxiv_link": false, 
+                "journal": "to be submitted", 
+                "pdf_link": false
+            }, 
+            {
+                "ads_link": false, 
+                "kind": "Finishing", 
+                "arxiv": "0000.0000", 
+                "arxiv_url": "#", 
+                "title": "easyacess: Enhanced SQL interpreter for astronomical surveys", 
+                "url": "", 
+                "soft_link": false, 
+                "authors": "M. Carrasco Kind", 
+                "prep_link": true, 
+                "pages": "", 
+                "pdf_url": "#", 
+                "doi": "#", 
+                "authors_long": "M. Carrasco Kind", 
+                "year": "2016", 
+                "doi_link": false, 
+                "arxiv_link": false, 
+                "journal": "in prep.", 
+                "pdf_link": false
+            }
+        ]
     }, 
     {
         "byear": "2016", 
@@ -1325,6 +1386,46 @@
                 "arxiv_link": false, 
                 "journal": "The Astronomer's Telegram", 
                 "pdf_link": false
+            }, 
+            {
+                "ads_link": true, 
+                "kind": "Arxiv", 
+                "arxiv": "1211.0310", 
+                "arxiv_url": "http://arxiv.org/abs/1211.0310", 
+                "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration", 
+                "url": "http://adsabs.harvard.edu/abs/2012arXiv1211.0310L", 
+                "soft_link": false, 
+                "authors": " LSST Dark Energy Science Collaboration, A. Abate, G. Aldering, S. Allen, R. Ansari, et al.", 
+                "prep_link": false, 
+                "pages": "", 
+                "pdf_url": "http://arxiv.org/pdf/1211.0310", 
+                "doi": "#", 
+                "authors_long": " LSST Dark Energy Science Collaboration, A. Abate, G. Aldering, S. Allen, R. Ansari, P. Antilogus, D. Applegate, P. Astier, E. Aubourg, N. Bahcall, D. Bard, W. Barkhouse, J. Bartlett, R. Bean, A. Becker, V. Beckmann, G. Bernstein, R. Biswas, G. Blanc, S. Bongard, J. Bosch, D. Boutigny, M. Bradac, A. Bradshaw, R. Brunner, P. Burchat, D. Burke, R. Cahn, J. Campagne, M. Carrasco Kind, C. Chang, E. Cheu, J. Chiang, D. Cinabro, C. Claver, D. Clowe, J. Cohn, A. Connolly, A. Cooray, R. Croft, W. Cui, C. Cunha, I. Dell'Antonio, S. Digel, T. Di Matteo, S. Dodelson, O. Dore, R. Dubois, G. Dubois-Felsmann, A. Ealet, S. Escoffier, C. Fassnacht, D. Finley, D. Fouchez, J. Frieman, K. Ganga, E. Gangler, G. Garzoglio, E. Gawiser, F. Gilman, K. Gilmore, L. Gladney, T. Glanzman, E. Gottschalk, N. Gnedin, P. Gris, J. Guy, S. Habib, K. Heitmann, S. Hilbert, S. Ho, C. Hogan, K. Honscheid, Z. Huard, E. Huff, Z. Ivezic, B. Jain, M. Jarvis, M. Jee, T. Jeltema, S. Jha, K. Johns, A. Johnson, R. Johnson, S. Kahn, S. Kent, R. Kessler, A. Kiessling, A. Kim, D. Kirkby, R. Kirshner, E. Kovacs, L. Knox, J. Kratochvil, S. Kuhlmann, M. Levi, G. Li, H. Lin, E. Linder, R. Lupton, Z. Ma, B. Macintosh, R. Mandelbaum, A. Mantz, P. Marshall, S. Marshall, M. May, P. McDonald, B. Meadows, P. Melchior, B. Menard, M. Moniez, A. Morandi, R. Morris, J. Newman, M. Neyrinck, P. Nugent, P. O'Connor, S. Olivier, N. Padmanabhan, R. Pain, E. Peng, O. Perdereau, S. Perlmutter, J. Peterson, V. Petrosian, S. Plaszczynski, A. Pope, A. Raccanelli, A. Rasmussen, K. Reil, J. Rhodes, P. Ricker, J. Ricol, N. Roe, A. Roodman, L. Rosenberg, C. Roucelle, S. Russo, M. Sako, R. Schindler, S. Schmidt, M. Schneider, N. Sehgal, U. Seljak, G. Sembroski, H. Seo, I. Shipsey, J. Singal, D. Spergel, M. Soares-Santos, H. Spinka, A. Stebbins, M. Strauss, C. Stubbs, C. Tao, J. Thaler, R. Thomas, P. Thorman, A. Tilquin, H. Trac, T. Treu, M. Tristram, J. Tyson, B. Wandelt, Y. Wang, R. Wechsler, T. Wenaus, M. White, D. Wittman, W. Wood-Vasey, B. Xin, P. Yoachim, A. Zentner, H. Zhan", 
+                "year": "2012", 
+                "doi_link": false, 
+                "arxiv_link": true, 
+                "journal": "ArXiv e-prints", 
+                "pdf_link": true
+            }, 
+            {
+                "ads_link": true, 
+                "kind": "Arxiv", 
+                "arxiv": "1211.0310", 
+                "arxiv_url": "http://arxiv.org/abs/1211.0310", 
+                "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration", 
+                "url": "http://adsabs.harvard.edu/abs/2012arXiv1211.0310L", 
+                "soft_link": false, 
+                "authors": "", 
+                "prep_link": false, 
+                "pages": "", 
+                "pdf_url": "http://arxiv.org/pdf/1211.0310", 
+                "doi": "#", 
+                "authors_long": "", 
+                "year": "2012", 
+                "doi_link": false, 
+                "arxiv_link": true, 
+                "journal": "ArXiv e-prints", 
+                "pdf_link": true
             }
         ]
     }
