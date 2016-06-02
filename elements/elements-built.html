@@ -26284,7 +26284,8 @@ font-size:15px;
 </div>
 </div>
 <div class="card-content">
-Currently I am a Research Scientist at the  National Center for Supercomputing Applications (<a href="http://www.ncsa.illinois.edu/" target="_blank">NCSA</a>) and at the <a href="http://www.astro.illinois.edu/" target="_blank">Astronomy Department</a> both at the University of Illinois at Urbana-Champaign (<a href="http://illinois.edu/" targer="_blank">UIUC</a>). I work for both, the Dark Energy Survey (<a href="http://www.darkenergysurvey.org/" target="_blank">DES</a>) Data Managment and the Large Synoptic Survey Telescope (<a href="http://lsst.org/" target="_blank">LSST </a>) Data Managment at NCSA.
+Currently I am a Research Scientist at the  National Center for Supercomputing Applications (<a href="http://www.ncsa.illinois.edu/" target="_blank">NCSA</a>) and at the <a href="http://www.astro.illinois.edu/" target="_blank">Astronomy Department</a> both at the University of Illinois at Urbana-Champaign (<a href="http://illinois.edu/" targer="_blank">UIUC</a>). Half of my time I work for the Dark Energy Survey (<a href="http://www.darkenergysurvey.org/" target="_blank">DES</a>) Data Management team
+(<a href="http://des.ncsa.illinois.edu" target="_blank">DESDM</a>) where I play several roles, but mainly I act as a liaison with our collaboration, enable data access through different technologies and serve as Release Scientist. The other half I also work for  the Large Synoptic Survey Telescope (<a href="http://lsst.org/" target="_blank">LSST </a>) Data Management developing algorithms for data production, data workflows and data analysis. 
 
 </div>
 
@@ -26293,7 +26294,8 @@ Currently I am a Research Scientist at the  National Center for Supercomputing A
 I obtained my PhD at the Astronomy Department with a Computational Science and Engineering  <a href="http://www.cse.illinois.edu/" target="_blank">CSE</a> graduate option at UIUC. Before that, I received my degree in Astronomy at Universidad Catolica de Chile (<a href="" target="_blank">PUC</a>) with highest honors, I did my undergraduate thesis at the Max-Planck Institute for Astrophysics (<a href="http://www.mpa-garching.mpg.de/" target="_blank">MPA</a>) in Germany where I also spent some time doing PhD studies before working as an Adjunct professor for two years at the Universidad Andres Bello (<a href="http://www.unab.cl/" target="_blank">UNAB</a>) in Chile where I taught over 13 physics courses for Physics and Engineering careers.
 </div>
 <div class="card-content">
-My main research interests are in cosmology and extragalactic astronomy, especially in large scale structure, galaxy formation and evolution, computational and theoretical cosmology, environmental dependence of galaxy properties, photometric redshift estimation, machine learning techniques and data mining applied to astronomy, data intensive science,  among others.
+My main research interests in astrophysics are in cosmology and extragalactic astronomy, especially in large scale structure, galaxy formation and evolution, environmental dependence of galaxy properties, photometric redshift estimation. From the Computer Science side I'm also interested machine learning techniques and data mining applied to astronomy, data intensive science, data distribution and visualization, image processing, software engineering and architecture,  among <a href="javascript:void(0);" on-click="_research">others</a>.
+
 </div>
 </paper-card>
 </div>
@@ -26303,6 +26305,10 @@ My main research interests are in cosmology and extragalactic astronomy, especia
 <script>
       Polymer({
       is: "home-page",
+      _research: function(event){
+        var tabs = document.querySelector('paper-tabs');
+        tabs.selected = "4";
+      },
 
     });
 
@@ -26667,6 +26673,9 @@ Adjunct Professor and Researcher
 <tag2>
 Universidad Andres Bello, Chile
 </tag2>
+<tag3>
+See teaching experience <a href="javascript:void(0);" on-click="_teaching">here</a>
+</tag3>
 </cv-entry>
 
 <cv-entry year="2008">
@@ -26683,7 +26692,7 @@ Pontificia Universidad Catolica de Chile
 LENAC/ALPHA visitor/fellow
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics
+Max Planck Institute for Astrophysics
 </tag2>
 </cv-entry>
 
@@ -26722,7 +26731,7 @@ Scholarship given by the Chilean government for abroad PhD studies
 International Max Planck Research School Fellowship
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics<br>
+Max Planck Institute for Astrophysics<br>
 <tag3>
 IMPRS PhD fellowship
 </tag3>
@@ -26734,7 +26743,7 @@ IMPRS PhD fellowship
 Marie Curie Host Fellowship for Early Stage Research Training
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics
+Max Planck Institute for Astrophysics
 </tag2>
 </cv-entry>
 
@@ -26781,6 +26790,13 @@ MongoDB/MemSQL
       is: "cv-page",
        _pdf: function(event){
         window.open('https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtZ2NraW5kfGd4Ojc2ZmJhZjE1MWY5NWEyZjQ', '_blank');
+      },
+      _teaching: function(event){
+        var tabs = document.querySelector('paper-tabs');
+        tabs.selected = "5";
+        var app = document.querySelector('#app');
+        app.scrollPageToTop();
+        
       },
 
     });

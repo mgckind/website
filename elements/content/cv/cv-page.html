@@ -98,6 +98,9 @@ Adjunct Professor and Researcher
 <tag2>
 Universidad Andres Bello, Chile
 </tag2>
+<tag3>
+See teaching experience <a href="javascript:void(0);" on-click="_teaching" >here</a>
+</tag3>
 </cv-entry>
 
 <cv-entry  year="2008" >
@@ -114,7 +117,7 @@ Pontificia Universidad Catolica de Chile
 LENAC/ALPHA visitor/fellow
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics
+Max Planck Institute for Astrophysics
 </tag2>
 </cv-entry>
 
@@ -153,7 +156,7 @@ Scholarship given by the Chilean government for abroad PhD studies
 International Max Planck Research School Fellowship
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics<br>
+Max Planck Institute for Astrophysics<br>
 <tag3>
 IMPRS PhD fellowship
 </tag3>
@@ -165,7 +168,7 @@ IMPRS PhD fellowship
 Marie Curie Host Fellowship for Early Stage Research Training
 </tag1>
 <tag2>
-Max Planck Institue for Astrophysics
+Max Planck Institute for Astrophysics
 </tag2>
 </cv-entry>
 
@@ -212,6 +215,13 @@ MongoDB/MemSQL
       is: "cv-page",
        _pdf: function(event){
         window.open('https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtZ2NraW5kfGd4Ojc2ZmJhZjE1MWY5NWEyZjQ', '_blank');
+      },
+      _teaching: function(event){
+        var tabs = document.querySelector('paper-tabs');
+        tabs.selected = "5";
+        var app = document.querySelector('#app');
+        app.scrollPageToTop();
+        
       },
 
     });
