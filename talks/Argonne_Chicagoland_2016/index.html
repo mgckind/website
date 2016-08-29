@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">    
+<head>
+    <meta charset="utf-8">
+    <title>DES @ Argonne 2016 -MCK-</title>
+    <link rel="stylesheet" href="../libs/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../libs/reveal.js/css/theme/night.css" id="theme">  
+    <link rel="stylesheet" href="../libs/highlight.js/src/styles/railscasts.css">
+    <link rel="stylesheet" href="../../styles/font-awesome-4.5.0/css/font-awesome.css">
+    <script src="../libs/highlight.js/src/highlight.js"></script>
+    <link rel="stylesheet" href="my_reveal.css">
+   <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'> 
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+ 
+<body>
+    <div class="reveal">
+        <div class="footerL"> <p> <a href="http://matias-ck.com/">Matias Carrasco Kind</a> @  <a href="http://www.ncsa.illinois.edu/" target="_blank">NCSA</a></div>
+        <div class="footerR"> <p>  DES Chicagoland Meeting @ Argonne, August 30, 2016 </div>
+
+        <div class="slides">
+ 
+            <section data-menu-title="Title ">
+                <h1 style="color:#FFA000;"> Data Access for Astronomical Surveys</h1>
+
+                <h2 >A brief description and demo of tools @ DESDM</h2>
+                <p> Matias Carrasco Kind @ NCSA/UIUC</p>
+            </section>
+
+            <section data-menu-title="Outline">
+            <h1> Outline</h1>
+            <ul >
+            <li>  <h3><a href="#/ea">easyaccess</a></h3></li>
+            <li>  <h3><a href="#/deslabs">DES Labs</a></h3></li>
+            <li>  <h3><a href="#/jupyter">JupyterHub + DESDM</a></h3></li>
+            <li>  <h3><a href="#/cutouts">DES image cutouts</a></h3></li>
+            <li>  <h3><a href="#/conclusions">Conclusions</a></h3></li>
+            </ul>
+            </section >
+
+
+            <section data-menu-title="Easyaccess" data-background="#000000" id="ea">
+            <h1>easyaccess &nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h1>
+            <p style="float: center;"><img src="images/front.png"  width="700px" style="border-color: black" alt="easyaccess.png"></p>
+            </section>
+ 
+
+            <section data-menu-title="Motivations">
+            <h1> Motivations</h1>
+            <div>
+            <ul style="float: left; list-style-type:circle">
+            <li>  <h3>DES DB in Oracle</h3></li>
+            <li>  <h3>Needed upgrade from older versions (trivialaccess)</h3></li>
+            <li>  <h3>Enhanced SQL command line interpreter </h3></li>
+            <li>  <h3>Astronomically friendly</h3></li>
+            <li>  <h3>Python API, web interface</h3></li>
+            <li>  <h3>There are many other clients but needed one standard for beginners </h3></li>
+            </ul>
+            </div>
+            </section>
+
+
+
+            <section data-menu-title="Features" >
+            <h1>Some cool features <i class="fa fa-smile-o"></i></h1>
+            <ul>
+            <li style="font-size:40px">History of commands</li>
+            <li style="font-size:40px">Smart TAB auto-completion of commands, columns, users, tables and path</li>
+            <li style="font-size:40px">Very flexible configuration</li>
+            <li style="font-size:40px">Completely open source and written in python</li>
+            <li style="font-size:40px">Write tables in csv, tab, fits and hdf5 formats</li>
+            <li style="font-size:40px">Load sql queries directly from a file </li>
+            <li style="font-size:40px">Load table directly in to DB in one step</li>
+            <li style="font-size:40px">Can be imported as python module</li>
+            <li style="font-size:40px">Tables are handled and displayed using pandas</li>
+            <li style="font-size:40px">Can run python functions inside query (beta)</li>
+            <li style="font-size:40px">Many more...</li>
+            </ul>
+            </section>
+
+            <section data-menu-title="Installation" >
+            <h1>Installation <i class="fa fa-desktop"></i></h1>
+            <h4> Making things even easier</h4>
+            <ul>
+            <li style="font-size:40px"> Clone it from <a href=https://github.com/mgckind/easyaccess/>github</a></li>
+            <li style="font-size:40px"> Using pip or easy_install</li>
+            <li style="font-size:40px"> Using EUPS @ DESDM </li>
+            <li style="font-size:40px"> Pre-installed in Docker Image (and run outside the container)</li>
+            </ul>
+            </section>
+
+            <section data-menu-title="Users">
+            <section data-menu-title="Users">
+            <h1> DB Users</h1>
+            <div>
+             <p style="float: left;"><img src="images/ea_users.png" border="1px"></p>
+             <br>
+            <p align="left"> Doubled number of users since easyaccess</p><br>
+            <p align="left"> More than 150 users with easyaccess with different activity levels</p><br>
+            <p align="left"> Feedback via github issues, stack-overflow-like questions, email list and personal inquiries</p>
+            </div>
+            </section>
+            <section>
+            <h1> DB Quotas </h1>
+            <div>
+             <p style="float: left;"><img src="images/quota.png" border="1px"></p>
+             <br>
+            <p align="left"> Personal space actively used and constantly increasing</p><br>
+            <p align="left"> People create and share tables with one command </p><br>
+            <p align="left"> ~ 4TB in personal space, tables and index tables included </p>
+            </div>
+
+            </section>
+            </section>
+            
+            <section data-menu-title="Demo">
+            <section data-menu-title="Demo">
+            <h1> Future and Demo </h1>
+            <ul>
+            <li><h4> Generalization (SQLAlchemy), in-query python functions, batch jobs,  checkpoint, web, better Jupyter integration, more... </h4></li>
+            <li><h4>easyacess: Enhanced SQL interpreter for astronomical surveys (Carrasco Kind+, 2016?)</h4></li>
+
+            <li><h4>For a more detailed tutorial check <a href="http://matias-ck.com/easyaccess/" target="_blank">Here</a></h4></li>
+            </ul>
+            <div class="flex-container">
+            <div style="border:1px solid tomato; padding: 9px;">
+            <h3><a href="http://141.142.236.168:8080/" target="_blank">Live Demo!</a></h3>
+            </div>
+            </div>
+            </section>
+
+            <section>
+            <h6>easyaccess &nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h6>
+            <iframe style="border: 1px solid green" width="100%" height="700px" src="http://141.142.236.168:8080/"></iframe>
+
+            </section>
+
+            </section>
+
+            <!--
+            <section data-menu-title="DES Labs" id="deslabs" data-background="#ffffff">
+            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><img src='images/deslabs.png' width="800px"></img></a>
+            <h4 style="color: black">Experimental UI projects being developed</h4>
+            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="color: black; font-size:17px">deslabs.ncsa.illinois.edu</p></a>
+            </section>
+            -->
+
+             <section data-menu-title="DES Labs" id="deslabs">
+            <h5>Experimental UI projects being developed</h5>
+             <iframe width="100%" height="700px" src="http://deslabs.ncsa.illinois.edu/"></iframe>
+            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="font-size:17px">deslabs.ncsa.illinois.edu</p></a>
+
+            </section>
+
+
+            <section data-menu-title="JupyterHub" id="jupyter" >
+            <h1>JupyterHub and easyaccess</h1>
+            <div class="flex-container">
+            <div>
+             <img src="images/logo.png" border="1px"><br>
+             <img src="images/login.png" border="1px"><br>
+             </div>
+             <div>
+            <ul>
+            <li>Multi-user jupyter notebook sessions</li>
+            <li>Access with DB credentials</li>
+            <li>Running in OpenStack ("The Cloud") </li>
+            <li>Easy setup (Running from Docker container)</li>
+            <li>Easyaccess and other tools installed</li>http://141.142.236.167:8000/hub/
+            <li>Local JS9 integration  </li>
+            <li>Still in beta mode </li>
+            </ul>
+            </div>
+            </div>
+            <a style=" border: 1px solid tomato ; padding: 5px;" href="http://141.142.236.167:8000/hub/" target="_blank">Live demo!</a>
+
+            </section>
+
+            <section data-menu-title="Conclusions" id="conclusions">
+            <h1>Conclusions</h1>
+            <ul>
+            <li><h3>Tools being developed to make data access easier </h3></li>
+            <li><h3>Opensource and integrated software </h3></li>
+            <li><h3>Advantages of Docker + OpenStack</h3></li>
+            <li><h3>Bring software to the data!</h3></li>
+            </ul>
+
+            </section>
+
+
+            <section data-menu-title="Thanks" id="thanks">
+            <h1>Thanks!</h1><br>
+            <div align="left">
+            <p><u>Questions?</u><p>
+            <p style="height:0.5em">Matias Carrasco Kind<p>
+            <p style="height:0.5em">mcarras2@illinois.edu<p>
+            <p><a href="http://matias-ck.com/" target="_blank">matias-ck.com</a><p>
+            </div>
+            </section>
+
+            <!--
+            <section>
+            <video controls autoplay muted>
+            <source data-src="test.mov" type="video/mp4" />
+            </video>
+            </section>-->
+ 
+            </div>
+    </div>
+    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/head.min.js"></script>
+    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/js/reveal.js"></script>
+ 
+    <script>
+        // Required, even if empty.
+        Reveal.initialize({
+		controls:true,
+		slideNumber: true,
+        progress: true,
+        history : true,
+        touch : true,
+        //parallaxBackgroundImage: 'images/DES2119-0124_RGB.png',
+        //parallaxBackgroundSize: "1581px 1068px",
+        width: '100%',
+        center: false,
+        margin: 0.1,
+        minScale: 0.1,
+        maxScale: 1.5,
+
+	    dependencies: [
+				{ src: '../libs/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: '../libs/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../libs/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../libs/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: '../libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+                { src: '../libs/bower_components/reveal.js-menu/menu.js' },
+				{ src: '../libs/reveal.js/plugin/notes/notes.js', async: true }
+				],
+        menu : {
+        numbers: true,
+        themes: [
+            { name: 'Black', theme: '../libs/reveal.js/css/theme/black.css' },
+            { name: 'White', theme: '../libs/reveal.js/css/theme/white.css' },
+            { name: 'League', theme: '../libs/reveal.js/css/theme/league.css' },
+            { name: 'Sky', theme: '../libs/reveal.js/css/theme/sky.css' },
+            { name: 'Beige', theme: '../libs/reveal.js/css/theme/beige.css' },
+            { name: 'Simple', theme: '../libs/reveal.js/css/theme/simple.css' },
+            { name: 'Serif', theme: '../libs/reveal.js/css/theme/serif.css' },
+            { name: 'Blood', theme: '../libs/reveal.js/css/theme/blood.css' },
+            { name: 'Night', theme: '../libs/reveal.js/css/theme/night.css' },
+            { name: 'Moon', theme: '../libs/reveal.js/css/theme/moon.css' },
+            { name: 'Solarized', theme: '../libs/reveal.js/css/theme/solarized.css' }
+        ],
+        transitions: false,
+        }
+                
+			});
+    </script>
+
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+   <script>
+     if( window.location.search.match( /print-pdf/gi ) ) {
+       var link = document.createElement( 'link' );
+       link.rel = 'stylesheet';
+       link.type = 'text/css';
+       link.href = '../libs/reveal.js/css/print/pdf.css';
+       document.getElementsByTagName( 'head' )[0].appendChild( link );
+     }
+   </script>
+
+</body>
+</html>
