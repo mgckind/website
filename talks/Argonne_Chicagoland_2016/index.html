@@ -28,10 +28,27 @@
                 <p> Matias Carrasco Kind @ NCSA/UIUC</p>
             </section>
 
+            <section data-menu-title="Thanks to">
+
+            <h2> Thanks to...</h2>
+            <ul >
+            <li>  <h3>Weixiang Yu (soon to be looking for grad-school)</h3></li>
+            <li>  <h3>Di Wen</h3></li>
+            <li>  <h3>Sahand Hariri</h3></li>
+            <li>  <h3>Alex Drlica-Wagner</h3></li>
+            <li>  <h3>Chris Pond</h3></li>
+            <li>  <h3>You?</h3></li>
+            <li>  <h3>...</h3></li>
+            </ul>
+
+
+            </section>
+
             <section data-menu-title="Outline">
             <h1> Outline</h1>
             <ul >
             <li>  <h3><a href="#/ea">easyaccess</a></h3></li>
+            <li>  <h3><a href="#/desdm">DESDM stats</a></h3></li>
             <li>  <h3><a href="#/deslabs">DES Labs</a></h3></li>
             <li>  <h3><a href="#/jupyter">JupyterHub + DESDM</a></h3></li>
             <li>  <h3><a href="#/cutouts">DES image cutouts</a></h3></li>
@@ -71,8 +88,8 @@
             <li style="font-size:40px">Completely open source and written in python</li>
             <li style="font-size:40px">Write tables in csv, tab, fits and hdf5 formats</li>
             <li style="font-size:40px">Load sql queries directly from a file </li>
-            <li style="font-size:40px">Load table directly in to DB in one step</li>
-            <li style="font-size:40px">Can be imported as python module</li>
+            <li style="font-size:40px">Load table directly in to DB in one step, no memory issues</li>
+            <li style="font-size:40px">Can be imported as python module (py2/py3)</li>
             <li style="font-size:40px">Tables are handled and displayed using pandas</li>
             <li style="font-size:40px">Can run python functions inside query (beta)</li>
             <li style="font-size:40px">Many more...</li>
@@ -87,31 +104,11 @@
             <li style="font-size:40px"> Using pip or easy_install</li>
             <li style="font-size:40px"> Using EUPS @ DESDM </li>
             <li style="font-size:40px"> Pre-installed in Docker Image (and run outside the container)</li>
+            <li style="font-size:40px"> <span style="color:green;">New!</span> Install with <a href="http://conda.pydata.org/docs/install/quick.html", target="_blank">conda</a></li>
             </ul>
-            </section>
-
-            <section data-menu-title="Users">
-            <section data-menu-title="Users">
-            <h1> DB Users</h1>
-            <div>
-             <p style="float: left;"><img src="images/ea_users.png" border="1px"></p>
-             <br>
-            <p align="left"> Doubled number of users since easyaccess</p><br>
-            <p align="left"> More than 150 users with easyaccess with different activity levels</p><br>
-            <p align="left"> Feedback via github issues, stack-overflow-like questions, email list and personal inquiries</p>
-            </div>
-            </section>
-            <section>
-            <h1> DB Quotas </h1>
-            <div>
-             <p style="float: left;"><img src="images/quota.png" border="1px"></p>
-             <br>
-            <p align="left"> Personal space actively used and constantly increasing</p><br>
-            <p align="left"> People create and share tables with one command </p><br>
-            <p align="left"> ~ 4TB in personal space, tables and index tables included </p>
-            </div>
-
-            </section>
+             <div> 
+            <p style="font-family: monospace">conda install easyaccess -c mgckind</p>
+             </div>
             </section>
             
             <section data-menu-title="Demo">
@@ -138,16 +135,60 @@
 
             </section>
 
-            <!--
-            <section data-menu-title="DES Labs" id="deslabs" data-background="#ffffff">
-            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><img src='images/deslabs.png' width="800px"></img></a>
-            <h4 style="color: black">Experimental UI projects being developed</h4>
-            <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="color: black; font-size:17px">deslabs.ncsa.illinois.edu</p></a>
+
+            <section data-menu-title="DESDM" id="desdm">
+             
+            <section>
+            <h2> Some DESDM statistics</h2>
             </section>
-            -->
+
+            <section>
+            <h2> DESDM New accounts</h2>
+            <div>
+             <p style="float: left;"><img src="images/DESDM_accounts.png" width="800px"  border="1px"></p>
+             <br>
+            <p align="left"> More than 220 New users since new On-boarding!</p><br>
+            <p align="left"> New DES Member? Check <a href="https://cdcvs.fnal.gov/redmine/projects/des/wiki/DESwikiAccess" target_"_blank"> Here</a></p><br>
+            <p align="left"> Several Services: DB, Confluence, HipChat, BitBucket, Stackoverflow</p><br>
+            </div>
+            </section>
+
+
+            <section >
+            <h2> DB Users</h2>
+            <div>
+             <p style="float: left;"><img src="images/ea_users.png" border="1px"></p>
+             <br>
+            <p align="left"> Doubled number of users since easyaccess</p><br>
+            <p align="left"> More than 180 users with easyaccess with different activity levels</p><br>
+            <p align="left"> Feedback via github issues, stack-overflow-like questions, email list and personal inquiries</p>
+            </div>
+            </section>
+
+            <section>
+            <h2> DB Quotas </h2>
+            <div>
+             <p style="float: left;"><img src="images/quota.png" border="1px"></p>
+             <br>
+            <p align="left"> Personal space actively used and constantly increasing</p><br>
+            <p align="left"> People create and share tables with one command </p><br>
+            <p align="left"> ~ 4.5 TB in personal space, tables and index tables included </p>
+            </div>
+            </section>
+
+            <section>
+            <h3> SV Release </h3>
+            <p>https://des.ncsa.illinois.edu/internal/summary</p>
+ <iframe style="border: 1px solid green" width="100%" height="600px" src="https://des.ncsa.illinois.edu/internal/summary"></iframe>
+
+            </section>
+
+
+            </section>
+            
 
              <section data-menu-title="DES Labs" id="deslabs">
-            <h5>Experimental UI projects being developed</h5>
+            <h5>Experimental UI projects being developed (Openstack + Docker)</h5>
              <iframe width="100%" height="700px" src="http://deslabs.ncsa.illinois.edu/"></iframe>
             <a href="http://deslabs.ncsa.illinois.edu/" target="_blank"><p style="font-size:17px">deslabs.ncsa.illinois.edu</p></a>
 
@@ -155,7 +196,7 @@
 
 
             <section data-menu-title="JupyterHub" id="jupyter" >
-            <h1>JupyterHub and easyaccess</h1>
+            <h2>JupyterHub + easyaccess + DS9</h2>
             <div class="flex-container">
             <div>
              <img src="images/logo.png" border="1px"><br>
@@ -168,8 +209,9 @@
             <li>Running in OpenStack ("The Cloud") </li>
             <li>Easy setup (Running from Docker container)</li>
             <li>Easyaccess and other tools installed</li>http://141.142.236.167:8000/hub/
-            <li>Local JS9 integration  </li>
-            <li>Still in beta mode </li>
+            <li>Local <a href="http://js9.si.edu/" target="_blank">JS9</a> (DS9 in Javascript) integration  </li>
+            <li>Still in beta mode, planning to scale up </li>
+            <li>Open to DES collaborators </li>
             </ul>
             </div>
             </div>
@@ -177,15 +219,41 @@
 
             </section>
 
+
+            
+            <section data-menu-title="Cutouts services" id="cutouts">
+
+            <section>
+            <h1> Online Cutout Services</h1>
+            <p style="color: #66BB6A ">descut.cosmology.illinois.edu</p>
+
+            <ul style="list-style-type:square">
+            <li><h3> Cutout Services for both: Coadd images and Single Epoch </h3></li>
+            <li><h3> Nice REST API so can be also accessed from e.g. <i>python</i> </h3></li>
+            <li><h3> Almost production-like services with GPFS mounted</h3></li>
+            <li><h3> Soon to be "oficcially" released, we are merging both services</h3></li>
+            <li><h3> For now check <a href="http://descut.cosmology.illinois.edu:8999" target="_blank">Coadd cutouts</a> and <a href="http://descut.cosmology.illinois.edu:8000" target="_blank">Single Exposure Cutouts</a></h3></li>
+
+            </ul> <br><br>
+            <a style=" border: 1px solid tomato ; padding: 5px;" href="http://descut.cosmology.illinois.edu:8999" target="_blank">Live demo!</a>
+            </section>
+
+            <section>
+             <h3> Coadd image cutouts example</h3>
+             <iframe style="border: 1px solid green; background:white;" width="100%" height="600px" src="http://descut.cosmology.illinois.edu:8999"></iframe>
+            </section>
+
+            </section>
+
             <section data-menu-title="Conclusions" id="conclusions">
             <h1>Conclusions</h1>
             <ul>
-            <li><h3>Tools being developed to make data access easier </h3></li>
-            <li><h3>Opensource and integrated software </h3></li>
-            <li><h3>Advantages of Docker + OpenStack</h3></li>
-            <li><h3>Bring software to the data!</h3></li>
+            <li class="fragment"><h3>Tools being developed to make data access easier </h3></li>
+            <li class="fragment"><h3>Easyaccess, Cutouts, Jupyter, Js9, etc...</h3></li>
+            <li class="fragment"><h3>Opensource and integrated software </h3></li>
+            <li class="fragment"><h3>Bring software to the data!</h3></li>
+            <li class="fragment"><h3>Want to help? Want some infrastructure? Let me know!</h3></li>
             </ul>
-
             </section>
 
 
