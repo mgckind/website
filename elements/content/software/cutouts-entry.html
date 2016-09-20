@@ -35,12 +35,13 @@ color:black;
 <paper-card  elevation="5" image='images/desthumb.png'>
 <github-fork-ribbon
   username="mgckind"
-  repository="desthumbs_web"
+  repository="descut"
   position="right"
   label="Fork me"
   background-color="none">
 </github-fork-ribbon>
 <div class="card-content" style="bottom:0px; position:absolute">
+<paper-button raised  class="sparse" on-click="_view"> <i class="fa fa-eye"></i> View</paper-button>
 <paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
 </paper-card>
@@ -52,7 +53,10 @@ color:black;
       is: "cutouts-entry",
 
       _git: function(event){
-        window.open('https://github.com/mgckind/desthumbs_web', '_blank');
+        window.open('https://github.com/mgckind/descut', '_blank');
+      },
+      _view: function(event){
+        window.open('http://descut.cosmology.illinois.edu', '_blank');
       },
 
     });
