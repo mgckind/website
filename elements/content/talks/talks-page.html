@@ -1,41 +1,91 @@
 <dom-module id="talks-page">
 
 <style is="custom-style">
-.welcome{
-    color:var(--text-color-error);
-    font-size: 28px;
-    margin-left:10px;
-}
 paper-card{
-    width:350px;
-    height:400px;
+    max-width:1200px;
+    width:1000px;
+font-size:15px;
+    margin-top:10px;
 }
+
+
 </style>
 
 
 <template>
+<div class="layout horizontal center-justified wrap">
 
-<div class="layout horizontal center-justified">
-<paper-card  elevation="5" heading="Talk 1">
-<div class="card-content layout horizontal center-justified ">
-<object data="/talks/test/Talk_Matias.pdf?#toolbar=0&amp;navpanes=0&amp;scrollbar=0&amp;view=Fit" type="application/pdf" width="400px" height="300px">
-<param name="view" value="Fit" />
-<param name="toolbar" value="0" />
-</object>
+<template is="dom-repeat" items="{{talks}}" as="element">
+    <paper-card heading="{{element.byear}}">
+    <div class=" card-content layout horizontal left-justified wrap">
+        <template is="dom-repeat" items="{{element.talks}}" as="item">
+            <talk-card 
+                title={{item.title}} 
+                date={{item.date}}
+                online={{item.online}}
+                link={{item.link}}
+                pdf={{item.pdf}}
+                >
+            </talk-card>
+        </template>
+    </div>    
+        </paper-card>
+</template>
+
+<!-- 
+<paper-card heading="2016">
+<div class=" card-content layout horizontal left-justified wrap">
+<talk-card 
+    title="Data Access for Astronomical Surveys" 
+    date="Sep 12, @ DES Collaboration Call"
+    online=true 
+    link="/talks/DES_Wide_Phone_2016/">
+</talk-card>
+
+<talk-card 
+    title="Data Access: A brief description and demo of tools @ DESDM" 
+    date="Aug 30, @ DES Argonne"
+    online=true 
+    link="/talks/Argonne_Chicagoland_2016/">
+</talk-card>
+
+<talk-card 
+    title="Data Access: A brief description and demo of tools @ DESDM" 
+    date="Aug 30, @ DES Argonne"
+    online=true 
+    link="/talks/Argonne_Chicagoland_2016/">
+</talk-card>
+
 </div>
 </paper-card>
-<paper-card  elevation="5" heading="Talk 2">
-<div class="card-content  layout horizontal center-justified ">
-<iframe src="/talks/LSST_DM_TechTalk/index.html" width="1000px" height=300px style="transform: scale(0.5); transform-origin: 0 0;"></iframe>
-</div>
-</paper-card>
+-->
 </div>
 <credit-line></credit-line>
 </template>
 
 <script>
+
+ function loadJSON2(callback) {   
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'talks.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+ }
+
       Polymer({
       is: "talks-page",
+
+        ready: function() {
+        var _self = this;
+        loadJSON2(function(response) {
+           _self.talks = JSON.parse(response);
+            });
+      },
 
     });
 
