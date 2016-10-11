@@ -1,0 +1,97 @@
+<dom-module id="talk-card">
+
+<style is="custom-style">
+paper-card{
+    width:180px;
+    height:180px;
+    font-size:12px;
+    margin:10px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size:10px;
+    color: var(--paper-blue-300);
+}
+
+.link:hover {
+    color: var(--paper-red-300);
+    cursor: pointer;
+}
+.link {
+    position: absolute;
+    bottom: 50px;
+    left : 70px;
+}
+
+.title {
+    color: gold;
+}
+</style>
+
+
+<template>
+
+<paper-card  elevation="[[_elevation]]" on-mouseover="_mouseover" on-mouseout="_mouseout">
+<div class="card-content">
+<span class="title">[[title]]</span>
+</div>
+<div class="layout horizontal center-justified link" on-tap="_gotolink">
+<template is="dom-if" if="{{pdf}}">
+<i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i>
+</template>
+<template is="dom-if" if="{{online}}">
+<i class="fa fa-file-code-o fa-4x" aria-hidden="true"></i>
+</template>
+</div>
+<div class="bottom ">
+<span>[[date]]</span> 
+</div>
+<div>
+
+</paper-card>
+</template>
+
+<script>
+      Polymer({
+      is: "talk-card",
+
+      properties: {
+        _elevation:{
+          type: Number,
+          value: 1,
+        },
+        title: {
+            value: '',
+            },
+        date: {
+            value: '',
+        },
+        link: {
+            value: '#',
+        },
+        pdf : {
+            value: false,
+        },
+        online: {
+            value: false,
+        },
+      },
+       _mouseout: function(){
+      this._elevation = 1;
+       },
+      _mouseover: function(){
+      this._elevation = 5;
+      },
+      _gotolink: function(){
+        window.open(this.link, '_blank');
+      }
+
+    });
+
+
+</script>
+
+</dom>
