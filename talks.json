@@ -1,0 +1,56 @@
+[
+    {
+        "talks": [
+            {
+                "title": "Data Access for Astronomical Surveys",
+                "date": "Sep 12,  DES Collaboration Phone Call",
+                "online": true,
+                "pdf": false,
+                "link" : "/talks/DES_Wide_Phone_2016/"
+            },
+            {
+                "title": "Data Access: A brief description and demo of tools @ DESDM",
+                "date": "Aug 30,  DES ChicagoLand, @ Argonne",
+                "online": true,
+                "pdf": false,
+                "link" : "/talks/Argonne_Chicagoland_2016/"
+
+            },
+            {
+                "title": "Talk 3",
+                "date": "Tomorrow",
+                "online": false,
+                "pdf": true,
+                "link" : "#"
+            }
+        ],
+        "byear": "2016"
+    },
+    {
+        "talks": [
+            {
+                "title": "Photo-z’s PDF I/O, DB, DES (Lessons learned ... so far)",
+                "date": "Oct 29, LSST DESC, @ Argonne",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DESC_Photo_z_Argonne/photoz_db_desc.pdf"
+            },
+            {
+                "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
+                "date": "Mar 9, Tools for Astronomical Big Data, @ Tucson",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/NOAO_BigData/noao_bigdata_Matias.pdf"
+            },
+            {
+                "title": "Photo-z, DESDM and DB",
+                "date": "Mar 11, DECam Community Science Workshop, @ Tucson",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/NOAO_BigData/noao_decam_Matias.pdf"
+            }
+        ],
+        "byear": "2015"
+    }
+]
+
