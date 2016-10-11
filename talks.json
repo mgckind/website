@@ -98,6 +98,13 @@
             },
             {
                 "title": "How to produce, combine, store and use photo-z PDFs",
+                "date": "May 19, DES Collaboration Meeting, @Urbana",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Meeting_UIUC/Matias_Photoz_PDF.pdf"
+            },
+            {
+                "title": "How to produce, combine, store and use photo-z PDFs",
                 "date": "May 8, LIneA Seminar, LIneA",
                 "online": false,
                 "pdf": true,
@@ -114,6 +121,27 @@
                 "online": false,
                 "pdf": true,
                 "link" : "talks/Users_meeting_Fermilab/DES_Matias_Carrasco_users_meeting.pdf"
+            },
+            {
+                "title": "Angular power spectrum and cosmological constrains using photometric redshifts",
+                "date": "April 8, DES Collaboration Meeting, @LBNL",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Meeting_Berkeley/APS_Matias.pdf"
+            },
+            {
+                "title": "Ancillary information from photometric redshifts for calibrating follow-up observations",
+                "date": "April 8, DES Collaboration Meeting, @LBNL",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Meeting_Berkeley/spec_follow_Matias.pdf"
+            },
+            {
+                "title": "Implementing probabilistic photometric redshifts on DES SV data",
+                "date": "April 8, DES Collaboration Meeting, @LBNL",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Meeting_Berkeley/photoz_Matias.pdf"
             }
         ],
         "byear": "2013"
