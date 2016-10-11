@@ -3,7 +3,7 @@
 <style is="custom-style">
 paper-card{
     max-width:1200px;
-    width:1000px;
+    width:1040px;
 font-size:15px;
     margin-top:10px;
 }
@@ -15,6 +15,12 @@ font-size:15px;
 <template>
 <div class="layout horizontal center-justified wrap">
 
+<paper-card>
+ <div class=" card-content">
+ Below is a (in)complete list of the talks I have presented over time. In some cases PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+version or online <i class="fa fa-file-code-o" aria-hidden="true"></i> version is available.
+ </div>
+</paper-card>
 <template is="dom-repeat" items="{{talks}}" as="element">
     <paper-card heading="{{element.byear}}">
     <div class=" card-content layout horizontal left-justified wrap">
