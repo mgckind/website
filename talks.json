@@ -50,6 +50,13 @@
                 "link" : "talks/DESC_Photo_z_Argonne/photoz_db_desc.pdf"
             },
             {
+                "title": "Photo-z’s in the DESDM DB",
+                "date": "May 11, DES collaboration meeting, @Ann Arbor",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Michigan/photoz_db_michigan.pdf"
+            },
+            {
                 "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
                 "date": "Mar 9, Tools for Astronomical Big Data, @Tucson",
                 "online": false,
@@ -65,6 +72,32 @@
             }
         ],
         "byear": "2015"
+    },
+    {
+        "talks": [
+            {
+                "title": "Probabilistic photometric redshifts",
+                "date": "Dec 9,  DES ChicagoLand, @Argonne",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/Argonne_Chicagoland_2014/Talk_Matias.pdf"
+            },
+            {
+                "title": "UIUC updates on SVA1 Gold",
+                "date": "July 28, DES Collaboration Phone Call",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/DES_Wide_Phone_2014/DES_telecon_Matias.pdf"
+            },
+            {
+                "title": "How to produce, combine, store and use photo-z PDFs",
+                "date": "May 8, LIneA Seminar, LIneA",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/LIneA_Webinar/LIneA_webinar.pdf"
+            }
+        ],
+        "byear": "2014"
     }
 ]
 
