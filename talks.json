@@ -83,6 +83,13 @@
                 "link" : "talks/Argonne_Chicagoland_2014/Talk_Matias.pdf"
             },
             {
+                "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
+                "date": "Aug 19, PhD Thesis Talk",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/Thesis/thesis_talk.pdf"
+            },
+            {
                 "title": "UIUC updates on SVA1 Gold",
                 "date": "July 28, DES Collaboration Phone Call",
                 "online": false,
@@ -98,6 +105,18 @@
             }
         ],
         "byear": "2014"
+    },
+    {
+        "talks": [
+            {
+                "title": "The Dark Energy Survey",
+                "date": "June 12, Fermilab Users Meeting, @Fermilab",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/Users_meeting_Fermilab/DES_Matias_Carrasco_users_meeting.pdf"
+            }
+        ],
+        "byear": "2013"
     }
 ]
 
