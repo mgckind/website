@@ -10,18 +10,25 @@
             },
             {
                 "title": "Data Access: A brief description and demo of tools @ DESDM",
-                "date": "Aug 30,  DES ChicagoLand, @ Argonne",
+                "date": "Aug 30,  DES ChicagoLand, @Argonne",
                 "online": true,
                 "pdf": false,
                 "link" : "/talks/Argonne_Chicagoland_2016/"
 
             },
             {
-                "title": "Talk 3",
-                "date": "Tomorrow",
+                "title": "Notes on combination and storage of P(z)",
+                "date": "Apr 5, LSST Photo-z Workshop, @Pittsburgh",
                 "online": false,
                 "pdf": true,
-                "link" : "#"
+                "link" : "talks/Photo_z_Pitt/photoz_pitt_MCK.pdf"
+            },
+            {
+                "title": "Data Access for Astronomical Surveys, a view from DES",
+                "date": "Mar 22, LSST Tech Talk, LSST call",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/LSST_DM_TechTalk/"
             }
         ],
         "byear": "2016"
@@ -29,22 +36,29 @@
     {
         "talks": [
             {
+                "title": "Data exploration and visualization for astronomical surveys",
+                "date": "Nov 11, Openstack Meeting, @NCSA",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/LSST_DM_Nebula/"
+            },
+            {
                 "title": "Photo-z’s PDF I/O, DB, DES (Lessons learned ... so far)",
-                "date": "Oct 29, LSST DESC, @ Argonne",
+                "date": "Oct 29, LSST DESC, @Argonne",
                 "online": false,
                 "pdf": true,
                 "link" : "talks/DESC_Photo_z_Argonne/photoz_db_desc.pdf"
             },
             {
                 "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
-                "date": "Mar 9, Tools for Astronomical Big Data, @ Tucson",
+                "date": "Mar 9, Tools for Astronomical Big Data, @Tucson",
                 "online": false,
                 "pdf": true,
                 "link" : "talks/NOAO_BigData/noao_bigdata_Matias.pdf"
             },
             {
                 "title": "Photo-z, DESDM and DB",
-                "date": "Mar 11, DECam Community Science Workshop, @ Tucson",
+                "date": "Mar 11, DECam Community Science Workshop, @Tucson",
                 "online": false,
                 "pdf": true,
                 "link" : "talks/NOAO_BigData/noao_decam_Matias.pdf"
