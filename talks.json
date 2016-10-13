@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Tales of photo-z, DBs and DES",
+                "date": "Oct 13,  CEFCA Seminar",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/CEFCA/photoz_cefca.pdf"
+            },
+            {
                 "title": "Data Access for Astronomical Surveys",
                 "date": "Sep 12,  DES Collaboration Phone Call",
                 "online": true,
