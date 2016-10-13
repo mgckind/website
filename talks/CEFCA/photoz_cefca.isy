@@ -8609,7 +8609,7 @@ zA==
 h
 </path>
 
-<text matrix="1 0 0 1 0 -25.3007" pin="h" transformations="translations" pos="0 42.8448" stroke="white" type="minipage" width="800" height="8.94" depth="3.95" valign="top" size="13" style="center">{\color{white}Matias Carrasco Kind $\quad {\color{gold1}\bullet} \quad $ CEFCA Seminar, October 13 2016 @ CEFCA$\quad {\color{gold1}\bullet} \quad$ On Photo-z, DM and DB }</text>
+<text matrix="1 0 0 1 0 -25.3007" pin="h" transformations="translations" pos="0 42.8448" stroke="white" type="minipage" width="800" height="8.94" depth="3.95" valign="top" size="13" style="center">{\color{white}Matias Carrasco Kind $\quad {\color{gold1}\bullet} \quad $ CEFCA Seminar, October 13 2016 @ CEFCA$\quad {\color{gold1}\bullet} \quad$ Tales of photo-$z$, DBs and DES}</text>
 </group>
 <path matrix="1.00102 0 0 0.633338 0.748318 201.653" fill="gray50">
 0 550 m
