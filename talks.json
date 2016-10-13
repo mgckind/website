@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Data Access and Data Release in DES",
+                "date": "Oct 13,  CEFCA Seminar",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/CEFCA/"
+            },
+            {
                 "title": "Tales of photo-z, DBs and DES",
                 "date": "Oct 13,  CEFCA Seminar",
                 "online": false,
