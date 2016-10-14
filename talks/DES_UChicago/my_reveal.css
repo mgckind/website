@@ -26,6 +26,8 @@
 .reveal h2 { font-family: 'Roboto', 'noto', sans-serif; }
 .reveal h3 { font-family: 'Roboto', 'noto', sans-serif; }
 .reveal h4 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h5 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h6 { font-family: 'Roboto', 'noto', sans-serif; }
 
 .flex-container {
   padding: 0;
