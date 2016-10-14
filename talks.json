@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Data Access tools and the low-hanging fruit science",
+                "date": "Oct 14, KICP/U of Chicago ",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/DES_UChicago/"
+            },
+            {
                 "title": "Data Access and Data Release in DES",
                 "date": "Oct 13,  CEFCA Seminar",
                 "online": true,
