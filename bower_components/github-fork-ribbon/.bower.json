@@ -1,6 +1,6 @@
 {
   "name": "github-fork-ribbon",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "authors": [
     "Saeid Zebardast <saeid.zebardast@gmail.com>"
   ],
@@ -19,20 +19,20 @@
     "/test/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.2.0",
-    "github-fork-ribbon": "^0.2.1"
+    "polymer": "Polymer/polymer#^1.2.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "web-component-tester": "^3.4.0"
+    "web-component-tester": "^3.4.0",
+    "github-fork-ribbon": "^0.2.1"
   },
-  "_release": "0.2.2",
+  "_release": "0.2.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.2",
-    "commit": "5d8e95d03b23c65cb530a2f8250539145e7e9f1c"
+    "tag": "v0.2.3",
+    "commit": "f984f87f3bab4088e3f48c6cb31f038958254c2b"
   },
-  "_source": "git://github.com/saeidzebardast/github-fork-ribbon.git",
-  "_target": "^0.2.1",
+  "_source": "https://github.com/saeidzebardast/github-fork-ribbon.git",
+  "_target": "~0.2.2",
   "_originalSource": "github-fork-ribbon"
 }

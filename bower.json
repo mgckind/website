@@ -16,7 +16,7 @@
   "dependencies": {
     "iron-elements": "PolymerElements/iron-elements#~1.0.7",
     "paper-elements": "PolymerElements/paper-elements#~1.0.7",
-    "neon-animation": "PolymerElements/neon-animation#~1.0.8",
+    "neon-animation": "PolymerElements/neon-animation#^1.2.4",
     "polymer-color-picker": "~1.0.1",
     "paper-date-picker": "polymer-paper-date-picker#~1.1.2",
     "github-fork-ribbon": "~0.2.2",
@@ -26,5 +26,9 @@
     "page": "visionmedia/page.js#~1.6.4",
     "app-router": "~2.6.1",
     "pdf-element": "*"
+  },
+  "resolutions": {
+    "neon-animation": "^1.2.4",
+    "web-animations-js": "^2.2.0"
   }
 }

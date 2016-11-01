@@ -4,12 +4,14 @@
   "authors": [
     "Charbel Rami"
   ],
-  "description": "Responsive grid element using Polymer and Flexbox",
+  "description": "Responsive grid custom element using Polymer and Flexbox",
   "main": "grid-element.html",
   "keywords": [
     "grid",
     "flexbox",
     "polymer",
+    "custom-element",
+    "custom-elements",
     "web-component",
     "web-components"
   ],
@@ -23,7 +25,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#1",
-    "style-element": "",
     "iron-media-query": "PolymerElements/iron-media-query#1"
   }
 }
