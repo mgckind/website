@@ -138,7 +138,7 @@ with open('/Users/Matias/Web/publications.json','w') as out:
     Alldata=[]
     texall=[]
     texmine=[]
-    for y in ('0000','2016','2015','2014','2013','2012'):
+    for y in ('0000','2017','2016','2015','2014','2013','2012'):
         temp2={}
         temp2['byear']=y
         if y == '0000':
@@ -187,7 +187,7 @@ with open('/Users/Matias/Web/publications.json','w') as out:
                     alink=False
                     slink=False
                     preplink=True
-                    year = '2016'
+                    year = '2017'
                     kind = "Finishing"
                     pdf_link=False
                     pdf_url='#'
