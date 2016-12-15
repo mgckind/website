@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Data Access Tools and Data Releases",
+                "date": "Dec 15, DES Meeting Cambridge ",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/DES_Meeting_Cambridge/"
+            },
+            {
                 "title": "Data Access tools and the low-hanging fruit science",
                 "date": "Oct 14, KICP/U of Chicago ",
                 "online": true,
