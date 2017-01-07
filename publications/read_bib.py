@@ -10,7 +10,9 @@ journal_dict={
     "\\apj"  :'ApJ',
     "\\prd"  :'PhRvD',
     "\\apjl"  :'ApJL',
-    
+    "\\apjs"  :'ApJS',
+    "\\pasa"  :'PASA',
+    "\\aap"  :'A\&A',
 }
 
 
