@@ -2,13 +2,12 @@
 
 <style is="custom-style">
 
-paper-button.graph {
-    --paper-button-ink-color: var(--paper-pink-a200);
-        background-color: var(--text-color-success);
-        color:white;
+.graph {
+    color: #6495ed;
   }
-  paper-button.graph:hover {
+  .graph:hover {
     opacity: 0.7;
+    cursor:pointer;
   }
 
 
@@ -21,10 +20,16 @@ font-size:24px;
 
 paper-card {
 width:100%;
-height:320px;
+height:100%;
 max-height:1500px;
+font-size:18px;
 background:var(--text-color-error);
-color:black;
+background-image: url("/images/graph.png");
+    background-size: 100% 100%;
+    background-repeat:   no-repeat;
+    background-position: 0% 100%;
+color: #6495ed;
+border: solid  white 1px;
 }
 
 </style>
@@ -33,24 +38,30 @@ color:black;
 <template>
 
 <paper-card  elevation="5">
-<github-fork-ribbon
+<div style="background: rgba(115,115,115,.8); height:100%;">
+<!--<github-fork-ribbon
   username="mgckind"
   repository="GraphMaker"
   position="right"
   label="Fork me"
   background-color="none">
-</github-fork-ribbon>
+</github-fork-ribbon>-->
 <div class="card-content">
 <div class="local-header">
 GraphMaker
 </div>
 </div>
 <div class="card-content">
-A little graph manipulation tool written in javascript, based heavily in joint.js. Still under development. It uses web-sockets for multiple sessions and can save graph in svg, png or json format. 
+A simple graph manipulation tool written in javascript, based on joint.js. Still under development. It uses web-sockets for multiple sessions and can save graph in svg, png or json format.<br><br>
+  <i on-click="_git" class="fa fa-github fa-3x graph"></i>&nbsp;
+  <i on-click="_demo" class="fa fa-info-circle fa-3x graph"></i>
 </div>
+<!--
 <div class="card-content" style="bottom:0px; position:absolute">
 <paper-button on-click="_demo" raised  class="graph"> <i class="fa fa-eye"></i> Demo</paper-button>
 <paper-button raised  class="graph" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
+</div>
+-->
 </div>
 </paper-card>
 

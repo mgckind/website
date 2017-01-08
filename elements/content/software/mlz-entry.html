@@ -3,17 +3,17 @@
 <style is="custom-style">
 paper-card {
 width:100%;
-height:320px;
-font-size:16px;
+height: 100%;
+font-size:18px;
+border: solid  white 1px;
 }
 
-paper-button.mlz {
-    --paper-button-ink-color: var(--paper-pink-a200);
-        background-color: var(--text-color-primary);
+.mlz {
         color:white;
   }
-  paper-button.mlz:hover {
+  .mlz:hover {
     opacity: 0.7;
+    cursor:pointer;
   }
 
 
@@ -23,19 +23,23 @@ paper-button.mlz {
 <template>
 
 <paper-card image="/images/mlz_logo.png" elevation="5">
-<github-fork-ribbon
+<!--<github-fork-ribbon
   username="mgckind"
   repository="MLZ"
   position="right"
   label="Fork me"
   background-color="none">
-</github-fork-ribbon>
+</github-fork-ribbon>-->
 <div class="card-content">
-MLZ, “Machine Learning and photo-Z” is a parallel python framework that computes fast and robust photometric redshift PDFs using Machine Learning algorithms. In particular, it uses a supervised technique with prediction trees and random forest through or a unsupervised methods with self organizing maps and random atlas.</div>
+MLZ, “Machine Learning and photo-Z” is a parallel python framework that computes fast and robust photometric redshift PDFs using Machine Learning algorithms. In particular, it uses a supervised technique with prediction trees and random forest through or a unsupervised methods with self organizing maps and random atlas. <br><br>
+  <i on-click="_git" class="fa fa-github fa-3x mlz"></i>&nbsp;
+  <i on-click="_mlz" class="fa fa-info-circle fa-3x mlz"></i>
+</div>
+<!--
 <div class="card-content" style="bottom:0px; position:absolute">
 <paper-button on-click="_mlz" raised  class="mlz"> <i class="fa fa-eye"></i> See more</paper-button>
 <paper-button raised  class="mlz" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
-</div>
+</div>-->
 </paper-card>
 
 </template>

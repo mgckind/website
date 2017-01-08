@@ -2,13 +2,12 @@
 
 <style is="custom-style">
 
-paper-button.sparse {
-    --paper-button-ink-color: var(--paper-pink-a200);
-        background-color: var(--text-color-info);
-        color:white;
+.cut {
+    color: var(--paper-pink-a200);
   }
-  paper-button.sparse:hover {
+  .cut:hover {
     opacity: 0.7;
+    cursor:pointer;
   }
 
 
@@ -21,10 +20,12 @@ font-size:24px;
 
 paper-card {
 width:100%;
-height:320px;
+height:100%;
 max-height:1500px;
+font-size:18px;
 background:#F5F5F5;
-color:black;
+color: var(--paper-pink-a200);
+border: solid red 2px;
 }
 
 </style>
@@ -33,16 +34,19 @@ color:black;
 <template>
 
 <paper-card  elevation="5" image='images/desthumb.png'>
-<github-fork-ribbon
+<!--<github-fork-ribbon
   username="mgckind"
   repository="descut"
   position="right"
   label="Fork me"
   background-color="none">
-</github-fork-ribbon>
-<div class="card-content" style="bottom:0px; position:absolute">
-<paper-button raised  class="sparse" on-click="_view"> <i class="fa fa-eye"></i> View</paper-button>
-<paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
+</github-fork-ribbon>-->
+<div class="card-content">
+Online cutouts service for coadd and single epoch images from the Dark Energy Survey (DES)<br><br>
+  <i on-click="_git" class="fa fa-github fa-3x cut"></i>&nbsp;
+  <i on-click="_view" class="fa fa-info-circle fa-3x cut"></i>
+<!--<paper-button raised  class="sparse" on-click="_view"> <i class="fa fa-eye"></i> View</paper-button>
+<paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>-->
 </div>
 </paper-card>
 

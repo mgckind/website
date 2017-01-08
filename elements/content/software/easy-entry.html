@@ -2,13 +2,12 @@
 
 <style is="custom-style">
 
-paper-button.easy {
-    --paper-button-ink-color: var(--paper-pink-a200);
-        background-color: var(--text-color-secondary);
-        color:white;
+.easy {
+        color: gold;
   }
-  paper-button.easy:hover {
+  .easy:hover {
     opacity: 0.7;
+    cursor:pointer;
   }
 
 .local-header { 
@@ -21,8 +20,10 @@ paper-card {
 width:100%;
 background:black;
 max-height:1500px;
-height:320px;
+font-size:18px;
+height:100%;
 color:gold;
+border: solid  white 1px;
 }
 </style>
 
@@ -30,25 +31,29 @@ color:gold;
 <template>
 
 <paper-card  elevation="5" >
-<github-fork-ribbon
+<!--<github-fork-ribbon
   username="mgckind"
   repository="easyaccess"
   position="right"
   label="Fork me"
   background-color="none">
 </github-fork-ribbon>
-
+-->
 <div class="layout horizontal around-justified">
-<h2>Easyaccess</h2>
-<iron-image src="/images/ea_logo.png" style="width:212px; height:122px;" sizing="contain" ></iron-image>
+<h2 style="color:salmon;">Easyaccess</h2>
+<iron-image src="/images/ea_logo.png" style="width:233px; height:114px;" sizing="contain" ></iron-image>
 </div>
 <div class="card-content">
-Easyaccess is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format.
+Easyaccess is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format. <br><br>
+  <i on-click="_git" class="fa fa-github fa-3x easy"></i>&nbsp;
+  <i on-click="_tutorial" class="fa fa-info-circle fa-3x easy"></i>
 </div>
+<!--
 <div class="card-content" style="bottom:0px; position:absolute">
 <paper-button on-click="_tutorial" class="easy"> <i class="fa fa-eye"></i> Tutorial</paper-button>
 <paper-button raised  class="easy" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
 </div>
+-->
 </paper-card>
 
 </template>

@@ -15,18 +15,32 @@ paper-card{
     max-width:1000px;
 }
 
+.toc{
+    cursor: pointer;
+}
+
 </style>
 
   <template>
 <div class="layout horizontal center-justified">
   <paper-card elevation="5">
   <div class="card-content">
-  <h4> See and click on the publications list below, for an updated ADS list of my research activity/publications check
+  <h4> Click on the publication items below to see more details.</h4>
+  <h4>
+  For an updated ADS list of my research activity/publications check
 
-    <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_logic=OR&obj_logic=OR&author=carrasco+kind%2C+matias%0D%0ALSST+Dark+Energy+Science+Collaboration%0D%0Athe+Spectroscopic+Needs+White+Paper+Team&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=ALL&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1" target="_blank"> Here </a>     </h4>
+    <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&arxiv_sel=cond-mat&arxiv_sel=cs&arxiv_sel=gr-qc&arxiv_sel=hep-ex&arxiv_sel=hep-lat&arxiv_sel=hep-ph&arxiv_sel=hep-th&arxiv_sel=math&arxiv_sel=math-ph&arxiv_sel=nlin&arxiv_sel=nucl-ex&arxiv_sel=nucl-th&arxiv_sel=physics&arxiv_sel=quant-ph&arxiv_sel=q-bio&sim_query=YES&ned_query=YES&adsobj_query=YES&aut_logic=OR&obj_logic=OR&author=carrasco+kind%2C+matias%0D%0ALSST+Dark+Energy+Science+Collaboration%0D%0Athe+Spectroscopic+Needs+White+Paper+Team&object=&start_mon=&start_year=&end_mon=&end_year=&ttl_logic=OR&title=&txt_logic=OR&text=&nr_to_return=200&start_nr=1&jou_pick=ALL&ref_stems=&data_and=ALL&group_and=ALL&start_entry_day=&start_entry_mon=&start_entry_year=&end_entry_day=&end_entry_mon=&end_entry_year=&min_score=&sort=SCORE&data_type=SHORT&aut_syn=YES&ttl_syn=YES&txt_syn=YES&aut_wt=1.0&obj_wt=1.0&ttl_wt=0.3&txt_wt=3.0&aut_wgt=YES&obj_wgt=YES&ttl_wgt=YES&txt_wgt=YES&ttl_sco=YES&txt_sco=YES&version=1" target="_blank"> <img src='/images/ads.gif' class="img-circle"  width="26px" height="26px"></a>     </h4>
+    | <a class="toc" onclick="jumpto(2017)">2017</a> |    
+    <a class="toc" onclick="jumpto(2016)">2016</a> |    
+    <a class="toc" onclick="jumpto(2015)">2015</a> |    
+    <a class="toc" onclick="jumpto(2014)">2014</a> |    
+    <a class="toc" onclick="jumpto(2013)">2013</a> |    
+    <a class="toc" onclick="jumpto(2012)">2012</a> |    
+    <template is="dom-repeat" items="{{papers}}" as="element">
+    </template>
     <hr>
     <template is="dom-repeat" items="{{papers}}" as="element">
-    <h2 id="yearTitle">{{element.byear}}</h2>
+    <h2 id="yearTitle{{element.byear}}">{{element.byear}}</h2>
     <template is="dom-repeat" items="{{element.papers}}" as="item" filter="isarXiv">
         <paper-ads animated>
         <div class="icon">{{item.kind}}</div>  
@@ -83,7 +97,10 @@ paper-card{
           }
     };
     xobj.send(null);  
- }
+ };
+  function  jumpto(anchor){
+        document.getElementById("yearTitle"+anchor).scrollIntoView();
+      };
 
 
     Polymer({
