@@ -6,6 +6,7 @@
       }
 paper-card {
 width:100%;
+    border: solid white 1px;
 }
 </style>
 
@@ -67,7 +68,7 @@ width:100%;
 
 
 <div class="horizontal layout  around-justified">
-<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<div style="max-width:1000px; width:1000px; padding-right:10px; margin-bottom:10px;">
 <grid-element ghi="10px" gho="0px" mq="(min-width: 736px)" >
 <grid-col s="3" stretch>
 <despublic-entry></despublic-entry>
@@ -79,6 +80,18 @@ width:100%;
 </div>
 </div>
 
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<grid-element ghi="10px" gho="0px" mq="(min-width: 736px)" >
+<grid-col s="3" stretch>
+<isoforest-entry></isoforest-entry>
+</grid-col >
+<grid-col s="5" stretch>
+<som-entry></som-entry>
+</grid-col >
+</grid-element>
+</div>
+</div>
 
 <credit-line></credit-line>
 </template>

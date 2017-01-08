@@ -8,6 +8,7 @@ paper-card{
     width:730px;
     font-size:19px;
     margin-top:10px;
+    border: solid white 1px;
 }
 
 @media all and (max-width: 700px) {
