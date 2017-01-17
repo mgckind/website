@@ -43,7 +43,7 @@ Matias Carrasco Kind
 </div>
 <div class="layout horizontal">
 <paper-button raised class="mlz" on-click='_pdf'>Full cv</paper-button>
-<paper-button raised class="mlz">Resume</paper-button>
+<paper-button raised class="mlz" on-click='_pdf2'>Resume</paper-button>
 </div>
 </div>
 </div>
@@ -310,6 +310,9 @@ Max Planck Institute for Astrophysics
       is: "cv-page",
        _pdf: function(event){
         window.open('https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtZ2NraW5kfGd4Ojc2ZmJhZjE1MWY5NWEyZjQ', '_blank');
+      },
+       _pdf2: function(event){
+        window.open('https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtZ2NraW5kfGd4OjY0MjBjNGYzNWIyMzk5NmQ', '_blank');
       },
       _teaching: function(event){
         var tabs = document.querySelector('paper-tabs');
