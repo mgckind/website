@@ -3,6 +3,18 @@
         "talks": [
             {
                 "title": "Data Access Tools and Data Releases",
+                "date": "Jan 26, NCSA Astronomy survey meeting ",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/NCSA_survey_meeting/"
+            }
+        ],
+        "byear": "2017"
+    },
+    {
+        "talks": [
+            {
+                "title": "Data Access Tools and Data Releases",
                 "date": "Dec 15, DES Meeting Cambridge ",
                 "online": true,
                 "pdf": false,
