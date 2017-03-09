@@ -1,8 +1,11 @@
 import bibtexparser
 import re
 import json
+import os
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import homogeneize_latex_encoding
+
+ROOT='/home/matias/'
 
 journal_dict={
     "\\mnras":'MNRAS',
@@ -99,7 +102,7 @@ def get_authors(entry):
             continue
         else:
             last = ser.group(1)
-        
+
         if last == 'Kind':
             last = 'Carrasco Kind'
             first = 'M.'
@@ -135,13 +138,16 @@ def get_arxiv(entry):
         prefix = ''
     return prefix,arxiv
 
-with open('/Users/Matias/Web/publications.json','w') as out:
+with open(os.path.join(ROOT,'Research/website/publications.json'),'w') as out:
     print('ddd')
     Alldata=[]
+    Alldatamine=[]
+    datamine=[]
     texall=[]
     texmine=[]
     for y in ('0000','2017','2016','2015','2014','2013','2012'):
         temp2={}
+        temp3={}
         temp2['byear']=y
         if y == '0000':
             temp2['byear'] = 'In preparation'
@@ -193,7 +199,7 @@ with open('/Users/Matias/Web/publications.json','w') as out:
                     kind = "Finishing"
                     pdf_link=False
                     pdf_url='#'
-                    
+
             temp={}
             temp['title']=get_title(et)
             short,long=get_authors(et)
@@ -223,25 +229,26 @@ with open('/Users/Matias/Web/publications.json','w') as out:
                     texline+=r'{\color{blue}\href{'+url+'}{'+journal+':'+arxiv+'}}'
                 texline+=r' ('+year+')}\\\\[1pt]'
                 if texline.find('Carrasco Kind') > -1:
-                    
+
                     texline=texline.replace('M. Carrasco Kind','\\textbf{M. Carrasco Kind}')
                     texmine.append(texline)
                 else:
                     texall.append(texline)
+                if short.find('Carrasco Kind') > -1:
+                    datamine.append(temp)
             data.append(temp)
         temp2['papers']=data
         Alldata.append(temp2)
     json.dump(Alldata, out, indent=4)
-    Fmine=open('/Users/Matias/Dropbox/CV/ingles/mine_bibs.tex','w')
-    Fall=open('/Users/Matias/Dropbox/CV/ingles/all_bibs.tex','w')
+
+Alldatamine.append({'papers' : datamine})
+with open(os.path.join(ROOT,'Research/website/publications_sel.json'),'w') as out:
+    json.dump(Alldatamine, out, indent=4)
+    Fmine=open(os.path.join(ROOT,'Dropbox/CV/ingles/mine_bibs.tex'),'w')
+    Fall=open(os.path.join(ROOT,'Dropbox/CV/ingles/all_bibs.tex'),'w')
     for line in texmine:
         Fmine.write(line+'\n')
     Fmine.close()
     for line in texall:
         Fall.write(line+'\n')
     Fall.close()
-    
-    
-    
-
-
