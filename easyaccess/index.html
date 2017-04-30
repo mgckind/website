@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">    
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Easyaccess tutorial</title>
     <link rel="stylesheet" href="../talks/libs/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../talks/libs/reveal.js/css/theme/night.css" id="theme">  
+    <!--
+    <link rel="stylesheet" href="../talks/libs/reveal.js/css/theme/night.css" id="theme">
+    -->
+    <link rel="stylesheet" href="des-theme.css" id="theme">
     <link rel="stylesheet" href="../talks/libs/highlight.js/src/styles/railscasts.css">
     <script src="../talks/libs/highlight.js/src/highlight.js"></script>
     <link rel="stylesheet" href="my_reveal.css">
@@ -12,30 +15,39 @@
 
     <!--Add support for earlier versions of Internet Explorer -->
 </head>
- 
+
 <body>
     <div class="reveal">
         <div class="footerL"> <p> Matias Carrasco Kind </div>
         <div class="footerR"> <p> Easyaccess tutorial </div>
 
         <div class="slides">
- 
-            <!-- ALL SLIDES GO HERE -->
-            <!-- Each section element contains an individual slide -->
-            <section >
-                <h1>DES Database</h1>
 
-                <h2>A brief tutorial</h2>
+            <section data-background="black">
+                <h1>
+                <p><img src="images/desdm_figures/logo.png" style="border: 0; vertical-align: text-bottom; width:12%"> easyaccess</p>
+                </h1>
+                <h2>A brief introduction</h2>
+            </section>
+
+            <section data-markdown>
+              ## Markdown support
+
+              Write content using inline or external Markdown.
+              Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+              - hola
+              - chao
+            </section>
+
+            <section data-markdown>
+		     ## Page title
+
+             A paragraph with some text and a [link](http://hakim.se).
             </section>
 
             <section>
-            <h2> DES users</h2>
-            <div>
-             <p style="float: left;"><img src="images/desdm_figures/pie_quota.png" border="1px"></p>
-             <br>
-            <p align="left"> ~ 300 DB users</p>
-            <p align="left"> Only few use quota</p>
-            </div>
+                <img src="images/help.gif" width=50% style="border:0">
             </section>
 
             <section>
@@ -55,7 +67,7 @@
             <section>
             <h2> trivialAccess </h2>
             <div>
-             <p style="float: left;"><img src="images/desdm_figures/pie_trivial.png" border="1px" width="80%" height="80%"></p>
+             <p style="float: left;"><img src="images/desdm_figures/pie_trivial.png" border="0" width="80%" height="80%"></p>
              <br>
             <p align="left"> jython  and other java tools</p>
             <p align="left"> Installation and learning curve</p>
@@ -213,15 +225,15 @@ DESDB ~> select COADD_OBJECTS_ID, RA, DEC, MAG_AUTO_G, TILENAME from MINI_Y1A1 w
 
             <section>
             <section>
-            <h2> Inside easyaccess </h2> 
-            <p> (Press down arrow for more and get insight from commands) </p> 
+            <h2> Inside easyaccess </h2>
+            <p> (Press down arrow for more and get insight from commands) </p>
             <p style="float: center;"><img src="images/desdm_figures/front.png"  width="45%" style="border-color: black"></p>
             </section>
 
 
             <section>
-            <h3> help (or ?) </h3> 
-            <p style="font-size:0.8em"> type help {command} for more info. e.g. DESDM ~> help prefetch </p> 
+            <h3> help (or ?) </h3>
+            <p style="font-size:0.8em"> type help {command} for more info. e.g. DESDM ~> help prefetch </p>
             <pre style="font-size:0.6em"><code class='bash'>
 _________
 DESDB ~> help
@@ -256,13 +268,13 @@ find_tables_with_column  myquota     show_db
 
 * To access an online tutorial type: online_tutorial
 _________
-DESDB ~>           
+DESDB ~>
            </code></pre>
             </section>
 
             <section>
-            <h3> config  </h3> 
-            <p style="font-size:0.8em"> e.g. to disable loading bar : DESDM ~> config loading_bar set no </p> 
+            <h3> config  </h3>
+            <p style="font-size:0.8em"> e.g. to disable loading bar : DESDM ~> config loading_bar set no </p>
             <pre style="font-size:0.6em"><code class='bash'>
 _________
 DESDB ~> config
@@ -296,23 +308,23 @@ DESDB ~> config
 
             <section>
             <ul>
-            <li><h4> clear (or .) </h4> 
+            <li><h4> clear (or .) </h4>
             <p style="font-size:0.6em"> Clears the screen </p></li>
-            <li><h4> edit  </h4> 
+            <li><h4> edit  </h4>
             <p style="font-size:0.6em"> Opens up an editor window to write query </p></li>
-            <li><h4> exit (or quit, or ^D) </h4> 
+            <li><h4> exit (or quit, or ^D) </h4>
             <p style="font-size:0.6em"> Exits easyaccess and save changes and history</p></li>
-            <li><h4> history </h4> 
+            <li><h4> history </h4>
             <p style="font-size:0.6em"> Prints the history of the commands prompted</p></li>
-            <li><h4> shell (or !{command}) </h4> 
+            <li><h4> shell (or !{command}) </h4>
             <p style="font-size:0.6em"> Access the shell, e.g. DESDM ~> shell pwd, or DESDM ~> !pwd</p></li>
-            <li><h4> prefetch </h4> 
+            <li><h4> prefetch </h4>
             <p style="font-size:0.6em"> Shows, sets or sets to default the number of prefetch rows from Oracle</p></li>
             </ul>
             </section>
 
             <section>
-            <h3> describe_table </h3> 
+            <h3> describe_table </h3>
             <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> describe_table MINI_Y1A1
@@ -340,7 +352,7 @@ DESDB ~>
 
 
             <section>
-            <h3> find_tables </h3> 
+            <h3> find_tables </h3>
             <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> find_tables %Y1A1%
@@ -378,7 +390,7 @@ DESDB ~> find_tables %Y1A1%
            </section>
 
             <section>
-            <h3> find_tables_with_column </h3> 
+            <h3> find_tables_with_column </h3>
             <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> find_tables_with_column %TPZ%
@@ -415,13 +427,13 @@ DESDB ~> find_tables_with_column %TPZ%
 24        mcarras2.Y1A1_COADD_PHOTOZ        TPZ_ZP
 25        mcarras2.Y1A1_COADD_PHOTOZ     TPZ_ZPERR
 26                    mcarras2.ZBINS     TPZ_ZVALS
-           
+
            </code></pre>
            </section>
 
 
            <section>
-          <h3> find_user, user_tables </h3> 
+          <h3> find_user, user_tables </h3>
            <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> find_user sevilla
@@ -449,7 +461,7 @@ DESDB ~>
 
 
             <section>
-            <h3> whoami, myquota, mytables</h3> 
+            <h3> whoami, myquota, mytables</h3>
             <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> whoami
@@ -489,13 +501,13 @@ List of my tables
 
 _________
 DESDB ~>
-           
+
            </code></pre>
            </section>
 
 
             <section>
-            <h3> show_db, set_password</h3> 
+            <h3> show_db, set_password</h3>
             <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> show_db
@@ -570,7 +582,7 @@ DESDB ~> show_index Y1A1_COADD_PHOTOZ
             <section>
             <h2>Special commands </h2>
             <p> To download a table from DB, to upload tables from files, to add comments </p>
-            <p> (Press down arrow) </p> 
+            <p> (Press down arrow) </p>
 
             </section>
 
@@ -610,7 +622,7 @@ COADD_OBJECTS_ID RA DEC MAG_AUTO_G TILENAME
 3120938977 9.55367000 -52.85818900 99.00000000 DES0037-5248
             </pre></code>
             </section>
-            
+
             <section>
             <h2> Upload a table from a file</h2>
             <ul>
@@ -774,7 +786,7 @@ DESDB ~>
             <pre style="font-size:0.8em"><code class='SQL'>
 -- sql query example
 -- These are comments
-SELECT 
+SELECT
 T1.COADD_OBJECTS_ID, --id
 T1.RA, --ra
 T1.DEC, --dec
@@ -845,7 +857,7 @@ import seaborn as sns
 connection=ea.connect()
 
 
-# ###Using cursor 
+# ###Using cursor
 
 cursor=connection.cursor() ##create a cursor object to handle the DB
 
@@ -928,7 +940,7 @@ connection.ping()
             Can be imported as module in pytohn
             </li>
             <li>
-            Web interface in development, stay tuned 
+            Web interface in development, stay tuned
             </li>
             <li>
             Feedback is important!
@@ -955,12 +967,12 @@ connection.ping()
             <source data-src="test.mov" type="video/mp4" />
             </video>
             </section>-->
- 
+
             </div>
     </div>
     <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/head.min.js"></script>
     <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/js/reveal.js"></script>
- 
+
     <script>
         // Required, even if empty.
         Reveal.initialize({
