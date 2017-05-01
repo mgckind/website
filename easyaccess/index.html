@@ -9,6 +9,7 @@
     -->
     <link rel="stylesheet" href="des-theme.css" id="theme">
     <link rel="stylesheet" href="../talks/libs/highlight.js/src/styles/railscasts.css">
+    <link rel="stylesheet" href="../talks/libs/reveal.js/plugin/title-footer/title-footer.css">
     <script src="../talks/libs/highlight.js/src/highlight.js"></script>
     <link rel="stylesheet" href="my_reveal.css">
     <script>hljs.initHighlightingOnLoad();</script>
@@ -18,8 +19,6 @@
 
 <body>
     <div class="reveal">
-        <div class="footerL"> <p> Matias Carrasco Kind </div>
-        <div class="footerR"> <p> Easyaccess tutorial </div>
 
         <div class="slides">
 
@@ -27,29 +26,45 @@
                 <h1>
                 <p><img src="images/desdm_figures/logo.png" style="border: 0; vertical-align: text-bottom; width:12%"> easyaccess</p>
                 </h1>
-                <h2>A brief introduction</h2>
+                <h3><i>A brief introduction</i></h3><br><br><br>
+                <p class="mygold">Matias Carrasco Kind</p>
             </section>
 
+            <div class="slides" data-external="demo/demo.html"> </div>
             <section data-markdown>
-              ## Markdown support
+                    ## Markdown support
 
-              Write content using inline or external Markdown.
-              Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                    ![test2](images/desdm_figures/logo.png)
 
-              - hola
-              - chao
+                    Write content using inline or external Markdown.
+                    Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+                    As Kanye West `said`:
+
+                    > "We're living the future so
+                    > the present is our past."
+
+                    But I have to admit, tasks lists are my favorite :boom: :
+
+                    - [x] This is a complete item
+                    - [ ] This is an incomplete item
             </section>
 
-            <section data-markdown>
-		     ## Page title
-
-             A paragraph with some text and a [link](http://hakim.se).
-            </section>
 
             <section>
                 <img src="images/help.gif" width=50% style="border:0">
             </section>
 
+            <section>
+                <pre><code class="js">
+            var http = require('http')
+            http.createServer(function (request, response) {
+            response.writeHead(200, {'Content-Type': 'text/html'})
+            response.write('The server is running OK')
+            response.end()
+            }).listen(8888)
+                          </code></pre>
+            </section>
             <section>
                 <h2>DB Acess tool</h2>
                 <br>
@@ -970,28 +985,36 @@ connection.ping()
 
             </div>
     </div>
-    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/head.min.js"></script>
-    <script src="http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/js/reveal.js"></script>
+    <script src="../talks/libs/reveal.js/lib/js/head.min.js"></script>
+    <script src="../talks/libs/reveal.js/js/reveal.js"></script>
 
     <script>
         // Required, even if empty.
         Reveal.initialize({
-		controls:true,
+		controls: true,
 		slideNumber: true,
         progress: true,
         history : true,
         touch : true,
         width: '100%',
-        center: true,
+	    height: '95%',
+        center: false,
 
 	    dependencies: [
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
-				{ src: 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/plugin/notes/notes.js', async: true }
-				]
+				{ src: '../talks/libs/reveal.js/plugin/external/external.js', async:false, condition: function() { return !!document.querySelector( '[data-external]' ); }},
+				{ src: '../talks/libs/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: '../talks/libs/reveal.js/plugin/markdown/marked.js', async: false,condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../talks/libs/reveal.js/plugin/markdown/markdown.js', async: false,condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../talks/libs/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: '../talks/libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+				{ src: '../talks/libs/reveal.js/plugin/notes/notes.js', async: true },
+				{ src: '../talks/libs/reveal.js/plugin/title-footer/title-footer.js', async: true,  callback: function() {
+                    title_footer.initialize('easyaccess tutorial -- Matias CK','rgba(150,150,150,0.1)'); } }
+            ],
+        markdown: {
+    		smartypants: false,
+            breaks: true
+    	}
 			});
     </script>
 
@@ -1002,7 +1025,7 @@ connection.ping()
        var link = document.createElement( 'link' );
        link.rel = 'stylesheet';
        link.type = 'text/css';
-       link.href = 'http://deslogin.cosmology.illinois.edu/~mcarras2/libs/reveal.js/css/print/pdf.css';
+       link.href = '../talks/libs/reveal.js/css/print/pdf.css';
        document.getElementsByTagName( 'head' )[0].appendChild( link );
      }
    </script>

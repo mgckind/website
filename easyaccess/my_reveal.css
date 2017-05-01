@@ -13,6 +13,13 @@
   z-index: 100;
 }
 
+.mygold {
+    color: gold;
+}
+
+img[alt=test2] { width: 100px; border: 0px }
+
+
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -26,3 +33,4 @@
 .reveal h2 { font-family: 'Roboto', 'noto', sans-serif; }
 .reveal h3 { font-family: 'Roboto', 'noto', sans-serif; }
 .reveal h4 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h5 { font-family: 'Roboto', 'noto', sans-serif; }
