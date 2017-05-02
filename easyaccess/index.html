@@ -19,10 +19,9 @@
 
 <body>
     <div class="reveal">
-
         <div class="slides">
 
-            <section data-background="black">
+            <section data-menu-title="Home">
                 <h1>
                 <p><img src="images/desdm_figures/logo.png" style="border: 0; vertical-align: text-bottom; width:12%"> easyaccess</p>
                 </h1>
@@ -30,41 +29,25 @@
                 <p class="mygold">Matias Carrasco Kind</p>
             </section>
 
-            <div class="slides" data-external="demo/demo.html"> </div>
-            <section data-markdown>
-                    ## Markdown support
-
-                    ![test2](images/desdm_figures/logo.png)
-
-                    Write content using inline or external Markdown.
-                    Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-                    As Kanye West `said`:
-
-                    > "We're living the future so
-                    > the present is our past."
-
-                    But I have to admit, tasks lists are my favorite :boom: :
-
-                    - [x] This is a complete item
-                    - [ ] This is an incomplete item
-            </section>
-
+            <div data-markdown></div>
+            <!--<div class="slides" data-external="demo/demo.html"> </div>-->
 
             <section>
                 <img src="images/help.gif" width=50% style="border:0">
             </section>
 
+<!--
             <section>
-                <pre><code class="js">
+            <pre><code class="js">
             var http = require('http')
             http.createServer(function (request, response) {
             response.writeHead(200, {'Content-Type': 'text/html'})
             response.write('The server is running OK')
             response.end()
             }).listen(8888)
-                          </code></pre>
+            </code></pre>
             </section>
+                          -->
             <section>
                 <h2>DB Acess tool</h2>
                 <br>
@@ -1007,6 +990,7 @@ connection.ping()
 				{ src: '../talks/libs/reveal.js/plugin/markdown/markdown.js', async: false,condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 				{ src: '../talks/libs/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 				{ src: '../talks/libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+				{ src: '../talks/libs/reveal.js/plugin/reveal.js-menu/menu.js'},
 				{ src: '../talks/libs/reveal.js/plugin/notes/notes.js', async: true },
 				{ src: '../talks/libs/reveal.js/plugin/title-footer/title-footer.js', async: true,  callback: function() {
                     title_footer.initialize('easyaccess tutorial -- Matias CK','rgba(150,150,150,0.1)'); } }
@@ -1014,7 +998,16 @@ connection.ping()
         markdown: {
     		smartypants: false,
             breaks: true
-    	}
+    	},
+        menu: {
+            numbers: false,
+            titleSelector: 'h1, h2, h3, h4, h5, h6',
+            themes: [
+			{ name: 'White', theme: 'des-theme-white.css' },
+			{ name: 'Black', theme: 'des-theme.css' },
+		    ],
+            
+        },
 			});
     </script>
 
