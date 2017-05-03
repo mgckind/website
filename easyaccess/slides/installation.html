@@ -27,10 +27,12 @@
 }
 
 .child {
-  /*background-color: black;*/
-  width: 50%;
-  padding: 0;
+  /*background-color: gray;*/
+  width: 60%;
+  padding: 0px;
+  text-align: left;
 }
+
 
 </style>
 <section>
@@ -44,9 +46,9 @@
     </a> repo <span class="code"> python setup.py install</span> </li>
     <li> Using pip or easy_install <span class="code"> pip install easyaccess</span></li>
     <li> Using <a href="https://opensource.ncsa.illinois.edu/confluence/display/DESDM/EUPS+User%27s+Guide", target="_blank">EUPS</a> @ DESDM <span class="code"> eups distrib install easyaccess 1.4.0+0 </span></li>
-    <li> Pre-installed in a Docker Image <span class="code"> docker run -it mgckind/easyaccess easyaccess</span></li>
     <li> <span style="color:lightgreen;">New!</span> Install with <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">conda</a>
         <span class="code"> conda install easyaccess -c mgckind</span></li>
+    <li> Pre-installed in a Docker Image <span class="code"> docker run -it mgckind/easyaccess easyaccess</span></li>
 </ul>
 <br>
 <br>
@@ -81,9 +83,8 @@
 <div class="parent">
 <p class="child"> To clone and install from <i class="fa fa-github" aria-hidden="true"></i> repository <a href="https://github.com/mgckind/easyaccess" target="_blank">https://github.com/mgckind/easyaccess</a></p>
 <div class="child">
-<pre>
-<code class="sh">
-git clone https://github.com/mgckind/easyaccess.git
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">git clone https://github.com/mgckind/easyaccess.git
 cd easyaccess
 python setup.py install
 </code>
@@ -91,50 +92,56 @@ python setup.py install
 </div>
 <p class="child">instead of the last line:</p>
 <div class="child">
-<pre >
-<code class="sh">
-pip install -e .
-</code>
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">pip install -e .</code>
 </pre>
 </div>
 <p class="child">
 Installing using pip:
 </p>
 <div class="child">
-<pre >
-<code class="sh">
-pip install easyaccess
-</code>
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">pip install easyaccess</code>
 </pre>
 </div>
 </div>
 </section>
 <section>
 <h2> Conda installation</h2>
-<p> For <i class="fa fa-apple " aria-hidden="true"></i> and <i class="fa fa-linux " aria-hidden="true"></i> there is
-    a conda installation that includes Oracle client. Check <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">here</a>
-    to install conda. easyaccess conda repository is <a href="https://anaconda.org/mgckind/easyaccess" , target="_blank">here</a>.
-    To install it:</p>
-<pre style="width:  700px;">
-<code class="sh">
-conda install -c mgckind easyccess
-</code>
-</pre>
-<p> To create an isolated conda enviroment for easyaccess:</p>
-<pre style="width:  700px;">
-<code class="sh">
-conda create --name ea --yes easyaccess -c mgckind
+<div class="parent">
+<p class="child">
+
+    For <i class="fa fa-apple " aria-hidden="true"></i> and <i class="fa fa-linux " aria-hidden="true"></i>
+    there is a conda package for easyaccess that includes the Oracle client.<br><br>
+
+    Check <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">here</a>
+    for instructions on how to install conda.<br><br>
+
+    easyaccess conda repository is <a href="https://anaconda.org/mgckind/easyaccess" , target="_blank">here</a>.
+    To install it :</p>
+<div class="child">
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh"> conda install -c mgckind easyccess
+</code></pre></div>
+
+<p class="child"> To create an isolated conda enviroment for easyaccess:</p>
+<div class="child">
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">conda create --name ea --yes easyaccess -c mgckind
 source activate ea
 easyaccess
 </code>
 </pre>
+</div>
 </section>
 
 <section>
-    <h1>Source</h1>
-</section>
-<section>
-    <h1>Source</h1>
+<h2>Using Docker</h2>
+<div class="parent">
+<p class="child"> Sometimes installation of the Oracle client can be tricky.
+    <a href="http://docker.com/" target="_blank">Docker</a> containers provide a lightweight framework
+     to have an isolated environment with pre-installed software.
+<div>
 </section>
 
 </section>
