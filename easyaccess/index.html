@@ -9,7 +9,7 @@
     -->
     <link rel="stylesheet" href="des-theme.css" id="theme">
     <link rel="stylesheet" href="../talks/libs/highlight.js/src/styles/railscasts.css">
-    <link rel="stylesheet" href="../talks/libs/reveal.js/plugin/title-footer/title-footer.css">
+    <link rel="stylesheet" href="../styles/font-awesome-4.5.0/css/font-awesome.css">
     <script src="../talks/libs/highlight.js/src/highlight.js"></script>
     <link rel="stylesheet" href="my_reveal.css">
     <script>hljs.initHighlightingOnLoad();</script>
@@ -18,23 +18,31 @@
 </head>
 
 <body>
-    <div class="reveal">
-        <div class="slides">
+<div class="reveal">
+    <!-- FOOTER -->
+    <div class="footerL">
+    <p> <a href="http://matias-ck.com/">Matias Carrasco Kind</a></div>
+    <div class="footerR">
+    <p> easyaccess tutorial -- <i>A brief introduction</i> </div>
 
-            <section data-menu-title="Home">
-                <h1>
-                <p><img src="images/desdm_figures/logo.png" style="border: 0; vertical-align: text-bottom; width:12%"> easyaccess</p>
-                </h1>
-                <h3><i>A brief introduction</i></h3><br><br><br>
-                <p class="mygold">Matias Carrasco Kind</p>
-            </section>
+<div class="slides">
+<!-- TITLE PAGE -->
+<section data-menu-title="Home" id="Home">
+<h1>
+<p><img src="images/desdm_figures/logo.png" style="border: 0; vertical-align: text-bottom; width:12%"> easyaccess</p>
+</h1>
+<h3><i>A brief introduction</i></h3><br><br><br>
+<p class="mygold">Matias Carrasco Kind</p>
+</section>
 
-            <div data-markdown></div>
-            <!--<div class="slides" data-external="demo/demo.html"> </div>-->
+<!-- fix to load markdown render-->
+<div data-markdown></div>
+<!-- SLIDES -->
+<div class="slides" data-external="slides/introduction.html"> </div>
+<div class="slides" data-external="slides/motivation.html"> </div>
+<div class="slides" data-external="slides/features.html"> </div>
+<div class="slides" data-external="slides/installation.html"> </div>
 
-            <section>
-                <img src="images/help.gif" width=50% style="border:0">
-            </section>
 
 <!--
             <section>
@@ -48,52 +56,14 @@
             </code></pre>
             </section>
                           -->
-            <section>
-                <h2>DB Acess tool</h2>
-                <br>
-                <ul>
-                <li>trivialAccess (ad-hoc command line)</li>
-                <li>Python API (uses cx_Oracle python module and Oracle libs)</li>
-                <li>sqlplus (Oracle own command line from Oracle libs)</li>
-                <li>others paid and free... (Toad, SQLalchemy, etc... )</li>
-                <br>
-                <li class="fragment roll-in "> easyaccess (replacing trivialAcess)</li>
-                <li class="fragment roll-in "> Web client (experimental)</li>
-                </ul>
-            </section>
 
-            <section>
-            <h2> trivialAccess </h2>
-            <div>
-             <p style="float: left;"><img src="images/desdm_figures/pie_trivial.png" border="0" width="80%" height="80%"></p>
-             <br>
-            <p align="left"> jython  and other java tools</p>
-            <p align="left"> Installation and learning curve</p>
-            <p align="left"> No longer supported</p>
-            </div>
-            </section>
 
             <section>
             <h1> easyaccess </h1>
-             <p style="float: center;"><img src="images/desdm_figures/front.png"  width="35%" style="border-color: black"></p>
+             <p style="float: center;"><img src="images/desdm_figures/front.png"  width="33%" style="border-color: black"></p>
             <p style="font-size:0.7em"><a href=https://github.com/mgckind/easyaccess/>https://github.com/mgckind/easyaccess/</a></p>
-            <p style="font-size:0.7em"><a href=https://opensource.ncsa.illinois.edu/confluence/display/DESDM/EasyAccess>EasyAccess confluence page</a></p>
             </section>
 
-            <section>
-            <h2>Some "neat" features</h2>
-            <ul>
-            <li style="font-size:40px">Refactorization of trivialAccess</li>
-            <li style="font-size:40px">History of commands</li>
-            <li style="font-size:40px">Completely open source and written in python</li>
-            <li style="font-size:40px">Smart auto-completion of commands, columns, users, tables and path</li>
-            <li style="font-size:40px">Load sql queries directly from a file </li>
-            <li style="font-size:40px">Load table directly in to DB in one step</li>
-            <li style="font-size:40px">Write tables in csv, tab, fits and hdf5(h5) formats</li>
-            <li style="font-size:40px">Can be imported as python module!</li>
-            <li style="font-size:40px">Many more...</li>
-            </ul>
-            </section>
 
             <section>
             <h2>Installation</h2>
@@ -104,7 +74,6 @@
             <li style="font-size:40px"> More info <a href="https://opensource.ncsa.illinois.edu/confluence/display/DESDM/EasyAccess#EasyAccess-Installation"> here</a></li>
             <li style="font-size:40px"> To run it : "easyaccess". For help : "easyaccess -h"</li>
             </ul>
-            <p style="font-size:0.8em"> <font color='red'>Thanks to: Alex, Nacho, Felipe, Don, Eli, Liz, Keith, Chris, Lorne and others...</font> </p>
             </section>
 
             <section>
@@ -980,7 +949,7 @@ connection.ping()
         history : true,
         touch : true,
         width: '100%',
-	    height: '95%',
+	    height: '98%',
         center: false,
 
 	    dependencies: [
@@ -992,8 +961,8 @@ connection.ping()
 				{ src: '../talks/libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
 				{ src: '../talks/libs/reveal.js/plugin/reveal.js-menu/menu.js'},
 				{ src: '../talks/libs/reveal.js/plugin/notes/notes.js', async: true },
-				{ src: '../talks/libs/reveal.js/plugin/title-footer/title-footer.js', async: true,  callback: function() {
-                    title_footer.initialize('easyaccess tutorial -- Matias CK','rgba(150,150,150,0.1)'); } }
+				//{ src: '../talks/libs/reveal.js/plugin/title-footer/title-footer.js', async: true,  callback: function() {
+                //    title_footer.initialize('easyaccess tutorial -- Matias CK','rgba(150,150,150,0.1)'); } }
             ],
         markdown: {
     		smartypants: false,
@@ -1006,7 +975,7 @@ connection.ping()
 			{ name: 'White', theme: 'des-theme-white.css' },
 			{ name: 'Black', theme: 'des-theme.css' },
 		    ],
-            
+
         },
 			});
     </script>
