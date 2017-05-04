@@ -42,92 +42,9 @@
 <div class="slides" data-external="slides/introduction.html"> </div>
 <div class="slides" data-external="slides/motivation.html"> </div>
 <div class="slides" data-external="slides/features.html"> </div>
+<div class="slides" data-external="slides/simple_logo.html"> </div>
 <div class="slides" data-external="slides/installation.html"> </div>
-
-            <section>
-            <h1> easyaccess </h1>
-             <p style="float: center;"><img src="images/desdm_figures/ea.png"  width="30%" style="border-color: black"></p>
-            <p style="font-size:0.7em"><a href=https://github.com/mgckind/easyaccess/>https://github.com/mgckind/easyaccess/</a></p>
-            </section>
-
-
-
-            <section>
-            <h2> Important files </h2>
-            <h6> <font color="green"> .desservices.ini</font> : usually at $HOME  or defined in $DES_SERVICES</h6>
-            <p style="font-size:20px"> Automatically created (if not found) by easyaccess (read/write by user only)</p>
-            <p style="font-size:30px"> Check example content below (scroll down)</p>
-
-            <pre style="font-size:1em"><code class="ini" >
-;
-; DES services configuration
-; Please modify the passwords accordingly
-;
-
-[db-dessci]
-user = mcarras2
-passwd = ****
-name = dessci
-server = leovip148.ncsa.uiuc.edu
-port = 1521
-
-[db-destest]
-user = mcarras2
-passwd = ****
-name = destest
-server = leovip148.ncsa.uiuc.edu
-port = 1521
-
-[db-desoper]
-user = mcarras2
-passwd = ****
-name = desoper
-server = leovip148.ncsa.uiuc.edu
-port = 1521
-            </code></pre>
-            </section>
-
-
-            <section>
-            <h2> Important files </h2>
-            <h6> <font color="green"> config.ini</font> : usually at $HOME/.easyaccess/config.ini</h6>
-            <p style="font-size:20px"> Automatically created (if not found) by easyaccess </p>
-            <p style="font-size:20px"> Configuration file for easyaccess (can be modified manually or from inside easyaccess) </p>
-            <pre style="font-size:0.8em"><code class="ini" >
-#config.ini
-#
-# Easyaccess default parameters
-#
-# database       : Default is dessci, change to desoper, destest and others
-#                  Make sure the db-"database" section is in the .desservices.ini
-# editor         : Default editor to open from inside easyaccess if $EDITOR is not set
-# prefetch       : Prefetch number of rows to get from oracle (not the number of total rows)
-#                : This determine the number of trips to the DB to get all results from query
-# histcache      : The number of line in the history cache (when possible)
-# timeout        : The time in seconds before closing a connection for a query to print on screen
-#                  If the results are redirected to a file there is not a timeout
-# nullvalue      : The value used to replace null or empty entries when printing into a file
-# outfile_max_mb : Max size of each fits file in MB (default 1GB)
-# autocommit     : Auto commit changes in DB (default yes)
-
-[easyaccess]
-database = dessci
-editor = nano
-prefetch = 10000
-histcache = 5000
-timeout = 900
-nullvalue = -9999
-outfile_max_mb = 1000
-autocommit = yes
-
-[display]
-color_terminal = yes
-loading_bar = yes
-max_rows = 1500
-width = 1000
-max_columns = 50
-            </code></pre>
-            </section>
+<div class="slides" data-external="slides/files.html"> </div>
 
 
             <section>
