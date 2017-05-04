@@ -28,7 +28,7 @@
 
 .child {
   /*background-color: gray;*/
-  width: 60%;
+  width: 65%;
   padding: 0px;
   text-align: left;
 }
@@ -48,7 +48,7 @@
     <li> Using <a href="https://opensource.ncsa.illinois.edu/confluence/display/DESDM/EUPS+User%27s+Guide", target="_blank">EUPS</a> @ DESDM <span class="code"> eups distrib install easyaccess 1.4.0+0 </span></li>
     <li> <span style="color:lightgreen;">New!</span> Install with <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">conda</a>
         <span class="code"> conda install easyaccess -c mgckind</span></li>
-    <li> Pre-installed in a Docker Image <span class="code"> docker run -it mgckind/easyaccess easyaccess</span></li>
+    <li> Pre-installed in a <a href="https://hub.docker.com/r/mgckind/easyaccess/" target="_blank"><i class="icon-docker"></i></a> docker image <span class="code"> docker run -it mgckind/easyaccess easyaccess</span></li>
 </ul>
 <br>
 <br>
@@ -136,12 +136,38 @@ easyaccess
 </section>
 
 <section>
-<h2>Using Docker</h2>
+<h2>Using Docker
+</h2>
 <div class="parent">
-<p class="child"> Sometimes installation of the Oracle client can be tricky.
-    <a href="http://docker.com/" target="_blank">Docker</a> containers provide a lightweight framework
-     to have an isolated environment with pre-installed software.
-<div>
+<h6 class="child"> Sometimes installation of the Oracle client can be tricky.
+    <a href="http://docker.com/" target="_blank">Docker</a> containers provide a 
+    lightweight framework
+     to have an isolated environment with pre-installed software. easyaccess <i class="icon-docker"></i> repository is <a href="https://hub.docker.com/r/mgckind/easyaccess/" target="_blank"> here </a></h6>
+
+<h6 class="child"> To run easyaccess:</h6>
+<div class="child">
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">docker run -it mgckind/easyaccess easyaccess
+</code>
+</pre>
+</div>
+<h6 class="child"> To persist data in current working directory:</h6>
+<div class="child">
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">docker run -it -v $PWD:/home/jovyan/work mgckind/easyaccess easyaccess
+</code>
+</pre>
+</div>
+<h6 class="child">To run jupyter notebook from inside the container and expose port:</h6>
+<div class="child">
+<pre style="margin-top: 10px; margin-bottom: 0px;">
+<code class="sh">docker run -d -p 8888:8888 -v $PWD:/home/jovyan/work mgckind/easyaccess start-notebook.sh --NotebookApp.token=''
+</code>
+</pre>
+</div>
+<h6 class="child">You should have a jupyter notebook running in your http://localhost:8888</h6>
+
+</div>
 </section>
 
 </section>
