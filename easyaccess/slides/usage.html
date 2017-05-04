@@ -1,8 +1,17 @@
+<style>
+.warning {
+    color: #9F6000;
+    border-radius: 10px;
+    background-color: #FEEFB3;
+    font-size: 0.6 em;
+    display:inline-block;
+    padding: 30px;
+}
+</style>
 <section data-menu-title="Usage" id="Usage">
-<h2> Basic usage </h2>
-<p> <font color="CornFlowerBlue">DESDM ~> SELECT ... FROM ... WHERE ... ; </font></p>
-<p> <font color="CornFlowerBlue">bash$ easyaccess -c "SELECT ... FROM ... WHERE ... ;" </font></p>
-<p style="font-size:0.6em">  (Don't forget the ";" after the query)</p>
+<h1> Basic usage </h1>
+<p> <font color="CornFlowerBlue">DESDM ~> SELECT ... FROM ... WHERE ... ; > output </font></p>
+<p class="warning">  (Don't forget the ";" after the query)</p>
 <pre style="font-size:0.6em"><code class='bash'>
 _________
 DESDB ~> select COADD_OBJECTS_ID, RA, DEC, MAG_AUTO_G, TILENAME from MCARRAS2.MINI_Y1A1 where rownum < 11;
