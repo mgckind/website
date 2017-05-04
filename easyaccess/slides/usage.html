@@ -1,0 +1,28 @@
+<section data-menu-title="Usage" id="Usage">
+<h2> Basic usage </h2>
+<p> <font color="CornFlowerBlue">DESDM ~> SELECT ... FROM ... WHERE ... ; </font></p>
+<p> <font color="CornFlowerBlue">bash$ easyaccess -c "SELECT ... FROM ... WHERE ... ;" </font></p>
+<p style="font-size:0.6em">  (Don't forget the ";" after the query)</p>
+<pre style="font-size:0.6em"><code class='bash'>
+_________
+DESDB ~> select COADD_OBJECTS_ID, RA, DEC, MAG_AUTO_G, TILENAME from MCARRAS2.MINI_Y1A1 where rownum < 11;
+
+|☆             |  Press Ctrl-C to abort    Rows : 10, Avg time (rows/sec): 73.7
+
+
+10 rows in 0.14 seconds
+
+COADD_OBJECTS_ID         RA        DEC  MAG_AUTO_G      TILENAME
+1         3120938977   9.553670 -52.858189     99.0000  DES0037-5248
+2         3120944503   9.999752 -52.754332     22.4878  DES0037-5248
+3         3120954907   9.114992 -52.555158     25.3244  DES0037-5248
+4         3120936831   8.994403 -52.899365     24.9927  DES0037-5248
+5         3120952757   9.427335 -52.595066     23.6036  DES0037-5248
+6         3120045269  10.008397 -42.256504     24.9008  DES0041-4206
+7         3120047663  10.084474 -47.183702     24.6363  DES0041-4706
+8         3120047896  10.556631 -47.180639     23.4764  DES0041-4706
+9         3120055956  10.197952 -47.100950     26.3588  DES0041-4706
+10        3120066754  10.863236 -46.987299     21.7274  DES0041-4706
+
+</code></pre>
+</section>
