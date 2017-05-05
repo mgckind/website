@@ -1,12 +1,37 @@
+<style>
+#Special_usage li {
+    font-size: 1.5em;
+}
+
+#Special_usage .arrow {
+    color: #4F8A10;
+    border-radius: 10px
+    background-color: #DFF2BF;
+    font-size: 28x;
+    display:inline-block;
+    padding-left: 10px;
+    padding-right:  10px;
+}
+
+
+</style>
 <section>
 <section data-menu-title="Special Usage" id="Special_usage">
-<h2>Special commands </h2>
-<p> To download a table from DB, to upload tables from files, to add comments </p>
-<p> (Press down arrow) </p>
+<h1>Advanced usage </h1>
+<ul class="myitems">
+    <li>See execution plan</li>
+    <li>Download table to a file</li>
+    <li>Upload a table from file</li>
+    <li>Add comments to tables</li>
+    <li>Load SQL statement from file</li>
+    <li>Delete tables</li>
+</ul>
 
+<br /><br />
+<div class="arrow"> Press <i class="fa fa-arrow-circle-down" aria-hidden="true"> </i> to see the examples.</div>
 </section>
 
-<section>
+<section id="usage-save">
 <h2> Save results to a file</h2>
 <p> <font color="CornFlowerBlue">DESDM ~> SELECT ... FROM ... WHERE ... ; > file.csv </font></p>
 <p style="font-size:0.8em">Supported output files (.csv, .fits, .tab, .h5)</p>
@@ -40,25 +65,25 @@ _________
 DESDB ~> !head -n 2 test.tab
 COADD_OBJECTS_ID RA DEC MAG_AUTO_G TILENAME
 3120938977 9.55367000 -52.85818900 99.00000000 DES0037-5248
-            </pre></code>
-            </section>
+</pre></code>
+</section>
 
-            <section>
-            <h2> Upload a table from a file</h2>
-            <ul>
-            <li>
-            Supported formats: csv, fits
-            </li>
-            <li>
-            Table name taken from filename, to drop a table: <font color="cornflowerblue"> DESDM ~> DROP TABLE {table}; </font>
-            </li>
-            <li>
-            <font color="CornFlowerBlue">DESDM ~> load_table {filename} </font>
-            </li>
-            <li> To share table: <font color="cornflowerblue"> DESDM ~> grant select on {tablename} to DES_READER;</font>
-            </li>
-            </ul>
-            <pre style="font-size:0.8em"><code class='typescript'>
+<section id="usage-upload">
+<h2> Upload a table from a file</h2>
+<ul>
+<li>
+Supported formats: csv, fits
+</li>
+<li>
+Table name taken from filename, to drop a table: <font color="cornflowerblue"> DESDM ~> DROP TABLE {table}; </font>
+</li>
+<li>
+<font color="CornFlowerBlue">DESDM ~> load_table {filename} </font>
+</li>
+<li> To share table: <font color="cornflowerblue"> DESDM ~> grant select on {tablename} to DES_READER;</font>
+</li>
+</ul>
+<pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> !more michigan.csv
 COADD_OBJECTS_ID,RA,DEC,MAG_AUTO_G,TILENAME
@@ -123,14 +148,14 @@ DESDB ~> select * from michigan;
 8         3120047896  10.556631 -47.180639   23.476400  DES0041-4706
 9         3120055956  10.197952 -47.100950   26.358801  DES0041-4706
 10        3120066754  10.863236 -46.987299   21.727400  DES0041-4706
-            </pre></code>
-            </section>
+</pre></code>
+</section>
 
-            <section>
-            <h2> Add comments or descriptions</h2>
-            <p> Add comments to columns in table created <p>
-            <p> Add comments to table itself <p>
-            <pre style="font-size:0.8em"><code class='typescript'>
+<section id="usage-comments">
+<h2> Add comments or descriptions</h2>
+<p> Add comments to columns in table created <p>
+<p> Add comments to table itself <p>
+<pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> describe_table michigan
 
@@ -192,18 +217,18 @@ Description of MICHIGAN commented as: 'example table'
 _________
 DESDB ~>
 
-            </pre></code>
-            </section>
+</pre></code>
+</section>
 
-            <section>
-            <h2> Load sql statements from a file</h2>
-            <ul>
-            <li>Write your favorite sql query, then load it from the file</li>
-            <li>Comments are supported </li>
-            <li> <font color="cornflowerblue"> DESDM ~> loadsql {file.sql}</font></li>
-            <li> <font color="cornflowerblue"> DESDM ~> @{file.sql}</font></li>
-            </ul>
-            <pre style="font-size:0.8em"><code class='SQL'>
+<section id="usage-loadsql">
+<h2> Load sql statements from a file</h2>
+<ul>
+<li>Write your favorite sql query, then load it from the file</li>
+<li>Comments are supported </li>
+<li> <font color="cornflowerblue"> DESDM ~> loadsql {file.sql}</font></li>
+<li> <font color="cornflowerblue"> DESDM ~> @{file.sql}</font></li>
+</ul>
+<pre style="font-size:0.8em"><code class='SQL'>
 -- sql query example
 -- These are comments
 SELECT
@@ -253,8 +278,6 @@ submit query? (Y/N): y
 17        3121191613   8.979183 -41.611909  25.117038  20141118000041_DES0036-4123  0.854403      0.11231
 18        3121189323   9.657756 -41.648061  24.081666  20141118000041_DES0036-4123  0.982048      0.11320
 
-
-            </pre></code>
-            </section>
-
-            </section>
+</pre></code>
+</section>
+</section>
