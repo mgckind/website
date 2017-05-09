@@ -13,6 +13,21 @@
     padding-right:  10px;
 }
 
+.commands {
+    color: cornflowerblue;
+    font-size: 0.9em !important;
+}
+
+.warning {
+    color: #9F6000;
+    border-radius: 10px;
+    background-color: #FEEFB3;
+    font-size: 0.8em !important;
+    display:inline-block;
+    padding-left: 10px;
+    padding-right:  10px;
+}
+
 
 </style>
 <section>
@@ -31,253 +46,65 @@
 <div class="arrow"> Press <i class="fa fa-arrow-circle-down" aria-hidden="true"> </i> to see the examples.</div>
 </section>
 
+<section id="usage-plan">
+<h2> See Oracle execution plan</h2>
+<p class="commands">DESDM ~> SELECT ... FROM ... WHERE ... ; < explain </p>
+<pre style="margin-top: 10px; margin-bottom: 0px; display:inline-block;"><code class='SQL'>select COADD_OBJECT_ID, RA, DEC,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where rownum < 10; < explain
+select COADD_OBJECT_ID, RA, DEC,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where COADD_OBJECT_ID=148672512; < explain
+select s.COADD_OBJECT_ID,s.MAG_APER_8_G, g.MAG_APER_8 from (select * from Y3A1_COADD_OBJECT_SUMMARY where rownum < 10) s, Y3A1_COADD_OBJECT_BAND_G g where s.COADD_OBJECT_ID = g.COADD_OBJECT_ID; < explain
+</code></pre>
+<img src="images/plan.gif" width=40% style="border:0">
+</section>
+
 <section id="usage-save">
 <h2> Save results to a file</h2>
-<p> <font color="CornFlowerBlue">DESDM ~> SELECT ... FROM ... WHERE ... ; > file.csv </font></p>
-<p style="font-size:0.8em">Supported output files (.csv, .fits, .tab, .h5)</p>
-<pre style="font-size:0.8em"><code class='typescript'>
-            _________
-DESDB ~> select COADD_OBJECTS_ID, RA, DEC, MAG_AUTO_G, TILENAME from MINI_Y1A1 where rownum < 11; > test.tab
-
-Fetching data and saving it to test.tab ...
-
-
-    |         ☆    |  Press Ctrl-C to abort    Rows : 10, Avg time (rows/sec): 9.3
-
- Written 10 rows to test.tab in 1.08 seconds and 1 trips
-
-
-_________
-DESDB ~> shell more test.tab
-COADD_OBJECTS_ID RA DEC MAG_AUTO_G TILENAME
-3120938977 9.55367000 -52.85818900 99.00000000 DES0037-5248
-3120944503 9.99975200 -52.75433200 22.48780060 DES0037-5248
-3120954907 9.11499200 -52.55515800 25.32439995 DES0037-5248
-3120936831 8.99440300 -52.89936500 24.99270058 DES0037-5248
-3120952757 9.42733500 -52.59506600 23.60359955 DES0037-5248
-3120045269 10.00839700 -42.25650400 24.90080070 DES0041-4206
-3120047663 10.08447400 -47.18370200 24.63629913 DES0041-4706
-3120047896 10.55663100 -47.18063900 23.47640038 DES0041-4706
-3120055956 10.19795200 -47.10095000 26.35880089 DES0041-4706
-3120066754 10.86323600 -46.98729900 21.72739983 DES0041-4706
-
-_________
-DESDB ~> !head -n 2 test.tab
-COADD_OBJECTS_ID RA DEC MAG_AUTO_G TILENAME
-3120938977 9.55367000 -52.85818900 99.00000000 DES0037-5248
-</pre></code>
+<p class="commands">DESDM ~> SELECT ... FROM ... WHERE ... ; > file.csv </p>
+<p>Supported output files (.csv, .fits, .tab, .h5)</p>
+<pre style="margin-top: 10px; margin-bottom: 0px; display:inline-block;"><code class='SQL'>select COADD_OBJECT_ID,RA,DEC,MAG_AUTO_G,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where rownum < 100; > y3a1.csv
+</code></pre>
+<img src="images/save.gif" width=40% style="border:0">
 </section>
 
 <section id="usage-upload">
 <h2> Upload a table from a file</h2>
-<ul>
-<li>
-Supported formats: csv, fits
-</li>
-<li>
-Table name taken from filename, to drop a table: <font color="cornflowerblue"> DESDM ~> DROP TABLE {table}; </font>
-</li>
-<li>
-<font color="CornFlowerBlue">DESDM ~> load_table {filename} </font>
-</li>
-<li> To share table: <font color="cornflowerblue"> DESDM ~> grant select on {tablename} to DES_READER;</font>
-</li>
-</ul>
-<pre style="font-size:0.8em"><code class='typescript'>
-_________
-DESDB ~> !more michigan.csv
-COADD_OBJECTS_ID,RA,DEC,MAG_AUTO_G,TILENAME
-3120938977,9.55367000,-52.85818900,99.00000000,DES0037-5248
-3120944503,9.99975200,-52.75433200,22.48780060,DES0037-5248
-3120954907,9.11499200,-52.55515800,25.32439995,DES0037-5248
-3120936831,8.99440300,-52.89936500,24.99270058,DES0037-5248
-3120952757,9.42733500,-52.59506600,23.60359955,DES0037-5248
-3120045269,10.00839700,-42.25650400,24.90080070,DES0041-4206
-3120047663,10.08447400,-47.18370200,24.63629913,DES0041-4706
-3120047896,10.55663100,-47.18063900,23.47640038,DES0041-4706
-3120055956,10.19795200,-47.10095000,26.35880089,DES0041-4706
-3120066754,10.86323600,-46.98729900,21.72739983,DES0041-4706
-_________
-DESDB ~> load_table michigan.csv
-
-  Table MICHIGAN created successfully with 10 rows and 5 columns in 0.35 seconds
-
- You might want to refresh the metadata (refresh_metadata_cache)
- so your new table appears during autocompletion
-
-To make this table public run:
-
-   grant select on MICHIGAN to DES_READER;
-
-_________
-DESDB ~> describe_table michigan
-
-    |    ☆         |  Press Ctrl-C to abort    Rows : 5, Avg time (rows/sec): 9.0
-
-Description of MICHIGAN commented as: 'None'
-
-        COLUMN_NAME      DATA_TYPE DATA_FORMAT COMMENTS
-1  COADD_OBJECTS_ID         NUMBER       22,,0     Null
-2                RA  BINARY_DOUBLE         8,,     Null
-3               DEC  BINARY_DOUBLE         8,,     Null
-4        MAG_AUTO_G  BINARY_DOUBLE         8,,     Null
-5          TILENAME       VARCHAR2        12,,     Null
-
-_________
-DESDB ~> select * from michigan
-
-Invalid command or missing ; at the end of query.
-Type help or ? to list commands
-
-_________
-DESDB ~> select * from michigan;
-
-    | ☆            |  Press Ctrl-C to abort    Rows : 10, Avg time (rows/sec): 38.6
-
-
-10 rows in 0.26 seconds
-
-    COADD_OBJECTS_ID         RA        DEC  MAG_AUTO_G      TILENAME
-1         3120938977   9.553670 -52.858189   99.000000  DES0037-5248
-2         3120944503   9.999752 -52.754332   22.487801  DES0037-5248
-3         3120954907   9.114992 -52.555158   25.324400  DES0037-5248
-4         3120936831   8.994403 -52.899365   24.992701  DES0037-5248
-5         3120952757   9.427335 -52.595066   23.603600  DES0037-5248
-6         3120045269  10.008397 -42.256504   24.900801  DES0041-4206
-7         3120047663  10.084474 -47.183702   24.636299  DES0041-4706
-8         3120047896  10.556631 -47.180639   23.476400  DES0041-4706
-9         3120055956  10.197952 -47.100950   26.358801  DES0041-4706
-10        3120066754  10.863236 -46.987299   21.727400  DES0041-4706
-</pre></code>
+<p class="commands">DESDM ~> load_table {file} --tablename {optional name} --chunksize {# of rows to load at a time}  </p>
+<p>Supported output files (.csv, .fits, .tab)</p>
+<img src="images/load.gif" width=47% style="border:0">
 </section>
 
 <section id="usage-comments">
 <h2> Add comments or descriptions</h2>
-<p> Add comments to columns in table created <p>
-<p> Add comments to table itself <p>
-<pre style="font-size:0.8em"><code class='typescript'>
-_________
-DESDB ~> describe_table michigan
-
-    |             ☆|  Press Ctrl-C to abort    Rows : 5, Avg time (rows/sec): 3.3
-
-Description of MICHIGAN commented as: 'None'
-
-        COLUMN_NAME      DATA_TYPE DATA_FORMAT COMMENTS
-1  COADD_OBJECTS_ID         NUMBER       22,,0     Null
-2                RA  BINARY_DOUBLE         8,,     Null
-3               DEC  BINARY_DOUBLE         8,,     Null
-4        MAG_AUTO_G  BINARY_DOUBLE         8,,     Null
-5          TILENAME       VARCHAR2        12,,     Null
-
-_________
-DESDB ~> add_comment column MICHIGAN.COADD_OBJECTS_ID id
-
-    |            ☆ |  Press Ctrl-C to abort
-Comment added to column: COADD_OBJECTS_ID in table MICHIGAN
-
-_________
-DESDB ~> add_comment column MICHIGAN.ra position in the sky -- ra
-
-    |   ☆          |  Press Ctrl-C to abort
-Comment added to column: ra in table MICHIGAN
-
-_________
-DESDB ~> add_comment column MICHIGAN.dec position in the sky -- dec
-
-    | ☆            |  Press Ctrl-C to abort
-Comment added to column: dec in table MICHIGAN
-
-_________
-DESDB ~> add_comment column MICHIGAN.tilename This is the number of the tile
-
-    | ☆            |  Press Ctrl-C to abort
-Comment added to column: tilename in table MICHIGAN
-
-_________
-DESDB ~> add_comment table MICHIGAN example table
-
-    |☆             |  Press Ctrl-C to abort
-Comment added to table: MICHIGAN
-
-_________
-DESDB ~> describe_table MICHIGAN
-
-    |  ☆           |  Press Ctrl-C to abort    Rows : 5, Avg time (rows/sec): 13.1
-
-Description of MICHIGAN commented as: 'example table'
-
-        COLUMN_NAME      DATA_TYPE DATA_FORMAT                        COMMENTS
-1  COADD_OBJECTS_ID         NUMBER       22,,0                              id
-2                RA  BINARY_DOUBLE         8,,       position in the sky -- ra
-3               DEC  BINARY_DOUBLE         8,,      position in the sky -- dec
-4        MAG_AUTO_G  BINARY_DOUBLE         8,,                            Null
-5          TILENAME       VARCHAR2        12,,  This is the number of the tile
-
-_________
-DESDB ~>
-
-</pre></code>
+<p class="commands">DESDM ~> add_comment table {TABLE} 'This is my table description'  <br> DESDM ~> add_comment column {TABLE}.{COLUMN} 'This is my comment'  </p>
+<img src="images/comments.gif" width=47% style="border:0">
 </section>
 
 <section id="usage-loadsql">
 <h2> Load sql statements from a file</h2>
-<ul>
-<li>Write your favorite sql query, then load it from the file</li>
-<li>Comments are supported </li>
-<li> <font color="cornflowerblue"> DESDM ~> loadsql {file.sql}</font></li>
-<li> <font color="cornflowerblue"> DESDM ~> @{file.sql}</font></li>
-</ul>
-<pre style="font-size:0.8em"><code class='SQL'>
--- sql query example
--- These are comments
+<p class="commands">DESDM ~> loadsql {file.sql}  <br /> DESDM ~> @{file.sql}  </p>
+<pre style="font-size:0.8em"><code class='SQL'>-- SQL EXAMPLE
+-- Comments supported
 SELECT
-T1.COADD_OBJECTS_ID, --id
-T1.RA, --ra
-T1.DEC, --dec
-T1.MAG_AUTO_G-T1.XCORR_SFD98_G G, --extinction corrected
-T1.MAGERR_DETMODEL_I, --I no corrected
-T2.DESDM_ZP,--photoz
-T2.DESDM_ZPERR --photoz-err
+s.COADD_OBJECT_ID, -- id
+s.RA, -- RA
+s.DEC, -- DEC
+s.MAG_AUTO_G, -- g manitude
+g.MAG_APER_4 as aper_g, -- aper 4 mag from band g table
+r.MAG_APER_4 as aper_r,
+i.MAG_APER_4 as aper_i
 FROM
-MINI_Y1A1 T1, --sub sample from y1a1
-Y1A1_COADD_PHOTOZ  T2 -- photoz table
+(select *  from Y3A1_COADD_OBJECT_SUMMARY where rownum < 10) s, --subset from summary table
+Y3A1_COADD_OBJECT_BAND_G g, -- g band table wth all parameters
+Y3A1_COADD_OBJECT_BAND_R r,
+Y3A1_COADD_OBJECT_BAND_I i
 WHERE
-T2.COADD_OBJECTS_ID = T1.COADD_OBJECTS_ID; --matching by ids
-
-
-_________
-DESDB ~> loadsql test.sql
-
- SELECT  T1.COADD_OBJECTS_ID,  T1.RA,  T1.DEC,  T1.MAG_AUTO_G-T1.XCORR_SFD98_G G,  T1.MAGERR_DETMODEL_I,  T2.DESDM_ZP, T2.DESDM_ZPERR  FROM MINI_Y1A1 T1,  Y1A1_COADD_PHOTOZ  T2  WHERE T2.COADD_OBJECTS_ID = T1.COADD_OBJECTS_ID;
-
-submit query? (Y/N): y
-
-    |    ☆         |  Press Ctrl-C to abort    Rows : 18, Avg time (rows/sec): 1.4
-
-
-18 rows in 12.93 seconds
-
-    COADD_OBJECTS_ID         RA        DEC          G            MAGERR_DETMODEL_I  DESDM_ZP  DESDM_ZPERR
-1         3120938977   9.553670 -52.858189  98.936168  20141118000041_DES0037-5248  0.053050      0.15650
-2         3120944503   9.999752 -52.754332  22.431785  20141118000041_DES0037-5248  0.267907      0.11793
-3         3120954907   9.114992 -52.555158  25.263235  20141118000041_DES0037-5248  0.682050      0.06274
-4         3120936831   8.994403 -52.899365  24.932943  20141118000041_DES0037-5248  0.562024      0.13328
-5         3120952757   9.427335 -52.595066  23.547770  20141118000041_DES0037-5248  1.004921      0.08233
-6         3120045269  10.008397 -42.256504  24.859159  20141118000041_DES0041-4206  0.985158      0.15018
-7         3120047663  10.084474 -47.183702  24.589065  20141118000041_DES0041-4706  0.894567      0.08141
-8         3120047896  10.556631 -47.180639  23.428831  20141118000041_DES0041-4706  0.550385      0.05724
-9         3120055956  10.197952 -47.100950  26.315677  20141118000041_DES0041-4706  0.434088      0.12292
-10        3120066754  10.863236 -46.987299  21.691686  20141118000041_DES0041-4706  0.378991      0.11451
-11        3120060168  10.673803 -47.056676  23.599043  20141118000041_DES0041-4706  0.481716      0.08525
-12        3120064061  10.250745 -47.011011  24.605948  20141118000041_DES0041-4706  0.804396      0.09282
-13        3121043108   9.145812 -41.983799  22.939673  20141118000041_DES0037-4206  0.486377      0.10291
-14        3121052639   9.156004 -41.756442  20.893839  20141118000041_DES0037-4206  0.144946      0.05946
-15        3121214820   9.573569 -41.374574  23.683248  20141118000041_DES0036-4123  0.630103      0.03789
-16        3121235477   9.589115 -41.156993  22.892964  20141118000041_DES0036-4123  0.945554      0.06161
-17        3121191613   8.979183 -41.611909  25.117038  20141118000041_DES0036-4123  0.854403      0.11231
-18        3121189323   9.657756 -41.648061  24.081666  20141118000041_DES0036-4123  0.982048      0.11320
+s.COADD_OBJECT_ID = g.COADD_OBJECT_ID and
+g.COADD_OBJECT_ID = r.COADD_OBJECT_ID and
+r.COADD_OBJECT_ID = i.COADD_OBJECT_ID;
 
 </pre></code>
+</section>
+<section id="usage-loadsql-an">
+<h2> Load sql statements from a file</h2>
+<img src="images/sqlfile.gif" width=56% style="border:0">
 </section>
 </section>
