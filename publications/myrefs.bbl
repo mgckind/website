@@ -1,3 +1,169 @@
+@ARTICLE{2017MNRAS.468.3682M,
+   author = {{Mudd}, D. and {Martini}, P. and {Tie}, S.~S. and {Lidman}, C. and 
+	{McMahon}, R. and {Banerji}, M. and {Davis}, T. and {Peterson}, B. and 
+	{Sharp}, R. and {Seymour}, N. and {Childress}, M. and {Lewis}, G. and 
+	{Tucker}, B. and {Yuan}, F. and {Abbot}, T. and {Abdalla}, F. and 
+	{Allam}, S. and {Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
+	{Camero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Diehl}, T. and {Eifler}, T. and 
+	{Finley}, D. and {Flaugher}, B. and {Glazebrook}, K. and {Gruen}, D. and 
+	{Gruendl}, R. and {Gutierrez}, G. and {Hinton}, S. and {Honscheid}, K. and 
+	{James}, D. and {Kuehn}, K. and {Kuropatkin}, N. and {Macaulay}, E. and 
+	{Maia}, M.~A.~G. and {Miquel}, R. and {Ogando}, R. and {Plazas}, A. and 
+	{Riel}, K. and {Sanchez}, E. and {Santiago}, B. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M. and {Tarle}, G. and 
+	{Thomas}, D. and {Uddin}, S. and {Walker}, A. and {Zhang}, B.
+	},
+    title = "{Discovery of a z = 0.65 post-starburst BAL quasar in the DES supernova fields}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1606.02717},
+     year = 2017,
+    month = jul,
+   volume = 468,
+    pages = {3682-3688},
+      doi = {10.1093/mnras/stx708},
+   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.468.3682M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017MNRAS.468.3347S,
+   author = {{Saro}, A. and {Bocquet}, S. and {Mohr}, J. and {Rozo}, E. and 
+	{Benson}, B.~A. and {Dodelson}, S. and {Rykoff}, E.~S. and {Bleem}, L. and 
+	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allen}, S. and 
+	{Annis}, J. and {Benoit-L{\'e}vy}, A. and {Brooks}, D. and {Burke}, D.~L. and 
+	{Capasso}, R. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
+	{Carretero}, J. and {Chiu}, I. and {Crawford}, T.~M. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Desai}, S. and 
+	{Dietrich}, J.~P. and {Evrard}, A.~E. and {Neto}, A.~F. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and {Gangkofner}, C. and 
+	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Giannantonio}, T. and 
+	{Grandis}, S. and {Gruen}, D. and {Gruendl}, R.~A. and {Gupta}, N. and 
+	{Gutierrez}, G. and {Holzapfel}, W.~L. and {James}, D.~J. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lima}, M. and {Marshall}, J.~L. and 
+	{McDonald}, M. and {Melchior}, P. and {Menanteau}, F. and {Miquel}, R. and 
+	{Ogando}, R. and {Plazas}, A.~A. and {Rapetti}, D. and {Reichardt}, C.~L. and 
+	{Reil}, K. and {Romer}, A.~K. and {Sanchez}, E. and {Scarpine}, V. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Soergel}, B. and {Strazzullo}, V. and 
+	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and 
+	{Vikram}, V. and {Walker}, A.~R. and {Zenteno}, A.},
+    title = "{Optical{\ndash}SZE scaling relations for DES optically selected clusters within the SPT-SZ Survey}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1605.08770},
+     year = 2017,
+    month = jul,
+   volume = 468,
+    pages = {3347-3360},
+      doi = {10.1093/mnras/stx594},
+   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.468.3347S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017MNRAS.468.1349P,
+   author = {{Pieres}, A. and {Santiago}, B.~X. and {Drlica-Wagner}, A. and 
+	{Bechtol}, K. and {Marel}, R.~P.~v.~d. and {Besla}, G. and {Martin}, N.~F. and 
+	{Belokurov}, V. and {Gallart}, C. and {Martinez-Delgado}, D. and 
+	{Marshall}, J. and {N{\"o}el}, N.~E.~D. and {Majewski}, S.~R. and 
+	{Cioni}, M.-R.~L. and {Li}, T.~S. and {Hartley}, W. and {Luque}, E. and 
+	{Conn}, B.~C. and {Walker}, A.~R. and {Balbinot}, E. and {Stringfellow}, G.~S. and 
+	{Olsen}, K.~A.~G. and {Nidever}, D. and {da Costa}, L.~N. and 
+	{Ogando}, R. and {Maia}, M. and {Neto}, A.~F. and {Abbott}, T.~M.~C. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and {Benoit-L{\'e}vy}, A. and 
+	{Rosell}, A.~C. and {Kind}, M.~C. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {Desai}, S. and {Diehl}, H.~T. and {Doel}, P. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Garc{\'{\i}}a-Bellido}, J. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gschwend}, J. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D. and {Kuehn}, K. and {Kuropatkin}, N. and 
+	{Menanteau}, F. and {Miquel}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
+	{Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Tucker}, D.~L. and {Wester}, W.},
+    title = "{A stellar overdensity associated with the Small Magellanic Cloud}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1612.03938},
+ keywords = {galaxies: interactions, Magellanic Clouds},
+     year = 2017,
+    month = jun,
+   volume = 468,
+    pages = {1349-1360},
+      doi = {10.1093/mnras/stx507},
+   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.468.1349P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017MNRAS.468...97L,
+   author = {{Luque}, E. and {Pieres}, A. and {Santiago}, B. and {Yanny}, B. and 
+	{Vivas}, A.~K. and {Queiroz}, A. and {Drlica-Wagner}, A. and 
+	{Morganson}, E. and {Balbinot}, E. and {Marshall}, J.~L. and 
+	{Li}, T.~S. and {Neto}, A.~F. and {da Costa}, L.~N. and {Maia}, M.~A.~G. and 
+	{Bechtol}, K. and {Kim}, A.~G. and {Bernstein}, G.~M. and {Dodelson}, S. and 
+	{Whiteway}, L. and {Diehl}, H.~T. and {Finley}, D.~A. and {Abbott}, T. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Rosell}, A.~C. and 
+	{Kind}, M.~C. and {Carretero}, J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
+	{Desai}, S. and {Doel}, P. and {Evrard}, A.~E. and {Flaugher}, B. and 
+	{Fosalba}, P. and {Gerdes}, D.~W. and {Goldstein}, D.~A. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {James}, D.~J. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Martini}, P. and 
+	{Miquel}, R. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Walker}, A.~R.},
+    title = "{The Dark Energy Survey view of the Sagittarius stream: discovery of two faint stellar system candidates}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1608.04033},
+ keywords = {globular clusters: general, galaxies: dwarf},
+     year = 2017,
+    month = jun,
+   volume = 468,
+    pages = {97-108},
+      doi = {10.1093/mnras/stx405},
+   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.468...97L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017MNRAS.467.4015H,
+   author = {{Hennig}, C. and {Mohr}, J.~J. and {Zenteno}, A. and {Desai}, S. and 
+	{Dietrich}, J.~P. and {Bocquet}, S. and {Strazzullo}, V. and 
+	{Saro}, A. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Bayliss}, M. and 
+	{Benoit-L{\'e}vy}, A. and {Bernstein}, R.~A. and {Bertin}, E. and 
+	{Brooks}, D. and {Capasso}, R. and {Capozzi}, D. and {Carnero}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Chiu}, I. and {D'Andrea}, C.~B. and 
+	{daCosta}, L.~N. and {Diehl}, H.~T. and {Doel}, P. and {Eifler}, T.~F. and 
+	{Evrard}, A.~E. and {Fausti-Neto}, A. and {Fosalba}, P. and 
+	{Frieman}, J. and {Gangkofner}, C. and {Gonzalez}, A. and {Gruen}, D. and 
+	{Gruendl}, R.~A. and {Gupta}, N. and {Gutierrez}, G. and {Honscheid}, K. and 
+	{Hlavacek-Larrondo}, J. and {James}, D.~J. and {Kuehn}, K. and 
+	{Kuropatkin}, N. and {Lahav}, O. and {March}, M. and {Marshall}, J.~L. and 
+	{Martini}, P. and {McDonald}, M. and {Melchior}, P. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Neilsen}, E. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Reichardt}, C. and {Romer}, A.~K. and {Rozo}, E. and 
+	{Rykoff}, E.~S. and {Sanchez}, E. and {Santiago}, B. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Stalder}, B. and {Stanford}, S.~A. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and {Vikram}, V. and 
+	{Walker}, A.~R. and {Zhang}, Y.},
+    title = "{Galaxy populations in massive galaxy clusters to z = 1.1: colour distribution, concentration, halo occupation number and red sequence fraction}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1604.00988},
+ keywords = {galaxies: clusters: general, galaxies: clusters: individual, galaxies: evolution, galaxies: formation, galaxies: luminosity function, mass function},
+     year = 2017,
+    month = jun,
+   volume = 467,
+    pages = {4015-4035},
+      doi = {10.1093/mnras/stx175},
+   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.467.4015H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @ARTICLE{2017MNRAS.466.1444C,
    author = {{Clerkin}, L. and {Kirk}, D. and {Manera}, M. and {Lahav}, O. and 
 	{Abdalla}, F. and {Amara}, A. and {Bacon}, D. and {Chang}, C. and 
@@ -61,6 +227,82 @@ archivePrefix = "arXiv",
     pages = {228-247},
       doi = {10.1093/mnras/stw3069},
    adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.466..228E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017ApJ...839L..15G,
+   author = {{Gerdes}, D.~W. and {Sako}, M. and {Hamilton}, S. and {Zhang}, K. and 
+	{Khain}, T. and {Becker}, J.~C. and {Annis}, J. and {Wester}, W. and 
+	{Bernstein}, G.~M. and {Scheibner}, C. and {Zullo}, L. and {Adams}, F. and 
+	{Bergin}, E. and {Walker}, A.~R. and {Mueller}, J.~H. and {Abbott}, T.~M.~C. and 
+	{Abdalla}, F.~B. and {Allam}, S. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Diehl}, H.~T. and {Eifler}, T.~F. and 
+	{Flaugher}, B. and {Frieman}, J. and {Garc{\'{\i}}a-Bellido}, J. and 
+	{Gaztanaga}, E. and {Goldstein}, D.~A. and {Gruen}, D. and {Gschwend}, J. and 
+	{Gutierrez}, G. and {Honscheid}, K. and {James}, D.~J. and {Kent}, S. and 
+	{Krause}, E. and {Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and 
+	{Li}, T.~S. and {Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and 
+	{Martini}, P. and {Menanteau}, F. and {Miquel}, R. and {Nichol}, R.~C. and 
+	{Plazas}, A.~A. and {Romer}, A.~K. and {Roodman}, A. and {Sanchez}, E. and 
+	{Sevilla-Noarbe}, I. and {Smith}, M. and {Smith}, R.~C. and 
+	{Soares-Santos}, M. and {Sobreira}, F. and {Suchyta}, E. and 
+	{Swanson}, M.~E.~C. and {Tarle}, G. and {Tucker}, D.~L. and 
+	{Zhang}, Y. and {DES Collaboration}},
+    title = "{Discovery and Physical Characterization of a Large Scattered Disk Object at 92 au}",
+  journal = {\apjl},
+archivePrefix = "arXiv",
+   eprint = {1702.00731},
+ primaryClass = "astro-ph.EP",
+ keywords = {infrared: planetary systems, Kuiper belt: general, methods: observational, techniques: photometric},
+     year = 2017,
+    month = apr,
+   volume = 839,
+      eid = {L15},
+    pages = {L15},
+      doi = {10.3847/2041-8213/aa64d8},
+   adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...839L..15G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017ApJ...838L..15L,
+   author = {{Lin}, H. and {Buckley-Geer}, E. and {Agnello}, A. and {Ostrovski}, F. and 
+	{McMahon}, R.~G. and {Nord}, B. and {Kuropatkin}, N. and {Tucker}, D.~L. and 
+	{Treu}, T. and {Chan}, J.~H.~H. and {Suyu}, S.~H. and {Diehl}, H.~T. and 
+	{Collett}, T. and {Gill}, M.~S.~S. and {More}, A. and {Amara}, A. and 
+	{Auger}, M.~W. and {Courbin}, F. and {Fassnacht}, C.~D. and 
+	{Frieman}, J. and {Marshall}, P.~J. and {Meylan}, G. and {Rusu}, C.~E. and 
+	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allam}, S. and 
+	{Banerji}, M. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
+	{Crocce}, M. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Desai}, S. and {Dietrich}, J.~P. and {Eifler}, T.~F. and {Finley}, D.~A. and 
+	{Flaugher}, B. and {Fosalba}, P. and {Garc{\'{\i}}a-Bellido}, J. and 
+	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Goldstein}, D.~A. and 
+	{Gruen}, D. and {Gruendl}, R.~A. and {Gschwend}, J. and {Gutierrez}, G. and 
+	{Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and {Lahav}, O. and 
+	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
+	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Menanteau}, F. and 
+	{Miquel}, R. and {Ogando}, R.~L.~C. and {Plazas}, A.~A. and 
+	{Romer}, A.~K. and {Sanchez}, E. and {Schindler}, R. and {Schubnell}, M. and 
+	{Sevilla-Noarbe}, I. and {Smith}, M. and {Smith}, R.~C. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Thomas}, D. and {Walker}, A.~R. and {DES Collaboration}
+	},
+    title = "{Discovery of the Lensed Quasar System DES J0408-5354}",
+  journal = {\apjl},
+archivePrefix = "arXiv",
+   eprint = {1702.00072},
+ keywords = {gravitational lensing: strong, quasars: general, surveys},
+     year = 2017,
+    month = apr,
+   volume = 838,
+      eid = {L15},
+    pages = {L15},
+      doi = {10.3847/2041-8213/aa624e},
+   adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...838L..15L},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -230,6 +472,35 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+@ARTICLE{2017arXiv170308410C,
+   author = {{Collett}, T.~E. and {Buckley-Geer}, E. and {Lin}, H. and {Bacon}, D. and 
+	{Nichol}, R.~C. and {Nord}, B. and {Morice-Atkinson}, X. and 
+	{Amara}, A. and {Birrer}, S. and {Kuropatkin}, N. and {More}, A. and 
+	{Papovich}, C. and {Romer}, K.~K. and {Tessore}, N. and {Abbott}, T.~M.~C. and 
+	{Allam}, S. and {Annis}, J. and {Benoit-L{\'e}vy}, A. and {Brooks}, D. and 
+	{Burke}, D.~L. and {Carrasco Kind}, M. and {Castander}, F.~J.~J. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Desai}, S. and 
+	{Diehl}, H.~T. and {Doel}, P. and {Eifler}, T.~F. and {Flaugher}, B. and 
+	{Frieman}, J. and {Gerdes}, D.~W. and {Goldstein}, D.~A. and 
+	{Gruen}, D. and {Gschwend}, J. and {Gutierrez}, G. and {James}, D.~J. and 
+	{Kuehn}, K. and {Kuhlmann}, S. and {Lahav}, O. and {Li}, T.~S. and 
+	{Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and {Marshall}, J.~L. and 
+	{Martini}, P. and {Melchior}, P. and {Miquel}, R. and {Plazas}, A.~A. and 
+	{Rykoff}, E.~S. and {Sanchez}, E. and {Scarpine}, V. and {Schindler}, R. and 
+	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Tucker}, D.~L. and {Walker}, A.~R.},
+    title = "{Core or cusps: The central dark matter profile of a redshift one strong lensing cluster with a bright central image}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1703.08410},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+     year = 2017,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170308410C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @ARTICLE{2017arXiv170301679B,
    author = {{Bernstein}, G.~M. and {Armstrong}, R. and {Plazas}, A.~A. and 
 	{Walker}, A.~R. and {Abbott}, T.~M.~C. and {Allam}, S. and {Bechtol}, K. and 
@@ -259,6 +530,104 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+@ARTICLE{2017ApJ...838...44H,
+   author = {{Hansen}, T.~T. and {Simon}, J.~D. and {Marshall}, J.~L. and 
+	{Li}, T.~S. and {Carollo}, D. and {DePoy}, D.~L. and {Nagasawa}, D.~Q. and 
+	{Bernstein}, R.~A. and {Drlica-Wagner}, A. and {Abdalla}, F.~B. and 
+	{Allam}, S. and {Annis}, J. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
+	{Brooks}, D. and {Buckley-Geer}, E. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{da Costa}, L.~N. and {Desai}, S. and {Eifler}, T.~F. and {Fausti Neto}, A. and 
+	{Flaugher}, B. and {Frieman}, J. and {Garc{\'{\i}}a-Bellido}, J. and 
+	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gschwend}, J. and {Gutierrez}, G. and {James}, D.~J. and {Krause}, E. and 
+	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Miquel}, R. and 
+	{Plazas}, A.~A. and {Romer}, A.~K. and {Sanchez}, E. and {Santiago}, B. and 
+	{Scarpine}, V. and {Smith}, R.~C. and {Soares-Santos}, M. and 
+	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Walker}, A.~R. and {DES Collaboration}},
+    title = "{An r-process Enhanced Star in the Dwarf Galaxy Tucana III}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1702.07430},
+ primaryClass = "astro-ph.SR",
+ keywords = {galaxies: abundances, galaxies: dwarf, stars: abundances, stars: chemically peculiar},
+     year = 2017,
+    month = mar,
+   volume = 838,
+      eid = {44},
+    pages = {44},
+      doi = {10.3847/1538-4357/aa634a},
+   adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...838...44H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017ApJ...838...11S,
+   author = {{Simon}, J.~D. and {Li}, T.~S. and {Drlica-Wagner}, A. and {Bechtol}, K. and 
+	{Marshall}, J.~L. and {James}, D.~J. and {Wang}, M.~Y. and {Strigari}, L. and 
+	{Balbinot}, E. and {Kuehn}, K. and {Walker}, A.~R. and {Abbott}, T.~M.~C. and 
+	{Allam}, S. and {Annis}, J. and {Benoit-L{\'e}vy}, A. and {Brooks}, D. and 
+	{Buckley-Geer}, E. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Doel}, P. and {Fernandez}, E. and {Flaugher}, B. and 
+	{Frieman}, J. and {Garc{\'{\i}}a-Bellido}, J. and {Gaztanaga}, E. and 
+	{Goldstein}, D.~A. and {Gruen}, D. and {Gutierrez}, G. and {Kuropatkin}, N. and 
+	{Maia}, M.~A.~G. and {Martini}, P. and {Menanteau}, F. and {Miller}, C.~J. and 
+	{Miquel}, R. and {Neilsen}, E. and {Nord}, B. and {Ogando}, R. and 
+	{Plazas}, A.~A. and {Romer}, A.~K. and {Rykoff}, E.~S. and {Sanchez}, E. and 
+	{Santiago}, B. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
+	{Tarle}, G. and {Whiteway}, L. and {Yanny}, B. and {DES Collaboration}
+	},
+    title = "{Nearest Neighbor: The Low-mass Milky Way Satellite Tucana III}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1610.05301},
+ keywords = {dark matter, galaxies: dwarf, galaxies: individual: Tucana III, galaxies: stellar content, Local Group, stars: abundances},
+     year = 2017,
+    month = mar,
+   volume = 838,
+      eid = {11},
+    pages = {11},
+      doi = {10.3847/1538-4357/aa5be7},
+   adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...838...11S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017ApJ...838....8L,
+   author = {{Li}, T.~S. and {Simon}, J.~D. and {Drlica-Wagner}, A. and {Bechtol}, K. and 
+	{Wang}, M.~Y. and {Garc{\'{\i}}a-Bellido}, J. and {Frieman}, J. and 
+	{Marshall}, J.~L. and {James}, D.~J. and {Strigari}, L. and 
+	{Pace}, A.~B. and {Balbinot}, E. and {Zhang}, Y. and {Abbott}, T.~M.~C. and 
+	{Allam}, S. and {Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and 
+	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
+	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
+	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
+	{Desai}, S. and {Diehl}, H.~T. and {Eifler}, T.~F. and {Flaugher}, B. and 
+	{Goldstein}, D.~A. and {Gruen}, D. and {Gruendl}, R.~A. and 
+	{Gschwend}, J. and {Gutierrez}, G. and {Krause}, E. and {Kuehn}, K. and 
+	{Lin}, H. and {Maia}, M.~A.~G. and {March}, M. and {Menanteau}, F. and 
+	{Miquel}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and {Sanchez}, E. and 
+	{Santiago}, B. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
+	{Smith}, R.~C. and {Sobreira}, F. and {Suchyta}, E. and {Tarle}, G. and 
+	{Thomas}, D. and {Tucker}, D.~L. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
+	{Wester}, W. and {Yanny}, B. and {(DES Collaboration}},
+    title = "{Farthest Neighbor: The Distant Milky Way Satellite Eridanus II}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1611.05052},
+ keywords = {dark matter, galaxies: dwarf, galaxies: individual: Eridanus II, galaxies: stellar content, Local Group, stars: abundances},
+     year = 2017,
+    month = mar,
+   volume = 838,
+      eid = {8},
+    pages = {8},
+      doi = {10.3847/1538-4357/aa6113},
+   adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...838....8L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @ARTICLE{2017ApJ...837...57D,
    author = {{Doctor}, Z. and {Kessler}, R. and {Chen}, H.~Y. and {Farr}, B. and 
 	{Finley}, D.~A. and {Foley}, R.~J. and {Goldstein}, D.~A. and 
@@ -268,7 +637,7 @@ archivePrefix = "arXiv",
 	{Annis}, J. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
 	{Bertin}, E. and {Brooks}, D. and {Buckley-Geer}, E. and {Burke}, D.~L. and 
 	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
-	{Cunha}, C.~E. and {D{\rsquo}Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
 	{DePoy}, D.~L. and {Desai}, S. and {Diehl}, H.~T. and {Drlica-Wagner}, A. and 
 	{Eifler}, T.~F. and {Frieman}, J. and {Garc{\'{\i}}a-Bellido}, J. and 
 	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruendl}, R.~A. and 
@@ -286,7 +655,7 @@ archivePrefix = "arXiv",
 archivePrefix = "arXiv",
    eprint = {1611.08052},
  primaryClass = "astro-ph.HE",
- keywords = {binaries: general, methods: data analysis, methods: observational, stars: neutron, supernovae: general },
+ keywords = {binaries: general, methods: data analysis, methods: observational, stars: neutron, supernovae: general},
      year = 2017,
     month = mar,
    volume = 837,
@@ -324,7 +693,7 @@ archivePrefix = "arXiv",
   journal = {\aj},
 archivePrefix = "arXiv",
    eprint = {1611.05456},
- keywords = {quasars: general },
+ keywords = {quasars: general},
      year = 2017,
     month = mar,
    volume = 153,
@@ -409,34 +778,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2017arXiv170207430H,
-   author = {{Hansen}, T.~T. and {Simon}, J.~D. and {Marshall}, J.~L. and 
-	{Li}, T.~S. and {Carollo}, D. and {DePoy}, D.~L. and {Nagasawa}, D.~Q. and 
-	{Bernstein}, R.~A. and {Drlica-Wagner}, A. and {Abdalla}, F.~B. and 
-	{Allam}, S. and {Annis}, J. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
-	{Brooks}, D. and {Buckley-Geer}, E. and {Carnero Rosell}, A. and 
-	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
-	{da Costa}, L.~N. and {Desai}, S. and {Eifler}, T.~F. and {Fausti Neto}, A. and 
-	{Flaugher}, B. and {Frieman}, J. and {Garc{\'{\i}}a-Bellido}, J. and 
-	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Gruen}, D. and {Gruendl}, R.~A. and 
-	{Gschwend}, J. and {Gutierrez}, G. and {James}, D.~J. and {Krause}, E. and 
-	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Miquel}, R. and 
-	{Plazas}, A.~A. and {Romer}, A.~K. and {Sanchez}, E. and {Santiago}, B. and 
-	{Scarpine}, V. and {Smith}, R.~C. and {Soares-Santos}, M. and 
-	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Walker}, A.~R.},
-    title = "{An R-process enhanced star in the dwarf galaxy Tucana III}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1702.07430},
- primaryClass = "astro-ph.SR",
- keywords = {Astrophysics - Solar and Stellar Astrophysics, Astrophysics - Astrophysics of Galaxies},
-     year = 2017,
-    month = feb,
-   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170207430H},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @ARTICLE{2017arXiv170200406A,
    author = {{Agnello}, A. and {Lin}, H. and {Buckley-Geer}, L. and {Treu}, T. and 
 	{Bonvin}, V. and {Courbin}, F. and {Lemon}, C. and {Morishita}, T. and 
@@ -472,39 +813,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2017MNRAS.tmp..181H,
-   author = {{Hennig}, C. and {Mohr}, J.~J. and {Zenteno}, A. and {Desai}, S. and 
-	{Dietrich}, J.~P. and {Bocquet}, S. and {Strazzullo}, V. and 
-	{Saro}, A. and {Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Bayliss}, M. and 
-	{Benoit-L{\'e}vy}, A. and {Bernstein}, R.~A. and {Bertin}, E. and 
-	{Brooks}, D. and {Capasso}, R. and {Capozzi}, D. and {Carnero}, A. and 
-	{Kind}, M.~C. and {Carretero}, J. and {Chiu}, I. and {D'Andrea}, C.~B. and 
-	{daCosta}, L.~N. and {Diehl}, H.~T. and {Doel}, P. and {Eifler}, T.~F. and 
-	{Evrard}, A.~E. and {Fausti-Neto}, A. and {Fosalba}, P. and 
-	{Frieman}, J. and {Gangkofner}, C. and {Gonzalez}, A. and {Gruen}, D. and 
-	{Gruendl}, R.~A. and {Gupta}, N. and {Gutierrez}, G. and {Honscheid}, K. and 
-	{Hlavacek-Larrondo}, J. and {James}, D.~J. and {Kuehn}, K. and 
-	{Kuropatkin}, N. and {Lahav}, O. and {March}, M. and {Marshall}, J.~L. and 
-	{Martini}, P. and {McDonald}, M. and {Melchior}, P. and {Miller}, C.~J. and 
-	{Miquel}, R. and {Neilsen}, E. and {Nord}, B. and {Ogando}, R. and 
-	{Plazas}, A.~A. and {Reichardt}, C. and {Romer}, A.~K. and {Rozo}, E. and 
-	{Rykoff}, E.~S. and {Sanchez}, E. and {Santiago}, B. and {Schubnell}, M. and 
-	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
-	{Sobreira}, F. and {Stalder}, B. and {Stanford}, S.~A. and {Suchyta}, E. and 
-	{Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and {Vikram}, V. and 
-	{Walker}, A.~R. and {Zhang}, Y.},
-    title = "{Galaxy Populations in Massive Galaxy Clusters to z = 1.1: Color Distribution, Concentration, Halo Occupation Number and Red Sequence Fraction}",
-  journal = {\mnras},
-archivePrefix = "arXiv",
-   eprint = {1604.00988},
- keywords = {galaxies: clusters: general, galaxies: clusters: individual, galaxies: evolution, galaxies: formation, galaxies: luminosity function, mass function},
-     year = 2017,
-    month = jan,
-      doi = {10.1093/mnras/stx175},
-   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.tmp..181H},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @MISC{2017ascl.soft01002Y,
    author = {{Yu}, W. and {Carrasco-Kind}, M. and {Brunner}, R.~J.},
     title = "{Vizic: Jupyter-based interactive visualization tool for astronomical catalogs}",
@@ -515,41 +823,6 @@ howpublished = {Astrophysics Source Code Library},
 archivePrefix = "ascl",
    eprint = {1701.002},
    adsurl = {http://adsabs.harvard.edu/abs/2017ascl.soft01002Y},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@ARTICLE{2017arXiv170200072L,
-   author = {{Lin}, H. and {Buckley-Geer}, E. and {Agnello}, A. and {Ostrovski}, F. and 
-	{McMahon}, R.~G. and {Nord}, B. and {Kuropatkin}, N. and {Tucker}, D.~L. and 
-	{Treu}, T. and {Chan}, J.~H.~H. and {Suyu}, S.~H. and {Diehl}, H.~T. and 
-	{Collett}, T. and {Gill}, M.~S.~S. and {More}, A. and {Amara}, A. and 
-	{Auger}, M.~W. and {Courbin}, F. and {Fassnacht}, C.~D. and 
-	{Frieman}, J. and {Marshall}, P.~J. and {Meylan}, G. and {Rusu}, C.~E. and 
-	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allam}, S. and 
-	{Banerji}, M. and {Bechtol}, K. and {Benoit-L{\'e}vy}, A. and 
-	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
-	{Carrasco Kind}, M. and {Carretero}, J. and {Castander}, F.~J. and 
-	{Crocce}, M. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
-	{Desai}, S. and {Dietrich}, J.~P. and {Eifler}, T.~F. and {Finley}, D.~A. and 
-	{Flaugher}, B. and {Fosalba}, P. and {Garc{\'{\i}}a-Bellido}, J. and 
-	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Goldstein}, D.~A. and 
-	{Gruen}, D. and {Gruendl}, R.~A. and {Gschwend}, J. and {Gutierrez}, G. and 
-	{Honscheid}, K. and {James}, D.~J. and {Kuehn}, K. and {Lahav}, O. and 
-	{Li}, T.~S. and {Lima}, M. and {Maia}, M.~A.~G. and {March}, M. and 
-	{Marshall}, J.~L. and {Martini}, P. and {Melchior}, P. and {Menanteau}, F. and 
-	{Miquel}, R. and {Ogando}, R.~L.~C. and {Plazas}, A.~A. and 
-	{Romer}, A.~K. and {Sanchez}, E. and {Schindler}, R. and {Schubnell}, M. and 
-	{Sevilla-Noarbe}, I. and {Smith}, M. and {Smith}, R.~C. and 
-	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Thomas}, D. and {Walker}, A.~R.},
-    title = "{Discovery of the Lensed Quasar System DES J0408-5354}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1702.00072},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
-     year = 2017,
-    month = jan,
-   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170200072L},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -604,7 +877,7 @@ archivePrefix = "arXiv",
 	{Bernstein}, G.~M. and {Bernstein}, R.~A. and {Bertin}, E. and 
 	{Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
 	{Carrasco Kind}, M. and {Carretero}, J. and {Crocce}, M. and 
-	{Cunha}, C.~E. and {D{\rsquo}Andrea}, C.~B. and {da Costa}, L.~N. and 
+	{Cunha}, C.~E. and {D'Andrea}, C.~B. and {da Costa}, L.~N. and 
 	{Desai}, S. and {Diehl}, H.~T. and {Dietrich}, J.~P. and {Doel}, P. and 
 	{Eifler}, T.~F. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
 	{Finley}, D.~A. and {Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and 
@@ -722,37 +995,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2016arXiv161203938P,
-   author = {{Pieres}, A. and {Santiago}, B.~X. and {Drlica-Wagner}, A. and 
-	{Bechtol}, K. and {van der Marel}, R.~P. and {Besla}, G. and 
-	{Martin}, N.~F. and {Belokurov}, V. and {Gallart}, C. and {Martinez-Delgado}, D. and 
-	{Marshall}, J. and {Noel}, N.~E.~D. and {Majewski}, S.~R. and 
-	{Cioni}, M.-R.~L. and {Li}, T.~S. and {Hartley}, W. and {Luque}, E. and 
-	{Conn}, B.~C. and {Walker}, A.~R. and {Balbinot}, E. and {Stringfellow}, G.~S. and 
-	{Olsen}, K.~A.~G. and {da Costa}, L.~N. and {Ogando}, R. and 
-	{Maia}, M. and {Fausti Neto}, A. and {Abbott}, T.~M.~C. and 
-	{Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and {Benoit-Levy}, A. and 
-	{Carnero Rosell}, A. and {Carrasco Kind}, M. and {Carretero}, J. and 
-	{Cunha}, C.~E. and {DAndrea}, C.~B. and {Desai}, S. and {Diehl}, H.~T. and 
-	{Doel}, P. and {Flaugher}, B. and {Fosalba}, P. and {Garcia-Bellido}, J. and 
-	{Gruen}, D. and {Gruendl}, R.~A. and {Gschwend}, J. and {Gutierrez}, G. and 
-	{Honscheid}, K. and {James}, D. and {Kuehn}, K. and {Kuropatkin}, N. and 
-	{Menanteau}, F. and {Miquel}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and 
-	{Sako}, M. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
-	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
-	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Tucker}, D.~L. and {Wester}, W.},
-    title = "{A stellar over-density associated with the Small Magellanic Cloud}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1612.03938},
- keywords = {Astrophysics - Astrophysics of Galaxies},
-     year = 2016,
-    month = dec,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161203938P},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @ARTICLE{2016AJ....152..154G,
    author = {{Gupta}, R.~R. and {Kuhlmann}, S. and {Kovacs}, E. and {Spinka}, H. and 
 	{Kessler}, R. and {Goldstein}, D.~A. and {Liotine}, C. and {Pomian}, K. and 
@@ -814,35 +1056,6 @@ archivePrefix = "arXiv",
      year = 2016,
     month = nov,
    adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161110326G},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@ARTICLE{2016arXiv161105052L,
-   author = {{Li}, T.~S. and {Simon}, J.~D. and {Drlica-Wagner}, A. and {Bechtol}, K. and 
-	{Wang}, M.~Y. and {Garc{\'{\i}}a-Bellido}, J. and {Frieman}, J. and 
-	{Marshall}, J.~L. and {James}, D.~J. and {Strigari}, L. and 
-	{Pace}, A.~B. and {Balbinot}, E. and {Zhang}, Y. and {Abbott}, T.~M.~C. and 
-	{Allam}, S. and {Benoit-L{\'e}vy}, A. and {Bernstein}, G.~M. and 
-	{Bertin}, E. and {Brooks}, D. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
-	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
-	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
-	{Desai}, S. and {Diehl}, H.~T. and {Eifler}, T.~F. and {Flaugher}, B. and 
-	{Goldstein}, D.~A. and {Gruen}, D. and {Gruendl}, R.~A. and 
-	{Gschwend}, J. and {Gutierrez}, G. and {Krause}, E. and {Kuehn}, K. and 
-	{Lin}, H. and {Maia}, M.~A.~G. and {March}, M. and {Menanteau}, F. and 
-	{Miquel}, R. and {Plazas}, A.~A. and {Romer}, A.~K. and {Sanchez}, E. and 
-	{Santiago}, B. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
-	{Smith}, R.~C. and {Sobreira}, F. and {Suchyta}, E. and {Tarle}, G. and 
-	{Thomas}, D. and {Tucker}, D.~L. and {Walker}, A.~R. and {Wechsler}, R.~H. and 
-	{Wester}, W. and {Yanny}, B.},
-    title = "{Farthest Neighbor: The Distant Milky Way Satellite Eridanus II}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1611.05052},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
-     year = 2016,
-    month = nov,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161105052L},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -914,34 +1127,6 @@ archivePrefix = "arXiv",
      year = 2016,
     month = oct,
    adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161006890M},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@ARTICLE{2016arXiv161005301S,
-   author = {{Simon}, J.~D. and {Li}, T.~S. and {Drlica-Wagner}, A. and {Bechtol}, K. and 
-	{Marshall}, J.~L. and {James}, D.~J. and {Wang}, M.~Y. and {Strigari}, L. and 
-	{Balbinot}, E. and {Kuehn}, K. and {Walker}, A.~R. and {Abbott}, T.~M.~C. and 
-	{Allam}, S. and {Annis}, J. and {Benoit-Levy}, A. and {Brooks}, D. and 
-	{Buckley-Geer}, E. and {Burke}, D.~L. and {Carnero Rosell}, A. and 
-	{Carrasco Kind}, M. and {Carretero}, J. and {Cunha}, C.~E. and 
-	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {DePoy}, D.~L. and 
-	{Desai}, S. and {Doel}, P. and {Fernandez}, E. and {Flaugher}, B. and 
-	{Frieman}, J. and {Garcia-Bellido}, J. and {Gaztanaga}, E. and 
-	{Goldstein}, D.~A. and {Gruen}, D. and {Gutierrez}, G. and {Kuropatkin}, N. and 
-	{Maia}, M.~A.~G. and {Martini}, P. and {Menanteau}, F. and {Miller}, C.~J. and 
-	{Miquel}, R. and {Neilsen}, E. and {Nord}, B. and {Ogando}, R. and 
-	{Plazas}, A.~A. and {Romer}, A.~K. and {Rykoff}, E.~S. and {Sanchez}, E. and 
-	{Santiago}, B. and {Scarpine}, V. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
-	{Smith}, R.~C. and {Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Whiteway}, L. and {Yanny}, B.},
-    title = "{Nearest Neighbor: The Low-Mass Milky Way Satellite Tucana III}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1610.05301},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
-     year = 2016,
-    month = oct,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161005301S},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -1343,37 +1528,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2016arXiv160804033L,
-   author = {{Luque}, E. and {Pieres}, A. and {Santiago}, B. and {Yanny}, B. and 
-	{Vivas}, A.~K. and {Queiroz}, A. and {Drlica-Wagner}, A. and 
-	{Morganson}, E. and {Balbinot}, E. and {Marshall}, J.~L. and 
-	{Li}, T.~S. and {Fausti Neto}, A. and {da Costa}, L.~N. and 
-	{Maia}, M.~A.~G. and {Bechtol}, K. and {Kim}, A.~G. and {Bernstein}, G.~M. and 
-	{Dodelson}, S. and {Whiteway}, L. and {Diehl}, H.~T. and {Finley}, D.~A. and 
-	{Abbott}, T. and {Abdalla}, F.~B. and {Allam}, S. and {Annis}, J. and 
-	{Benoit-L{\'e}vy}, A. and {Bertin}, E. and {Brooks}, D. and 
-	{Burke}, D.~L. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
-	{Carretero}, J. and {Cunha}, C.~E. and {D'Andrea}, C.~B. and 
-	{Desai}, S. and {Doel}, P. and {Evrard}, A.~E. and {Flaugher}, B. and 
-	{Fosalba}, P. and {Gerdes}, D.~W. and {Goldstein}, D.~A. and 
-	{Gruen}, D. and {Gruendl}, R.~A. and {Gutierrez}, G. and {James}, D.~J. and 
-	{Kuehn}, K. and {Kuropatkin}, N. and {Lahav}, O. and {Martini}, P. and 
-	{Miquel}, R. and {Nord}, B. and {Ogando}, R. and {Plazas}, A.~A. and 
-	{Romer}, A.~K. and {Sanchez}, E. and {Scarpine}, V. and {Schubnell}, M. and 
-	{Sevilla-Noarbe}, I. and {Smith}, R.~C. and {Soares-Santos}, M. and 
-	{Sobreira}, F. and {Suchyta}, E. and {Swanson}, M.~E.~C. and 
-	{Tarle}, G. and {Thomas}, D. and {Walker}, A.~R.},
-    title = "{The Dark Energy Survey view of the Sagittarius stream: Discovery of two faint stellar system candidates}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1608.04033},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar Astrophysics},
-     year = 2016,
-    month = aug,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160804033L},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @ARTICLE{2016ApJ...827...51N,
    author = {{Nord}, B. and {Buckley-Geer}, E. and {Lin}, H. and {Diehl}, H.~T. and 
 	{Helsby}, J. and {Kuropatkin}, N. and {Amara}, A. and {Collett}, T. and 
@@ -1761,34 +1915,6 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{2016arXiv160602717M,
-   author = {{Mudd}, D. and {Martini}, P. and {Sien Tie}, S. and {Lidman}, C. and 
-	{McMahon}, R. and {Banerji}, M. and {Davis}, T. and {Peterson}, B. and 
-	{Sharp}, R. and {Childress}, M. and {Lewis}, G. and {Tucker}, B. and 
-	{Yuan}, F. and {Abbot}, T. and {Abdalla}, F. and {Allam}, S. and 
-	{Benoit-Levy}, A. and {Bertin}, E. and {Brooks}, D. and {Camero Rosell}, A. and 
-	{Carrasco Kind}, M. and {Carretero}, J. and {da Costa}, L.~N. and 
-	{Desai}, S. and {Diehl}, T. and {Eifler}, T. and {Finley}, D. and 
-	{Flaugher}, B. and {Glazebrook}, K. and {Gruen}, D. and {Gruendl}, R. and 
-	{Gutierrez}, G. and {Hinton}, S. and {Honscheid}, K. and {James}, D. and 
-	{Kuehn}, K. and {Kuropatkin}, N. and {Macaulay}, E. and {Maia}, M.~A.~G. and 
-	{Miquel}, R. and {Ogando}, R. and {Plazas}, A. and {Riel}, K. and 
-	{Sanchez}, E. and {Santiago}, B. and {Schubnell}, M. and {Sevilla-Noarbe}, I. and 
-	{Smith}, R.~C. and {Soares-Santos}, M. and {Sobreira}, F. and 
-	{Suchyta}, E. and {Swanson}, M. and {Tarle}, G. and {Thomas}, D. and 
-	{Uddin}, S. and {Walker}, A. and {Zhang}, B. and {The DES Collaboration}
-	},
-    title = "{Discovery of a z=0.65 Post-Starburst BAL Quasar in the DES Supernova Fields}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1606.02717},
- keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
-     year = 2016,
-    month = jun,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160602717M},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
 @ARTICLE{2016ApJ...823L..34A,
    author = {{Annis}, J. and {Soares-Santos}, M. and {Berger}, E. and {Brout}, D. and 
 	{Chen}, H. and {Chornock}, R. and {Cowperthwaite}, P.~S. and 
@@ -1950,38 +2076,6 @@ archivePrefix = "arXiv",
     pages = {603-612},
       doi = {10.1093/mnras/stw302},
    adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.458..603L},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@ARTICLE{2016arXiv160508770S,
-   author = {{Saro}, A. and {Bocquet}, S. and {Mohr}, J. and {Rozo}, E. and 
-	{Benson}, B.~A. and {Dodelson}, S. and {Rykoff}, E.~S. and {Bleem}, L. and 
-	{Abbott}, T.~M.~C. and {Abdalla}, F.~B. and {Allen}, S. and 
-	{Annis}, J. and {Benoit-Levy}, A. and {Brooks}, D. and {Burke}, D.~L. and 
-	{Capasso}, R. and {Carnero Rosell}, A. and {Carrasco Kind}, M. and 
-	{Carretero}, J. and {Chiu}, I. and {Crawford}, T.~M. and {Cunha}, C.~E. and 
-	{D'Andrea}, C.~B. and {da Costa}, L.~N. and {Desai}, S. and 
-	{Dietrich}, J.~P. and {Evrard}, A.~E. and {Fausti Neto}, A. and 
-	{Flaugher}, B. and {Fosalba}, P. and {Frieman}, J. and {Gangkofner}, C. and 
-	{Gaztanaga}, E. and {Gerdes}, D.~W. and {Giannantonio}, T. and 
-	{Grandis}, S. and {Gruen}, D. and {Gruendl}, R.~A. and {Gupta}, N. and 
-	{Gutierrez}, G. and {Holzapfel}, W.~L. and {James}, D.~J. and 
-	{Kuehn}, K. and {Kuropatkin}, N. and {Lima}, M. and {Marshall}, J.~L. and 
-	{McDonald}, M. and {Melchior}, P. and {Menanteau}, F. and {Miquel}, R. and 
-	{Ogando}, R. and {Plazas}, A.~A. and {Rapetti}, D. and {Reichardt}, C.~L. and 
-	{Reil}, K. and {Romer}, A.~K. and {Sanchez}, E. and {Scarpine}, V. and 
-	{Schubnell}, M. and {Sevilla-Noarbe}, I. and {Smith}, R.~C. and 
-	{Soares-Santos}, M. and {Soergel}, B. and {Strazzullo}, V. and 
-	{Suchyta}, E. and {Swanson}, M.~E.~C. and {Tarle}, G. and {Thomas}, D. and 
-	{Vikram}, V. and {Walker}, A.~R. and {Zenteno}, A.},
-    title = "{Optical-SZE Scaling Relations for DES Optically Selected Clusters within the SPT-SZ Survey}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1605.08770},
- keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics},
-     year = 2016,
-    month = may,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160508770S},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -3065,6 +3159,7 @@ archivePrefix = "ascl",
    adsurl = {http://adsabs.harvard.edu/abs/2012ATel.4668....1A},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
 
 
 @ARTICLE{2012arXiv1211.0310L,
