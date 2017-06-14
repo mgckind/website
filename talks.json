@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "DES Data Access Overview",
+                "date": "June 14, DES Meeting U of Chicago",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/DES_Meeting_UChicago/"
+            },
+            {
                 "title": "Data Access Tools and Data Releases",
                 "date": "Jan 26, NCSA Astronomy survey meeting ",
                 "online": true,

@@ -1,0 +1,67 @@
+.reveal .footerL {
+  position: fixed;
+  bottom: 0;
+  left: 30%;
+  font-size: 0.4em;
+  z-index: 100;
+}
+.reveal .footerR {
+  position: fixed;
+  bottom: 0;
+  right: 30%;
+  font-size: 0.4em;
+  z-index: 100;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.reveal h1 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h2 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h3 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h4 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h5 { font-family: 'Roboto', 'noto', sans-serif; }
+.reveal h6 { font-family: 'Roboto', 'noto', sans-serif; }
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+h1.mytitle{
+    color: #66BB6A;
+}
+
+h2.mytitle{
+    color: #66BB6A;
+}
