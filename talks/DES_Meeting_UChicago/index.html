@@ -15,6 +15,21 @@
         hljs.initHighlightingOnLoad();
     </script>
 
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            console.log('hola');
+            var link = document.createElement( 'link' );
+        	link.rel = 'stylesheet';
+        	link.type = 'text/css';
+        	link.href = window.location.search.match( /print-pdf/gi ) ? '../libs/reveal.js/css/print/pdf.css' : '../libs/reveal.js/css/print/paper.css';
+        	document.getElementsByTagName( 'head' )[0].appendChild( link );
+            //var link = document.createElement('link');
+            //link.rel = 'stylesheet';
+            //link.type = 'text/css';
+            //link.href = '../libs/reveal.js/css/print/pdf.css';
+            //document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 </head>
 
 <body>
@@ -33,7 +48,7 @@
 
                 <br>
                 <p style="color:cyan"> Matias Carrasco Kind @ NCSA/UIUC</p><br>
-                
+
                 <p> DES Meeting @ UChicago, June 14th</p>
             </section>
 
@@ -89,7 +104,7 @@
 
         <h4 style = "color: lightgreen"> NCSA, NOAO, LIneA, PIC and others have developed diffrent tools to access data </h4>
 
-        
+
         <h4 class="fragment" > Do I need credentials? </h4>
         <h4 class="fragment" style = "color: lightgreen"> Yes, DES Data is not public yet </h4>
         <p class="fragment" > Are there too many passwords in DES? </p>
@@ -102,7 +117,7 @@
         <h4 class="fragment" style = "color: lightgreen"> We have a <a href="https://deslogin.wufoo.com/forms/help-me-with-my-desdm-account/" target="_blank" >help form </a> and a <a href="https://opensource.ncsa.illinois.edu/confluence/display/DESDM/questions/all" target="_blank">questions </a> section in confluence. Use them! </h4>
         </section>
 
-         
+
              <section data-menu-title="science portal" id="portal">
                 <h1>DES Science Portal</h1>
                 <a href='http://desportal.cosmology.illinois.edu'>
@@ -119,7 +134,7 @@
                         <h3>Already  with Y3A2/Y3_DEEP data</h3></li>
                 </ul>
             </section>
-            
+
             <section data-menu-title="NOAO Data Lab" id="noao">
                 <h1>NOAO Data Lab</h1>
                 <a href='http://datalab.noao.edu/'>
@@ -306,8 +321,8 @@
             <source data-src="images/demo.mp4" type="video/mp4" />
             </video>
             </section>
-          
-           
+
+
             <section data-menu-title="Conclusions" id="conclusions">
                 <h1>Conclusions</h1>
                 <ul>
@@ -438,15 +453,6 @@
 
 
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-        if (window.location.search.match(/print-pdf/gi)) {
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = '../libs/reveal.js/css/print/pdf.css';
-            document.getElementsByTagName('head')[0].appendChild(link);
-        }
-    </script>
 
 </body>
 
