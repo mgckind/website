@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Containerized Solutions for astronomical surveys",
+                "date": "August 14, NCSA NDS container workshop",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/NCSA_NDS_containers/DES_LSST_container_workshop.pdf"
+            },
+            {
                 "title": "DES Data Access Overview",
                 "date": "June 14, DES Meeting U of Chicago",
                 "online": true,
