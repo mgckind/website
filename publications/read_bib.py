@@ -5,7 +5,7 @@ import os
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import homogeneize_latex_encoding
 
-ROOT='/Users/Matias'
+ROOT='/home/matias/Research/website/'
 
 journal_dict={
     "\\mnras":'MNRAS',
@@ -138,7 +138,7 @@ def get_arxiv(entry):
         prefix = ''
     return prefix,arxiv
 
-with open(os.path.join(ROOT,'Web/publications.json'),'w') as out:
+with open(os.path.join(ROOT,'publications.json'),'w') as out:
     print('ddd')
     Alldata=[]
     Alldatamine=[]
@@ -242,10 +242,10 @@ with open(os.path.join(ROOT,'Web/publications.json'),'w') as out:
     json.dump(Alldata, out, indent=4)
 
 Alldatamine.append({'papers' : datamine})
-with open(os.path.join(ROOT,'Web/publications_sel.json'),'w') as out:
+with open(os.path.join(ROOT,'publications_sel.json'),'w') as out:
     json.dump(Alldatamine, out, indent=4)
-    Fmine=open(os.path.join(ROOT,'Dropbox/CV/ingles/mine_bibs.tex'),'w')
-    Fall=open(os.path.join(ROOT,'Dropbox/CV/ingles/all_bibs.tex'),'w')
+    Fmine=open(os.path.join('/home/matias/','Dropbox/CV/ingles/mine_bibs.tex'),'w')
+    Fall=open(os.path.join('/home/matias','Dropbox/CV/ingles/all_bibs.tex'),'w')
     for line in texmine:
         Fmine.write(line+'\n')
     Fmine.close()
