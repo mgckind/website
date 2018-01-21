@@ -16,6 +16,8 @@ journal_dict={
     "\\apjs"  :'ApJS',
     "\\pasa"  :'PASA',
     "\\aap"  :'A\&A',
+    "\\nat"  :'Nature',
+    "\\pasp"  :'PASP',
 }
 
 
@@ -145,7 +147,7 @@ with open(os.path.join(ROOT,'publications.json'),'w') as out:
     datamine=[]
     texall=[]
     texmine=[]
-    for y in ('0000','2017','2016','2015','2014','2013','2012'):
+    for y in ('0000','2018','2017','2016','2015','2014','2013','2012'):
         temp2={}
         temp3={}
         temp2['byear']=y
@@ -195,7 +197,7 @@ with open(os.path.join(ROOT,'publications.json'),'w') as out:
                     alink=False
                     slink=False
                     preplink=True
-                    year = '2017'
+                    year = '2018'
                     kind = "Finishing"
                     pdf_link=False
                     pdf_url='#'
@@ -235,6 +237,8 @@ with open(os.path.join(ROOT,'publications.json'),'w') as out:
                 else:
                     texall.append(texline)
                 if short.find('Carrasco Kind') > -1:
+                    datamine.append(temp)
+                if arxiv in ['1801.03181']:
                     datamine.append(temp)
             data.append(temp)
         temp2['papers']=data
