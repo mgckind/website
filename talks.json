@@ -14,6 +14,13 @@
     {
         "talks": [
             {
+                "title": "Kubernetes introduction and services at NCSA",
+                "date": "September 14, LSST DM infrastructure ",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/Kubernetes_NCSA_2017/k8s_intro.pdf"
+            },
+            {
                 "title": "Containerized Solutions for astronomical surveys",
                 "date": "August 14, NCSA NDS container workshop",
                 "online": false,
