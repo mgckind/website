@@ -2,8 +2,15 @@
     {
         "talks": [
             {
+                "title": "DES Data Access Interfaces",
+                "date": "February 26, Science Platforms, STScI",
+                "online": true,
+                "pdf": false,
+                "link" : "talks/Science_Platforms_2018/"
+            },
+            {
                 "title": "The Dark Energy Survey Public Data Release 1",
-                "date": "January 10, AAS 231, WAshington",
+                "date": "January 10, AAS 231, Washington",
                 "online": false,
                 "pdf": true,
                 "link" : "talks/AAS_231_2018/DR1_AAS.pdf"
