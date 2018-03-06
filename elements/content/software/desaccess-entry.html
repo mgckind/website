@@ -1,0 +1,86 @@
+<dom-module id="desaccess-entry">
+
+<style is="custom-style">
+
+.deslabs {
+    color: var(--paper-blue-500);
+  }
+  .deslabs:hover {
+    opacity: 0.7;
+    cursor:pointer;
+  }
+
+
+
+.local-header {
+color: var(--paper-blue-500);
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+height:100%;
+max-height:1500px;
+font-size:18px;
+background: white;
+    background-image: url("/images/desaccess.png");
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: 0% 100%;
+color: black;
+border: solid red 2px;
+}
+
+</style>
+
+
+<template>
+
+<paper-card  elevation="5" >
+<div style="background: rgba(255,255,255,.6); height:100%;">
+<div class="card-content">
+<div class="local-header">
+desaccess
+</div>
+</div>
+<!--<github-fork-ribbon
+  username="mgckind"
+  repository="https://github.com/mgckind/deslabs_frontpage"
+  position="right"
+  label="Fork me"
+  background-color="none">
+</github-fork-ribbon>-->
+<div class="card-content">
+<b>desaccess</b> is a collection of online services to register and access DES DR1 public data. It provides a SQL web-client, a cutout service and a interactive footprint with the capability to submit jobs to the server. Every application is running from inside containers and everything is managed by Kubernetes. <br /> Check <a href="https://des.ncsa.illinois.edu/releases/dr1/dr1-access/dr1-ncsa" target="_blank">here</a> for more information on the software and technologies used.<br><br><br />
+  <i on-click="_git" class="fa fa-github fa-3x deslabs"></i>&nbsp;
+  <i on-click="_pdf"  class="fa fa-file-pdf-o fa-3x deslabs"></i>&nbsp;
+  <i on-click="_view" class="fa fa-info-circle fa-3x deslabs"></i>
+<!--<paper-button raised  class="sparse" on-click="_view"> <i class="fa fa-eye"></i> View</paper-button>
+<paper-button raised  class="sparse" on-click="_git"> <i class="fa fa-github-square"></i> Source</paper-button>-->
+</div>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "desaccess-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/desaccess', '_blank');
+      },
+      _view: function(event){
+        window.open('http://des.ncsa.illinois.edu/easyweb', '_blank');
+      },
+      _pdf: function(event){
+        window.open('http://arxiv.org/pdf/1801.03181', '_blank');
+      },
+
+    });
+
+
+</script>
+
+</dom>
