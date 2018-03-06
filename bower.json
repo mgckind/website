@@ -25,7 +25,8 @@
     "grid-element": "~0.4.1",
     "page": "visionmedia/page.js#~1.6.4",
     "app-router": "~2.6.1",
-    "pdf-element": "*"
+    "pdf-element": "*",
+    "app-route": "PolymerElements/app-route#^2.0.3"
   },
   "resolutions": {
     "neon-animation": "^1.2.4",

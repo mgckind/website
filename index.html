@@ -8,13 +8,12 @@
 <meta name="author" content="Matias Carrasco Kind">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Matias Carrasco Kind</title>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="styles/font-awesome-4.5.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/styles/font-awesome-4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<link rel="import" href="elements/elements.html">
-<script src="bower_components/page/page.js"></script>
+<link rel="import" href="/elements/elements-built.html">
 
 
 <style is="custom-style">
@@ -82,6 +81,8 @@ paper-item {
   <body class="fullbleed layout vertical" unresolved>
 
 <template is="dom-bind" id="app">
+
+
   <paper-drawer-panel drawer-width="170px" force-narrow=true>
       <paper-scroll-header-panel drawer fixed id="drawer1" class="drawer1c">
      <paper-toolbar>
@@ -156,7 +157,7 @@ paper-item {
 
       document.addEventListener('WebComponentsReady', function() {
         var tabs = document.querySelector('paper-tabs');
-                var temp= $(window).width();
+            var temp= $(window).width();
             if (temp < 700){
             tabs.style.visibility='hidden';
             }
@@ -167,6 +168,10 @@ paper-item {
         tabs.selected="0";
         //app.route="/";
         var menu = document.querySelector('paper-menu');
+        //var appr = document.querySelector('app-route');
+        //appr.addEventListener('route-changed', function(){
+        //    console.log('1234567');
+        //});
         var drawer = document.querySelector('paper-drawer-panel');
         menu.addEventListener('iron-activate', function() {
             drawer.closeDrawer();

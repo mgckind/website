@@ -150,10 +150,10 @@ paper-card{
         },
       ready: function() {
         var _self = this;
-        loadJSON('publications_sel.json',function(response) {
+        loadJSON('/publications_sel.json',function(response) {
            _self.papers2 = JSON.parse(response);
             });
-        loadJSON('publications.json',function(response) {
+        loadJSON('/publications.json',function(response) {
            _self.papers = JSON.parse(response);
             });
       },

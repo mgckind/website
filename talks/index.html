@@ -1,2 +1,211 @@
-<link rel="import" href="../bower_components/polymer/polymer.html">
-<script src="../bower_components/page/page.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+<meta name="viewport" content="width=device-width">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="author" content="Matias Carrasco Kind">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Matias Carrasco Kind</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/styles/font-awesome-4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="import" href="/elements/elements-built.html">
+
+
+<style is="custom-style">
+:root{
+/* Basic colors*/
+--text-color-primary: #3b8183;
+--text-color-info: #9575cd;
+--text-color-success: #8bc34a;
+--text-color-warning: #fadd60;
+--text-color-secondary: #4db6ac;
+--text-color-error:  #ff7043;
+--body-color-background: #212121;
+/* Paper ADS*/
+--paper-ads-background-color: var(--body-color-background);
+--paper-ads-opened-background-color: var(--paper-green-200);
+--paper-ads-primary-text-color: var(--text-color-error);
+--paper-ads-secondary-text-color: var(--text-color-info);
+--paper-ads-icon-text-color: var(--text-color-primary);
+--paper-ads-icon-background-color: var(--paper-green-200);
+--paper-ads-h3-text-color: var(--paper-blue-200);
+/* CV*/
+--cv-entry-year-color: var(--text-color-success);
+--cv-entry-title-color: var(--paper-green-200);
+--cv-entry-tag1-color: gold;
+--cv-entry-tag2-color: var(--paper-blue-200);
+/* paper card */
+--paper-card-header-color: var(--text-color-error);
+--paper-card: {
+    background-color: var(--dark-primary-color);
+    color:var(--primary-text-color);
+    margin:5px;};
+}
+ neon-animatable {
+        @apply(--layout-center-center);
+        padding: 0px 0px;
+      }
+
+      paper-tab {
+        font-size: 15px;
+        }
+
+
+paper-drawer-panel[narrow] #navbarsmenu1 {
+    display: none;
+    --paper-card-header-color: pink;
+}
+
+paper-drawer-panel{
+  --paper-drawer-panel-left-drawer-container: {
+    color: red;
+  }
+}
+.drawer1c {
+background-color:var(--body-color-background);
+}
+
+paper-item {
+    cursor: pointer;
+}
+
+</style>
+</head>
+<!-- BODY -->
+
+  <body class="fullbleed layout vertical" unresolved>
+
+<template is="dom-bind" id="app">
+
+
+  <paper-drawer-panel drawer-width="170px" force-narrow=true>
+      <paper-scroll-header-panel drawer fixed id="drawer1" class="drawer1c">
+     <paper-toolbar>
+    <div class="title">MCK</div>
+     </paper-toolbar>
+      <paper-menu selected="{{route}}" class="drawer1c">
+        <paper-item><i class="fa fa-home fa-fw"></i>&nbsp; Home </paper-item>
+        <paper-item><i class="fa fa-user fa-fw"></i>&nbsp; CV</paper-item>
+        <paper-item><i class="fa fa-book fa-fw"></i>&nbsp; Publications</paper-item>
+        <paper-item><i class="fa fa-github fa-fw"></i>&nbsp; Software</paper-item>
+        <paper-item><i class="fa fa-area-chart fa-fw"></i>&nbsp; Research</paper-item>
+        <paper-item><i class="fa fa-desktop fa-fw"></i>&nbsp; Talks</paper-item>
+        <paper-item><i class="fa fa-mortar-board fa-fw"></i>&nbsp; Teaching</paper-item>
+        <paper-item><i class="fa fa-envelope fa-fw"></i>&nbsp; Contact</paper-item>
+      </paper-menu>
+      </paper-scroll-header-panel>
+<paper-scroll-header-panel class="flex" main fixed>
+     <paper-toolbar>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+     <div class="title">Matias Carrasco Kind Homepage</div>
+      <paper-tabs selected="{{route}}" id="navbarmenu1"  class="bottom self-end flex" style="width: 70%;" noink>
+
+        <paper-tab><i class="fa fa-home"> Home</i> </paper-tab>
+        <paper-tab><i class="fa fa-user"> CV</i></paper-tab>
+        <paper-tab><i class="fa fa-book"> Publications</i></paper-tab>
+        <paper-tab><i class="fa fa-github"> Software</i></paper-tab>
+        <paper-tab><i class="fa fa-area-chart"> Research</i></paper-tab>
+        <paper-tab><i class="fa fa-desktop"> Talks</i></paper-tab>
+        <paper-tab><i class="fa fa-mortar-board"> Teaching</i></paper-tab>
+        <paper-tab><i class="fa fa-envelope"> Contact</i></paper-tab>
+        <!--<paper-tab style="display:none;"><i class="fa fa-envelope"> Contact</i></paper-tab>-->
+
+      </paper-tabs>
+
+
+    </paper-toolbar>
+
+<neon-animated-pages  class="flex" id="pages" selected="[[route]]" entry-animation="fade-in-animation" exit-animation="fade-out-animation">
+
+        <section>
+        <home-page></home-page>
+        </section>
+        <section>
+        <cv-page></cv-page>
+        </section>
+        <section>
+        <pub-page></pub-page>
+        </section>
+        <section>
+        <soft-page></soft-page>
+        </section>
+        <section>
+        <research-page></research-page>
+        </section>
+        <section>
+        <talks-page></talks-page>
+        </section>
+        <section>
+        <teaching-page></teaching-page>
+        </section>
+        <section>
+        <contact-page></contact-page>
+        </section>
+
+<paper-scroll-header-panel>
+
+  </paper-drawer-panel>
+</template>
+    <script>
+    var app = document.querySelector('#app');
+    app.baseUrl = '/';
+
+      document.addEventListener('WebComponentsReady', function() {
+        var tabs = document.querySelector('paper-tabs');
+            var temp= $(window).width();
+            if (temp < 700){
+            tabs.style.visibility='hidden';
+            }
+            else{
+            tabs.style.visibility='visible';
+            };
+
+        tabs.selected="5";
+        //app.route="/";
+        var menu = document.querySelector('paper-menu');
+        //var appr = document.querySelector('app-route');
+        //appr.addEventListener('route-changed', function(){
+        //    console.log('1234567');
+        //});
+        var drawer = document.querySelector('paper-drawer-panel');
+        menu.addEventListener('iron-activate', function() {
+            drawer.closeDrawer();
+        });
+        window.addEventListener("resize", function(){
+            var temp= $(window).width();
+            if (temp < 700){
+            tabs.style.visibility='hidden';
+            }
+            else{
+            tabs.style.visibility='visible';
+            };
+            });
+        });
+    </script>
+
+<!--
+<script type="text/javascript">
+var sc_project=10285146;
+var sc_invisible=1;
+var sc_security="6592940b";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="hit counter"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10285146/0/6592940b/1/"
+alt="hit counter"></a></div></noscript>
+-->
+
+
+  </body>
+</html>

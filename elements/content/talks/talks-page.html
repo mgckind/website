@@ -26,8 +26,8 @@ version or html <i class="fa fa-file-code-o" aria-hidden="true"></i> version is 
     <paper-card heading="{{element.byear}}">
     <div class=" card-content layout horizontal left-justified wrap">
         <template is="dom-repeat" items="{{element.talks}}" as="item">
-            <talk-card 
-                title={{item.title}} 
+            <talk-card
+                title={{item.title}}
                 date={{item.date}}
                 online={{item.online}}
                 link={{item.link}}
@@ -35,31 +35,31 @@ version or html <i class="fa fa-file-code-o" aria-hidden="true"></i> version is 
                 >
             </talk-card>
         </template>
-    </div>    
+    </div>
         </paper-card>
 </template>
 
-<!-- 
+<!--
 <paper-card heading="2016">
 <div class=" card-content layout horizontal left-justified wrap">
-<talk-card 
-    title="Data Access for Astronomical Surveys" 
+<talk-card
+    title="Data Access for Astronomical Surveys"
     date="Sep 12, @ DES Collaboration Call"
-    online=true 
+    online=true
     link="/talks/DES_Wide_Phone_2016/">
 </talk-card>
 
-<talk-card 
-    title="Data Access: A brief description and demo of tools @ DESDM" 
+<talk-card
+    title="Data Access: A brief description and demo of tools @ DESDM"
     date="Aug 30, @ DES Argonne"
-    online=true 
+    online=true
     link="/talks/Argonne_Chicagoland_2016/">
 </talk-card>
 
-<talk-card 
-    title="Data Access: A brief description and demo of tools @ DESDM" 
+<talk-card
+    title="Data Access: A brief description and demo of tools @ DESDM"
     date="Aug 30, @ DES Argonne"
-    online=true 
+    online=true
     link="/talks/Argonne_Chicagoland_2016/">
 </talk-card>
 
@@ -72,16 +72,16 @@ version or html <i class="fa fa-file-code-o" aria-hidden="true"></i> version is 
 
 <script>
 
- function loadJSON2(callback) {   
+ function loadJSON2(callback) {
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'talks.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', '/talks.json', true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             callback(xobj.responseText);
           }
     };
-    xobj.send(null);  
+    xobj.send(null);
  }
 
       Polymer({
