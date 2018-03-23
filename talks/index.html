@@ -70,6 +70,17 @@ paper-drawer-panel{
 background-color:var(--body-color-background);
 }
 
+.menua {
+    a {
+        text-decoration: none;
+        text-transform: none;
+    }
+    a:hover {
+        text-decoration: none;
+        text-transform: none;
+    }
+}
+
 paper-item {
     cursor: pointer;
 }
@@ -89,14 +100,14 @@ paper-item {
     <div class="title">MCK</div>
      </paper-toolbar>
       <paper-menu selected="{{route}}" class="drawer1c">
-        <paper-item><i class="fa fa-home fa-fw"></i>&nbsp; Home </paper-item>
-        <paper-item><i class="fa fa-user fa-fw"></i>&nbsp; CV</paper-item>
-        <paper-item><i class="fa fa-book fa-fw"></i>&nbsp; Publications</paper-item>
-        <paper-item><i class="fa fa-github fa-fw"></i>&nbsp; Software</paper-item>
-        <paper-item><i class="fa fa-area-chart fa-fw"></i>&nbsp; Research</paper-item>
-        <paper-item><i class="fa fa-desktop fa-fw"></i>&nbsp; Talks</paper-item>
-        <paper-item><i class="fa fa-mortar-board fa-fw"></i>&nbsp; Teaching</paper-item>
-        <paper-item><i class="fa fa-envelope fa-fw"></i>&nbsp; Contact</paper-item>
+        <paper-item onclick="window.history.pushState('','','/')"><i class="fa fa-home fa-fw"></i>&nbsp; Home </paper-item>
+        <paper-item onclick="window.history.pushState('','','/cv')"><i class="fa fa-user fa-fw"></i>&nbsp; CV</paper-item>
+        <paper-item onclick="window.history.pushState('','','/publications')"><i class="fa fa-book fa-fw"></i>&nbsp; Publications</paper-item>
+        <paper-item onclick="window.history.pushState('','','/software')"><i class="fa fa-github fa-fw"></i>&nbsp; Software</paper-item>
+        <paper-item onclick="window.history.pushState('','','/research')"><i class="fa fa-area-chart fa-fw"></i>&nbsp; Research</paper-item>
+        <paper-item onclick="window.history.pushState('','','/talks')"><i class="fa fa-desktop fa-fw"></i>&nbsp; Talks</paper-item>
+        <paper-item onclick="window.history.pushState('','','/teaching')"><i class="fa fa-mortar-board fa-fw"></i>&nbsp; Teaching</paper-item>
+        <paper-item onclick="window.history.pushState('','','/contact')"><i class="fa fa-envelope fa-fw"></i>&nbsp; Contact</paper-item>
       </paper-menu>
       </paper-scroll-header-panel>
 <paper-scroll-header-panel class="flex" main fixed>
@@ -105,14 +116,14 @@ paper-item {
      <div class="title">Matias Carrasco Kind Homepage</div>
       <paper-tabs selected="{{route}}" id="navbarmenu1"  class="bottom self-end flex" style="width: 70%;" noink>
 
-        <paper-tab><i class="fa fa-home"> Home</i> </paper-tab>
-        <paper-tab><i class="fa fa-user"> CV</i></paper-tab>
-        <paper-tab><i class="fa fa-book"> Publications</i></paper-tab>
-        <paper-tab><i class="fa fa-github"> Software</i></paper-tab>
-        <paper-tab><i class="fa fa-area-chart"> Research</i></paper-tab>
-        <paper-tab><i class="fa fa-desktop"> Talks</i></paper-tab>
-        <paper-tab><i class="fa fa-mortar-board"> Teaching</i></paper-tab>
-        <paper-tab><i class="fa fa-envelope"> Contact</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/')"><i class="fa fa-home"> Home</i> </paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/cv')"><i class="fa fa-user"> CV</i></paper-tab>
+        <paper-tab  onclick="window.history.pushState('','','/publications')"><i class="fa fa-book"> Publications</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/software')"><i class="fa fa-github"> Software</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/research')"><i class="fa fa-area-chart"> Research</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/talks')"><i class="fa fa-desktop"> Talks</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/teaching')"><i class="fa fa-mortar-board"> Teaching</i></paper-tab>
+        <paper-tab onclick="window.history.pushState('','','/contact')"><i class="fa fa-envelope"> Contact</i></paper-tab>
         <!--<paper-tab style="display:none;"><i class="fa fa-envelope"> Contact</i></paper-tab>-->
 
       </paper-tabs>
@@ -151,43 +162,10 @@ paper-item {
 
   </paper-drawer-panel>
 </template>
-    <script>
-    var app = document.querySelector('#app');
-    app.baseUrl = '/';
-
-      document.addEventListener('WebComponentsReady', function() {
-        var tabs = document.querySelector('paper-tabs');
-            var temp= $(window).width();
-            if (temp < 700){
-            tabs.style.visibility='hidden';
-            }
-            else{
-            tabs.style.visibility='visible';
-            };
-
-        tabs.selected="5";
-        //app.route="/";
-        var menu = document.querySelector('paper-menu');
-        //var appr = document.querySelector('app-route');
-        //appr.addEventListener('route-changed', function(){
-        //    console.log('1234567');
-        //});
-        var drawer = document.querySelector('paper-drawer-panel');
-        menu.addEventListener('iron-activate', function() {
-            drawer.closeDrawer();
-        });
-        window.addEventListener("resize", function(){
-            var temp= $(window).width();
-            if (temp < 700){
-            tabs.style.visibility='hidden';
-            }
-            else{
-            tabs.style.visibility='visible';
-            };
-            });
-        });
+    <script type="text/javascript" src="load.js">
     </script>
 
+<!--
 <script type="text/javascript">
 var sc_project=10285146;
 var sc_invisible=1;
@@ -203,7 +181,7 @@ href="http://statcounter.com/" target="_blank"><img
 class="statcounter"
 src="http://c.statcounter.com/10285146/0/6592940b/1/"
 alt="hit counter"></a></div></noscript>
-
+-->
 
   </body>
 </html>
