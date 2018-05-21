@@ -41,6 +41,26 @@
                 "arxiv_link": false, 
                 "journal": "Submitted", 
                 "pdf_link": true
+            },
+            {
+                "ads_link": false, 
+                "kind": "Finishing", 
+                "arxiv": "0000.0000", 
+                "arxiv_url": "#", 
+                "title": "Batch and online anomaly detection for scientific applications in a Kubernetes environment", 
+                "url": "", 
+                "soft_link": false, 
+                "authors": "S. Hariri, M. Carrasco Kind", 
+                "prep_link": true, 
+                "pages": "", 
+                "pdf_url": "/files/papers/Anomaly_cloud.pdf", 
+                "doi": "#", 
+                "authors_long": "S. Hariri, M. Carrasco Kind", 
+                "year": "2018", 
+                "doi_link": false, 
+                "arxiv_link": false, 
+                "journal": "Submitted", 
+                "pdf_link": true
             }
         ]
     }, 
