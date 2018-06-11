@@ -13,14 +13,14 @@
                 "date": "February 26, Science Platforms, STScI",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/Science_Platforms_2018/"
+                "link" : "Science_Platforms_2018/"
             },
             {
                 "title": "The Dark Energy Survey Public Data Release 1",
                 "date": "January 10, AAS 231, Washington",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/AAS_231_2018/DR1_AAS.pdf"
+                "link" : "AAS_231_2018/DR1_AAS.pdf"
             }
         ],
         "byear": "2018"
@@ -32,28 +32,28 @@
                 "date": "September 14, LSST DM infrastructure ",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/Kubernetes_NCSA_2017/k8s_intro.pdf"
+                "link" : "Kubernetes_NCSA_2017/k8s_intro.pdf"
             },
             {
                 "title": "Containerized Solutions for astronomical surveys",
                 "date": "August 14, NCSA NDS container workshop",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/NCSA_NDS_containers/DES_LSST_container_workshop.pdf"
+                "link" : "NCSA_NDS_containers/DES_LSST_container_workshop.pdf"
             },
             {
                 "title": "DES Data Access Overview",
                 "date": "June 14, DES Meeting U of Chicago",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/DES_Meeting_UChicago/"
+                "link" : "DES_Meeting_UChicago/"
             },
             {
                 "title": "Data Access Tools and Data Releases",
                 "date": "Jan 26, NCSA Astronomy survey meeting ",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/NCSA_survey_meeting/"
+                "link" : "NCSA_survey_meeting/"
             }
         ],
         "byear": "2017"
@@ -65,57 +65,56 @@
                 "date": "Dec 15, DES Meeting Cambridge ",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/DES_Meeting_Cambridge/"
+                "link" : "DES_Meeting_Cambridge/"
             },
             {
                 "title": "Data Access tools and the low-hanging fruit science",
                 "date": "Oct 14, KICP/U of Chicago ",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/DES_UChicago/"
+                "link" : "DES_UChicago/"
             },
             {
                 "title": "Data Access and Data Release in DES",
                 "date": "Oct 13,  CEFCA Seminar",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/CEFCA/"
+                "link" : "CEFCA/"
             },
             {
                 "title": "Tales of photo-z, DBs and DES",
                 "date": "Oct 13,  CEFCA Seminar",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/CEFCA/photoz_cefca.pdf"
+                "link" : "CEFCA/photoz_cefca.pdf"
             },
             {
                 "title": "Data Access for Astronomical Surveys",
                 "date": "Sep 12,  DES Collaboration Phone Call",
                 "online": true,
                 "pdf": false,
-                "link" : "/talks/DES_Wide_Phone_2016/"
+                "link" : "DES_Wide_Phone_2016/"
             },
             {
                 "title": "Data Access: A brief description and demo of tools @ DESDM",
                 "date": "Aug 30,  DES ChicagoLand, @Argonne",
                 "online": true,
                 "pdf": false,
-                "link" : "/talks/Argonne_Chicagoland_2016/"
-
+                "link" : "Argonne_Chicagoland_2016/"
             },
             {
                 "title": "Notes on combination and storage of P(z)",
                 "date": "Apr 5, LSST Photo-z Workshop, @Pittsburgh",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/Photo_z_Pitt/photoz_pitt_MCK.pdf"
+                "link" : "Photo_z_Pitt/photoz_pitt_MCK.pdf"
             },
             {
                 "title": "Data Access for Astronomical Surveys, a view from DES",
                 "date": "Mar 22, LSST Tech Talk, LSST call",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/LSST_DM_TechTalk/"
+                "link" : "LSST_DM_TechTalk/"
             }
         ],
         "byear": "2016"
@@ -127,35 +126,35 @@
                 "date": "Nov 11, Openstack Meeting, @NCSA",
                 "online": true,
                 "pdf": false,
-                "link" : "talks/LSST_DM_Nebula/"
+                "link" : "LSST_DM_Nebula/"
             },
             {
                 "title": "Photo-z’s PDF I/O, DB, DES (Lessons learned ... so far)",
                 "date": "Oct 29, LSST DESC, @Argonne",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DESC_Photo_z_Argonne/photoz_db_desc.pdf"
+                "link" : "DESC_Photo_z_Argonne/photoz_db_desc.pdf"
             },
             {
                 "title": "Photo-z’s in the DESDM DB",
                 "date": "May 11, DES collaboration meeting, @Ann Arbor",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Michigan/photoz_db_michigan.pdf"
+                "link" : "DES_Michigan/photoz_db_michigan.pdf"
             },
             {
                 "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
                 "date": "Mar 9, Tools for Astronomical Big Data, @Tucson",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/NOAO_BigData/noao_bigdata_Matias.pdf"
+                "link" : "NOAO_BigData/noao_bigdata_Matias.pdf"
             },
             {
                 "title": "Photo-z, DESDM and DB",
                 "date": "Mar 11, DECam Community Science Workshop, @Tucson",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/NOAO_BigData/noao_decam_Matias.pdf"
+                "link" : "NOAO_BigData/noao_decam_Matias.pdf"
             }
         ],
         "byear": "2015"
@@ -167,35 +166,35 @@
                 "date": "Dec 9,  DES ChicagoLand, @Argonne",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/Argonne_Chicagoland_2014/Talk_Matias.pdf"
+                "link" : "Argonne_Chicagoland_2014/Talk_Matias.pdf"
             },
             {
                 "title": "Probabilistic photometric redshifts in the era of Petascale Astronomy",
                 "date": "Aug 19, PhD Thesis Talk",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/Thesis/thesis_talk.pdf"
+                "link" : "Thesis/thesis_talk.pdf"
             },
             {
                 "title": "UIUC updates on SVA1 Gold",
                 "date": "July 28, DES Collaboration Phone Call",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Wide_Phone_2014/DES_telecon_Matias.pdf"
+                "link" : "DES_Wide_Phone_2014/DES_telecon_Matias.pdf"
             },
             {
                 "title": "How to produce, combine, store and use photo-z PDFs",
                 "date": "May 19, DES Collaboration Meeting, @Urbana",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Meeting_UIUC/Matias_Photoz_PDF.pdf"
+                "link" : "DES_Meeting_UIUC/Matias_Photoz_PDF.pdf"
             },
             {
                 "title": "How to produce, combine, store and use photo-z PDFs",
                 "date": "May 8, LIneA Seminar, LIneA",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/LIneA_Webinar/LIneA_webinar.pdf"
+                "link" : "LIneA_Webinar/LIneA_webinar.pdf"
             }
         ],
         "byear": "2014"
@@ -207,28 +206,28 @@
                 "date": "June 12, Fermilab Users Meeting, @Fermilab",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/Users_meeting_Fermilab/DES_Matias_Carrasco_users_meeting.pdf"
+                "link" : "Users_meeting_Fermilab/DES_Matias_Carrasco_users_meeting.pdf"
             },
             {
                 "title": "Angular power spectrum and cosmological constrains using photometric redshifts",
                 "date": "April 8, DES Collaboration Meeting, @LBNL",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Meeting_Berkeley/APS_Matias.pdf"
+                "link" : "DES_Meeting_Berkeley/APS_Matias.pdf"
             },
             {
                 "title": "Ancillary information from photometric redshifts for calibrating follow-up observations",
                 "date": "April 8, DES Collaboration Meeting, @LBNL",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Meeting_Berkeley/spec_follow_Matias.pdf"
+                "link" : "DES_Meeting_Berkeley/spec_follow_Matias.pdf"
             },
             {
                 "title": "Implementing probabilistic photometric redshifts on DES SV data",
                 "date": "April 8, DES Collaboration Meeting, @LBNL",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/DES_Meeting_Berkeley/photoz_Matias.pdf"
+                "link" : "DES_Meeting_Berkeley/photoz_Matias.pdf"
             }
         ],
         "byear": "2013"
