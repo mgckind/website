@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Batch and Online Anomaly Detection for Scientific Applications in a Kubernetes Environment",
+                "date": "June 11, ScienceCloud 18', Tempe, AZ",
+                "online": false,
+                "pdf": true,
+                "link" : "talks/ScienceCloud18/ScienceCloud_Talk.pdf"
+            },
+            {
                 "title": "DES Data Access Interfaces",
                 "date": "February 26, Science Platforms, STScI",
                 "online": true,
