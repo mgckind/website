@@ -6,7 +6,7 @@
                 "date": "June 11, ScienceCloud 18', Tempe, AZ",
                 "online": false,
                 "pdf": true,
-                "link" : "talks/ScienceCloud18/ScienceCloud_Talk.pdf"
+                "link" : "ScienceCloud18/ScienceCloud_Talk.pdf"
             },
             {
                 "title": "DES Data Access Interfaces",
