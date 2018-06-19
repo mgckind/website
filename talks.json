@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "DES DR1 Data Access Tutorial",
+                "date": "June 19, Data Visualization and Exploration in the LSST Era, Urbana, IL",
+                "online": true,
+                "pdf": false,
+                "link" : "DES_Tutorial_LSSTC_2018/"
+            },
+            {
                 "title": "Batch and Online Anomaly Detection for Scientific Applications in a Kubernetes Environment",
                 "date": "June 11, ScienceCloud 18', Tempe, AZ",
                 "online": false,
