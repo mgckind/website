@@ -2,11 +2,32 @@
     {
         "talks": [
             {
+                "title": "DES Data Release 1",
+                "date": "June 27, Near-Field Cosmology with the DES DR1 and Beyond, KICP",
+                "online": false,
+                "pdf": true,
+                "link" : "KICP_2018/DR1_Overview_KICP.pdf"
+            },
+            {
+                "title": "Scientific Cloud Computing (a brief overview)",
+                "date": "June 19, Data Visualization and Exploration in the LSST Era, Urbana, IL",
+                "online": false,
+                "pdf": true,
+                "link" : "LSSTC_Viz_2018/Scientific_cloud_computing.pdf"
+            },
+            {
                 "title": "DES DR1 Data Access Tutorial",
                 "date": "June 19, Data Visualization and Exploration in the LSST Era, Urbana, IL",
                 "online": true,
                 "pdf": false,
                 "link" : "DES_Tutorial_LSSTC_2018/"
+            },
+            {
+                "title": "DES DR1 Overview",
+                "date": "June 19, Data Visualization and Exploration in the LSST Era, Urbana, IL",
+                "online": false,
+                "pdf": true,
+                "link" : "LSSTC_Viz_2018/DES_DR1_overview.pdf"
             },
             {
                 "title": "Batch and Online Anomaly Detection for Scientific Applications in a Kubernetes Environment",
@@ -240,4 +261,3 @@
         "byear": "2013"
     }
 ]
-
