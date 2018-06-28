@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "DES DR1 Data Access Tutorial",
+                "date": "June 28, Near-Field Cosmology with the DES DR1 and Beyond, KICP",
+                "online": true,
+                "pdf": false,
+                "link" : "DES_Tutorial_KICP_2018/"
+            },
+            {
                 "title": "DES Data Release 1",
                 "date": "June 27, Near-Field Cosmology with the DES DR1 and Beyond, KICP",
                 "online": false,
