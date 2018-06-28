@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DES Data Access Interfaces -MCK-</title>
+    <link rel="stylesheet" href="../libs/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../libs/reveal.js/css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="../libs/highlight.js/src/styles/railscasts.css">
+    <link rel="stylesheet" href="../../styles/font-awesome-4.5.0/css/font-awesome.css">
+    <script src="../libs/highlight.js/src/highlight.js"></script>
+    <link rel="stylesheet" href="my_reveal.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            console.log('hola');
+            var link = document.createElement( 'link' );
+        	link.rel = 'stylesheet';
+        	link.type = 'text/css';
+        	link.href = window.location.search.match( /print-pdf/gi ) ? '../libs/reveal.js/css/print/pdf.css' : '../libs/reveal.js/css/print/paper.css';
+        	document.getElementsByTagName( 'head' )[0].appendChild( link );
+            //var link = document.createElement('link');
+            //link.rel = 'stylesheet';
+            //link.type = 'text/css';
+            //link.href = '../libs/reveal.js/css/print/pdf.css';
+            //document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="footerL">
+            <p> <a href="http://matias-ck.com/">Matias Carrasco Kind</a> @ <a href="http://www.ncsa.illinois.edu/" target="_blank">NCSA</a></div>
+        <div class="footerR">
+            <p> DES DR1 Tutorial @ KICP, June 28th, 2018 </div>
+
+        <div class="slides">
+
+            <section data-menu-title="Title ">
+                <h1 style="color:#FFA000;"> DES DR1 Data Access Interfaces</h1>
+
+
+                <br>
+                <p style="color:#00cc99"> Matias Carrasco Kind <br> NCSA/UIUC</p><br><br>
+
+                <p> Near Field Cosmology with the DES DR1 and Beyond, June 27-29, KICP, Chicago, IL</p>
+            </section>
+
+
+
+            <section data-menu-title="Introduction" id="intro">
+            <h1> <span class="title">Introduction </span></h1>
+                <div class="flex-container">
+                    <div>
+                        <img src="images/gold_mine.jpg" border="1px" width="450px" ><br>
+                    </div>
+                    <div style="float: right;">
+                        <ul >
+                            <li><h3>DES Survey: Gold (Data) Mine </h3></li>
+                            <li><h3>DESDM: Excellent job at mining the data</h3></li>
+                            <li><h3>Consumers outside the mine</h3>  </li>
+                            <li><h3>Need to bring/expose gold (data) outside</h3></li>
+                            <li><h3>Tools and interfaces</h3></li>
+                            <li><h3>DES DR1 is out!</h3></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+            <section data-menu-title="DES Access Tools">
+            <section data-menu-title="DES Access Tools" id="tools">
+                <h1><span class="title"> DES Access Tools </span></h1>
+                <ul>
+                    <li>
+                        <h3>  Collection of tools and interfaces being developed at NCSA </h3></li>
+                    <li>
+                        <h3> Public tools different from DES internal tools, public tools more limited</h3></li>
+                    <li>
+                        <h3>Using Cloud computing, "Big Data" technologies, Containers and Kubernetes </h3></li>
+                    <li>
+                        <h3>In close collaboration with NOAO and LIneA</h3></li>
+                </ul>
+            </section>
+
+             <section data-menu-title="Science portal" id="portal">
+                <h1><span class="title"> DES Science Portal </span></h1>
+                <a href='http://desportal.cosmology.illinois.edu'>
+                    <p style="color: #66BB6A ">desportal.cosmology.illinois.edu</p><br>
+                </a>
+                <ul>
+                    <li>
+                        <h3> @ NCSA but managed by LIneA </h3></li>
+                    <li>
+                        <h3>Interactive Coadd Image exploration</h3></li>
+                    <li>
+                        <h3>Wrapper interfaces to NCSA tools API</h3></li>
+                    <li>
+			<h3>Internal and public deployments</h3></li>
+                </ul>
+            </section>
+            </section>
+
+
+	   <section data-menu-title="command line tools" >
+            <section id="cli">
+             <h1 style="margin-top:15%;"> <span class="title"> Command line tools <i class="fa fa-terminal"></i> </span></h1>
+              <h5> (Press <i class="fa fa-arrow-down" aria-hidden="true"></i>)</h5>
+            </section>
+            <section data-menu-title="Easyaccess" data-background="#000000" id="ea">
+                <h2>easyaccess 1.4.3&nbsp; &nbsp;  &nbsp; &nbsp; <a href="https://github.com/mgckind/easyaccess" target="_blank"><i class="fa fa-github"></i></a></h2>
+                <p style="float: center;"><img src="images/help.gif" width="600px" style="border-color: black" alt="easyaccess.png"></p>
+            </section>
+
+            <section data-menu-title="Motivations" id="motivations">
+                <h1>  <span class="title"> Motivations </span></h1>
+                <div>
+                    <ul style="float: left; list-style-type:circle">
+                        <li>
+                            <h3>DES DB in Oracle</h3></li>
+                        <li>
+                            <h3>Specifically designed for DES, public version is TBD</h3></li>
+                        <li>
+                            <h3>Enhanced SQL command line interpreter in Python</h3></li>
+                        <li>
+                            <h3>Astronomer friendly</h3></li>
+                        <li>
+                            <h3>Python API, web interface</h3></li>
+                        <li>
+                            <h3>There are many other CLI and GUI clients. Needed a simple tool, easy to use and install </h3></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section data-menu-title="Features" id="features">
+                <h1> <span class="title"> Some cool features  <i class="fa fa-smile-o"></i> </span> </h1>
+                <ul>
+                    <li style="font-size:35px">History of commands</li>
+                    <li style="font-size:35px">Smart TAB auto-completion of commands, columns, users, tables and path</li>
+                    <li style="font-size:35px">Very flexible configuration</li>
+                    <li style="font-size:35px">Completely open source and written in python</li>
+                    <li style="font-size:35px">Write tables in csv, tab, fits and hdf5 formats</li>
+                    <li style="font-size:35px">Load sql queries directly from a file </li>
+                    <li style="font-size:35px">Load table directly in to DB in one step, no memory issues</li>
+                    <li style="font-size:35px">Can be imported as python module (py2/py3)</li>
+                    <li style="font-size:35px">Tables are handled and displayed using pandas</li>
+                    <li style="font-size:35px">Can run python functions inside query (beta)</li>
+                    <li style="font-size:35px">Many more...</li>
+                </ul>
+            </section>
+
+            <section data-menu-title="Installation">
+                <h1> <span class="title"> Installation <i class="fa fa-desktop"> </i></span></h1>
+                <h4> Making things even easier</h4>
+                <ul>
+                    <li style="font-size:40px"> Clone it from <a href=https://github.com/mgckind/easyaccess/>github</a>
+                    </li>
+                    <li style="font-size:40px"> Using pip or easy_install</li>
+                    <li style="font-size:40px"> Using EUPS @ DESDM </li>
+                    <li style="font-size:40px"> Pre-installed in Docker Image (and run outside the container)</li>
+                    <li style="font-size:40px"> Install with <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">conda</a></li>
+                </ul>
+                <div>
+                    <p style="font-family: monospace">conda install easyaccess -c mgckind</p>
+                </div>
+            </section>
+
+	   <section>
+
+		<h1>  <span class="title"> Cutouts tool </span> </h1>
+		<ul>
+		<li style="font-size:45px"> Command line running at NCSA server to generate cutouts</li>
+		<li style="font-size:45px"> Available by request for DES internal users</li>
+		<li style="font-size:45px"> Direct access to coadd and SE images, flexible options</li>
+		<li style="font-size:45px"> Mid to big scale jobs</li>
+		</ul>
+           </section>
+
+
+	    </section>
+
+
+	   <section data-menu-title="web apps tools" >
+            <section id="web-apps">
+             <h1 style="margin-top:15%;"> <span class="title">  Web applications  </span> </h1>
+              <h5> (Press <i class="fa fa-arrow-down" aria-hidden="true"></i>)</h5>
+            </section>
+             <section data-menu-title="Web tools" id="web-tools">
+                <h1> <span class="title"> Web Applications tools </span> </h1>
+                <ul>
+                    <li>
+			<h3>Python / JS / HTML / CSS</h3></li>
+                    <li>
+                        <h3> Web pages </h3></li>
+                    <li>
+                        <h3>Web interfaces and interactive tools</h3></li>
+                    <li>
+                        <h3>Load balancers</h3></li>
+                    <li>
+			<h3>Everything  is containerized and managed by Kubernetes (internal and public tools)</h3></li>
+                    <li>
+			<h3>Help Support</h3></li>
+                </ul>
+            </section>
+
+
+
+
+            <section data-menu-title="DES Labs" id="deslabs2">
+                <h1><span class="title">DES Labs Highlights</span></h1>
+                <ul>
+		    <li> <h3>Created in March 2015 as a need for DES Data access</h3></li>
+                    <li>
+			<h3>SQL Client to access multiple DB, myDB supported internally, managed via Jobs</h3></li>
+                    <li>
+                        <h3> Cutouts for Coadds and Single Epoch (internal) data managed via Jobs</h3></li>
+                    <li>
+                        <h3>Jupyter Hub access with pre-installed set of modules and example notebooks</h3></li>
+                </ul>
+                <a href="http://deslabs.ncsa.illinois.edu/" target="_blank">
+                    <p style="font-size:29px">deslabs.ncsa.illinois.edu</p></a>
+
+
+		</section>
+
+
+            <section data-menu-title="JupyterHub" id="jupyter">
+                <h2><span class="title">JupyterHub + easyaccess + JS9</span> </h2>
+                <div class="flex-container">
+                    <div>
+                        <img src="images/logo.png" border="1px"><br>
+                        <img src="images/login.png" width="330px" border="1px"><br>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Multi-user jupyter notebook sessions</li>
+                            <li>Access with DB credentials</li>
+                            <li>Running from Kubernetes in Openstack </li>
+                            <li>Easy setup (Running from Docker container)</li>
+                            <li>Easyaccess and other tools installed</li>
+                            <li>Can submit pre-defined jobs using API</li>
+                            <li>Spark Cluster in alpha stage</li>
+                            <li>Local <a href="http://js9.si.edu/" target="_blank">JS9</a> (Next gen. DS9) integration </li>
+                            <li>Open to DES collaborators </li>
+                        </ul>
+                    </div>
+                </div>
+                <a style=" border: 1px solid tomato ; padding: 5px;" href="http://deslabs.ncsa.illinois.edu/jupyter" target="_blank">deslabs.ncsa.illinois.edu/jupyter</a>
+
+            </section>
+
+
+
+            <section data-menu-title="Cutouts services" id="cutouts">
+
+                    <h1> <span class="title">Online Cutout Services</span></h1>
+                    <a href="http://descut.cosmology.illinois.edu" target="_blank"><p style="color: #66BB6A ">descut.cosmology.illinois.edu</p></a>
+
+                    <ul style="list-style-type:square">
+                        <li>
+                            <h3> Cutout Services for both: Coadd images and Single Epoch and SN fields</h3></li>
+                        <li>
+                            <h3> Nice REST API so can be also accessed from e.g. <i>python</i> </h3></li>
+                        <li>
+                            <h3> Production-like services with GPFS mounted</h3></li>
+                        <li>
+                            <h3> Integrated with Science portal and other tools </h3></li>
+
+                    </ul> <br><br>
+                    <a style=" border: 1px solid tomato ; padding: 5px;" href="http://descut.cosmology.illinois.edu" target="_blank">Live demo!</a>
+	</section>
+
+
+            <section data-menu-title="DR1" id="dr1">
+                <h1><span class="title">DES DR1 desaccess</span></h1>
+                <ul>
+		    <li> <h3> Followed similar model, developed for public interfaces</h3></li>
+		    <li> <h3> User Management</h3></li>
+                    <li>
+			<h3>SQL client, asynchronous queries managed via Jobs</h3></li>
+                    <li>
+                        <h3> Cutouts fo, data managed via asynchronous Jobs</h3></li>
+                    <li>
+                        <h3>Interactive footprint and File Server</h3></li>
+                    <li>
+                        <h3>Support: Help Form and mailing list --> Jira</h3></li>
+                </ul>
+                <a href="http://des.ncsa.illinois.edu/easyweb" target="_blank">
+                    <p style="font-size:29px">des.ncsa.illinois.edu/easyweb</p></a>
+
+	    </section>
+
+
+		<section data-menu-title="DR1 stats" id="stats">
+		<h1> <span class="title"> DR1 Stats</span></h1>
+                <div class="flex-container">
+                    <div>
+                        <img src="images/world_access.png" border="1px" width="750px" style="float:left;"><br>
+                    </div>
+
+                    <div style="float: right;">
+			<br>
+                        <ul >
+                            <li><h4>401 New users since release</h4></li>
+                            <li><h4>Over 8100 unique visits to release page</h4></li>
+                            <li><h4>~ 4.5 TB of user generated data</h4>  </li>
+                            <li><h4>~ 2100 Jobs submitted</h4></li>
+                            <li><h4>20 Help forms filled and answered</h4></li>
+                            <li><h4>Several direct downloads</h4></li>
+                        </ul>
+                    </div>
+                </div>
+                </section>
+
+
+            </section>
+
+
+
+
+	   <section data-menu-title="technologies" >
+            <section id="technologies">
+             <h1 style="margin-top:15%;"> <span class="title">DR1 Stack Diagrams </span> </h1>
+              <h5> (Press <i class="fa fa-arrow-down" aria-hidden="true"></i>)</h5>
+            </section>
+            <!--
+            <section data-menu-title="technologies" id="stack" data-background-image="images/DESaccess.png">
+            </section>
+            -->
+            <section data-menu-title="Overview" id="view1">
+		<img style="margin-top:-50px; height:700px;" src="images/DESaccess.png">
+            </section>
+            <section data-menu-title="Infrastructure" id="view2">
+		<img style="margin-top:-50px; height:700px;" src="images/DESaccess_k8s.png">
+            </section>
+            <section data-menu-title="JupyterLab in K8S" id="view3">
+		<img style="margin-top:-50px; height:700px;" src="images/jup.png">
+            </section>
+
+            </section>
+
+            <section data-menu-title="Conclusions" id="conclusions">
+                <h1><span class="title">Conclusions</span></h1>
+                <ul>
+                    <li class="fragment">
+                        <h3>Tools being developed to make DES data access easier</h3></li>
+                    <li class="fragment">
+                        <h3>Containerized solutions to ease management of the applications</h3></li>
+                    <li class="fragment">
+                        <h3>Monitoring and Logging infrastructure</h3></li>
+                    <li class="fragment">
+                        <h3>Use of Kubernetes to manage and orchestrate deployments and resources</h3></li>
+                    <li class="fragment">
+                        <h3>Open source and integrated software </h3></li>
+                </ul>
+            </section>
+
+            <section data-menu-title="Tutorial" id="tutorial">
+                <h1><span class="title">Tutorial</span></h1>
+                <ul>
+                    <li>
+                        <h3>easyaccess --> <a href="https://github.com/mgckind/easyaccess" target="_blank">github.com/mgckind/easyaccess</a></h3></li>
+                    <li>
+                        <h3>Special online demo --> <a href="https://go.ncsa.illinois.edu/des" target="_blank">go.ncsa.illinois.edu/des</a></h3></li>
+                    <li>
+                        <h3>Example notebooks --> <a href="https://github.com/mgckind/dr1_tutorial" target="_blank">github.com/mgckind/dr1_tutorial</a></h3></li>
+                    <li>
+                        <h3>DES DR1 LIneA Science Portal --> <a href="https://desportal2.cosmology.illinois.edu/dri/apps/home/" target="_blank">desportal2.cosmology.illinois.edu</a></h3></li>
+                </ul>
+            </section>
+
+            <section data-menu-title="Thanks" id="thanks">
+                <h1><span class="title">Thanks!</span></h1><br>
+                <div align="left">
+                    <p><u>Questions?</u> </p>
+                     <p style="height:0.5em">Matias Carrasco Kind</p>
+                    <p style="height:0.5em">mcarras2@illinois.edu</p>
+                    <p><i class="fa fa-github"></i> <a href="https://github.com/mgckind" target="_blank">github.com/mgckind</a></br>
+                    <i class="fa fa-globe"></i> <a href="http://matias-ck.com/" target="_blank">matias-ck.com</a><br>
+                    <i class="fa fa-globe"></i> <a href="http://deslabs.ncsa.illinois.edu/" target="_blank">deslabs.ncsa.illinois.edu</a><br>
+                    <i class="fa fa-globe"></i> <a href="http://des.ncsa.illinois.edu/" target="_blank">des.ncsa.illinois.edu</a></p>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <script src="../libs/reveal.js/lib/js/head.min.js"></script>
+    <script src="../libs/reveal.js/js/reveal.js"></script>
+
+    <script>
+        // Required, even if empty.
+        Reveal.initialize({
+            controls: true,
+            slideNumber: true,
+            progress: true,
+            history: true,
+            touch: true,
+            //parallaxBackgroundImage: 'images/DES2119-0124_RGB.png',
+            //parallaxBackgroundSize: "1581px 1068px",
+            width: '100%',
+            center: false,
+            margin: 0.1,
+            minScale: 0.1,
+            maxScale: 1.5,
+
+            dependencies: [
+	       {
+               src: '../libs/reveal.js/plugin/external/external.js', async:false,
+               condition: function() { return !!document.querySelector( '[data-external]' ); }},
+                 {
+                src: '../libs/reveal.js/lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: '../libs/reveal.js/plugin/markdown/marked.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: '../libs/reveal.js/plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: '../libs/reveal.js/plugin/highlight/highlight.js',
+                async: true,
+                condition: function() {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: '../libs/reveal.js/plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: '../libs/bower_components/reveal.js-menu/menu.js'
+            }, {
+                src: '../libs/reveal.js/plugin/notes/notes.js',
+                async: true
+            }],
+            menu: {
+                numbers: true,
+                themes: [{
+                    name: 'Black',
+                    theme: '../libs/reveal.js/css/theme/black.css'
+                }, {
+                    name: 'White',
+                    theme: '../libs/reveal.js/css/theme/white.css'
+                }, {
+                    name: 'League',
+                    theme: '../libs/reveal.js/css/theme/league.css'
+                }, {
+                    name: 'Sky',
+                    theme: '../libs/reveal.js/css/theme/sky.css'
+                }, {
+                    name: 'Beige',
+                    theme: '../libs/reveal.js/css/theme/beige.css'
+                }, {
+                    name: 'Simple',
+                    theme: '../libs/reveal.js/css/theme/simple.css'
+                }, {
+                    name: 'Serif',
+                    theme: '../libs/reveal.js/css/theme/serif.css'
+                }, {
+                    name: 'Blood',
+                    theme: '../libs/reveal.js/css/theme/blood.css'
+                }, {
+                    name: 'Night',
+                    theme: '../libs/reveal.js/css/theme/night.css'
+                }, {
+                    name: 'Moon',
+                    theme: '../libs/reveal.js/css/theme/moon.css'
+                }, {
+                    name: 'Solarized',
+                    theme: '../libs/reveal.js/css/theme/solarized.css'
+                }],
+                transitions: false,
+            }
+
+        });
+    </script>
+
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+
+</body>
+
+</html>
