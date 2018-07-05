@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Astronomical Data Access in the Era of Scientific Cloud Computing",
+                "date": "July 5, LIneA Seminar",
+                "online": false,
+                "pdf": true,
+                "link" : "LIneA_Webinar_2018/LIneA_Data_Access.pdf"
+            },
+            {
                 "title": "DES DR1 Data Access Tutorial",
                 "date": "June 28, Near-Field Cosmology with the DES DR1 and Beyond, KICP",
                 "online": true,
