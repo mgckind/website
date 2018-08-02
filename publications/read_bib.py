@@ -85,7 +85,7 @@ def get_url(entry):
 def get_doi(entry):
     try:
         title = entry['doi'].replace('\n', '')
-        title = 'http://dx.doi.org/'+title
+        title = 'https://doi.org/'+title
     except:
         title = '#'
     return title
