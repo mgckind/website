@@ -3,7 +3,7 @@ import re
 import json
 import os
 from bibtexparser.bparser import BibTexParser
-from bibtexparser.customization import homogeneize_latex_encoding
+#from bibtexparser.customization import homogeneize_latex_encoding
 
 ROOT = '/home/matias/Research/website/'
 
@@ -85,7 +85,7 @@ def get_url(entry):
 def get_doi(entry):
     try:
         title = entry['doi'].replace('\n', '')
-        title = 'http://dx.doi.org/'+title
+        title = 'https://doi.org/'+title
     except:
         title = '#'
     return title

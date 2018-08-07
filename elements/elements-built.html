@@ -32386,7 +32386,8 @@ width:100%;
 <grid-col s="34" stretch="">
 <desaccess-entry><desaccess-entry>
 </desaccess-entry></desaccess-entry></grid-col>
-<grid-col s="6" stretch="">
+<grid-col s="10" stretch="">
+<keepcli-entry></keepcli-entry>
 </grid-col>
 </grid-element>
 </div>
@@ -32524,11 +32525,11 @@ border: solid  white 2px;
 </github-fork-ribbon>
 -->
 <div class="layout horizontal around-justified">
-<h2 style="color:salmon;">Easyaccess</h2>
+<h2 style="color:salmon;">easyaccess</h2>
 <iron-image src="/images/ea_logo.png" style="width:233px; height:114px;" sizing="contain"></iron-image>
 </div>
 <div class="card-content">
-<b>Easyaccess</b> is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format. <br><br>
+<b>easyaccess</b> is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format. <br><br>
   <i on-click="_git" class="fa fa-github fa-3x easy"></i>&nbsp;
   <i on-click="_tutorial" class="fa fa-info-circle fa-3x easy"></i>
 </div>
@@ -33101,6 +33102,83 @@ somsphere
       },
       _pdf: function(event){
         window.open('https://arxiv.org/pdf/1312.5753v1', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="keepcli-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+.easy {
+        color: pink;
+  }
+  .easy:hover {
+    opacity: 0.7;
+    cursor:pointer;
+  }
+
+.local-header {
+color:white;
+font-weight: bold;
+font-size:24px;
+}
+
+paper-card {
+width:100%;
+background:black;
+max-height:1500px;
+font-size:18px;
+height:100%;
+color:pink;
+border: solid  white 2px;
+}
+</style>
+
+
+<template>
+
+<paper-card elevation="5">
+<!--<github-fork-ribbon
+  username="mgckind"
+  repository="easyaccess"
+  position="right"
+  label="Fork me"
+  background-color="none">
+</github-fork-ribbon>
+-->
+<div class="card-content">
+<div class="local-header">
+keepcli
+</div>
+</div>
+<div class="card-content">
+<b>keepcli</b> Simple and unofficial command line interface for Google Keep written in Python <br><br>
+  <i on-click="_git" class="fa fa-github fa-3x easy"></i>&nbsp;
+</div>
+<!--
+<div class="card-content" style="bottom:0px; position:absolute">
+<paper-button on-click="_tutorial" class="easy"> <i class="fa fa-eye"></i> Tutorial</paper-button>
+<paper-button raised  class="easy" on-click="_git"> <i class="fa fa-github-square"></i>  Source</paper-button>
+</div>
+-->
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "keepcli-entry",
+
+       _git: function(event){
+        window.open('https://github.com/mgckind/keepcli', '_blank');
+      },
+      _tutorial: function(event){
+        window.open('/easyaccess', '_blank');
       },
 
     });
