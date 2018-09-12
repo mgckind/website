@@ -34,11 +34,10 @@
 <section data-menu-title="Special Usage" id="Special_usage">
 <h1>Advanced usage </h1>
 <ul class="myitems">
-    <li>See execution plan</li>
+    <li>View an execution plan for a query before running it</li>
+    <li>Upload tables and SQL queries from files</li>
     <li>Download table to a file</li>
-    <li>Upload a table from file</li>
     <li>Add comments to tables</li>
-    <li>Load SQL statement from file</li>
     <li>Delete tables</li>
 </ul>
 
@@ -47,7 +46,7 @@
 </section>
 
 <section id="usage-plan">
-<h2> See Oracle execution plan</h2>
+<h2>View Oracle execution plan for a query</h2>
 <p class="commands">DESDM ~> SELECT ... FROM ... WHERE ... ; < explain </p>
 <pre style="margin-top: 10px; margin-bottom: 0px; display:inline-block;"><code class='SQL'>select COADD_OBJECT_ID, RA, DEC,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where rownum < 10; < explain
 select COADD_OBJECT_ID, RA, DEC,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where COADD_OBJECT_ID=148672512; < explain
@@ -57,7 +56,7 @@ select s.COADD_OBJECT_ID,s.MAG_APER_8_G, g.MAG_APER_8 from (select * from Y3A1_C
 </section>
 
 <section id="usage-save">
-<h2> Save results to a file</h2>
+<h2>Save query results to a file</h2>
 <p class="commands">DESDM ~> SELECT ... FROM ... WHERE ... ; > file.csv </p>
 <p>Supported output files (.csv, .fits, .tab, .h5)</p>
 <pre style="margin-top: 10px; margin-bottom: 0px; display:inline-block;"><code class='SQL'>select COADD_OBJECT_ID,RA,DEC,MAG_AUTO_G,TILENAME from Y3A1_COADD_OBJECT_SUMMARY where rownum < 100; > y3a1.csv
@@ -66,20 +65,20 @@ select s.COADD_OBJECT_ID,s.MAG_APER_8_G, g.MAG_APER_8 from (select * from Y3A1_C
 </section>
 
 <section id="usage-upload">
-<h2> Upload a table from a file</h2>
+<h2>Upload a table from a file</h2>
 <p class="commands">DESDM ~> load_table {file} --tablename {optional name} --chunksize {# of rows to load at a time}  </p>
 <p>Supported output files (.csv, .fits, .tab)</p>
 <img src="images/load.gif" width=47% style="border:0">
 </section>
 
 <section id="usage-comments">
-<h2> Add comments or descriptions</h2>
+<h2> Add comments or descriptions to a table or row</h2>
 <p class="commands">DESDM ~> add_comment table {TABLE} 'This is my table description'  <br> DESDM ~> add_comment column {TABLE}.{COLUMN} 'This is my comment'  </p>
 <img src="images/comments.gif" width=47% style="border:0">
 </section>
 
 <section id="usage-loadsql">
-<h2> Load sql statements from a file</h2>
+<h2> Load SQL statements from a file</h2>
 <p class="commands">DESDM ~> loadsql {file.sql}  <br /> DESDM ~> @{file.sql}  </p>
 <pre style="font-size:0.8em"><code class='SQL'>-- SQL EXAMPLE
 -- Comments supported
@@ -104,7 +103,7 @@ r.COADD_OBJECT_ID = i.COADD_OBJECT_ID;
 </pre></code>
 </section>
 <section id="usage-loadsql-an">
-<h2> Load sql statements from a file</h2>
+<h2> Load SQL statements from a file</h2>
 <img src="images/sqlfile.gif" width=56% style="border:0">
 </section>
 </section>
