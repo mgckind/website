@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8876d375-3f0a-496e-9fe3-f304ecdf6962" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyaccess/slides/conclusions.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/conclusions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyaccess/slides/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyaccess/slides/motivation.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/motivation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyaccess/slides/special_usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/special_usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyaccess/slides/commands.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/commands.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyaccess/slides/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/easyaccess/slides/links.html" afterDir="false" />
     </list>
     <ignored path="Website_matias.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,23 +32,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gif" value="7" />
-          <entry key="html" value="13" />
+          <entry key="html" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="13" />
+          <entry key="HTML" value="14" />
           <entry key="Image" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="801" />
+          <entry key="html" value="1396" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="801" />
+          <entry key="HTML" value="1396" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -63,6 +60,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/easyaccess/slides/commands.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="749" column="43" selection-start-line="749" selection-start-column="43" selection-end-line="749" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/easyaccess/slides/conclusions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -96,7 +102,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/easyaccess/slides/links.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -110,11 +120,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/easyaccess/slides/python_api.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easyaccess/slides/simple_logo.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -150,6 +155,8 @@
         <option value="$PROJECT_DIR$/easyaccess/slides/features.html" />
         <option value="$PROJECT_DIR$/easyaccess/slides/special_usage.html" />
         <option value="$PROJECT_DIR$/easyaccess/slides/conclusions.html" />
+        <option value="$PROJECT_DIR$/easyaccess/slides/links.html" />
+        <option value="$PROJECT_DIR$/easyaccess/slides/commands.html" />
       </list>
     </option>
   </component>
@@ -307,9 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easyaccess/slides/commands.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/easyaccess/images/load.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -342,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/easyaccess/slides/python_api.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easyaccess/slides/links.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/easyaccess/slides/introduction.html">
@@ -385,6 +386,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easyaccess/slides/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easyaccess/slides/commands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="749" column="43" selection-start-line="749" selection-start-column="43" selection-end-line="749" selection-end-column="43" />
         </state>
       </provider>
     </entry>

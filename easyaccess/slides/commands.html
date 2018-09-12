@@ -106,6 +106,7 @@ DESDB ~> config
 
 <section>
 <h3> describe_table </h3>
+    <p class="commands">Describes a specified table</p>
 <pre style="font-size:0.8em"><code class='typescript'>
 DESDB ~> describe_table Y3A1_COADD_OBJECT_SUMMARY
 
@@ -301,6 +302,7 @@ Estimated number of rows: 399578351
 
 <section>
 <h3> find_tables </h3>
+    <p class="commands">Find tables inside the database using regex </p>
 <pre style="font-size:0.7em"><code class='typescript'>
 DESDB ~> find_tables %Y3A1%
 
@@ -362,6 +364,7 @@ To select from a table use owner.table_name except for DESADMIN where only table
 
 <section>
 <h3> find_tables_with_column </h3>
+    <p class="commands">Find tables that contain a specific column</p>
 <pre style="font-size:0.8em"><code class='typescript'>
 DESDB ~> find_tables_with_column %MOF%
 
@@ -463,6 +466,7 @@ DESDB ~> find_tables_with_column %MOF%
 
 <section>
 <h3> find_user, user_tables </h3>
+    <p class="commands">Find users in the database and the tables those users have created</p>
 <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> find_user sevilla
@@ -507,6 +511,7 @@ DESDB ~>
 
 <section>
 <h3> whoami, myquota, mytables</h3>
+    <p class="commands">Displays user information, quota, and tables</p>
 <pre style="font-size:0.8em"><code class='typescript'>
 DESDB ~> whoami
 
@@ -558,6 +563,7 @@ DESDB ~>
 
 <section>
 <h3> change_db,show_db</h3>
+     <p class="commands">Display the current database you're in or change to a different database</p>
 <pre style="font-size:0.8em"><code class='typescript'>
 _________
 DESDB ~> show_db
@@ -733,15 +739,15 @@ DESDB ~> show_index Y3A1_COADD_OBJECT_SUMMARY
 <ul>
 <li><h4> clear <br /><span style="font-size:0.6em"> Clears the screen </span></h4></li>
 <li><h4> edit <br />
-<span style="font-size:0.6em"> Opens up an editor window to write query </span></h4></li>
+<span style="font-size:0.6em"> Opens up an editor window to write a query </span></h4></li>
 <li><h4> exit (or quit, or ^D) <br>
-<span style="font-size:0.6em"> Exits easyaccess and save changes and history</span></h4></li>
+<span style="font-size:0.6em"> Saves changes and history, and then exits easyaccess</span></h4></li>
 <li><h4> history <br>
 <span style="font-size:0.6em"> Prints the history of the commands prompted</span></h4></li>
 <li><h4> shell (or !{command}) <br>
-<span style="font-size:0.6em"> Access the shell, e.g. DESDM ~> shell pwd, or DESDM ~> !pwd</span></h4></li>
+<span style="font-size:0.6em"> Use shell commands inside easyaccess, e.g. DESDM ~> shell pwd, or DESDM ~> !pwd</span></h4></li>
 <li><h4> prefetch <br />
-<span style="font-size:0.6em"> Shows, sets or sets to default the number of prefetch rows from Oracle</span></h4></li>
+<span style="font-size:0.6em"> Shows, sets, or sets to default the number of prefetch rows from Oracle</span></h4></li>
 </ul>
 </section>
 </section>
