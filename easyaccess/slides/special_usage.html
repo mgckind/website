@@ -43,6 +43,7 @@
 
 <br /><br />
 <div class="arrow"> Press <i class="fa fa-arrow-circle-down" aria-hidden="true"> </i> to see the examples.</div>
+<p>All sections marked with a "&#9733" are DES specific and not public</p>
 </section>
 
 <section id="usage-plan">
@@ -65,14 +66,14 @@ select s.COADD_OBJECT_ID,s.MAG_APER_8_G, g.MAG_APER_8 from (select * from Y3A1_C
 </section>
 
 <section id="usage-upload">
-<h2>Upload a table from a file</h2>
+<h2>&#9733 Upload a table from a file</h2>
 <p class="commands">DESDM ~> load_table {file} --tablename {optional name} --chunksize {# of rows to load at a time}  </p>
 <p>Supported output files (.csv, .fits, .tab)</p>
 <img src="images/load.gif" width=47% style="border:0">
 </section>
 
 <section id="usage-comments">
-<h2> Add comments or descriptions to a table or row</h2>
+<h2>&#9733  Add comments or descriptions to a table or row</h2>
 <p class="commands">DESDM ~> add_comment table {TABLE} 'This is my table description'  <br> DESDM ~> add_comment column {TABLE}.{COLUMN} 'This is my comment'  </p>
 <img src="images/comments.gif" width=47% style="border:0">
 </section>
