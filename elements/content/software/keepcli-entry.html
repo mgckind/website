@@ -1,9 +1,9 @@
-<dom-module id="easy-entry">
+<dom-module id="keepcli-entry">
 
 <style is="custom-style">
 
 .easy {
-        color: gold;
+        color: pink;
   }
   .easy:hover {
     opacity: 0.7;
@@ -22,7 +22,7 @@ background:black;
 max-height:1500px;
 font-size:18px;
 height:100%;
-color:gold;
+color:pink;
 border: solid  white 2px;
 }
 </style>
@@ -39,15 +39,14 @@ border: solid  white 2px;
   background-color="none">
 </github-fork-ribbon>
 -->
-<div class="layout horizontal around-justified">
-<h2 style="color:salmon;">easyaccess</h2>
-<iron-image src="/images/ea_logo.png" style="width:233px; height:114px;" sizing="contain" ></iron-image>
+<div class="card-content">
+<div class="local-header">
+keepcli
+</div>
 </div>
 <div class="card-content">
-<b>easyaccess</b> is a Python Command Line Interpreter to access the Oracle DES database but can be expanded to be used in any DB. In provides nice features and configurations such a smart autocompletion and outputs files in csv, fits or hdf5 format. <br><br>
+<b>keepcli</b> Simple and unofficial command line interface for Google Keep written in Python <br><br>
   <i on-click="_git" class="fa fa-github fa-3x easy"></i>&nbsp;
-  <i on-click="_tutorial" class="fa fa-info-circle fa-3x easy"></i>&nbsp;
-  <i on-click="_pdf"  class="fa fa-file-pdf-o fa-3x easy"></i>
 </div>
 <!--
 <div class="card-content" style="bottom:0px; position:absolute">
@@ -61,13 +60,10 @@ border: solid  white 2px;
 
 <script>
       Polymer({
-      is: "easy-entry",
+      is: "keepcli-entry",
 
        _git: function(event){
-        window.open('https://github.com/mgckind/easyaccess', '_blank');
-      },
-       _pdf: function(event){
-        window.open('https://arxiv.org/abs/1810.02721', '_blank');
+        window.open('https://github.com/mgckind/keepcli', '_blank');
       },
       _tutorial: function(event){
         window.open('/easyaccess', '_blank');
