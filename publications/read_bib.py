@@ -166,7 +166,7 @@ with open(os.path.join(ROOT, 'publications.json'), 'w') as out:
     datamine = []
     texall = []
     texmine = []
-    for y in ('0000', '2018', '2017', '2016', '2015', '2014', '2013', '2012'):
+    for y in ('0000', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012'):
         temp2 = {}
         temp3 = {}
         temp2['byear'] = y
