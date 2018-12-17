@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title": "Scientific Platforms and Astronomical Data Access in the Era of (Scientific) Cloud Computing",
+                "date": "Dec 4th, AstroData2020s Science Workshop, Caltech",
+                "online": false,
+                "pdf": true,
+                "link" : "AstroData2020s/AstroData2020.pdf"
+            },
+            {
                 "title": "Astronomical Data Access in the Era of Scientific Cloud Computing",
                 "date": "July 5, LIneA Seminar",
                 "online": false,
