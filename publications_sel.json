@@ -3,6 +3,26 @@
         "papers": [
             {
                 "ads_link": true, 
+                "kind": "Published", 
+                "arxiv": "1801.03181", 
+                "arxiv_url": "http://arxiv.org/abs/1801.03181", 
+                "title": "The Dark Energy Survey: Data Release 1", 
+                "url": "http://adsabs.harvard.edu/abs/2018ApJS..239...18A", 
+                "soft_link": false, 
+                "authors": "T. M. C. Abbott, F. B. Abdalla, S. Allam, A. Amara, J. Annis, et al.", 
+                "prep_link": false, 
+                "pages": "239:18", 
+                "pdf_url": "http://arxiv.org/pdf/1801.03181", 
+                "doi": "https://doi.org/10.3847/1538-4365/aae9f0", 
+                "authors_long": "T. M. C. Abbott, F. B. Abdalla, S. Allam, A. Amara, J. Annis, J. Asorey, S. Avila, O. Ballester, M. Banerji, W. Barkhouse, L. Baruah, M. Baumer, K. Bechtol, M. R. Becker, A. Benoit-L{\\'e}vy, G. M. Bernstein, E. Bertin, J. Blazek, S. Bocquet, D. Brooks, D. Brout, E. Buckley-Geer, D. L. Burke, V. Busti, R. Campisano, L. Cardiel-Sas, A. Carnero Rosell, M. Carrasco Kind, J. Carretero, F. J. Castander, R. Cawthon, C. Chang, X. Chen, C. Conselice, G. Costa, M. Crocce, C. E. Cunha, C. B. D{\\rsquo}Andrea, L. N. da Costa, R. Das, G. Daues, T. M. Davis, C. Davis, J. De Vicente, D. L. DePoy, J. DeRose, S. Desai, H. T. Diehl, J. P. Dietrich, S. Dodelson, P. Doel, A. Drlica-Wagner, T. F. Eifler, A. E. Elliott, A. E. Evrard, A. Farahi, A. Fausti Neto, E. Fernandez, D. A. Finley, B. Flaugher, R. J. Foley, P. Fosalba, D. N. Friedel, J. Frieman, J. Garc{\\'{\\i}}a-Bellido, E. Gaztanaga, D. W. Gerdes, T. Giannantonio, M. S. S. Gill, K. Glazebrook, D. A. Goldstein, M. Gower, D. Gruen, R. A. Gruendl, J. Gschwend, R. R. Gupta, G. Gutierrez, S. Hamilton, W. G. Hartley, S. R. Hinton, J. M. Hislop, D. Hollowood, K. Honscheid, B. Hoyle, D. Huterer, B. Jain, D. J. James, T. Jeltema, M. W. G. Johnson, M. D. Johnson, T. Kacprzak, S. Kent, G. Khullar, M. Klein, A. Kovacs, A. M. G. Koziol, E. Krause, A. Kremin, R. Kron, K. Kuehn, S. Kuhlmann, N. Kuropatkin, O. Lahav, J. Lasker, T. S. Li, R. T. Li, A. R. Liddle, M. Lima, H. Lin, P. L{\\'o}pez-Reyes, N. MacCrann, M. A. G. Maia, J. D. Maloney, M. Manera, M. March, J. Marriner, J. L. Marshall, P. Martini, T. McClintock, T. McKay, R. G. McMahon, P. Melchior, F. Menanteau, C. J. Miller, R. Miquel, J. J. Mohr, E. Morganson, J. Mould, E. Neilsen, R. C. Nichol, F. Nogueira, B. Nord, P. Nugent, L. Nunes, R. L. C. Ogando, L. Old, A. B. Pace, A. Palmese, F. Paz-Chinch{\\'o}n, H. V. Peiris, W. J. Percival, D. Petravick, A. A. Plazas, J. Poh, C. Pond, A. Porredon, A. Pujol, A. Refregier, K. Reil, P. M. Ricker, R. P. Rollins, A. K. Romer, A. Roodman, P. Rooney, A. J. Ross, E. S. Rykoff, M. Sako, M. L. Sanchez, E. Sanchez, B. Santiago, A. Saro, V. Scarpine, D. Scolnic, S. Serrano, I. Sevilla-Noarbe, E. Sheldon, N. Shipp, M. L. Silveira, M. Smith, R. C. Smith, J. A. Smith, M. Soares-Santos, F. Sobreira, J. Song, A. Stebbins, E. Suchyta, M. Sullivan, M. E. C. Swanson, G. Tarle, J. Thaler, D. Thomas, R. C. Thomas, M. A. Troxel, D. L. Tucker, V. Vikram, A. K. Vivas, A. R. Walker, R. H. Wechsler, J. Weller, W. Wester, R. C. Wolf, H. Wu, B. Yanny, A. Zenteno, Y. Zhang, J. Zuntz,  DES Collaboration, S. Juneau, M. Fitzpatrick, R. Nikutta, D. Nidever, K. Olsen, A. Scott, N. Data Lab", 
+                "year": "2018", 
+                "doi_link": true, 
+                "arxiv_link": true, 
+                "journal": "ApJS", 
+                "pdf_link": true
+            }, 
+            {
+                "ads_link": true, 
                 "kind": "Arxiv", 
                 "arxiv": "1811.02141", 
                 "arxiv_url": "http://arxiv.org/abs/1811.02141", 
@@ -18,7 +38,7 @@
                 "year": "2018", 
                 "doi_link": false, 
                 "arxiv_link": true, 
-                "journal": "ArXiv e-prints", 
+                "journal": "arXiv e-prints", 
                 "pdf_link": true
             }, 
             {
@@ -38,7 +58,7 @@
                 "year": "2018", 
                 "doi_link": false, 
                 "arxiv_link": true, 
-                "journal": "ArXiv e-prints", 
+                "journal": "arXiv e-prints", 
                 "pdf_link": true
             }, 
             {
@@ -59,26 +79,6 @@
                 "doi_link": true, 
                 "arxiv_link": true, 
                 "journal": "PASP", 
-                "pdf_link": true
-            }, 
-            {
-                "ads_link": true, 
-                "kind": "Arxiv", 
-                "arxiv": "1801.03181", 
-                "arxiv_url": "http://arxiv.org/abs/1801.03181", 
-                "title": "The Dark Energy Survey Data Release 1", 
-                "url": "http://adsabs.harvard.edu/abs/2018arXiv180103181A", 
-                "soft_link": false, 
-                "authors": "T. M. C. Abbott, F. B. Abdalla, S. Allam, A. Amara, J. Annis, et al.", 
-                "prep_link": false, 
-                "pages": "", 
-                "pdf_url": "http://arxiv.org/pdf/1801.03181", 
-                "doi": "#", 
-                "authors_long": "T. M. C. Abbott, F. B. Abdalla, S. Allam, A. Amara, J. Annis, J. Asorey, S. Avila, O. Ballester, M. Banerji, W. Barkhouse, L. Baruah, M. Baumer, K. Bechtol, M. R. Becker, A. Benoit-L{\\'e}vy, G. M. Bernstein, E. Bertin, J. Blazek, S. Bocquet, D. Brooks, D. Brout, E. Buckley-Geer, D. L. Burke, V. Busti, R. Campisano, L. Cardiel-Sas, A. C arnero Rosell, M. Carrasco Kind, J. Carretero, F. J. Castander, R. Cawthon, C. Chang, C. Conselice, G. Costa, M. Crocce, C. E. Cunha, C. B. D'Andrea, L. N. da Costa, R. Das, G. Daues, T. M. Davis, C. Davis, J. De Vicente, D. L. DePoy, J. DeRose, S. Desai, H. T. Diehl, J. P. Dietrich, S. Dodelson, P. Doel, A. Drlica-Wagner, T. F. Eifler, A. E. Elliott, A. E. Evrard, A. Farahi, A. Fausti Neto, E. Fernandez, D. A. Finley, M. Fitzpatrick, B. Flaugher, R. J. Foley, P. Fosalba, D. N. Friedel, J. Frieman, J. Garc{\\'{\\i}}a-Bellido, E. Gaz tanaga, D. W. Gerdes, T. Giannantonio, M. S. S. Gill, K. Glazebrook, D. A. Goldstein, M. Gower, D. Gruen, R. A. Gruendl, J. Gschwend, R. R. Gupta, G. Gutierrez, S. Hamilton, W. G. Hartley, S. R. Hinton, J. M. Hislop, D. Hollowood, K. Honscheid, B. Hoyle, D. Huterer, B. Jain, D. J. James, T. Jeltema, M. W. G. Johnson, M. D. Johnson, S. Juneau, T. Kacpr zak, S. Kent, G. Khullar, M. Klein, A. Kovacs, A. M. G. Koziol, E. Krause, A. Kremin, R. Kron, K. Kuehn, S. Kuhlmann, N. Kuropatkin, O. Lahav, J. Lasker, T. S. Li, R. T. Li, A. R. Liddle, M. Lima, H. Lin, P. L{\\'o}pez-Reyes, N. MacCrann, M. A. G. Maia, J. D. Maloney, M. Manera, M. March, J. Marriner, J. L. Marshall, P. Martini, T. McClintock, T. McKay, R. G. McMahon, P. Melchior, F. Menanteau, C. J. Miller, R. Miquel, J. J. Mohr, E. Morganson, J. Mould, E. Neilsen, R. C. Nichol, D. Nidever, R. Nikutta, F. Nogueira, B. Nord, P. Nugent, L. Nunes, R. L. C. Ogando, L. Old, K. Olsen, A. B. Pace, A. Palmese, F. Paz-Chinch{\\'o}n, H. V. Peiris, W. J. Percival, D. Petravick, A. A. Plazas, J. Poh, C. Pond, A. Por redon, A. Pujol, A. Refregier, K. Reil, P. M. Ricker, R. P. Rollins, A. K. Romer, A. Roodman, P. Rooney, A. J. Ross, E. S. Rykoff, M. Sako, E. Sanchez, M. L. Sanchez, B. Santiago, A. Saro, V. Scarpine, D. Scolnic, A. Scott, S. Serrano, I. Sevilla-Noarbe, E. Sheldon, N. Shipp, M. L. Silveira, R. C. Smith, J. A. Smith, M. Smith, M. Soares-Santos, F. Sobre ira, J. Song, A. Stebbins, E. Suchyta, M. Sullivan, M. E. C. Swanson, G. Tarle, J. Thaler, D. Thomas, R. C. Thomas, M. A. Troxel, D. L. Tucker, V. Vikram, A. K. Vivas, A. R. Wal ker, R. H. Wechsler, J. Weller, W. Wester, R. C. Wolf, H. Wu, B. Yanny, A. Zenteno, Y. Zhang, J. Zuntz", 
-                "year": "2018", 
-                "doi_link": false, 
-                "arxiv_link": true, 
-                "journal": "ArXiv e-prints", 
                 "pdf_link": true
             }, 
             {
