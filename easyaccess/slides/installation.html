@@ -44,9 +44,9 @@
 <ul class="myitems">
     <li> From source, clone  <a href=https://github.com/mgckind/easyaccess/><i class="fa fa-github" aria-hidden="true"></i>
     </a> repo <span class="code"> python setup.py install</span> </li>
-    <li> Using pip or easy_install <span class="code"> pip install easyaccess==1.4.5</span></li>
-    <li> <span style="color:lightgreen;">New!</span> Install with <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">conda</a>
-        <span class="code"> conda install easyaccess==1.4.5 -c mgckind</span></li>
+    <li> Using pip or easy_install <span class="code"> pip install easyaccess==1.4.6</span></li>
+    <li> Install with <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">conda</a>
+        <span class="code"> conda install easyaccess==1.4.6 -c mgckind</span></li>
     <li> Pre-installed in a <a href="https://hub.docker.com/r/mgckind/easyaccess/" target="_blank"><i class="icon-docker"></i></a> docker image <span class="code"> docker run -it mgckind/easyaccess easyaccess</span></li>
 </ul>
 <br>
@@ -62,18 +62,18 @@
 ## Requirements
 
 - Oracle Client > 11g.2 (External client library, not python)
-  Check [here](https://opensource.ncsa.illinois.edu/confluence/display/DESDM/Instructions+for+installing+Oracle+client+and+easyaccess+without+EUPS) for instructions on how to install this client.
-- [cx_Oracle](https://bitbucket.org/anthony_tuininga/cx_oracle)
+  Check [here](https://www.oracle.com/technetwork/database/database-technologies/instant-client/overview/index.html) for instructions on how to install this client.
+- [cx_Oracle](https://cx-oracle.readthedocs.io/en/latest/index.html)
   Note that cx_Oracle needs libaio on some Linux systems
   Note that cx_Oracle needs libbz2 on some Linux systems
 - [fitsio](https://github.com/esheldon/fitsio) >= 0.9.6
 - [pandas](http://pandas.pydata.org/) >= 0.14
+- [numpy](https://docs.scipy.org/doc/numpy-1.15.1/reference/index.html)
 - [termcolor](https://pypi.python.org/pypi/termcolor)
 - [PyTables](http://pytables.github.io/) (optional, for hdf5 output)
 - [future](http://python-future.org/) (for python 2/3 compatibility)
 - [requests](http://docs.python-requests.org/en/master/)
 - [gnureadline](https://github.com/ludwigschwardt/python-gnureadline) (optional, for better console behavior in OS X)
-- importlib (This is only needed if running python 2.6)
 - **Note that you need to install python-future for python2/3 compatibility**
 </section>
 
@@ -112,7 +112,7 @@ Installing using pip:
 <p class="child">
 
     For <i class="fa fa-apple " aria-hidden="true"></i> and <i class="fa fa-linux " aria-hidden="true"></i>
-    there is a conda package for easyaccess that includes the Oracle client.<br><br>
+    there is a conda package for easyaccess.<br><br>
 
     Check <a href="http://conda.pydata.org/docs/install/quick.html" , target="_blank">here</a>
     for instructions on how to install conda.<br><br>
@@ -158,14 +158,6 @@ easyaccess
 </code>
 </pre>
 </div>
-<h6 class="child">To run jupyter notebook from inside the container and expose port:</h6>
-<div class="child">
-<pre style="margin-top: 10px; margin-bottom: 0px;">
-<code class="sh">docker run -d -p 8888:8888 -v $PWD:/home/jovyan/work mgckind/easyaccess start-notebook.sh --NotebookApp.token=''
-</code>
-</pre>
-</div>
-<h6 class="child">You should have a jupyter notebook running in your http://localhost:8888</h6>
 
 </div>
 </section>
