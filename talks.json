@@ -2,6 +2,18 @@
     {
         "talks": [
             {
+                "title": "This galaxy doen not exist",
+                "date": "Feb 20th, Astronomy AI Seminar, UIUC",
+                "online": false,
+                "pdf": true,
+                "link" : "Astro_AI_Seminar/VAE_astro.pdf"
+            }
+        ],
+        "byear": "2019"
+    },
+    {
+        "talks": [
+            {
                 "title": "Scientific Platforms and Astronomical Data Access in the Era of (Scientific) Cloud Computing",
                 "date": "Dec 4th, AstroData2020s Science Workshop, Caltech",
                 "online": false,
