@@ -7,6 +7,13 @@
                 "online": false,
                 "pdf": true,
                 "link" : "Astro_AI_Seminar/VAE_astro.pdf"
+            },
+            {
+                "title": "This galaxy doen not exist",
+                "date": "April 23rd, Astrofest, UIUC",
+                "online": false,
+                "pdf": true,
+                "link" : "Astrofest_2019/Matias_MVAE_astrofest.pdf"
             }
         ],
         "byear": "2019"
