@@ -32412,7 +32412,7 @@ width:100%;
 </div>
 
 <div class="horizontal layout  around-justified">
-<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<div style="max-width:1000px; width:1000px; padding-right:10px; margin-bottom:10px;">
 <grid-element ghi="10px" gho="0px" mq="(min-width: 736px)">
 <grid-col s="34" stretch="">
 <desaccess-entry><desaccess-entry>
@@ -32423,6 +32423,22 @@ width:100%;
 </grid-element>
 </div>
 </div>
+
+<div class="horizontal layout  around-justified">
+<div style="max-width:1000px; width:1000px; padding-right:10px;">
+<grid-element ghi="10px" gho="0px" mq="(min-width: 736px)">
+<grid-col s="4" stretch="">
+<eif-entry></eif-entry>
+</grid-col>
+<grid-col s="4" stretch="">
+<cexp-entry></cexp-entry>
+</grid-col>
+</grid-element>
+</div>
+</div>
+
+
+
 <credit-line></credit-line>
 </template>
 
@@ -33287,6 +33303,156 @@ iso_forest
       },
       _pdf: function(event){
         window.open('https://github.com/mgckind/iso_forest/blob/master/demo_iforest.ipynb', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="eif-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+.iso {
+    color:var(--text-color-success);
+}
+.iso:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.local-header {
+color:var(--text-color-success);
+font-weight: bold;
+font-size:24px;
+}
+
+
+paper-card {
+width:100%;
+height: 100%;
+font-size:18px;
+background:white;
+    background-image: url("/images/eif.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+
+border: solid  green 2px;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card elevation="5">
+<div style="background: rgba(255,255,255,.3); height:100%;">
+<div class="card-content">
+<div class="local-header">
+eif
+</div>
+</div>
+<div class="card-content">
+<b>eif</b> is a python package implementation for the Extended Isolation Forest method we describe in the paper below. It is an improvement on the original algorithm Isolation Forest for anomaly detection.
+<br><br>
+<div style="margin-bottom: 8em;">
+
+</div>
+  <i on-click="_git" class="fa fa-github fa-3x iso"></i>&nbsp;
+  <i on-click="_pdf" class="fa fa-file-pdf-o fa-3x iso"></i>
+  </div>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "eif-entry",
+
+      _git: function(event){
+        window.open('https://github.com/sahandha/eif', '_blank');
+      },
+      _pdf: function(event){
+        window.open('https://arxiv.org/abs/1811.02141', '_blank');
+      },
+
+    });
+
+
+</script>
+
+
+</dom-module><dom-module id="cexp-entry" assetpath="content/software/">
+
+<style is="custom-style">
+
+.som {
+    color:purple;
+}
+.som:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.local-header {
+color:purple;
+font-weight: bold;
+font-size:24px;
+}
+
+
+paper-card {
+width:100%;
+height: 100%;
+font-size:18px;
+background: #aaa;
+    background-image: url("/images/cexp.png");
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: 0% 100%;
+
+border: solid  green 2px;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card elevation="5">
+<div style="background: rgba(255,255,255,.4); height:100%;">
+<div class="card-content">
+<div class="local-header">
+cutouts-explorer
+</div>
+</div>
+<div class="card-content">
+This is an interactive tool for visualize and classify multiple images at a time. It written in Python and Javascript. It is based on Leaflet and it reads the images from a single directory.
+<br><br>
+<div style="margin-bottom: 8em;"></div>
+  <i on-click="_git" class="fa fa-github fa-3x som"></i>&nbsp;
+  <i on-click="_pdf" class="fa fa-play-circle fa-3x som"></i>
+  </div>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "cexp-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/cutouts-explorer', '_blank');
+      },
+      _pdf: function(event){
+        window.open('https://vimeo.com/319571639', '_blank');
       },
 
     });

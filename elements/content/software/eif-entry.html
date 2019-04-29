@@ -1,0 +1,76 @@
+<dom-module id="eif-entry">
+
+<style is="custom-style">
+
+.iso {
+    color:var(--text-color-success);
+}
+.iso:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.local-header {
+color:var(--text-color-success);
+font-weight: bold;
+font-size:24px;
+}
+
+
+paper-card {
+width:100%;
+height: 100%;
+font-size:18px;
+background:white;
+    background-image: url("/images/eif.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+
+border: solid  green 2px;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card  elevation="5" >
+<div style="background: rgba(255,255,255,.3); height:100%;">
+<div class="card-content">
+<div class="local-header">
+eif
+</div>
+</div>
+<div class="card-content" >
+<b>eif</b> is a python package implementation for the Extended Isolation Forest method we describe in the paper below. It is an improvement on the original algorithm Isolation Forest for anomaly detection.
+<br><br>
+<div style= "margin-bottom: 8em;">
+
+</div>
+  <i on-click="_git" class="fa fa-github fa-3x iso"></i>&nbsp;
+  <i on-click="_pdf"  class="fa fa-file-pdf-o fa-3x iso"></i>
+  </div>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "eif-entry",
+
+      _git: function(event){
+        window.open('https://github.com/sahandha/eif', '_blank');
+      },
+      _pdf: function(event){
+        window.open('https://arxiv.org/abs/1811.02141', '_blank');
+      },
+
+    });
+
+
+</script>
+
+</dom>

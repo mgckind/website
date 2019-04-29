@@ -1,0 +1,74 @@
+<dom-module id="cexp-entry">
+
+<style is="custom-style">
+
+.som {
+    color:purple;
+}
+.som:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.local-header {
+color:purple;
+font-weight: bold;
+font-size:24px;
+}
+
+
+paper-card {
+width:100%;
+height: 100%;
+font-size:18px;
+background: #aaa;
+    background-image: url("/images/cexp.png");
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: 0% 100%;
+
+border: solid  green 2px;
+color:black;
+}
+
+</style>
+
+
+<template>
+
+<paper-card  elevation="5" >
+<div style="background: rgba(255,255,255,.4); height:100%;">
+<div class="card-content">
+<div class="local-header">
+cutouts-explorer
+</div>
+</div>
+<div class="card-content" >
+This is an interactive tool for visualize and classify multiple images at a time. It written in Python and Javascript. It is based on Leaflet and it reads the images from a single directory.
+<br><br>
+<div style= "margin-bottom: 8em;"></div>
+  <i on-click="_git" class="fa fa-github fa-3x som"></i>&nbsp;
+  <i on-click="_pdf"  class="fa fa-play-circle fa-3x som"></i>
+  </div>
+</div>
+</paper-card>
+
+</template>
+
+<script>
+      Polymer({
+      is: "cexp-entry",
+
+      _git: function(event){
+        window.open('https://github.com/mgckind/cutouts-explorer', '_blank');
+      },
+      _pdf: function(event){
+        window.open('https://vimeo.com/319571639', '_blank');
+      },
+
+    });
+
+
+</script>
+
+</dom>
