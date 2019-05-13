@@ -2,6 +2,13 @@
     {
         "talks": [
             {
+                "title":"Searching for similarities and anomalies in a pool of galaxy images",
+                "date": "May 13th, Artificial Intelligence for Data Discovery and Reuse, CMU",
+                "online": false,
+                "pdf": true,
+                "link" : "AIDR2019/AIDR_2019_Matias_Carrasco_Kind.pdf"
+            },
+            {
                 "title": "This galaxy doen not exist",
                 "date": "Feb 20th, Astronomy AI Seminar, UIUC",
                 "online": false,
