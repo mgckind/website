@@ -288,5 +288,8 @@ with open(os.path.join(ROOT, 'publications_sel.json'), 'w') as out:
         Fmine.write(line+'\n')
     Fmine.close()
     for line in texall:
-        Fall.write(line+'\n')
+        try:
+            Fall.write(line+'\n')
+        except:
+            print(line)
     Fall.close()
